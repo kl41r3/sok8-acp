@@ -1,0 +1,628 @@
+{
+  "design_sha256": "6802d07505f3450a96d17c2c03756351bfb34701c510be4db79e1f0a70c48eb6",
+  "prompt_sha256": "1cddc12ec303d90639fff5212bc2991941014b6daf527913307841ebdf7befa3",
+  "live": {
+    "planned_calls": 24,
+    "attempted_calls": 15,
+    "completed_calls": 14,
+    "errors": [
+      {
+        "id": "OBLIGATED_1-h4-B-d2",
+        "status": "error",
+        "error_type": "AssertionError",
+        "error": "",
+        "evidence_projection": "evidence.json"
+      }
+    ],
+    "overall": {
+      "n": 14,
+      "effort_agreement_count": 8,
+      "failure_agreement_count": 14,
+      "unique_effort_n": 14,
+      "unique_effort_agreement_count": 8,
+      "unique_failure_n": 3,
+      "unique_failure_agreement_count": 3,
+      "mean_effort_regret": 0.0642857142857143,
+      "mean_failure_conditional_regret": 0.0,
+      "mean_joint_regret_assuming_optimal_success_report": 0.0642857142857143
+    },
+    "by_policy": {
+      "VOLUNTARY": {
+        "n": 4,
+        "effort_agreement_count": 2,
+        "failure_agreement_count": 4,
+        "unique_effort_n": 4,
+        "unique_effort_agreement_count": 2,
+        "unique_failure_n": 1,
+        "unique_failure_agreement_count": 1,
+        "mean_effort_regret": 0.07500000000000001,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.07500000000000001
+      },
+      "OBLIGATED_1": {
+        "n": 3,
+        "effort_agreement_count": 1,
+        "failure_agreement_count": 3,
+        "unique_effort_n": 3,
+        "unique_effort_agreement_count": 1,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.10000000000000002,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.10000000000000002
+      },
+      "COMPLAINT_025": {
+        "n": 7,
+        "effort_agreement_count": 5,
+        "failure_agreement_count": 7,
+        "unique_effort_n": 7,
+        "unique_effort_agreement_count": 5,
+        "unique_failure_n": 2,
+        "unique_failure_agreement_count": 2,
+        "mean_effort_regret": 0.042857142857142864,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.042857142857142864
+      }
+    },
+    "by_policy_horizon_state": {
+      "VOLUNTARY-h1-G": {
+        "n": 2,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 2,
+        "unique_effort_n": 2,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.15000000000000002,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      "VOLUNTARY-h1-B": {
+        "n": 0,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 0,
+        "unique_effort_n": 0,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": null,
+        "mean_failure_conditional_regret": null,
+        "mean_joint_regret_assuming_optimal_success_report": null
+      },
+      "VOLUNTARY-h4-G": {
+        "n": 1,
+        "effort_agreement_count": 1,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 1,
+        "unique_failure_n": 1,
+        "unique_failure_agreement_count": 1,
+        "mean_effort_regret": 0.0,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.0
+      },
+      "VOLUNTARY-h4-B": {
+        "n": 1,
+        "effort_agreement_count": 1,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 1,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.0,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.0
+      },
+      "OBLIGATED_1-h1-G": {
+        "n": 1,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.15000000000000002,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      "OBLIGATED_1-h1-B": {
+        "n": 1,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.15000000000000002,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      "OBLIGATED_1-h4-G": {
+        "n": 0,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 0,
+        "unique_effort_n": 0,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": null,
+        "mean_failure_conditional_regret": null,
+        "mean_joint_regret_assuming_optimal_success_report": null
+      },
+      "OBLIGATED_1-h4-B": {
+        "n": 1,
+        "effort_agreement_count": 1,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 1,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.0,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.0
+      },
+      "COMPLAINT_025-h1-G": {
+        "n": 1,
+        "effort_agreement_count": 0,
+        "failure_agreement_count": 1,
+        "unique_effort_n": 1,
+        "unique_effort_agreement_count": 0,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.15000000000000002,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      "COMPLAINT_025-h1-B": {
+        "n": 2,
+        "effort_agreement_count": 1,
+        "failure_agreement_count": 2,
+        "unique_effort_n": 2,
+        "unique_effort_agreement_count": 1,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.07500000000000001,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.07500000000000001
+      },
+      "COMPLAINT_025-h4-G": {
+        "n": 2,
+        "effort_agreement_count": 2,
+        "failure_agreement_count": 2,
+        "unique_effort_n": 2,
+        "unique_effort_agreement_count": 2,
+        "unique_failure_n": 2,
+        "unique_failure_agreement_count": 2,
+        "mean_effort_regret": 0.0,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.0
+      },
+      "COMPLAINT_025-h4-B": {
+        "n": 2,
+        "effort_agreement_count": 2,
+        "failure_agreement_count": 2,
+        "unique_effort_n": 2,
+        "unique_effort_agreement_count": 2,
+        "unique_failure_n": 0,
+        "unique_failure_agreement_count": 0,
+        "mean_effort_regret": 0.0,
+        "mean_failure_conditional_regret": 0.0,
+        "mean_joint_regret_assuming_optimal_success_report": 0.0
+      }
+    },
+    "decisions": [
+      {
+        "id": "OBLIGATED_1-h4-B-d1",
+        "policy": "OBLIGATED_1",
+        "remaining": 4,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "H"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "COMPLAINT_025-h1-B-d2",
+        "policy": "COMPLAINT_025",
+        "remaining": 1,
+        "state": "B",
+        "effort": "L",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "COMPLAINT_025-h4-B-d1",
+        "policy": "COMPLAINT_025",
+        "remaining": 4,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "H"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "VOLUNTARY-h1-G-d1",
+        "policy": "VOLUNTARY",
+        "remaining": 1,
+        "state": "G",
+        "effort": "H",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "VOLUNTARY-h4-B-d1",
+        "policy": "VOLUNTARY",
+        "remaining": 4,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "H"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "COMPLAINT_025-h4-G-d1",
+        "policy": "COMPLAINT_025",
+        "remaining": 4,
+        "state": "G",
+        "effort": "L",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": true,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "COMPLAINT_025-h1-B-d1",
+        "policy": "COMPLAINT_025",
+        "remaining": 1,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "OBLIGATED_1-h1-B-d2",
+        "policy": "OBLIGATED_1",
+        "remaining": 1,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "COMPLAINT_025-h1-G-d1",
+        "policy": "COMPLAINT_025",
+        "remaining": 1,
+        "state": "G",
+        "effort": "H",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "COMPLAINT_025-h4-G-d2",
+        "policy": "COMPLAINT_025",
+        "remaining": 4,
+        "state": "G",
+        "effort": "L",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": true,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "COMPLAINT_025-h4-B-d2",
+        "policy": "COMPLAINT_025",
+        "remaining": 4,
+        "state": "B",
+        "effort": "H",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "H"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      },
+      {
+        "id": "OBLIGATED_1-h1-G-d2",
+        "policy": "OBLIGATED_1",
+        "remaining": 1,
+        "state": "G",
+        "effort": "H",
+        "failure_report": "REPORT",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "VOLUNTARY-h1-G-d2",
+        "policy": "VOLUNTARY",
+        "remaining": 1,
+        "state": "G",
+        "effort": "H",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "REPORT",
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": false,
+        "effort_agreement": false,
+        "failure_agreement": true,
+        "effort_regret": 0.15000000000000002,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.15000000000000002
+      },
+      {
+        "id": "VOLUNTARY-h4-G-d1",
+        "policy": "VOLUNTARY",
+        "remaining": 4,
+        "state": "G",
+        "effort": "L",
+        "failure_report": "WITHHOLD",
+        "optimal_efforts": [
+          "L"
+        ],
+        "optimal_failure_reports": [
+          "WITHHOLD"
+        ],
+        "unique_effort_optimum": true,
+        "unique_failure_optimum": true,
+        "effort_agreement": true,
+        "failure_agreement": true,
+        "effort_regret": 0.0,
+        "failure_conditional_regret": 0.0,
+        "joint_regret_assuming_optimal_success_report": 0.0
+      }
+    ],
+    "unattempted_cells": [
+      {
+        "id": "OBLIGATED_1-h1-B-d1",
+        "policy": "OBLIGATED_1",
+        "remaining": 1,
+        "state": "B",
+        "draw": 1
+      },
+      {
+        "id": "OBLIGATED_1-h4-G-d1",
+        "policy": "OBLIGATED_1",
+        "remaining": 4,
+        "state": "G",
+        "draw": 1
+      },
+      {
+        "id": "VOLUNTARY-h4-B-d2",
+        "policy": "VOLUNTARY",
+        "remaining": 4,
+        "state": "B",
+        "draw": 2
+      },
+      {
+        "id": "VOLUNTARY-h4-G-d2",
+        "policy": "VOLUNTARY",
+        "remaining": 4,
+        "state": "G",
+        "draw": 2
+      },
+      {
+        "id": "VOLUNTARY-h1-B-d1",
+        "policy": "VOLUNTARY",
+        "remaining": 1,
+        "state": "B",
+        "draw": 1
+      },
+      {
+        "id": "OBLIGATED_1-h1-G-d1",
+        "policy": "OBLIGATED_1",
+        "remaining": 1,
+        "state": "G",
+        "draw": 1
+      },
+      {
+        "id": "COMPLAINT_025-h1-G-d2",
+        "policy": "COMPLAINT_025",
+        "remaining": 1,
+        "state": "G",
+        "draw": 2
+      },
+      {
+        "id": "OBLIGATED_1-h4-G-d2",
+        "policy": "OBLIGATED_1",
+        "remaining": 4,
+        "state": "G",
+        "draw": 2
+      },
+      {
+        "id": "VOLUNTARY-h1-B-d2",
+        "policy": "VOLUNTARY",
+        "remaining": 1,
+        "state": "B",
+        "draw": 2
+      }
+    ],
+    "unattempted_calls": 9,
+    "status": "stopped_schema_error",
+    "schema_invalid_calls": 1,
+    "api_failed_calls": 0,
+    "schema_stop": "schema-stop.json",
+    "api_metadata": {
+      "requested_models": [
+        "glm-5.3-flash"
+      ],
+      "observed_models": [
+        "glm-5.3-flash"
+      ],
+      "endpoints": [
+        "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "elapsed_seconds_sum": 86.538,
+      "prompt_tokens": 6911,
+      "completion_tokens": 3705,
+      "fallback": false,
+      "automatic_retries": 0
+    },
+    "by_remaining_horizon": {
+      "1": {
+        "n": 7,
+        "effort_agreement_count": 1,
+        "mean_effort_regret": 0.1285714285714286
+      },
+      "4": {
+        "n": 7,
+        "effort_agreement_count": 7,
+        "mean_effort_regret": 0.0
+      }
+    }
+  },
+  "limitations": [
+    "Arbitrary payoff schedule and probabilities are mechanism illustrations, not fitted market estimates.",
+    "Not a full equilibrium or an estimate of deployed ERC-8004 quality.",
+    "No actual ERC-8004 scoring rule is attributed to this simulator.",
+    "Small GLM probe count supports only descriptive agreement/regret.",
+    "No seller identity reset, imperfect verification, direct refund penalty, or price adjustment is modeled."
+  ]
+}

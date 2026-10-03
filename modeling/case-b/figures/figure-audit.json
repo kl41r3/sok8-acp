@@ -1,0 +1,22 @@
+{
+  "status": "Verified affected figure",
+  "figure": "case-b-policy-comparison",
+  "form": "Grouped bars with shared percentage scale",
+  "dimensions_inches": [
+    7,
+    3.1
+  ],
+  "minimum_visible_type_points": 9,
+  "theme": "Scholar Blue 1.1.0 typography with preserved SoK project palette",
+  "palette_roles": {
+    "high_effort": "#4965b0",
+    "task_success": "#f36f43"
+  },
+  "source": "case-b/data/theory.json",
+  "plotted_data": "plotted-values.csv",
+  "initial_state": "G",
+  "rounds": 8,
+  "uncertainty": "Deterministic exact forward expectations, no empirical confidence intervals",
+  "visual_scope": "Actual final-size PNG inspected; no clipping, overlap, broken glyphs or unreadable axes; redundant hatch differentiates series",
+  "generator": "case-b/plot.py"
+}

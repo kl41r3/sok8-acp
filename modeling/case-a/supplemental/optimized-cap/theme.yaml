@@ -1,0 +1,41 @@
+name: Scholar Blue
+version: 1.1.0
+colors:
+  ink: "#18324A"
+  surface: "#F5F7FB"
+  primary: "#4965b0"
+  secondary: "#80cba4"
+  status: "#f36f43"
+  boundary: "#a30543"
+  divider: "#CBD5E1"
+  muted: "#6B7C8F"
+categorical:
+  - "#4965b0"
+  - "#80cba4"
+  - "#f36f43"
+  - "#fbda83"
+  - "#a30543"
+  - "#e9f4a3"
+linestyles: ["-", "--", ":", "-."]
+markers: ["o", "s", "^", "D", "P", "X"]
+typography:
+  family: DejaVu Sans
+  minimum_pt: 8
+  tick_pt: 9
+  legend_pt: 9
+  label_pt: 10
+  panel_pt: 11
+  title_pt: 11
+sizes:
+  single_column_in: 3.35
+  intermediate_in: 5.2
+  double_column_in: 7.0
+  aspect_ratio: 0.68
+lines:
+  data_width: 1.8
+  axis_width: 0.8
+  grid_width: 0.6
+  marker_size: 5.2
+export:
+  png_dpi: 300
+  transparent: false

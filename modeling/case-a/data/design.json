@@ -1,0 +1,32 @@
+{
+  "parameters": {
+    "b": 0.15,
+    "eta": 0.005,
+    "kappa": 0.01,
+    "theta": "Uniform[0,1]"
+  },
+  "q": {
+    "minimum": 0,
+    "maximum": 1,
+    "step": 0.002,
+    "points": 501
+  },
+  "d": {
+    "minimum": 0,
+    "maximum": 1.2,
+    "step": 0.002,
+    "points": 601
+  },
+  "independent_inputs": true,
+  "d_optimization": false,
+  "integration": "closed-form piecewise polynomial expectation under strategic self-selection",
+  "fixed_d_slices": [
+    0.1,
+    0.25,
+    0.55,
+    0.85
+  ],
+  "API_calls": 0,
+  "manuscript_edits": false,
+  "original_design_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148"
+}

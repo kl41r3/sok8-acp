@@ -1,0 +1,53 @@
+{
+  "status": "Verified bounded offline replay",
+  "scope": "Saved model expectations and one-step decision evidence only; not platform outcomes or scientific readiness",
+  "API_calls": 0,
+  "case_a": {
+    "independent_pairs": 301101,
+    "direct_payoff_checks": 42,
+    "maximum_direct_loss_difference": 1.3074599299056633e-08,
+    "valid_decisions": 24,
+    "optimal_decisions": 23,
+    "mean_utility_regret": 0.005520833333333335
+  },
+  "case_b": {
+    "all_64_control_cells_recomputed": true,
+    "theory_equal_saved": true,
+    "attempts": 15,
+    "schema_valid": 14,
+    "effort_optimal": 8,
+    "h4_correct": 7,
+    "h4_valid": 7,
+    "h1_correct": 1,
+    "h1_valid": 7,
+    "failure_optimal_set_agreement": 14,
+    "unique_failure_choices": 3,
+    "schema_errors": [
+      "OBLIGATED_1-h4-B-d2"
+    ],
+    "unattempted": [
+      "COMPLAINT_025-h1-G-d2",
+      "OBLIGATED_1-h1-B-d1",
+      "OBLIGATED_1-h1-G-d1",
+      "OBLIGATED_1-h4-G-d1",
+      "OBLIGATED_1-h4-G-d2",
+      "VOLUNTARY-h1-B-d1",
+      "VOLUNTARY-h1-B-d2",
+      "VOLUNTARY-h4-B-d2",
+      "VOLUNTARY-h4-G-d2"
+    ],
+    "mean_effort_regret": 0.0642857142857143,
+    "excluded_initial_attempts": 6,
+    "excluded_initial_responses": 5
+  },
+  "checks": [
+    "A complete NPZ recomputation",
+    "A every CSV row matches NPZ",
+    "A original-payoff midpoint check independent of cutoff formula",
+    "A final-answer decision/regret rescoring",
+    "B exact DP plus exhaustive action enumeration",
+    "B saved final-answer strict schema and optimal-set rescoring",
+    "B prespecified schema-stop and missingness",
+    "B initial batch exclusion"
+  ]
+}

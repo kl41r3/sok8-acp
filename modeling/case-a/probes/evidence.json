@@ -1,0 +1,962 @@
+[
+  {
+    "attempt_id": "A01-draw1",
+    "started_utc": "2026-10-03T03:43:02.074775+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7cadb1eda8c3ca31c3edf79dd1fc7e2c576029af53ae57a580f823c89dcca659",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 beats REVIEW utility -0.0275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "ae7568d43cedb1482e2e0e24fa6113adb6a1ac9c40d948ff8a89e8ec27013dfa",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A01-draw2",
+    "started_utc": "2026-10-03T03:43:02.074943+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "70b99ee572abe9f3f1aa83f9f933ba36701999e518c6cb430d896f64e619d13a",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 (deviation 0.05 since cap binds at 0.25) beats REVIEW's -0.0275 (full bias cost -0.0225 minus eta 0.005).\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "ce320154eac7270ec7cdb748b26f404567afd38b5e9befa91c62bf235acbd460",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A02-draw1",
+    "started_utc": "2026-10-03T03:43:05.342573+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "f675c8a88b8906385e60f7532140fe727fbc91dd679bb388fb3dc96a6318ba50",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 beats REVIEW -0.0775.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "e3b8e6af23ccead66e041b3067d4e0af3184b91a338d9fc6cf5d211297a4d9bc",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A02-draw2",
+    "started_utc": "2026-10-03T03:43:05.342820+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "70652eb8b4df7cab88091c12e15a1ef095fd99ec73c9c275ac32a2c90e6d852e",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 exceeds REVIEW expected utility -0.0775.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "bd63df144e039d3be1fad5e5936768d14d23b93582b530d0edcf28b628145248",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A03-draw1",
+    "started_utc": "2026-10-03T03:43:08.023505+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "522d46908e7f715051c1f0d649d0d44cab97db4ede0f5a3d7f2d5cab7837aaa3",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility is 0 (spend exactly theta+b=0.35), while REVIEW gives -b^2-eta = -0.0275, so AUTO maximizes expected utility.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "779f2b5edd224e66eec56962835d2a62d5a12522028e46071992d2a05686882d",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A03-draw2",
+    "started_utc": "2026-10-03T03:43:08.023287+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "48d425381e5900d19a0e13fcb74d5e192077ac92c630396813e77b9d1e9ef90c",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility is 0 (a=0.35 matches theta+b), beating REVIEW's -0.005.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "23595e2c68e1f6acab60562e0a649875451f3c8c28221f1185d413545a24f767",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A04-draw1",
+    "started_utc": "2026-10-03T03:43:10.551779+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "94513ac503792e4aceb19b080fc33dcf3e2cb594e8a78ac2e5b100111974b439",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility is 0 (a=theta+b=0.35), while REVIEW expected utility is -0.0775, so AUTO maximizes expected utility.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "7c34d8a7cc36d6b5e42cdb71b50e9344532292896a7a79ea226f57b9b58277e6",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A04-draw2",
+    "started_utc": "2026-10-03T03:43:10.552029+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.2; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "5884206d19c95e0398b4f7f04d7481d617443d8a42a935f462ea2cacd1681ac2",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO yields utility 0 since cap d=0.55 exceeds preferred spend 0.35, while REVIEW yields -0.0775, so AUTO maximizes expected utility.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "d1709dffc95e606c8146e450569ef4826527f3e35f15f6597a9d1a3825eecd52",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A05-draw1",
+    "started_utc": "2026-10-03T03:43:13.400413+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "a518a36a9ec9e2e71f9c64f86004b9d6b9307f79cb80a3cf521e20ce17fc9bbe",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW expected utility is -0.0275, better than AUTO's -0.16.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "8097cae50a56bb888b8ee07f068005dc6ae4dda0863375c436ce8aed33d82b9e",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A05-draw2",
+    "started_utc": "2026-10-03T03:43:13.400279+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7d8be27d255a6587dde00d97fafde3b7d9f3fb5090b4b45a2a6be9e3ce90eed4",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.0225 beats REVIEW -0.0275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "5d0f79adb1b6aa1a57fbb150f1f0c5f93439784da384a98c5eba86cbecb83414",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A06-draw1",
+    "started_utc": "2026-10-03T03:43:16.142661+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7217216bb43287224d912046a0cff1725713c13f42e6c8dce5e5d67368cbd269",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.16 exceeds REVIEW expected utility -0.2275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "1231dafcf5c36491c221977628c5c61981d23761f2b9a147bc18817dcf97cbbb",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A06-draw2",
+    "started_utc": "2026-10-03T03:43:16.142375+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "40720bac932d9dad1d85204ba1e39c77cc06d5904553f73de8f295ed6016b432",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.16 exceeds REVIEW expected utility -0.2275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "bfca1ded918e515e933b7931ccc0734063519b009721224cb7ce5774dbf834e3",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A07-draw1",
+    "started_utc": "2026-10-03T03:43:20.190508+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7f2eab122ed7cca0dce143b40d3a94f074231809dafb05ae884f02eb50be3de7",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 (a=0.55, deviation 0.1) beats REVIEW expected utility -0.0275 (bias -0.0225 plus cost 0.005).\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "f81d96cba2a8dd196cefd0128db8cf7a8744a7017555e0c2711d3c23a7a38d82",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A07-draw2",
+    "started_utc": "2026-10-03T03:43:20.190217+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7096b5ac120b2da67d9e3b3e385b32ecbc10dc631449de8ca7fce00789462f7b",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 exceeds REVIEW utility -0.0275, so AUTO is preferred.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "c091c81995ad3bfe2144ab664e4286b4909ad2d4e4cb0bbd20bb98ce83ade465",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A08-draw1",
+    "started_utc": "2026-10-03T03:43:23.262254+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "77111563273fcf7afdc9543c1787b0e175e5f8085db4a62af2076a944fd0d103",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 exceeds REVIEW expected utility -0.2275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "08983b6c0254e12e04e48930f6c64e1f4711ce88b9b0e7debc2f56bf4b46826a",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A08-draw2",
+    "started_utc": "2026-10-03T03:43:23.261984+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.5; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "28fcc3784defe07c9c014f568364ee8c115fe6d6f3220126a9013eb83572ade9",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.01 (spend capped at 0.55) exceeds REVIEW expected utility -0.2275.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "60cdf1a584296732053c02bafb737e476617045bf0ba691e92d447d2bef6474e",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A09-draw1",
+    "started_utc": "2026-10-03T03:43:26.104152+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "e4bfd0f2efc721a73a02332162f23b20c0ecc500b6ce49370c49fbc224066b91",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW utility -0.0275 exceeds AUTO utility -0.49 since the cap makes AUTO spend 0.25 far below preferred 0.95.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "f892ff646f46daab035a5162012575c63d05d51f255a37b65a58cf9a6f8e9a21",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A09-draw2",
+    "started_utc": "2026-10-03T03:43:26.104410+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "7404228dfbc7e1c1e74571a222c050d1f74b59ae5855c25cb97d1bbfe3809072",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW utility -0.0275 exceeds AUTO utility -0.49 since q=1 avoids the large loss from capped spend 0.25 vs preferred 0.95.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "26f54f113941eaa41bc1151f8c1590d66df1577d4924ab9a3336fea57a92568c",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A10-draw1",
+    "started_utc": "2026-10-03T03:43:29.249545+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "5beb7150f26f1d8d75abb38aef3136a4147512a377b88356cf63cc0c6e9ad6fb",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW expected utility -0.4685 exceeds AUTO's -0.49.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "b772665ecf953d139d458db6a4f206bbfa904036d4763cae9fcd9563d6f08fcd",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A10-draw2",
+    "started_utc": "2026-10-03T03:43:29.249975+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.25; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "8c5e340e6bbeda7ca4e76d69bdaa3c3325a65330d82d2380099d07a6a770b89b",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW utility -0.4675 exceeds AUTO utility -0.49.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "34ce68147c8fb3f8055e65f56269ce397a322c84ef537df400769c8b4e003596",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A11-draw1",
+    "started_utc": "2026-10-03T03:43:31.920159+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "59fb2c42a0a804edd464138a61c7502cc1e728753c4bb672c132306e6156d46f",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW expected utility -0.0275 beats AUTO's -0.16 since q=1 guarantees a=theta and avoids the cap penalty.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "a39c0f5e778ff65ada7daea28937b2613035f8052b0c069f0058d362a5db93ba",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A11-draw2",
+    "started_utc": "2026-10-03T03:43:31.920345+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=1.0; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "b488086bb8f231674bf14ded3a713f12a65633ef6aaa4774a36603140c25a7da",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"REVIEW\",\"reason\":\"REVIEW expected utility is -0.0275 versus AUTO's -0.16, so REVIEW maximizes expected utility.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "298c6fb53fcae5490cd989b10ab20a2d909c9114962b90211459b102a24096fd",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A12-draw1",
+    "started_utc": "2026-10-03T03:43:34.922464+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "34de26cf5c3dd927f0be914335a9db0e534e5013e60dcebecb28ff1e9a7fa58d",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.0625 exceeds REVIEW expected utility -0.4675.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "d9ac5affb3d04a9ed387b12a5c8da0e05115780832d3e965bf323946a52a93f4",
+    "excluded_campaign": false,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "A12-draw2",
+    "started_utc": "2026-10-03T03:43:34.922371+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are the decision maker for a hypothetical commercial purchasing-agent provider. This is a synthetic decision exercise. The provider's strategic spend preference theta+b is an explicitly hypothetical incentive. Choose the option maximizing your own specified expected utility. Use exactly the stated mathematical utilities. Return only a JSON object with exactly two keys: choice (AUTO or REVIEW) and reason (one brief string)."
+        },
+        {
+          "role": "user",
+          "content": "Scenario: the user's ideal normalized spend theta=0.8; provider bias b=0.15; autonomous spending cap d=0.55; probability that review finishes before the deadline q=0.5; provider review cost eta=0.005; user review cost kappa=0.01. Your preferred spend is theta+b. Kappa is borne by the user and does not enter your specified utility.\nREVIEW: pay eta and request user review. With probability q, timely review executes a=theta; with probability 1-q, the deadline passes and the purchase is canceled, a=0. Your expected utility is -q*b^2-(1-q)*(theta+b)^2-eta.\nAUTO: execute a=min(theta+b,d) immediately. Your utility is -(a-theta-b)^2.\nChoose by expected utility. If exactly tied, choose AUTO. Return the required JSON only."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "3d6fcce82352130c7701b0747c3d635bd3558ab2f8077079efa6bdfaedc976ce",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"choice\":\"AUTO\",\"reason\":\"AUTO utility -0.16 beats REVIEW expected utility -0.4675.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "449a91ab66e69784a8e6707e2367375ee8ee30d65ef3bd49899b0e96e766c209",
+    "excluded_campaign": false,
+    "status": "response_received"
+  }
+]

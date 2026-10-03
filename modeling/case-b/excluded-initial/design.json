@@ -1,0 +1,74 @@
+{
+  "case": "B",
+  "interpretation": "Finite-horizon seller control problem with exogenous state-dependent upfront revenue, not a buyer-seller equilibrium.",
+  "revenue": {
+    "G": 1.0,
+    "B": 0.4
+  },
+  "success_probability": {
+    "H": 0.9,
+    "L": 0.3
+  },
+  "effort_cost": {
+    "H": 0.15,
+    "L": 0.0
+  },
+  "discount": 0.95,
+  "horizon": 8,
+  "policies": {
+    "VOLUNTARY": {
+      "rho": 0.0,
+      "rule": "Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state."
+    },
+    "OBLIGATED_025": {
+      "rho": 0.25,
+      "rule": "Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds."
+    },
+    "OBLIGATED_1": {
+      "rho": 1.0,
+      "rule": "Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds."
+    },
+    "COMPLAINT_025": {
+      "rho": 0.25,
+      "rule": "Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho."
+    }
+  },
+  "validator": "Perfect and truthful; successful task gets pass, failed task gets fail. Validator reliability is not experimentally estimated.",
+  "tie_break": {
+    "effort": "L",
+    "success_report": "REPORT",
+    "failure_report": "WITHHOLD"
+  },
+  "llm_cells": {
+    "policies": [
+      "VOLUNTARY",
+      "OBLIGATED_1",
+      "COMPLAINT_025"
+    ],
+    "remaining_horizons": [
+      1,
+      4
+    ],
+    "states": [
+      "G",
+      "B"
+    ],
+    "draws": 2
+  },
+  "llm_probe": "One-step complete-information decisions, exact continuation values supplied. Not multi-round LLM trajectories.",
+  "api": {
+    "model": "glm-5.3-flash",
+    "official_china_only": true,
+    "fallback": false,
+    "retries": 0,
+    "stop_on_error": true
+  },
+  "seed": 5303002,
+  "limitations": [
+    "Arbitrary payoff schedule and probabilities are mechanism illustrations, not fitted market estimates.",
+    "Not a full equilibrium or an estimate of deployed ERC-8004 quality.",
+    "No actual ERC-8004 scoring rule is attributed to this simulator.",
+    "Small GLM probe count supports only descriptive agreement/regret.",
+    "No seller identity reset, imperfect verification, direct refund penalty, or price adjustment is modeled."
+  ]
+}

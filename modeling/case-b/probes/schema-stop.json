@@ -1,0 +1,20 @@
+{
+  "status": "stopped_schema_error",
+  "attempt_id": "OBLIGATED_1-h4-B-d2",
+  "required_top_level_keys": [
+    "effort",
+    "failure_report",
+    "reason"
+  ],
+  "observed_top_level_keys": [
+    "answer"
+  ],
+  "raw_sha256": "546c255296dbda142aac96e099762ffacaff98eee7140bb1dcc5fb51635fe87f",
+  "http_status": 200,
+  "observed_model": "glm-5.3-flash",
+  "json_valid": true,
+  "schema_valid": false,
+  "repair_performed": false,
+  "retry_performed": false,
+  "remaining_unattempted": 9
+}

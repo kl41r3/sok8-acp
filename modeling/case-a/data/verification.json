@@ -1,0 +1,267 @@
+{
+  "status": "Verified",
+  "independent_parameter_pairs": 301101,
+  "direct_payoff_checks": [
+    {
+      "q": 0,
+      "d": 0,
+      "loss_difference": 8.337774914934926e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.1,
+      "loss_difference": 8.334999357373363e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.25,
+      "loss_difference": 7.502332088904495e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.55,
+      "loss_difference": 5.0008608365459395e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.85,
+      "loss_difference": 2.499736528882579e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.25,
+      "d": 0,
+      "loss_difference": 2.590997361107128e-09,
+      "review_difference": 2.812808830299218e-07
+    },
+    {
+      "q": 0.25,
+      "d": 0.1,
+      "loss_difference": 2.7002556579613923e-09,
+      "review_difference": 1.1258507243150362e-07
+    },
+    {
+      "q": 0.25,
+      "d": 0.25,
+      "loss_difference": 7.502332088904495e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.25,
+      "d": 0.55,
+      "loss_difference": 5.0008608365459395e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.25,
+      "d": 0.85,
+      "loss_difference": 2.499736528882579e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.25,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0,
+      "loss_difference": 4.162356737058559e-09,
+      "review_difference": 4.362268005708714e-07
+    },
+    {
+      "q": 0.5,
+      "d": 0.1,
+      "loss_difference": 3.631209305465788e-09,
+      "review_difference": 2.1525220794682554e-07
+    },
+    {
+      "q": 0.5,
+      "d": 0.25,
+      "loss_difference": 1.2749265754230521e-08,
+      "review_difference": 3.0334031136947104e-07
+    },
+    {
+      "q": 0.5,
+      "d": 0.55,
+      "loss_difference": 5.0008608365459395e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0.85,
+      "loss_difference": 2.499736528882579e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.75,
+      "d": 0,
+      "loss_difference": 4.714526505300576e-09,
+      "review_difference": 4.872340066963687e-07
+    },
+    {
+      "q": 0.75,
+      "d": 0.1,
+      "loss_difference": 4.166695113938523e-09,
+      "review_difference": 3.333333332689037e-07
+    },
+    {
+      "q": 0.75,
+      "d": 0.25,
+      "loss_difference": 7.871974280759808e-09,
+      "review_difference": 3.156120608194257e-07
+    },
+    {
+      "q": 0.75,
+      "d": 0.55,
+      "loss_difference": 2.2818025663395858e-09,
+      "review_difference": 3.66503865919382e-08
+    },
+    {
+      "q": 0.75,
+      "d": 0.85,
+      "loss_difference": 2.499736528882579e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.75,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.95,
+      "d": 0,
+      "loss_difference": 1.9353811712974345e-09,
+      "review_difference": 1.9875498180610407e-07
+    },
+    {
+      "q": 0.95,
+      "d": 0.1,
+      "loss_difference": 2.3941238609659354e-09,
+      "review_difference": 2.345131385750321e-07
+    },
+    {
+      "q": 0.95,
+      "d": 0.25,
+      "loss_difference": 2.607404188392781e-10,
+      "review_difference": 2.067578475095644e-08
+    },
+    {
+      "q": 0.95,
+      "d": 0.55,
+      "loss_difference": 2.6592693186389127e-09,
+      "review_difference": 1.1879369576917043e-07
+    },
+    {
+      "q": 0.95,
+      "d": 0.85,
+      "loss_difference": 2.499736528882579e-14,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.95,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 0.97,
+      "d": 0,
+      "loss_difference": 1.553474463650284e-09,
+      "review_difference": 1.594549742245377e-07
+    },
+    {
+      "q": 0.97,
+      "d": 0.1,
+      "loss_difference": 4.6609730068591926e-09,
+      "review_difference": 4.6514054630186763e-07
+    },
+    {
+      "q": 0.97,
+      "d": 0.25,
+      "loss_difference": 2.2618959066855737e-09,
+      "review_difference": 1.974500857260253e-07
+    },
+    {
+      "q": 0.97,
+      "d": 0.55,
+      "loss_difference": 8.636077363649575e-09,
+      "review_difference": 4.920506536110203e-07
+    },
+    {
+      "q": 0.97,
+      "d": 0.85,
+      "loss_difference": 1.3074599299056633e-08,
+      "review_difference": 4.866285600313436e-07
+    },
+    {
+      "q": 0.97,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    },
+    {
+      "q": 1,
+      "d": 0,
+      "loss_difference": 2.3351473948940438e-09,
+      "review_difference": 2.3951776995101426e-07
+    },
+    {
+      "q": 1,
+      "d": 0.1,
+      "loss_difference": 2.3351390595477417e-09,
+      "review_difference": 2.3951776995101426e-07
+    },
+    {
+      "q": 1,
+      "d": 0.25,
+      "loss_difference": 2.3351348962113994e-09,
+      "review_difference": 2.3951776995101426e-07
+    },
+    {
+      "q": 1,
+      "d": 0.55,
+      "loss_difference": 2.3351348962113994e-09,
+      "review_difference": 2.3951777006203656e-07
+    },
+    {
+      "q": 1,
+      "d": 0.85,
+      "loss_difference": 2.335134894476676e-09,
+      "review_difference": 2.3951776997876983e-07
+    },
+    {
+      "q": 1,
+      "d": 1.2,
+      "loss_difference": 3.469446951953614e-18,
+      "review_difference": 0.0
+    }
+  ],
+  "direct_theta_midpoints_per_check": 1000000,
+  "maximum_direct_loss_difference": 1.3074599299056633e-08,
+  "overlapping_prior_grid_cells": 3005,
+  "max_prior_midpoint_difference": 3.058753178623863e-06,
+  "q0_review_share_zero": true,
+  "all_data_finite": true,
+  "CSV_NPZ_match": true,
+  "CSV_sha256": "48f066cb53911604d6b619bf9e652d0c0dc6113942e359f4e951b215e9ad68c0",
+  "scope": "Specified mathematical model and saved numerical artifacts; no q-dependent d selection and no new API calls"
+}

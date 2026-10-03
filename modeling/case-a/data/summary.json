@@ -1,0 +1,241 @@
+{
+  "status": "Verified",
+  "independent_parameter_pairs": 301101,
+  "grid_shape_q_by_d": [
+    501,
+    601
+  ],
+  "d_optimization": false,
+  "API_calls": 0,
+  "selected_points": [
+    {
+      "q": 0,
+      "d": 0.1,
+      "mean_user_loss": 0.24333333333333337,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0.1,
+      "mean_user_loss": 0.1725,
+      "review_share": 0.720871215252208,
+      "cancellation_share": 0.360435607626104
+    },
+    {
+      "q": 0.75,
+      "d": 0.1,
+      "mean_user_loss": 0.09171296296296295,
+      "review_share": 0.8333333333333333,
+      "cancellation_share": 0.20833333333333331
+    },
+    {
+      "q": 0.9,
+      "d": 0.1,
+      "mean_user_loss": 0.04227819512409986,
+      "review_share": 0.867745313325007,
+      "cancellation_share": 0.08677453133250068
+    },
+    {
+      "q": 0.95,
+      "d": 0.1,
+      "mean_user_loss": 0.02573752096285247,
+      "review_share": 0.8764597654868614,
+      "cancellation_share": 0.04382298827434311
+    },
+    {
+      "q": 0.97,
+      "d": 0.1,
+      "mean_user_loss": 0.019115255565696217,
+      "review_share": 0.8796544651405463,
+      "cancellation_share": 0.026389633954216413
+    },
+    {
+      "q": 0.99,
+      "d": 0.1,
+      "mean_user_loss": 0.012490006627189526,
+      "review_share": 0.8826993837595776,
+      "cancellation_share": 0.008826993837595784
+    },
+    {
+      "q": 1,
+      "d": 0.1,
+      "mean_user_loss": 0.009176343522885017,
+      "review_share": 0.88416876048223,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.25,
+      "mean_user_loss": 0.14400000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0.25,
+      "mean_user_loss": 0.14402647228357757,
+      "review_share": 0.25313730334031137,
+      "cancellation_share": 0.12656865167015569
+    },
+    {
+      "q": 0.75,
+      "d": 0.25,
+      "mean_user_loss": 0.08792276769010776,
+      "review_share": 0.5780363156120608,
+      "cancellation_share": 0.1445090789030152
+    },
+    {
+      "q": 0.9,
+      "d": 0.25,
+      "mean_user_loss": 0.0425781295790445,
+      "review_share": 0.6830883941050089,
+      "cancellation_share": 0.06830883941050088
+    },
+    {
+      "q": 0.95,
+      "d": 0.25,
+      "mean_user_loss": 0.026758205933023547,
+      "review_share": 0.7101339793242153,
+      "cancellation_share": 0.035506698966210795
+    },
+    {
+      "q": 0.97,
+      "d": 0.25,
+      "mean_user_loss": 0.020365439858305266,
+      "review_share": 0.7200838025499142,
+      "cancellation_share": 0.021602514076497447
+    },
+    {
+      "q": 0.99,
+      "d": 0.25,
+      "mean_user_loss": 0.01394106875394849,
+      "review_share": 0.7295813435479271,
+      "cancellation_share": 0.007295813435479278
+    },
+    {
+      "q": 1,
+      "d": 0.25,
+      "mean_user_loss": 0.010718010189551683,
+      "review_share": 0.73416876048223,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.55,
+      "mean_user_loss": 0.040499999999999994,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0.55,
+      "mean_user_loss": 0.040499999999999994,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.75,
+      "d": 0.55,
+      "mean_user_loss": 0.04122944194438225,
+      "review_share": 0.012177963349613408,
+      "cancellation_share": 0.003044490837403352
+    },
+    {
+      "q": 0.9,
+      "d": 0.55,
+      "mean_user_loss": 0.035559199112810795,
+      "review_share": 0.2831522380781355,
+      "cancellation_share": 0.028315223807813542
+    },
+    {
+      "q": 0.95,
+      "d": 0.55,
+      "mean_user_loss": 0.026266716485669615,
+      "review_share": 0.3600498812063042,
+      "cancellation_share": 0.018002494060315226
+    },
+    {
+      "q": 0.97,
+      "d": 0.55,
+      "mean_user_loss": 0.02182470553182348,
+      "review_share": 0.3898584920506536,
+      "cancellation_share": 0.011695754761519617
+    },
+    {
+      "q": 0.99,
+      "d": 0.55,
+      "mean_user_loss": 0.017009619418500935,
+      "review_share": 0.4194103768930346,
+      "cancellation_share": 0.00419410376893035
+    },
+    {
+      "q": 1,
+      "d": 0.55,
+      "mean_user_loss": 0.014468010189551683,
+      "review_share": 0.43416876048222997,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.5,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.75,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.9,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.95,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "cancellation_share": 0.0
+    },
+    {
+      "q": 0.97,
+      "d": 0.85,
+      "mean_user_loss": 0.019095865823746543,
+      "review_share": 0.048564513371439966,
+      "cancellation_share": 0.0014569354011432002
+    },
+    {
+      "q": 0.99,
+      "d": 0.85,
+      "mean_user_loss": 0.018891627222665946,
+      "review_share": 0.10453931214026302,
+      "cancellation_share": 0.0010453931214026312
+    },
+    {
+      "q": 1,
+      "d": 0.85,
+      "mean_user_loss": 0.018218010189551683,
+      "review_share": 0.13416876048223003,
+      "cancellation_share": 0.0
+    }
+  ],
+  "scope": "Deterministic Case A model sensitivity to independently fixed q and d; no real platform outcomes or LLM behavior",
+  "compute_runtime": {
+    "python": "3.14.7",
+    "numpy": "2.5.3"
+  }
+}

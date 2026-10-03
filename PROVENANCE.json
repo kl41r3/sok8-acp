@@ -1,12 +1,12 @@
 {
-  "scope": "Approved initial private publication of the complete 33-file English taxonomy/Method baseline",
+  "scope": "English-only taxonomy, complete Method policy translations and conditional Modeling artifacts; authorized second public publication batch",
   "target": {
     "owner": "kl41r3",
     "repository": "sok8-acp",
-    "visibility": "private",
+    "visibility": "public",
     "branch": "main"
   },
-  "package_revision": 5,
+  "package_revision": 6,
   "user_scope_change": {
     "exclude_manuscript": true,
     "directory_name": "taxonomy",
@@ -17,7 +17,11 @@
       "workflow-template.md",
       "acceptance.md"
     ],
-    "english_only_entire_package": true
+    "english_only_entire_package": true,
+    "include_modeling": true,
+    "include_modeling_figures_and_source_data": true,
+    "manuscript_separate_overleaf_package": true,
+    "public_visibility_and_modeling_upload_explicitly_authorized": true
   },
   "taxonomy_baseline": {
     "source": "taxonomy-artifact-20261002/public",
@@ -56,7 +60,6 @@
     ".gitignore",
     "method/README.md"
   ],
-  "private_upload_does_not_resolve_public_redistribution_license": true,
   "method_policy_context": {
     "policy_version": "cross-source-v2-20261001",
     "approval_date": "2026-10-01",
@@ -118,9 +121,38 @@
   "concurrent_extension": {
     "path": "modeling/",
     "separately_authorized": true,
-    "included_in_this_batch": false,
-    "delivery": "Separate later commit after completion and verification"
+    "included_in_this_base_manifest": false,
+    "final_full_tree_reseal_required": true
   },
-  "publication_batch": 1,
-  "publication_authorization": "User explicitly approved uploading all reviewed non-Modeling content now; Modeling follows in a separate later commit"
+  "modeling": {
+    "directory": "modeling",
+    "primary_case_a_analysis": "Independent q and d, 501 by 601 pairs, no cap optimization",
+    "case_b_model": "Eight-round seller control with fixed upfront state revenue, not a market equilibrium",
+    "api_calls_during_packaging": 0,
+    "evidence_projection": "Exact prompts/settings/option ordering/complete final outputs; exclude credentials, local paths, service envelope/IDs and hidden reasoning",
+    "source_provenance": "modeling/source-provenance.json",
+    "claim_map": "modeling/claim-map.csv",
+    "verification": "modeling/verification.json",
+    "figure_pdfs_included": true,
+    "no_manuscript_source_in_repository": true,
+    "no_new_license_assigned": true,
+    "scientific_boundary": "Conditional numerical examples and small one-step model-specific pilot; not general scientific readiness or deployed-protocol effectiveness"
+  },
+  "publication_batch": 2,
+  "parent_commit": "cd55fb5aa9360fc5df7c57b6d64f86253e870ad8",
+  "publication_authorized": true,
+  "modeling_publication_source": {
+    "local_package_revision": 5,
+    "zip_sha256": "5863af80b68477513f6a552fd27351eb2b723309f31fc591278a87a7f1c0776b",
+    "files": 104,
+    "modeling_files": 71,
+    "policy": "Modeling, taxonomy and Method bytes unchanged; only root status and seals updated"
+  },
+  "publication_context": {
+    "first_commit_verified_private_at_original_publication": true,
+    "visibility_changed_before_second_batch": true,
+    "current_public_visibility_explicitly_authorized": true,
+    "ownership_and_public_redistribution_license_coverage": "Unknown; no MIT/CC grant inferred"
+  },
+  "publication_does_not_resolve_redistribution_license": true
 }

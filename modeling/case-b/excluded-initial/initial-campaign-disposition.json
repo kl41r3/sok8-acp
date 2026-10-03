@@ -1,0 +1,72 @@
+{
+  "campaign": "initial excluded",
+  "reason": "Numeric rho omitted from prompt; entire campaign excluded before completion, corrected campaign frozen separately.",
+  "raw_attempt_count": 6,
+  "complete_response_count": 5,
+  "checkpoint_response_count": 5,
+  "records": [
+    {
+      "sha256": "46775895c75c8af3d08c8db71612a8fd60bdad486978a09d6ddd13f730eff8b7",
+      "started_utc": "2026-10-03T03:42:50.992182+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "observed_model": "glm-5.3-flash",
+      "response_received": true,
+      "attempt_id": "COMPLAINT_025-h1-B-d2",
+      "evidence_projection": "evidence.json"
+    },
+    {
+      "sha256": "c57f45f18ea2c6735592ba5fd8595812b39ef4fb8a35cdd5f7e6e3a39136455b",
+      "started_utc": "2026-10-03T03:42:55.486941+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "observed_model": "glm-5.3-flash",
+      "response_received": true,
+      "attempt_id": "COMPLAINT_025-h4-B-d1",
+      "evidence_projection": "evidence.json"
+    },
+    {
+      "sha256": "5d26636bd53f1cdd66aa2b4fe89729fb0824d1515faa916d301fcfe1a937e4da",
+      "started_utc": "2026-10-03T03:43:15.132584+00:00",
+      "status": "interrupted_no_response",
+      "http_status": null,
+      "observed_model": null,
+      "response_received": false,
+      "attempt_id": "COMPLAINT_025-h4-G-d1",
+      "evidence_projection": "evidence.json"
+    },
+    {
+      "sha256": "ad5a7539241116d95071af163a212bc86dd6a4cbb11572f69e6c37f77d44d965",
+      "started_utc": "2026-10-03T03:42:36.919612+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "observed_model": "glm-5.3-flash",
+      "response_received": true,
+      "attempt_id": "OBLIGATED_1-h4-B-d1",
+      "evidence_projection": "evidence.json"
+    },
+    {
+      "sha256": "a541e8e2cee759b4e28325a113018800f9e385b6b0e99fe8682d309e69129243",
+      "started_utc": "2026-10-03T03:43:03.909555+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "observed_model": "glm-5.3-flash",
+      "response_received": true,
+      "attempt_id": "VOLUNTARY-h1-G-d1",
+      "evidence_projection": "evidence.json"
+    },
+    {
+      "sha256": "709fbe4d2656edce813125a306db8c02dcfccf695ef9885fdfd47d1e5a34cfaa",
+      "started_utc": "2026-10-03T03:43:07.999287+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "observed_model": "glm-5.3-flash",
+      "response_received": true,
+      "attempt_id": "VOLUNTARY-h4-B-d1",
+      "evidence_projection": "evidence.json"
+    }
+  ],
+  "accepted_campaign": "../probes/",
+  "automatic_api_retries": 0,
+  "fallback": false
+}

@@ -1,0 +1,29 @@
+{
+  "status": "Verified",
+  "width_inches": 7,
+  "minimum_font_pt": 8,
+  "theme": "Scholar Blue 1.1.0, project-palette override",
+  "theme_sha256": "158a8ed67d5933c4c4153f751eb080484fc3d4d70fc9763b89f2795cc77c1676",
+  "data_sha256": "a0b9a776407f01d1f26f28db4a540ec0df69e21c327e95ad1f4f8cb35959f4f2",
+  "source_q_rows": 2001,
+  "figure_type": "three basic line plots; optimal-policy jumps are not smoothed",
+  "encodings": {
+    "blue": "continuous-cap numerical optimum",
+    "orange_markers": "previous five discrete-grid observations",
+    "red_dashed": "equal-loss strategy switch"
+  },
+  "uncertainty": "Deterministic analytic integration and numerical optimization; no empirical confidence intervals",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "outputs": [
+    "case-a-continuous.pdf",
+    "case-a-continuous.svg",
+    "case-a-continuous.png"
+  ],
+  "visual_scope": "Actual 7-inch final-size PNG inspected; no clipping, overlap, broken glyphs or unreadable labels observed. Local utility re-render has the same PNG SHA256.",
+  "minimum_visible_text_pt": 9,
+  "numerical_validation": "verification.json"
+}

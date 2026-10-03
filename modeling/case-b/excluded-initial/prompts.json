@@ -1,0 +1,386 @@
+[
+  {
+    "id": "OBLIGATED_1-h4-B-d1",
+    "policy": "OBLIGATED_1",
+    "remaining": 4,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 2.448850000000; if B: 1.848850000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h1-B-d2",
+    "policy": "COMPLAINT_025",
+    "remaining": 1,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h4-B-d1",
+    "policy": "COMPLAINT_025",
+    "remaining": 4,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h1-G-d1",
+    "policy": "VOLUNTARY",
+    "remaining": 1,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h4-B-d1",
+    "policy": "VOLUNTARY",
+    "remaining": 4,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 2.852500000000; if B: 2.025835000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h4-G-d1",
+    "policy": "COMPLAINT_025",
+    "remaining": 4,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h1-B-d1",
+    "policy": "COMPLAINT_025",
+    "remaining": 1,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h1-B-d2",
+    "policy": "OBLIGATED_1",
+    "remaining": 1,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h1-G-d1",
+    "policy": "COMPLAINT_025",
+    "remaining": 1,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h4-G-d2",
+    "policy": "COMPLAINT_025",
+    "remaining": 4,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h4-B-d2",
+    "policy": "COMPLAINT_025",
+    "remaining": 4,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h1-G-d2",
+    "policy": "OBLIGATED_1",
+    "remaining": 1,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h1-G-d2",
+    "policy": "VOLUNTARY",
+    "remaining": 1,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h4-G-d1",
+    "policy": "VOLUNTARY",
+    "remaining": 4,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 2.852500000000; if B: 2.025835000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h4-B-d2",
+    "policy": "OBLIGATED_1",
+    "remaining": 4,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 2.448850000000; if B: 1.848850000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h1-B-d1",
+    "policy": "OBLIGATED_1",
+    "remaining": 1,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h4-G-d1",
+    "policy": "OBLIGATED_1",
+    "remaining": 4,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 2.448850000000; if B: 1.848850000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h4-B-d2",
+    "policy": "VOLUNTARY",
+    "remaining": 4,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 2.852500000000; if B: 2.025835000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h4-G-d2",
+    "policy": "VOLUNTARY",
+    "remaining": 4,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 2.852500000000; if B: 2.025835000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h1-B-d1",
+    "policy": "VOLUNTARY",
+    "remaining": 1,
+    "state": "B",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h1-G-d1",
+    "policy": "OBLIGATED_1",
+    "remaining": 1,
+    "state": "G",
+    "draw": 1,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "COMPLAINT_025-h1-G-d2",
+    "policy": "COMPLAINT_025",
+    "remaining": 1,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "L",
+      "H"
+    ],
+    "report_order": [
+      "WITHHOLD",
+      "REPORT"
+    ]
+  },
+  {
+    "id": "OBLIGATED_1-h4-G-d2",
+    "policy": "OBLIGATED_1",
+    "remaining": 4,
+    "state": "G",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 2.448850000000; if B: 1.848850000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  },
+  {
+    "id": "VOLUNTARY-h1-B-d2",
+    "policy": "VOLUNTARY",
+    "remaining": 1,
+    "state": "B",
+    "draw": 2,
+    "prompt": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}.",
+    "effort_order": [
+      "H",
+      "L"
+    ],
+    "report_order": [
+      "REPORT",
+      "WITHHOLD"
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "OBLIGATED_1-h4-B-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "REPORT",
+      "reason": "With rho=1, honest H yields 0.25+0.95(0.9*2.44885+0.1*1.84885)=2.519 vs L's 2.327, and failure reporting is weakly optimal since both outcomes give B."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h1-B-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "L",
+      "failure_report": "REPORT",
+      "reason": "Last round has no continuation value, so costly effort H is pointless, and truthful failure reporting is costless."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h4-B-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "WITHHOLD",
+      "reason": "High effort yields higher expected payoff (2.708 vs 2.559), and since the state is already B, reporting a failure does not change the continuation value."
+    }
+  },
+  {
+    "id": "VOLUNTARY-h1-G-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "WITHHOLD",
+      "reason": "High effort maximizes expected profit (0.75 vs 0.30) and with no future value reporting on failure doesn't matter."
+    }
+  },
+  {
+    "id": "VOLUNTARY-h4-B-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "WITHHOLD",
+      "reason": "High effort yields 3.421 vs L's 2.740; on failure both reporting and withholding leave state B, so withhold."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h4-G-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "L",
+      "failure_report": "WITHHOLD",
+      "reason": "L yields ~3.392 vs H ~3.342, and failure state is driven by the complaint rule regardless of reporting."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h1-B-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "REPORT",
+      "reason": "H yields 0.9*1.0-0.15=0.75 vs L's 0.3*0.4=0.12; reporting is costless with no future continuation value."
+    }
+  },
+  {
+    "id": "OBLIGATED_1-h1-B-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "REPORT",
+      "reason": "With full audit, H yields 0.9*1.0+0.1*0.4-0.15=0.79 > L's 0.58, and truthful reporting is costless and optimal."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h1-G-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "REPORT",
+      "reason": "High effort yields 0.9*1.0-0.15=0.75 over L's 0.3; truthful reporting is free and optimal."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h4-G-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "L",
+      "failure_report": "WITHHOLD",
+      "reason": "L yields 1 + 0.95*(2.4653) ≈ 3.392 > H's ≈ 3.342, and voluntarily withholding the truthful failure report avoids lowering next-round value beyond the 0.25 complaint risk."
+    }
+  },
+  {
+    "id": "COMPLAINT_025-h4-B-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "WITHHOLD",
+      "reason": "H yields 3.29 > L's 2.44, and reporting failure has no payoff benefit since state is already B."
+    }
+  },
+  {
+    "id": "OBLIGATED_1-h1-G-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "REPORT",
+      "reason": "H yields 0.85 vs L's 1.0; reporting is costless and audited anyway."
+    }
+  },
+  {
+    "id": "VOLUNTARY-h1-G-d2",
+    "status": "ok",
+    "parsed": {
+      "effort": "H",
+      "failure_report": "WITHHOLD",
+      "reason": "H gives 0.75 vs L's 0.30; on failure, withholding keeps state G with no cost to reporting."
+    }
+  },
+  {
+    "id": "VOLUNTARY-h4-G-d1",
+    "status": "ok",
+    "parsed": {
+      "effort": "L",
+      "failure_report": "WITHHOLD",
+      "reason": "Failure withholding keeps state G, making both efforts tie in payoff, so the cheaper L is chosen."
+    }
+  },
+  {
+    "id": "OBLIGATED_1-h4-B-d2",
+    "status": "error",
+    "error_type": "AssertionError"
+  }
+]

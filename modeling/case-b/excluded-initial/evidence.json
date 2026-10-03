@@ -1,0 +1,242 @@
+[
+  {
+    "attempt_id": "COMPLAINT_025-h1-B-d2",
+    "started_utc": "2026-10-03T03:42:50.992182+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "be1bf17b680274d46b1439171c6e5e8cd23417fd16a2274024c31d4f3293f822",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"effort\":\"H\",\"failure_report\":\"REPORT\",\"reason\":\"Final round: H yields 0.9*1.0-0.15=0.75 vs L's 0.3, and reporting failure is costless so REPORT is optimal.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "46775895c75c8af3d08c8db71612a8fd60bdad486978a09d6ddd13f730eff8b7",
+    "excluded_campaign": true,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "COMPLAINT_025-h4-B-d1",
+    "started_utc": "2026-10-03T03:42:55.486941+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "144ea11fa2331c7a31143d1994780d9750eea06bdd5790b325c18bf935e9d1fe",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"effort\":\"H\",\"failure_report\":\"WITHHOLD\",\"reason\":\"H yields ~2.692 vs L ~2.443, and on failure the complaint sets B anyway so reporting adds nothing.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "c57f45f18ea2c6735592ba5fd8595812b39ef4fb8a35cdd5f7e6e3a39136455b",
+    "excluded_campaign": true,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "COMPLAINT_025-h4-G-d1",
+    "started_utc": "2026-10-03T03:43:15.132584+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": null,
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy COMPLAINT_025: Voluntary certificate rule, plus independently a failed task triggers a complaint setting B with probability rho.\nNext-round continuation value if next state G: 2.640157187500; if B: 1.940548750000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['WITHHOLD', 'REPORT']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "33ea0273d9aa3e9684e55cda238a8a7bc24087fd4109d2db5c4b1277823b1d4d",
+    "http_status": null,
+    "response_received": false,
+    "final_answer": null,
+    "finish_reason": null,
+    "source_raw_sha256": "5d26636bd53f1cdd66aa2b4fe89729fb0824d1515faa916d301fcfe1a937e4da",
+    "excluded_campaign": true,
+    "status": "interrupted_no_response"
+  },
+  {
+    "attempt_id": "OBLIGATED_1-h4-B-d1",
+    "started_utc": "2026-10-03T03:42:36.919612+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy OBLIGATED_1: Task pre-registered. Independent audit probability rho. If audited, reported success sets G; failure or withheld evidence sets B. If unaudited, state holds.\nNext-round continuation value if next state G: 2.448850000000; if B: 1.848850000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "139a4768cb9f33eb96b64310c8d4d935e056283db2d12394d085af23ff28858d",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"effort\":\"L\",\"failure_report\":\"WITHHOLD\",\"reason\":\"High effort only pays via audited success (gain 0.513*rho), which is below its 0.15 cost for typical audit probabilities; failure reporting is neutral.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "ad5a7539241116d95071af163a212bc86dd6a4cbb11572f69e6c37f77d44d965",
+    "excluded_campaign": true,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "VOLUNTARY-h1-G-d1",
+    "started_utc": "2026-10-03T03:43:03.909555+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: G. Rounds remaining including this round: 1.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 1.0.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 0.000000000000; if B: 0.000000000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['H', 'L']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "13f16102a5708731c83dff7cebbeff74b5b1f5764bdbf07a55cf8d84bc359f92",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"effort\":\"L\",\"failure_report\":\"WITHHOLD\",\"reason\":\"Last round gives no future value; L avoids effort cost (1.0 vs 0.85), and reporting a failure cannot help.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "a541e8e2cee759b4e28325a113018800f9e385b6b0e99fe8682d309e69129243",
+    "excluded_campaign": true,
+    "status": "response_received"
+  },
+  {
+    "attempt_id": "VOLUNTARY-h4-B-d1",
+    "started_utc": "2026-10-03T03:43:07.999287+00:00",
+    "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "requested_model": "glm-5.3-flash",
+    "returned_model": "glm-5.3-flash",
+    "fallback": false,
+    "retries": 0,
+    "request": {
+      "model": "glm-5.3-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Solve the specified payoff maximization decision. Return strict JSON only."
+        },
+        {
+          "role": "user",
+          "content": "You are a seller choosing to maximize your own expected discounted profit. All information is complete, and the continuation values below already account for optimal choices in later rounds.\nCurrent public reputation state: B. Rounds remaining including this round: 4.\nRevenue is paid before effort: G earns 1.0, B earns 0.4. Current revenue: 0.4.\nEffort H costs 0.15 and succeeds with probability 0.9; effort L costs 0 and succeeds with probability 0.3. No other immediate costs or penalties. Discount factor for next-round value: 0.95.\nYou choose effort before seeing the result. After observing success or failure, you choose whether to submit truthful evidence. An honest perfect validator confirms success as pass and failure as fail; false evidence is unavailable. There is no reporting cost.\nPolicy VOLUNTARY: Observe result then report/withhold. Reported success sets G, reported failure sets B, no report holds current state.\nNext-round continuation value if next state G: 2.852500000000; if B: 2.025835000000. These are payoff values, not probabilities. With no remaining future rounds both values are zero.\nChoose the effort giving maximum expected current revenue minus effort cost plus 0.95 times expected next-round continuation value. Also choose the optimal reporting action conditional on a failure having occurred. If options tie, either tied option is acceptable.\nReturn ONLY a JSON object: {\"effort\": \"one of ['L', 'H']\", \"failure_report\": \"one of ['REPORT', 'WITHHOLD']\", \"reason\": \"at most one short sentence\"}."
+        }
+      ],
+      "temperature": 0.3,
+      "max_tokens": 4096,
+      "stream": false,
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low"
+    },
+    "request_sha256": "1e47e3fba018638b79c3fee99871d00d9e73073616e0c53b7a53bd4e44121392",
+    "http_status": 200,
+    "response_received": true,
+    "final_answer": "{\"effort\":\"H\",\"failure_report\":\"REPORT\",\"reason\":\"H yields higher expected value (2.4816 vs 2.1603); failure report and withhold both keep state B so they tie.\"}",
+    "finish_reason": "stop",
+    "source_raw_sha256": "709fbe4d2656edce813125a306db8c02dcfccf695ef9885fdfd47d1e5a34cfaa",
+    "excluded_campaign": true,
+    "status": "response_received"
+  }
+]

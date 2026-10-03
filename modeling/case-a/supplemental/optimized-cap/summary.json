@@ -1,0 +1,147 @@
+{
+  "status": "Verified continuous numerical optimization",
+  "q_plot_points": 2001,
+  "q_critical": 0.9724186815061258,
+  "at_switch": {
+    "no_review": {
+      "d": 0.8982943901260114,
+      "mean_user_loss": 0.018312305774345464,
+      "review_share": 0
+    },
+    "review": {
+      "d": 0.10437689956861879,
+      "mean_user_loss": 0.018312305774339014,
+      "review_share": 0.8754513756353184,
+      "stationary_roots_found": 2
+    }
+  },
+  "q1_analytic": {
+    "d": 0.1,
+    "mean_user_loss": 0.009176343522885017,
+    "review_share": 0.88416876048223
+  },
+  "sampled_points": [
+    {
+      "q": 0,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.25,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.5,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.75,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.8,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.85,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.9,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.925,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.94,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.95,
+      "d": 0.85,
+      "mean_user_loss": 0.018000000000000002,
+      "review_share": 0.0,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.96,
+      "d": 0.8680425564025662,
+      "mean_user_loss": 0.018046872255331997,
+      "review_share": 1.1102230246251565e-16,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.97,
+      "d": 0.8921240608354473,
+      "mean_user_loss": 0.018241249984814255,
+      "review_share": 3.3306690738754696e-16,
+      "regime": "no_review"
+    },
+    {
+      "q": 0.975,
+      "d": 0.10393293165721494,
+      "mean_user_loss": 0.017457688159871695,
+      "review_share": 0.8763324268740619,
+      "regime": "review"
+    },
+    {
+      "q": 0.98,
+      "d": 0.10309456818514708,
+      "mean_user_loss": 0.015802040595811827,
+      "review_share": 0.8779980573882418,
+      "regime": "review"
+    },
+    {
+      "q": 0.99,
+      "d": 0.1014981595104337,
+      "mean_user_loss": 0.012489783344770248,
+      "review_share": 0.8811768305103507,
+      "regime": "review"
+    },
+    {
+      "q": 1,
+      "d": 0.10000000000003037,
+      "mean_user_loss": 0.009176343522885017,
+      "review_share": 0.8841687604821996,
+      "regime": "review"
+    }
+  ],
+  "validation": {
+    "denser_root_brackets_max_difference": 1.1102230246251565e-16,
+    "q1_analytic_agrees": true
+  },
+  "scope": "Continuous d numerical minima of the specified cap/review model; q is densely sampled for plotting. No empirical uncertainty or LLM curve.",
+  "compute_runtime": {
+    "python": "3.14.7",
+    "numpy": "2.5.3"
+  },
+  "no_review_cap_first_binds_q": 0.9519230769230768
+}

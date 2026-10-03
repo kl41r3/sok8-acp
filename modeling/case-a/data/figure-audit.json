@@ -1,0 +1,27 @@
+{
+  "status": "Verified",
+  "figures": [
+    "independent-qd-heatmaps",
+    "fixed-d-curves"
+  ],
+  "width_inches": 7,
+  "minimum_text_pt": 8,
+  "theme": "Scholar Blue 1.1.0 with preserved SoK palette",
+  "data_pairs": 301101,
+  "d_optimization": false,
+  "heatmap_axes": {
+    "x": "q, fixed independently from d",
+    "y": "d, fixed independently from q"
+  },
+  "uncertainty": "Deterministic analytic expectations; no empirical confidence intervals",
+  "heatmap_rendering": "Rasterized cells in PDF/SVG, vector labels; complete numeric matrix retained in CSV/NPZ",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3"
+  },
+  "CSV_sha256": "48f066cb53911604d6b619bf9e652d0c0dc6113942e359f4e951b215e9ad68c0",
+  "minimum_visible_text_pt": 9,
+  "visual_scope": "Both actual 7-inch final-size previews inspected: no clipping, overlap, broken glyphs or unreadable axes/legends.",
+  "numerical_validation": "verification.json"
+}

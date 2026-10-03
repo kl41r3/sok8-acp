@@ -1,0 +1,24 @@
+{
+  "parameters": {
+    "b": 0.15,
+    "eta": 0.005,
+    "kappa": 0.01,
+    "theta": "Uniform[0,1]"
+  },
+  "q_domain": [
+    0,
+    1
+  ],
+  "plot_q_points": 2001,
+  "continuous_cap_domain": [
+    0,
+    1.2
+  ],
+  "integration": "analytic piecewise polynomial integrals",
+  "optimization": "continuous stationary-root bisection plus boundaries, comparing review/no-review branches",
+  "root_brackets": 512,
+  "validation_root_brackets": 4096,
+  "root_interval_tolerance": 2e-13,
+  "scope": "Conditional model sensitivity; no API, no manuscript edit, no general mechanism optimality",
+  "source_design_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148"
+}

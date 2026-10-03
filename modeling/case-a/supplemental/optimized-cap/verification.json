@@ -1,0 +1,148 @@
+{
+  "status": "Verified",
+  "scope": "specified Case A model only; no API calls",
+  "continuous_q_plot_rows": 2001,
+  "global_cap_grid_points_per_check": 60001,
+  "direct_payoff_midpoint_cells_per_check": 1000000,
+  "checked_q_points": 15,
+  "max_direct_quadrature_loss_error": 4.265712783002584e-09,
+  "checks": [
+    {
+      "q": 0,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.25,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.5,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.75,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.9,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.95,
+      "continuous_cap": 0.85,
+      "continuous_loss": 0.018000000000000002,
+      "dense_cap_grid_min_loss": 0.018000000000000002,
+      "dense_cap_grid_cap": 0.85,
+      "direct_quadrature_loss_error": 2.499736528882579e-14,
+      "direct_quadrature_review_share_error": 0.0
+    },
+    {
+      "q": 0.96,
+      "continuous_cap": 0.8680425564025662,
+      "continuous_loss": 0.018046872255331997,
+      "dense_cap_grid_min_loss": 0.018046958796608992,
+      "dense_cap_grid_cap": 0.8680399999999999,
+      "direct_quadrature_loss_error": 6.019490461639521e-15,
+      "direct_quadrature_review_share_error": 1.1102230246251565e-16
+    },
+    {
+      "q": 0.97,
+      "continuous_cap": 0.8921240608354473,
+      "continuous_loss": 0.018241249984814255,
+      "dense_cap_grid_min_loss": 0.018241338837611684,
+      "dense_cap_grid_cap": 0.8921199999999999,
+      "direct_quadrature_loss_error": 2.0941581801992015e-14,
+      "direct_quadrature_review_share_error": 3.3306690738754696e-16
+    },
+    {
+      "q": 0.9724086815061258,
+      "continuous_cap": 0.8982685676320168,
+      "continuous_loss": 0.018311991944734193,
+      "dense_cap_grid_min_loss": 0.018312130869482666,
+      "dense_cap_grid_cap": 0.89828,
+      "direct_quadrature_loss_error": 7.056855100273651e-15,
+      "direct_quadrature_review_share_error": 3.3306690738754696e-16
+    },
+    {
+      "q": 0.9724186815061258,
+      "continuous_cap": 0.8982943901260114,
+      "continuous_loss": 0.018312305774345464,
+      "dense_cap_grid_min_loss": 0.01831230577529831,
+      "dense_cap_grid_cap": 0.10437999999999999,
+      "direct_quadrature_loss_error": 1.8561541192951836e-15,
+      "direct_quadrature_review_share_error": 1.1102230246251565e-16
+    },
+    {
+      "q": 0.9724286815061257,
+      "continuous_cap": 0.10437516458368643,
+      "continuous_loss": 0.0183089951744068,
+      "dense_cap_grid_min_loss": 0.018308995176740145,
+      "dense_cap_grid_cap": 0.10437999999999999,
+      "direct_quadrature_loss_error": 1.8302014764826069e-09,
+      "direct_quadrature_review_share_error": 1.8264065393402973e-07
+    },
+    {
+      "q": 0.975,
+      "continuous_cap": 0.10393293165721494,
+      "continuous_loss": 0.017457688159871695,
+      "dense_cap_grid_min_loss": 0.01745768816485958,
+      "dense_cap_grid_cap": 0.10393999999999999,
+      "direct_quadrature_loss_error": 4.265712783002584e-09,
+      "direct_quadrature_review_share_error": 4.268740618762479e-07
+    },
+    {
+      "q": 0.98,
+      "continuous_cap": 0.10309456818514708,
+      "continuous_loss": 0.015802040595811827,
+      "dense_cap_grid_min_loss": 0.015802040598759236,
+      "dense_cap_grid_cap": 0.1031,
+      "direct_quadrature_loss_error": 5.704622121904812e-10,
+      "direct_quadrature_review_share_error": 5.738824182532909e-08
+    },
+    {
+      "q": 0.99,
+      "continuous_cap": 0.1014981595104337,
+      "continuous_loss": 0.012489783344770248,
+      "dense_cap_grid_min_loss": 0.012489783345108902,
+      "dense_cap_grid_cap": 0.10149999999999999,
+      "direct_quadrature_loss_error": 1.6679431395077993e-09,
+      "direct_quadrature_review_share_error": 1.694896493154019e-07
+    },
+    {
+      "q": 1,
+      "continuous_cap": 0.10000000000003037,
+      "continuous_loss": 0.009176343522885017,
+      "dense_cap_grid_min_loss": 0.009176343522885017,
+      "dense_cap_grid_cap": 0.09999999999999999,
+      "direct_quadrature_loss_error": 2.3351393579201796e-09,
+      "direct_quadrature_review_share_error": 2.3951780037112513e-07
+    }
+  ],
+  "equal_loss_switch_verified": true,
+  "data_sha256": "a0b9a776407f01d1f26f28db4a540ec0df69e21c327e95ad1f4f8cb35959f4f2"
+}

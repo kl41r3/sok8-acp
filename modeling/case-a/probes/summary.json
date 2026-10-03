@@ -1,0 +1,223 @@
+{
+  "case": "A",
+  "started_utc": "2026-10-03T03:43:02.074328+00:00",
+  "finished_utc": "2026-10-03T03:43:38.012892+00:00",
+  "design_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148",
+  "provider_endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+  "requested_model": "glm-5.3-flash",
+  "fallback": false,
+  "retries": 0,
+  "stopped_after_fatal_error": false,
+  "requested_probe_count": 24,
+  "attempted_probe_count": 24,
+  "valid_probe_count": 24,
+  "oracle_matches": 23,
+  "oracle_match_rate_over_valid": 0.9583333333333334,
+  "oracle_match_rate_over_attempted": 0.9583333333333334,
+  "invalid_output_count": 0,
+  "api_failure_count": 0,
+  "mean_utility_regret_over_valid": 0.005520833333333335,
+  "observed_models": [
+    "glm-5.3-flash"
+  ],
+  "by_q": [
+    {
+      "q": 0.5,
+      "attempted": 12,
+      "valid": 12,
+      "oracle_matches": 12,
+      "observed_reviews": 2,
+      "oracle_reviews": 2
+    },
+    {
+      "q": 1,
+      "attempted": 12,
+      "valid": 12,
+      "oracle_matches": 11,
+      "observed_reviews": 5,
+      "oracle_reviews": 6
+    }
+  ],
+  "by_option_order": [
+    {
+      "option_order": "AUTO,REVIEW",
+      "attempted": 12,
+      "oracle_matches": 12
+    },
+    {
+      "option_order": "REVIEW,AUTO",
+      "attempted": 12,
+      "oracle_matches": 11
+    }
+  ],
+  "cells": [
+    {
+      "scenario_id": "A01",
+      "theta": 0.2,
+      "d": 0.25,
+      "q": 1.0,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A02",
+      "theta": 0.2,
+      "d": 0.25,
+      "q": 0.5,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A03",
+      "theta": 0.2,
+      "d": 0.55,
+      "q": 1.0,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A04",
+      "theta": 0.2,
+      "d": 0.55,
+      "q": 0.5,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A05",
+      "theta": 0.5,
+      "d": 0.25,
+      "q": 1.0,
+      "oracle_choice": "REVIEW",
+      "draw_choices": [
+        "REVIEW",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 1
+    },
+    {
+      "scenario_id": "A06",
+      "theta": 0.5,
+      "d": 0.25,
+      "q": 0.5,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A07",
+      "theta": 0.5,
+      "d": 0.55,
+      "q": 1.0,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A08",
+      "theta": 0.5,
+      "d": 0.55,
+      "q": 0.5,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A09",
+      "theta": 0.8,
+      "d": 0.25,
+      "q": 1.0,
+      "oracle_choice": "REVIEW",
+      "draw_choices": [
+        "REVIEW",
+        "REVIEW"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A10",
+      "theta": 0.8,
+      "d": 0.25,
+      "q": 0.5,
+      "oracle_choice": "REVIEW",
+      "draw_choices": [
+        "REVIEW",
+        "REVIEW"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A11",
+      "theta": 0.8,
+      "d": 0.55,
+      "q": 1.0,
+      "oracle_choice": "REVIEW",
+      "draw_choices": [
+        "REVIEW",
+        "REVIEW"
+      ],
+      "valid": 2,
+      "matches": 2
+    },
+    {
+      "scenario_id": "A12",
+      "theta": 0.8,
+      "d": 0.55,
+      "q": 0.5,
+      "oracle_choice": "AUTO",
+      "draw_choices": [
+        "AUTO",
+        "AUTO"
+      ],
+      "valid": 2,
+      "matches": 2
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 7800,
+    "completion_tokens": 2567,
+    "total_tokens": 10367
+  },
+  "evidence_limits": [
+    "No protocol execution",
+    "No empirical estimate of q",
+    "No test of real provider incentives",
+    "No full mechanism optimality",
+    "A small model-specific choice pilot does not demonstrate equilibrium or deployment safety"
+  ]
+}

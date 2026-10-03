@@ -1,0 +1,655 @@
+{
+  "scope": "Local release projection with source originals preserved outside this package",
+  "sources": [
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/design.json",
+      "source_sha256": "10e286f74bb16c7b7e66c1f94fd0dc8652650a477bbf9cde925455b52a5bd701",
+      "release": "case-a/data/design.json",
+      "release_sha256": "10e286f74bb16c7b7e66c1f94fd0dc8652650a477bbf9cde925455b52a5bd701",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/independent-grid.csv",
+      "source_sha256": "48f066cb53911604d6b619bf9e652d0c0dc6113942e359f4e951b215e9ad68c0",
+      "release": "case-a/data/independent-grid.csv",
+      "release_sha256": "48f066cb53911604d6b619bf9e652d0c0dc6113942e359f4e951b215e9ad68c0",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/independent-grid.npz",
+      "source_sha256": "3124051d951766227b2a45fc4ad4348733d056c6c20d0a480aa35ebd30bbe06e",
+      "release": "case-a/data/independent-grid.npz",
+      "release_sha256": "3124051d951766227b2a45fc4ad4348733d056c6c20d0a480aa35ebd30bbe06e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/fixed-d-slices.csv",
+      "source_sha256": "2932c0782abbe064910c413af25f24292c919a3dd4db8dcea284d209917db280",
+      "release": "case-a/data/fixed-d-slices.csv",
+      "release_sha256": "2932c0782abbe064910c413af25f24292c919a3dd4db8dcea284d209917db280",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/summary.json",
+      "source_sha256": "9c1e3dc18c4abc7fb0f1a6ba45546fe727aba1145410e28fa0eeb82251833ae6",
+      "release": "case-a/data/summary.json",
+      "release_sha256": "9c1e3dc18c4abc7fb0f1a6ba45546fe727aba1145410e28fa0eeb82251833ae6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/verification.json",
+      "source_sha256": "9b0a8c5c1611a087a3d946e3303d5e90d9ecf9c01bbadf9c1df22c494a384462",
+      "release": "case-a/data/verification.json",
+      "release_sha256": "9b0a8c5c1611a087a3d946e3303d5e90d9ecf9c01bbadf9c1df22c494a384462",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/figure-audit.json",
+      "source_sha256": "0d6fb34c94c82afa342a39ed993bd0193273d01186126eee94bf2760102aa696",
+      "release": "case-a/data/figure-audit.json",
+      "release_sha256": "0d6fb34c94c82afa342a39ed993bd0193273d01186126eee94bf2760102aa696",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/independent-qd-heatmaps.png",
+      "source_sha256": "577403e38dd185558c086c334ec0cf2b97f93f74f8452817954a988b0cc50561",
+      "release": "case-a/figures/independent-qd-heatmaps.png",
+      "release_sha256": "577403e38dd185558c086c334ec0cf2b97f93f74f8452817954a988b0cc50561",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/independent-qd-heatmaps.pdf",
+      "source_sha256": "6525b145ebfeded3f3c4053847bdb9d60ddf633dc2d9beee1d314211d6836671",
+      "release": "case-a/figures/independent-qd-heatmaps.pdf",
+      "release_sha256": "6525b145ebfeded3f3c4053847bdb9d60ddf633dc2d9beee1d314211d6836671",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/independent-qd-heatmaps.svg",
+      "source_sha256": "9c647a35674de9fb8acadc24297632262fcd5863451e2722f8717ce10f0f6b90",
+      "release": "case-a/figures/independent-qd-heatmaps.svg",
+      "release_sha256": "9c647a35674de9fb8acadc24297632262fcd5863451e2722f8717ce10f0f6b90",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/fixed-d-curves.png",
+      "source_sha256": "b5df58a1e46572c9aee15dcd886914d679bb12ca453fbfa342125132faee5edd",
+      "release": "case-a/figures/fixed-d-curves.png",
+      "release_sha256": "b5df58a1e46572c9aee15dcd886914d679bb12ca453fbfa342125132faee5edd",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/fixed-d-curves.pdf",
+      "source_sha256": "ff1c57b95acc2f7c598a080d7b68e494208c11e93523967e669c3072259d274d",
+      "release": "case-a/figures/fixed-d-curves.pdf",
+      "release_sha256": "ff1c57b95acc2f7c598a080d7b68e494208c11e93523967e669c3072259d274d",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/fixed-d-curves.svg",
+      "source_sha256": "227cf0eb62de79c073fcc4fef3b949e55fafa4b78a93eecc16b610200f30fb36",
+      "release": "case-a/figures/fixed-d-curves.svg",
+      "release_sha256": "227cf0eb62de79c073fcc4fef3b949e55fafa4b78a93eecc16b610200f30fb36",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/design.json",
+      "source_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148",
+      "release": "case-a/probes/design.json",
+      "release_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/cells.csv",
+      "source_sha256": "c8154fa614e09591abb32640e188456148d45cac019652e37ab5d5aad3e1ef04",
+      "release": "case-a/probes/cells.csv",
+      "release_sha256": "c8154fa614e09591abb32640e188456148d45cac019652e37ab5d5aad3e1ef04",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A01-draw1.json",
+      "source_sha256": "ae7568d43cedb1482e2e0e24fa6113adb6a1ac9c40d948ff8a89e8ec27013dfa",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A01-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A01-draw2.json",
+      "source_sha256": "ce320154eac7270ec7cdb748b26f404567afd38b5e9befa91c62bf235acbd460",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A01-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A02-draw1.json",
+      "source_sha256": "e3b8e6af23ccead66e041b3067d4e0af3184b91a338d9fc6cf5d211297a4d9bc",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A02-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A02-draw2.json",
+      "source_sha256": "bd63df144e039d3be1fad5e5936768d14d23b93582b530d0edcf28b628145248",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A02-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A03-draw1.json",
+      "source_sha256": "779f2b5edd224e66eec56962835d2a62d5a12522028e46071992d2a05686882d",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A03-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A03-draw2.json",
+      "source_sha256": "23595e2c68e1f6acab60562e0a649875451f3c8c28221f1185d413545a24f767",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A03-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A04-draw1.json",
+      "source_sha256": "7c34d8a7cc36d6b5e42cdb71b50e9344532292896a7a79ea226f57b9b58277e6",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A04-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A04-draw2.json",
+      "source_sha256": "d1709dffc95e606c8146e450569ef4826527f3e35f15f6597a9d1a3825eecd52",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A04-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A05-draw1.json",
+      "source_sha256": "8097cae50a56bb888b8ee07f068005dc6ae4dda0863375c436ce8aed33d82b9e",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A05-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A05-draw2.json",
+      "source_sha256": "5d0f79adb1b6aa1a57fbb150f1f0c5f93439784da384a98c5eba86cbecb83414",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A05-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A06-draw1.json",
+      "source_sha256": "1231dafcf5c36491c221977628c5c61981d23761f2b9a147bc18817dcf97cbbb",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A06-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A06-draw2.json",
+      "source_sha256": "bfca1ded918e515e933b7931ccc0734063519b009721224cb7ce5774dbf834e3",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A06-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A07-draw1.json",
+      "source_sha256": "f81d96cba2a8dd196cefd0128db8cf7a8744a7017555e0c2711d3c23a7a38d82",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A07-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A07-draw2.json",
+      "source_sha256": "c091c81995ad3bfe2144ab664e4286b4909ad2d4e4cb0bbd20bb98ce83ade465",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A07-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A08-draw1.json",
+      "source_sha256": "08983b6c0254e12e04e48930f6c64e1f4711ce88b9b0e7debc2f56bf4b46826a",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A08-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A08-draw2.json",
+      "source_sha256": "60cdf1a584296732053c02bafb737e476617045bf0ba691e92d447d2bef6474e",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A08-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A09-draw1.json",
+      "source_sha256": "f892ff646f46daab035a5162012575c63d05d51f255a37b65a58cf9a6f8e9a21",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A09-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A09-draw2.json",
+      "source_sha256": "26f54f113941eaa41bc1151f8c1590d66df1577d4924ab9a3336fea57a92568c",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A09-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A10-draw1.json",
+      "source_sha256": "b772665ecf953d139d458db6a4f206bbfa904036d4763cae9fcd9563d6f08fcd",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A10-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A10-draw2.json",
+      "source_sha256": "34ce68147c8fb3f8055e65f56269ce397a322c84ef537df400769c8b4e003596",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A10-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A11-draw1.json",
+      "source_sha256": "a39c0f5e778ff65ada7daea28937b2613035f8052b0c069f0058d362a5db93ba",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A11-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A11-draw2.json",
+      "source_sha256": "298c6fb53fcae5490cd989b10ab20a2d909c9114962b90211459b102a24096fd",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A11-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A12-draw1.json",
+      "source_sha256": "d9ac5affb3d04a9ed387b12a5c8da0e05115780832d3e965bf323946a52a93f4",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A12-draw1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/raw/A12-draw2.json",
+      "source_sha256": "449a91ab66e69784a8e6707e2367375ee8ee30d65ef3bd49899b0e96e766c209",
+      "release": "case-a/probes/evidence.json",
+      "attempt_id": "A12-draw2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/grid.csv",
+      "source_sha256": "2d17cfa68468cc720f8400a7de096158a0e0ccc9f772c170bc7535fba81bb134",
+      "release": "case-a/supplemental/five-q/grid.csv",
+      "release_sha256": "2d17cfa68468cc720f8400a7de096158a0e0ccc9f772c170bc7535fba81bb134",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/grid_optima.csv",
+      "source_sha256": "680bd21cefcd9118a93452c827ef1f29f3bc0443d39088cb7640ee0c59dcacdc",
+      "release": "case-a/supplemental/five-q/grid_optima.csv",
+      "release_sha256": "680bd21cefcd9118a93452c827ef1f29f3bc0443d39088cb7640ee0c59dcacdc",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/design.json",
+      "source_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148",
+      "release": "case-a/supplemental/five-q/design.json",
+      "release_sha256": "23a07bcdcbaa80b45cfc3edd1171895649e6306f694622b1fe02e8f3ec367148",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/oracle.py",
+      "source_sha256": "0c76f811fab4aaabd9af39684f346db258bb1edfb6c9b25be3a9fe4cf567f729",
+      "release": "case-a/supplemental/five-q/oracle.py",
+      "release_sha256": "0c76f811fab4aaabd9af39684f346db258bb1edfb6c9b25be3a9fe4cf567f729",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/oracle_summary.json",
+      "source_sha256": "eb15583c67c00cc78eb2c6596ea2a7f1262a23c313f30a89de2371744bd3c51f",
+      "release": "case-a/supplemental/five-q/oracle_summary.json",
+      "release_sha256": "eb15583c67c00cc78eb2c6596ea2a7f1262a23c313f30a89de2371744bd3c51f",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/compute.py",
+      "source_sha256": "4b5bce1cbd5de82960ffe711834bf99433ecf854659ff3923ba81be228fd22a6",
+      "release": "case-a/supplemental/optimized-cap/compute.py",
+      "release_sha256": "65bd2e8972db1196c5577a9d62b6d4959e470d255f74e3917908843bbbe8eb20",
+      "transformation": "Portable relative locators for shared five-q supplemental data; formulas, algorithm and encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/plot.py",
+      "source_sha256": "6b3a0070936240588e5f6a75ff68ee784c84ea4d66f7aed8a9eed434c6141d3f",
+      "release": "case-a/supplemental/optimized-cap/plot.py",
+      "release_sha256": "6fe2bba3d44aba7ae3f74d97289555d749709fdf49203d5983af0df71d8c6102",
+      "transformation": "Portable relative locators for shared five-q supplemental data; formulas, algorithm and encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/plot_utils.py",
+      "source_sha256": "cbe0fdfbb952ce178c401f9f9fdce46cb3af18906ff07ab13c4af1fe73bd41f6",
+      "release": "case-a/supplemental/optimized-cap/plot_utils.py",
+      "release_sha256": "04197fa4d742eccfbb9a3c7d4c38e9e5255a2f2c7d5c17a03a88a9b9b7861b28",
+      "transformation": "Local helper default theme resolves to included adjacent theme; theme functions otherwise unchanged"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/theme.yaml",
+      "source_sha256": "158a8ed67d5933c4c4153f751eb080484fc3d4d70fc9763b89f2795cc77c1676",
+      "release": "case-a/supplemental/optimized-cap/theme.yaml",
+      "release_sha256": "158a8ed67d5933c4c4153f751eb080484fc3d4d70fc9763b89f2795cc77c1676",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/verify.py",
+      "source_sha256": "d77811ab267a86d7aa5c5209f8e988b3aae2e87943ac894d3ae2296bcb6f46f0",
+      "release": "case-a/supplemental/optimized-cap/verify.py",
+      "release_sha256": "d77811ab267a86d7aa5c5209f8e988b3aae2e87943ac894d3ae2296bcb6f46f0",
+      "transformation": "Portable relative locators for shared five-q supplemental data; formulas, algorithm and encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/design.json",
+      "source_sha256": "fedca433326fd979aa367914172072fa09c3e05199f93702265e5dbcf03c0130",
+      "release": "case-a/supplemental/optimized-cap/design.json",
+      "release_sha256": "fedca433326fd979aa367914172072fa09c3e05199f93702265e5dbcf03c0130",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/continuous-results.csv",
+      "source_sha256": "a0b9a776407f01d1f26f28db4a540ec0df69e21c327e95ad1f4f8cb35959f4f2",
+      "release": "case-a/supplemental/optimized-cap/continuous-results.csv",
+      "release_sha256": "a0b9a776407f01d1f26f28db4a540ec0df69e21c327e95ad1f4f8cb35959f4f2",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/selected-results.csv",
+      "source_sha256": "d3b0ce4ad2854acd25948ad9bcba5127b523e462d494ca92dc1eddc59e6e8dd2",
+      "release": "case-a/supplemental/optimized-cap/selected-results.csv",
+      "release_sha256": "d3b0ce4ad2854acd25948ad9bcba5127b523e462d494ca92dc1eddc59e6e8dd2",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/summary.json",
+      "source_sha256": "2078d0d9887e15a4d17207815992f296f5441e8a6066e6426fb10f8b1a312819",
+      "release": "case-a/supplemental/optimized-cap/summary.json",
+      "release_sha256": "2078d0d9887e15a4d17207815992f296f5441e8a6066e6426fb10f8b1a312819",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/verification.json",
+      "source_sha256": "9c6b2b84546632eb4151e7c91c0731b8a5a7d6df3aeb3c292ffb132751f28592",
+      "release": "case-a/supplemental/optimized-cap/verification.json",
+      "release_sha256": "9c6b2b84546632eb4151e7c91c0731b8a5a7d6df3aeb3c292ffb132751f28592",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/figure-audit.json",
+      "source_sha256": "4c8e9afe782d750da7675a2f8297317a8ef98884104cfd23b0cf7bc9634a2c64",
+      "release": "case-a/supplemental/optimized-cap/figure-audit.json",
+      "release_sha256": "4c8e9afe782d750da7675a2f8297317a8ef98884104cfd23b0cf7bc9634a2c64",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/case-a-continuous.png",
+      "source_sha256": "ac3df21ec022016d6ac48f8c2707847feceaddaafc3ebc184cfc221292b60b94",
+      "release": "case-a/supplemental/optimized-cap/case-a-continuous.png",
+      "release_sha256": "ac3df21ec022016d6ac48f8c2707847feceaddaafc3ebc184cfc221292b60b94",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/case-a-continuous.pdf",
+      "source_sha256": "71f5beebe5dc022dc5e4491cfee771443a8c40c12a34aa9a73e9fdc2df0c419b",
+      "release": "case-a/supplemental/optimized-cap/case-a-continuous.pdf",
+      "release_sha256": "71f5beebe5dc022dc5e4491cfee771443a8c40c12a34aa9a73e9fdc2df0c419b",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/continuous-20261003T040600Z/case-a-continuous.svg",
+      "source_sha256": "4b6a7302c7688ebe587383d73db17294a50ad3a9aa588904845dc949eb123f01",
+      "release": "case-a/supplemental/optimized-cap/case-a-continuous.svg",
+      "release_sha256": "4b6a7302c7688ebe587383d73db17294a50ad3a9aa588904845dc949eb123f01",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/compute.py",
+      "source_sha256": "da65b3c4ba6e6f1379a79f80e9b98cc26053e55845bc2749d06c2da060088371",
+      "release": "case-a/compute.py",
+      "release_sha256": "2af0c0064be795a04d3b51afbdf46cd4ec88bdb097476d6f402f8c4ce8cdf914",
+      "transformation": "Portable relative data/figure locators; computation and visual encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/plot.py",
+      "source_sha256": "7df6fc8a92bb175ea8fc1b6fb941f8651cde17a45d30ac710a3dbbb61f494511",
+      "release": "case-a/plot.py",
+      "release_sha256": "1b27858af55d0ab4200db9da16940e8b3db635e525b65ba0e64d4a08d53c0704",
+      "transformation": "Portable relative data/figure locators; computation and visual encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/plot_utils.py",
+      "source_sha256": "cbe0fdfbb952ce178c401f9f9fdce46cb3af18906ff07ab13c4af1fe73bd41f6",
+      "release": "case-a/plot_utils.py",
+      "release_sha256": "04197fa4d742eccfbb9a3c7d4c38e9e5255a2f2c7d5c17a03a88a9b9b7861b28",
+      "transformation": "Local helper default theme resolves to included adjacent theme; theme functions otherwise unchanged"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/theme.yaml",
+      "source_sha256": "158a8ed67d5933c4c4153f751eb080484fc3d4d70fc9763b89f2795cc77c1676",
+      "release": "case-a/theme.yaml",
+      "release_sha256": "158a8ed67d5933c4c4153f751eb080484fc3d4d70fc9763b89f2795cc77c1676",
+      "transformation": "Portable relative data/figure locators; computation and visual encodings retained"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/design.json",
+      "source_sha256": "6802d07505f3450a96d17c2c03756351bfb34701c510be4db79e1f0a70c48eb6",
+      "release": "case-b/probes/design.json",
+      "release_sha256": "6802d07505f3450a96d17c2c03756351bfb34701c510be4db79e1f0a70c48eb6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/prompts.json",
+      "source_sha256": "1cddc12ec303d90639fff5212bc2991941014b6daf527913307841ebdf7befa3",
+      "release": "case-b/probes/prompts.json",
+      "release_sha256": "1cddc12ec303d90639fff5212bc2991941014b6daf527913307841ebdf7befa3",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/cells.csv",
+      "source_sha256": "930a0fbfc7dd971febdefbf5b671ead97ceced384748ca4204c2976b6b784db3",
+      "release": "case-b/data/cells.csv",
+      "release_sha256": "930a0fbfc7dd971febdefbf5b671ead97ceced384748ca4204c2976b6b784db3",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h1-B-d1.json",
+      "source_sha256": "f25ad14d505b24144ff8f52ba513764b3c913645509320a0665e67066322f172",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h1-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h1-B-d2.json",
+      "source_sha256": "5c4b409bc729ec6a12601f3e1f43b1994256119169c5ca8a725a07fdc7f436bf",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h1-B-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h1-G-d1.json",
+      "source_sha256": "e629ba6e29f41cd838575e1104e3800508c95829aa5176241fd3bfb6c210f116",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h1-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h4-B-d1.json",
+      "source_sha256": "1df0731d14d6abfff49a4110a64caeb098b60f5bdd73858d6956c2ee33bed8c3",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h4-B-d2.json",
+      "source_sha256": "c1c71b0b89f9769297688880476e54c8bc5b3e84cd612dc2888a6f8c6930afad",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-B-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h4-G-d1.json",
+      "source_sha256": "0d7188afd449b1cca400db78bb9e71bc5cbd9475bbdafeb97d1f4905ae31d09f",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/COMPLAINT_025-h4-G-d2.json",
+      "source_sha256": "7f6c9b0f657dad59969be4e6b50872d703112e93288759425c40d3542862056d",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-G-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/OBLIGATED_1-h1-B-d2.json",
+      "source_sha256": "3c0e06e35c3d2c8ba556ac2fd088fbed282c51becc5fbdeb1e7ca2bfa1e70fd7",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "OBLIGATED_1-h1-B-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/OBLIGATED_1-h1-G-d2.json",
+      "source_sha256": "867bf91bee05a79df9a6ae9a1dc0b3a5898b4cd43b7f0bb04216d9a51ae60930",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "OBLIGATED_1-h1-G-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/OBLIGATED_1-h4-B-d1.json",
+      "source_sha256": "301629ee6a75e02786db04868e45b38eef64b81fee95b3b6249bf273d075714c",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "OBLIGATED_1-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/OBLIGATED_1-h4-B-d2.json",
+      "source_sha256": "546c255296dbda142aac96e099762ffacaff98eee7140bb1dcc5fb51635fe87f",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "OBLIGATED_1-h4-B-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/VOLUNTARY-h1-G-d1.json",
+      "source_sha256": "428fc4bd99d25ae2c42f3ca82df451c26255a12225964aecd134262f6a436321",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "VOLUNTARY-h1-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/VOLUNTARY-h1-G-d2.json",
+      "source_sha256": "a84a02c81e98e918083a3f2565711bf55eb70acc255d8e6566ab71bc0011e7b9",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "VOLUNTARY-h1-G-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/VOLUNTARY-h4-B-d1.json",
+      "source_sha256": "71161035014e97a3e40f71f22bb8c4820b3146386f62df8c3aa5f49644f0581d",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "VOLUNTARY-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/raw/VOLUNTARY-h4-G-d1.json",
+      "source_sha256": "81ed03f8010cf700db0caad837352a77aabc90255adcd6d5d1a3b08d2da706eb",
+      "release": "case-b/probes/evidence.json",
+      "attempt_id": "VOLUNTARY-h4-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/design.json",
+      "source_sha256": "ff0dab117e5626c05f9f8c16687f458d195f21944e062a0fddbf4b35b1568950",
+      "release": "case-b/excluded-initial/design.json",
+      "release_sha256": "ff0dab117e5626c05f9f8c16687f458d195f21944e062a0fddbf4b35b1568950",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/prompts.json",
+      "source_sha256": "9b3e641983e34d3d1be9a177553b4755cd4aa45a505a843a9f74a5910425bd21",
+      "release": "case-b/excluded-initial/prompts.json",
+      "release_sha256": "9b3e641983e34d3d1be9a177553b4755cd4aa45a505a843a9f74a5910425bd21",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/initial-campaign-disposition.json",
+      "source_sha256": "618763910cc66ecbf565ae5b8ef75c31fe8de8711b28c59f173a6b15822bcb29",
+      "release": "case-b/excluded-initial/initial-campaign-disposition.json",
+      "release_sha256": "de6a9fb519cc3b857cf7e44feef64c99d987d27078001661e49835c7c73b3647",
+      "transformation": "Retained exclusion, counts and source hashes; redirect evidence locator to included sanitized projection"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/COMPLAINT_025-h1-B-d2.json",
+      "source_sha256": "46775895c75c8af3d08c8db71612a8fd60bdad486978a09d6ddd13f730eff8b7",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "COMPLAINT_025-h1-B-d2",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/COMPLAINT_025-h4-B-d1.json",
+      "source_sha256": "c57f45f18ea2c6735592ba5fd8595812b39ef4fb8a35cdd5f7e6e3a39136455b",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/COMPLAINT_025-h4-G-d1.json",
+      "source_sha256": "5d26636bd53f1cdd66aa2b4fe89729fb0824d1515faa916d301fcfe1a937e4da",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "COMPLAINT_025-h4-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/OBLIGATED_1-h4-B-d1.json",
+      "source_sha256": "ad5a7539241116d95071af163a212bc86dd6a4cbb11572f69e6c37f77d44d965",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "OBLIGATED_1-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/VOLUNTARY-h1-G-d1.json",
+      "source_sha256": "a541e8e2cee759b4e28325a113018800f9e385b6b0e99fe8682d309e69129243",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "VOLUNTARY-h1-G-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/raw/VOLUNTARY-h4-B-d1.json",
+      "source_sha256": "709fbe4d2656edce813125a306db8c02dcfccf695ef9885fdfd47d1e5a34cfaa",
+      "release": "case-b/excluded-initial/evidence.json",
+      "attempt_id": "VOLUNTARY-h4-B-d1",
+      "transformation": "Decoded prompt/settings and complete final answer projection; omitted auth, credential labels, service IDs, raw envelope, unrestricted hidden reasoning and usage subobjects"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_a/independent-qd-20261003T042145Z/requirements.txt",
+      "source_sha256": "70ed959f278afa05364be98aa4bc401855ec3dbea4e2ecabc9f8105a95322401",
+      "release": "requirements.txt",
+      "release_sha256": "70ed959f278afa05364be98aa4bc401855ec3dbea4e2ecabc9f8105a95322401",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source": "paper-draft-support-20261002/experiments/modeling-pilot-20261003T033949Z/case_b/revision2/theory.json",
+      "source_sha256": "ac774d603163e153ea15a6ff5209326b238b43edd20c199663287f060a096715",
+      "release": "case-b/data/theory.json",
+      "release_sha256": "ac774d603163e153ea15a6ff5209326b238b43edd20c199663287f060a096715",
+      "transformation": "byte-identical copy"
+    }
+  ],
+  "excluded_from_release": [
+    "Credentials and credential file locators",
+    "Service request IDs and raw service envelopes",
+    "Unrestricted hidden reasoning transcripts",
+    "Private filesystem locators",
+    "Wiki/history/scratch/build caches and manuscript source"
+  ],
+  "scientific_scope": "Conditional mathematics and bounded one-step GLM probes; no deployed protocol execution or multi-round LLM service outcomes",
+  "manuscript_baseline": {
+    "file": "main.tex",
+    "sha256": "a24fe06113ddf345032afa20d0b9067fceb085ec78aa5274547eb3d4fc860b75",
+    "scope": "Modeling pages9-12, figures1/2page11 and figure3page12; editable manuscript separately packaged, no manuscript file in this artifact"
+  }
+}

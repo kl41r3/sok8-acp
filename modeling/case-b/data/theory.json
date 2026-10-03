@@ -1,0 +1,4136 @@
+{
+  "policies": {
+    "VOLUNTARY": {
+      "values": [
+        {
+          "G": 0.0,
+          "B": 0.0
+        },
+        {
+          "G": 1.0,
+          "B": 0.4
+        },
+        {
+          "G": 1.95,
+          "B": 1.143
+        },
+        {
+          "G": 2.8525,
+          "B": 2.025835
+        },
+        {
+          "G": 3.709875,
+          "B": 2.881341825
+        },
+        {
+          "G": 4.524381249999999,
+          "B": 3.6956705983749996
+        },
+        {
+          "G": 5.298162187499999,
+          "B": 4.4694346755956245
+        },
+        {
+          "G": 6.033254078124999,
+          "B": 5.204524964494084
+        },
+        {
+          "G": 6.731591374218748,
+          "B": 5.902862108423812
+        }
+      ],
+      "decisions": [
+        {},
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 0.85,
+              "L": 1.0
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 0.25,
+              "L": 0.4
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 1.7999999999999998,
+              "L": 1.95
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 1.0
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 1.0
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.143,
+              "L": 0.951
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 0.4
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.4
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 2.7024999999999997,
+              "L": 2.8525
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.95,
+                "WITHHOLD": 1.95
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.95
+              }
+            },
+            "continuation_values": {
+              "G": 1.95,
+              "B": 1.143
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.025835,
+              "L": 1.7158449999999998
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.95,
+                "WITHHOLD": 1.143
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.143
+              }
+            },
+            "continuation_values": {
+              "G": 1.95,
+              "B": 1.143
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 3.559875,
+              "L": 3.709875
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.8525,
+                "WITHHOLD": 2.8525
+              },
+              "failure": {
+                "REPORT": 2.025835,
+                "WITHHOLD": 2.8525
+              }
+            },
+            "continuation_values": {
+              "G": 2.8525,
+              "B": 2.025835
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.881341825,
+              "L": 2.560142774999999
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.8525,
+                "WITHHOLD": 2.025835
+              },
+              "failure": {
+                "REPORT": 2.025835,
+                "WITHHOLD": 2.025835
+              }
+            },
+            "continuation_values": {
+              "G": 2.8525,
+              "B": 2.025835
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 4.37438125,
+              "L": 4.524381249999999
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.709875,
+                "WITHHOLD": 3.709875
+              },
+              "failure": {
+                "REPORT": 2.881341825,
+                "WITHHOLD": 3.709875
+              }
+            },
+            "continuation_values": {
+              "G": 3.709875,
+              "B": 2.881341825
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.6956705983749996,
+              "L": 3.3734066886249994
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.709875,
+                "WITHHOLD": 2.881341825
+              },
+              "failure": {
+                "REPORT": 2.881341825,
+                "WITHHOLD": 2.881341825
+              }
+            },
+            "continuation_values": {
+              "G": 3.709875,
+              "B": 2.881341825
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 5.148162187499999,
+              "L": 5.298162187499999
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.524381249999999,
+                "WITHHOLD": 4.524381249999999
+              },
+              "failure": {
+                "REPORT": 3.6956705983749996,
+                "WITHHOLD": 4.524381249999999
+              }
+            },
+            "continuation_values": {
+              "G": 4.524381249999999,
+              "B": 3.6956705983749996
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 4.4694346755956245,
+              "L": 4.147069604169375
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.524381249999999,
+                "WITHHOLD": 3.6956705983749996
+              },
+              "failure": {
+                "REPORT": 3.6956705983749996,
+                "WITHHOLD": 3.6956705983749996
+              }
+            },
+            "continuation_values": {
+              "G": 4.524381249999999,
+              "B": 3.6956705983749996
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 5.883254078124999,
+              "L": 6.033254078124999
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 5.298162187499999,
+                "WITHHOLD": 5.298162187499999
+              },
+              "failure": {
+                "REPORT": 4.4694346755956245,
+                "WITHHOLD": 5.298162187499999
+              }
+            },
+            "continuation_values": {
+              "G": 5.298162187499999,
+              "B": 4.4694346755956245
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 5.204524964494084,
+              "L": 4.88215028270859
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 5.298162187499999,
+                "WITHHOLD": 4.4694346755956245
+              },
+              "failure": {
+                "REPORT": 4.4694346755956245,
+                "WITHHOLD": 4.4694346755956245
+              }
+            },
+            "continuation_values": {
+              "G": 5.298162187499999,
+              "B": 4.4694346755956245
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 6.581591374218749,
+              "L": 6.731591374218748
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 6.033254078124999,
+                "WITHHOLD": 6.033254078124999
+              },
+              "failure": {
+                "REPORT": 5.204524964494084,
+                "WITHHOLD": 6.033254078124999
+              }
+            },
+            "continuation_values": {
+              "G": 6.033254078124999,
+              "B": 5.204524964494084
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 5.902862108423812,
+              "L": 5.58048651365419
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 6.033254078124999,
+                "WITHHOLD": 5.204524964494084
+              },
+              "failure": {
+                "REPORT": 5.204524964494084,
+                "WITHHOLD": 5.204524964494084
+              }
+            },
+            "continuation_values": {
+              "G": 6.033254078124999,
+              "B": 5.204524964494084
+            }
+          }
+        }
+      ],
+      "forward": {
+        "G": {
+          "initial": "G",
+          "expected_totals": {
+            "high_effort": 0.0,
+            "success": 2.4,
+            "submitted_evidence": 2.4,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 2.4,
+            "detected_failure": 0.0,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 8.0
+          },
+          "rates": {
+            "high_effort": 0.0,
+            "success": 0.3,
+            "submitted_evidence": 0.3,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.3,
+            "detected_failure": 0.0,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 1.0
+          },
+          "final_state": {
+            "G": 1.0,
+            "B": 0.0
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 1.0,
+                "B": 0.0
+              }
+            }
+          ]
+        },
+        "B": {
+          "initial": "B",
+          "expected_totals": {
+            "high_effort": 1.111111,
+            "success": 3.0666665999999996,
+            "submitted_evidence": 3.0666665999999996,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 3.0666665999999996,
+            "detected_failure": 0.0,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 6.8888888999999995
+          },
+          "rates": {
+            "high_effort": 0.138888875,
+            "success": 0.38333332499999995,
+            "submitted_evidence": 0.38333332499999995,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.38333332499999995,
+            "detected_failure": 0.0,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 0.8611111124999999
+          },
+          "final_state": {
+            "G": 0.9999999299999998,
+            "B": 6.999999999999989e-08
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 0.0,
+                "B": 1.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.9,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.0,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 0.09999999999999998,
+              "success": 0.36,
+              "submitted_evidence": 0.36,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.36,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.99,
+                "B": 0.009999999999999995
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.99,
+                "B": 0.009999999999999995
+              },
+              "high_effort": 0.009999999999999995,
+              "success": 0.306,
+              "submitted_evidence": 0.306,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.306,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.99,
+              "state_at_end": {
+                "G": 0.999,
+                "B": 0.0009999999999999994
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.999,
+                "B": 0.0009999999999999994
+              },
+              "high_effort": 0.0009999999999999994,
+              "success": 0.3006,
+              "submitted_evidence": 0.3006,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.3006,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.999,
+              "state_at_end": {
+                "G": 0.9998999999999999,
+                "B": 9.999999999999991e-05
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.9998999999999999,
+                "B": 9.999999999999991e-05
+              },
+              "high_effort": 9.999999999999991e-05,
+              "success": 0.30005999999999994,
+              "submitted_evidence": 0.30005999999999994,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.30005999999999994,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9998999999999999,
+              "state_at_end": {
+                "G": 0.9999899999999999,
+                "B": 9.999999999999989e-06
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.9999899999999999,
+                "B": 9.999999999999989e-06
+              },
+              "high_effort": 9.999999999999989e-06,
+              "success": 0.30000599999999994,
+              "submitted_evidence": 0.30000599999999994,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.30000599999999994,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9999899999999999,
+              "state_at_end": {
+                "G": 0.9999989999999999,
+                "B": 9.999999999999987e-07
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.9999989999999999,
+                "B": 9.999999999999987e-07
+              },
+              "high_effort": 9.999999999999987e-07,
+              "success": 0.30000059999999995,
+              "submitted_evidence": 0.30000059999999995,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.30000059999999995,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9999989999999999,
+              "state_at_end": {
+                "G": 0.9999998999999998,
+                "B": 9.999999999999985e-08
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.9999998999999998,
+                "B": 9.999999999999985e-08
+              },
+              "high_effort": 0.0,
+              "success": 0.29999999999999993,
+              "submitted_evidence": 0.29999999999999993,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.29999999999999993,
+              "detected_failure": 0.0,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9999998999999998,
+              "state_at_end": {
+                "G": 0.9999999299999998,
+                "B": 6.999999999999989e-08
+              }
+            }
+          ]
+        }
+      }
+    },
+    "OBLIGATED_025": {
+      "values": [
+        {
+          "G": 0.0,
+          "B": 0.0
+        },
+        {
+          "G": 1.0,
+          "B": 0.4
+        },
+        {
+          "G": 1.85025,
+          "B": 0.82275
+        },
+        {
+          "G": 2.5869156249999996,
+          "B": 1.2548218749999998
+        },
+        {
+          "G": 3.2759326171875,
+          "B": 1.7268158203124997
+        },
+        {
+          "G": 3.9253444624023435,
+          "B": 2.2215987446289054
+        },
+        {
+          "G": 4.538613278485107,
+          "B": 2.7246944545715324
+        },
+        {
+          "G": 5.118602042492903,
+          "B": 3.226184880454482
+        },
+        {
+          "G": 5.667727032769845,
+          "B": 3.7193798048174695
+        }
+      ],
+      "decisions": [
+        {},
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 0.85,
+              "L": 1.0
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 0.25,
+              "L": 0.4
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 1.78575,
+              "L": 1.85025
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 0.85
+              },
+              "failure": {
+                "REPORT": 0.85,
+                "WITHHOLD": 0.85
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 0.75825,
+              "L": 0.82275
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.55,
+                "WITHHOLD": 0.4
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.4
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 2.5833343749999997,
+              "L": 2.5869156249999996
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.85025,
+                "WITHHOLD": 1.593375
+              },
+              "failure": {
+                "REPORT": 1.593375,
+                "WITHHOLD": 1.593375
+              }
+            },
+            "continuation_values": {
+              "G": 1.85025,
+              "B": 0.82275
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 1.2512406249999999,
+              "L": 1.2548218749999998
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.079625,
+                "WITHHOLD": 0.82275
+              },
+              "failure": {
+                "REPORT": 0.82275,
+                "WITHHOLD": 0.82275
+              }
+            },
+            "continuation_values": {
+              "G": 1.85025,
+              "B": 0.82275
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 3.2759326171875,
+              "L": 3.2361092578124993
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.5869156249999996,
+                "WITHHOLD": 2.2538921874999995
+              },
+              "failure": {
+                "REPORT": 2.2538921874999995,
+                "WITHHOLD": 2.2538921874999995
+              }
+            },
+            "continuation_values": {
+              "G": 2.5869156249999996,
+              "B": 1.2548218749999998
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.7268158203124997,
+              "L": 1.6869924609374998
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.5878453124999998,
+                "WITHHOLD": 1.2548218749999998
+              },
+              "failure": {
+                "REPORT": 1.2548218749999998,
+                "WITHHOLD": 1.2548218749999998
+              }
+            },
+            "continuation_values": {
+              "G": 2.5869156249999996,
+              "B": 1.2548218749999998
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 3.9253444624023435,
+              "L": 3.854595318847655
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.2759326171875,
+                "WITHHOLD": 2.8886534179687495
+              },
+              "failure": {
+                "REPORT": 2.8886534179687495,
+                "WITHHOLD": 2.8886534179687495
+              }
+            },
+            "continuation_values": {
+              "G": 3.2759326171875,
+              "B": 1.7268158203124997
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.2215987446289054,
+              "L": 2.1508496010742184
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.11409501953125,
+                "WITHHOLD": 1.7268158203124997
+              },
+              "failure": {
+                "REPORT": 1.7268158203124997,
+                "WITHHOLD": 1.7268158203124997
+              }
+            },
+            "continuation_values": {
+              "G": 3.2759326171875,
+              "B": 1.7268158203124997
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 4.538613278485107,
+              "L": 4.445829513702392
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.9253444624023435,
+                "WITHHOLD": 3.499408032958984
+              },
+              "failure": {
+                "REPORT": 3.499408032958984,
+                "WITHHOLD": 3.499408032958984
+              }
+            },
+            "continuation_values": {
+              "G": 3.9253444624023435,
+              "B": 2.2215987446289054
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.7246944545715324,
+              "L": 2.6319106897888176
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.647535174072265,
+                "WITHHOLD": 2.2215987446289054
+              },
+              "failure": {
+                "REPORT": 2.2215987446289054,
+                "WITHHOLD": 2.2215987446289054
+              }
+            },
+            "continuation_values": {
+              "G": 3.9253444624023435,
+              "B": 2.2215987446289054
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 5.118602042492903,
+              "L": 5.010118610085219
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.538613278485107,
+                "WITHHOLD": 4.085133572506713
+              },
+              "failure": {
+                "REPORT": 4.085133572506713,
+                "WITHHOLD": 4.085133572506713
+              }
+            },
+            "continuation_values": {
+              "G": 4.538613278485107,
+              "B": 2.7246944545715324
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.226184880454482,
+              "L": 3.1177014480467977
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.178174160549926,
+                "WITHHOLD": 2.7246944545715324
+              },
+              "failure": {
+                "REPORT": 2.7246944545715324,
+                "WITHHOLD": 2.7246944545715324
+              }
+            },
+            "continuation_values": {
+              "G": 4.538613278485107,
+              "B": 2.7246944545715324
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 5.667727032769845,
+              "L": 5.54805758717937
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 5.118602042492903,
+                "WITHHOLD": 4.645497751983298
+              },
+              "failure": {
+                "REPORT": 4.645497751983298,
+                "WITHHOLD": 4.645497751983298
+              }
+            },
+            "continuation_values": {
+              "G": 5.118602042492903,
+              "B": 3.226184880454482
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.7193798048174695,
+              "L": 3.5997103592269952
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.699289170964087,
+                "WITHHOLD": 3.226184880454482
+              },
+              "failure": {
+                "REPORT": 3.226184880454482,
+                "WITHHOLD": 3.226184880454482
+              }
+            },
+            "continuation_values": {
+              "G": 5.118602042492903,
+              "B": 3.226184880454482
+            }
+          }
+        }
+      ],
+      "forward": {
+        "G": {
+          "initial": "G",
+          "expected_totals": {
+            "high_effort": 5.0,
+            "success": 5.3999999999999995,
+            "submitted_evidence": 5.3999999999999995,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 2.0,
+            "detected_failure": 0.6499999999999998,
+            "missing_evidence_penalty": 0.6499999999999998,
+            "G_at_start": 7.147454833984375
+          },
+          "rates": {
+            "high_effort": 0.625,
+            "success": 0.6749999999999999,
+            "submitted_evidence": 0.6749999999999999,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.25,
+            "detected_failure": 0.08124999999999998,
+            "missing_evidence_penalty": 0.08124999999999998,
+            "G_at_start": 0.8934318542480468
+          },
+          "final_state": {
+            "G": 0.5631362915039061,
+            "B": 0.4368637084960936
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 0.975,
+                "B": 0.024999999999999994
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.975,
+                "B": 0.024999999999999994
+              },
+              "high_effort": 1.0,
+              "success": 0.8999999999999999,
+              "submitted_evidence": 0.8999999999999999,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999994,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.975,
+              "state_at_end": {
+                "G": 0.9562499999999999,
+                "B": 0.04375
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.9562499999999999,
+                "B": 0.04375
+              },
+              "high_effort": 0.9999999999999999,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.9562499999999999,
+              "state_at_end": {
+                "G": 0.9421875,
+                "B": 0.057812499999999996
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.9421875,
+                "B": 0.057812499999999996
+              },
+              "high_effort": 1.0,
+              "success": 0.8999999999999999,
+              "submitted_evidence": 0.8999999999999999,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999997,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.9421875,
+              "state_at_end": {
+                "G": 0.931640625,
+                "B": 0.06835937499999999
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.931640625,
+                "B": 0.06835937499999999
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.931640625,
+              "state_at_end": {
+                "G": 0.92373046875,
+                "B": 0.07626953124999998
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.92373046875,
+                "B": 0.07626953124999998
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999997,
+              "detected_failure": 0.175,
+              "missing_evidence_penalty": 0.175,
+              "G_at_start": 0.92373046875,
+              "state_at_end": {
+                "G": 0.7677978515624999,
+                "B": 0.23220214843749998
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.7677978515624999,
+                "B": 0.23220214843749998
+              },
+              "high_effort": 0.0,
+              "success": 0.29999999999999993,
+              "submitted_evidence": 0.29999999999999993,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999994,
+              "detected_failure": 0.17499999999999996,
+              "missing_evidence_penalty": 0.17499999999999996,
+              "G_at_start": 0.7677978515624999,
+              "state_at_end": {
+                "G": 0.6508483886718749,
+                "B": 0.3491516113281249
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.6508483886718749,
+                "B": 0.3491516113281249
+              },
+              "high_effort": 0.0,
+              "success": 0.29999999999999993,
+              "submitted_evidence": 0.29999999999999993,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999992,
+              "detected_failure": 0.17499999999999993,
+              "missing_evidence_penalty": 0.17499999999999993,
+              "G_at_start": 0.6508483886718749,
+              "state_at_end": {
+                "G": 0.5631362915039061,
+                "B": 0.4368637084960936
+              }
+            }
+          ]
+        },
+        "B": {
+          "initial": "B",
+          "expected_totals": {
+            "high_effort": 5.0,
+            "success": 5.4,
+            "submitted_evidence": 5.4,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 2.0,
+            "detected_failure": 0.6499999999999999,
+            "missing_evidence_penalty": 0.6499999999999999,
+            "G_at_start": 3.547906494140625
+          },
+          "rates": {
+            "high_effort": 0.625,
+            "success": 0.675,
+            "submitted_evidence": 0.675,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.25,
+            "detected_failure": 0.08124999999999999,
+            "missing_evidence_penalty": 0.08124999999999999,
+            "G_at_start": 0.44348831176757814
+          },
+          "final_state": {
+            "G": 0.4630233764648437,
+            "B": 0.5369766235351563
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 0.0,
+                "B": 1.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.0,
+              "state_at_end": {
+                "G": 0.225,
+                "B": 0.775
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.225,
+                "B": 0.775
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.225,
+              "state_at_end": {
+                "G": 0.39375000000000004,
+                "B": 0.6062500000000001
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.39375000000000004,
+                "B": 0.6062500000000001
+              },
+              "high_effort": 1.0,
+              "success": 0.9000000000000001,
+              "submitted_evidence": 0.9000000000000001,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.39375000000000004,
+              "state_at_end": {
+                "G": 0.5203125000000001,
+                "B": 0.4796875
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.5203125000000001,
+                "B": 0.4796875
+              },
+              "high_effort": 1.0,
+              "success": 0.9000000000000001,
+              "submitted_evidence": 0.9000000000000001,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.024999999999999994,
+              "G_at_start": 0.5203125000000001,
+              "state_at_end": {
+                "G": 0.6152343750000001,
+                "B": 0.384765625
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.6152343750000001,
+                "B": 0.384765625
+              },
+              "high_effort": 1.0,
+              "success": 0.9000000000000001,
+              "submitted_evidence": 0.9000000000000001,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25000000000000006,
+              "detected_failure": 0.024999999999999998,
+              "missing_evidence_penalty": 0.024999999999999998,
+              "G_at_start": 0.6152343750000001,
+              "state_at_end": {
+                "G": 0.6864257812500001,
+                "B": 0.31357421875
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.6864257812500001,
+                "B": 0.31357421875
+              },
+              "high_effort": 0.0,
+              "success": 0.30000000000000004,
+              "submitted_evidence": 0.30000000000000004,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25000000000000006,
+              "detected_failure": 0.17500000000000002,
+              "missing_evidence_penalty": 0.17500000000000002,
+              "G_at_start": 0.6864257812500001,
+              "state_at_end": {
+                "G": 0.5898193359375,
+                "B": 0.4101806640625
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.5898193359375,
+                "B": 0.4101806640625
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.24999999999999994,
+              "detected_failure": 0.175,
+              "missing_evidence_penalty": 0.175,
+              "G_at_start": 0.5898193359375,
+              "state_at_end": {
+                "G": 0.517364501953125,
+                "B": 0.482635498046875
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.517364501953125,
+                "B": 0.482635498046875
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.25,
+              "detected_failure": 0.175,
+              "missing_evidence_penalty": 0.175,
+              "G_at_start": 0.517364501953125,
+              "state_at_end": {
+                "G": 0.4630233764648437,
+                "B": 0.5369766235351563
+              }
+            }
+          ]
+        }
+      }
+    },
+    "OBLIGATED_1": {
+      "values": [
+        {
+          "G": 0.0,
+          "B": 0.0
+        },
+        {
+          "G": 1.0,
+          "B": 0.4
+        },
+        {
+          "G": 1.7429999999999999,
+          "B": 1.143
+        },
+        {
+          "G": 2.4488499999999997,
+          "B": 1.8488499999999999
+        },
+        {
+          "G": 3.1194075,
+          "B": 2.5194075
+        },
+        {
+          "G": 3.7564371249999997,
+          "B": 3.1564371249999996
+        },
+        {
+          "G": 4.36161526875,
+          "B": 3.7616152687499995
+        },
+        {
+          "G": 4.936534505312499,
+          "B": 4.3365345053125
+        },
+        {
+          "G": 5.482707780046875,
+          "B": 4.882707780046875
+        }
+      ],
+      "decisions": [
+        {},
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 0.85,
+              "L": 1.0
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 0.25,
+              "L": 0.4
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 1.7429999999999999,
+              "L": 1.551
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 0.4
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.4
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.143,
+              "L": 0.951
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 0.4
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.4
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 2.4488499999999997,
+              "L": 2.25685
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.7429999999999999,
+                "WITHHOLD": 1.143
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.143
+              }
+            },
+            "continuation_values": {
+              "G": 1.7429999999999999,
+              "B": 1.143
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.8488499999999999,
+              "L": 1.65685
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.7429999999999999,
+                "WITHHOLD": 1.143
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.143
+              }
+            },
+            "continuation_values": {
+              "G": 1.7429999999999999,
+              "B": 1.143
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 3.1194075,
+              "L": 2.9274074999999997
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.4488499999999997,
+                "WITHHOLD": 1.8488499999999999
+              },
+              "failure": {
+                "REPORT": 1.8488499999999999,
+                "WITHHOLD": 1.8488499999999999
+              }
+            },
+            "continuation_values": {
+              "G": 2.4488499999999997,
+              "B": 1.8488499999999999
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.5194075,
+              "L": 2.3274074999999996
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.4488499999999997,
+                "WITHHOLD": 1.8488499999999999
+              },
+              "failure": {
+                "REPORT": 1.8488499999999999,
+                "WITHHOLD": 1.8488499999999999
+              }
+            },
+            "continuation_values": {
+              "G": 2.4488499999999997,
+              "B": 1.8488499999999999
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 3.7564371249999997,
+              "L": 3.5644371249999995
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.1194075,
+                "WITHHOLD": 2.5194075
+              },
+              "failure": {
+                "REPORT": 2.5194075,
+                "WITHHOLD": 2.5194075
+              }
+            },
+            "continuation_values": {
+              "G": 3.1194075,
+              "B": 2.5194075
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.1564371249999996,
+              "L": 2.9644371249999995
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.1194075,
+                "WITHHOLD": 2.5194075
+              },
+              "failure": {
+                "REPORT": 2.5194075,
+                "WITHHOLD": 2.5194075
+              }
+            },
+            "continuation_values": {
+              "G": 3.1194075,
+              "B": 2.5194075
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 4.36161526875,
+              "L": 4.169615268749999
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.7564371249999997,
+                "WITHHOLD": 3.1564371249999996
+              },
+              "failure": {
+                "REPORT": 3.1564371249999996,
+                "WITHHOLD": 3.1564371249999996
+              }
+            },
+            "continuation_values": {
+              "G": 3.7564371249999997,
+              "B": 3.1564371249999996
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.7616152687499995,
+              "L": 3.5696152687499993
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.7564371249999997,
+                "WITHHOLD": 3.1564371249999996
+              },
+              "failure": {
+                "REPORT": 3.1564371249999996,
+                "WITHHOLD": 3.1564371249999996
+              }
+            },
+            "continuation_values": {
+              "G": 3.7564371249999997,
+              "B": 3.1564371249999996
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 4.936534505312499,
+              "L": 4.744534505312499
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.36161526875,
+                "WITHHOLD": 3.7616152687499995
+              },
+              "failure": {
+                "REPORT": 3.7616152687499995,
+                "WITHHOLD": 3.7616152687499995
+              }
+            },
+            "continuation_values": {
+              "G": 4.36161526875,
+              "B": 3.7616152687499995
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 4.3365345053125,
+              "L": 4.1445345053125
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.36161526875,
+                "WITHHOLD": 3.7616152687499995
+              },
+              "failure": {
+                "REPORT": 3.7616152687499995,
+                "WITHHOLD": 3.7616152687499995
+              }
+            },
+            "continuation_values": {
+              "G": 4.36161526875,
+              "B": 3.7616152687499995
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "H",
+            "utility": {
+              "H": 5.482707780046875,
+              "L": 5.2907077800468745
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.936534505312499,
+                "WITHHOLD": 4.3365345053125
+              },
+              "failure": {
+                "REPORT": 4.3365345053125,
+                "WITHHOLD": 4.3365345053125
+              }
+            },
+            "continuation_values": {
+              "G": 4.936534505312499,
+              "B": 4.3365345053125
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 4.882707780046875,
+              "L": 4.690707780046875
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.936534505312499,
+                "WITHHOLD": 4.3365345053125
+              },
+              "failure": {
+                "REPORT": 4.3365345053125,
+                "WITHHOLD": 4.3365345053125
+              }
+            },
+            "continuation_values": {
+              "G": 4.936534505312499,
+              "B": 4.3365345053125
+            }
+          }
+        }
+      ],
+      "forward": {
+        "G": {
+          "initial": "G",
+          "expected_totals": {
+            "high_effort": 7.0,
+            "success": 6.6000000000000005,
+            "submitted_evidence": 6.6000000000000005,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 8.0,
+            "detected_failure": 1.4,
+            "missing_evidence_penalty": 1.4,
+            "G_at_start": 7.300000000000001
+          },
+          "rates": {
+            "high_effort": 0.875,
+            "success": 0.8250000000000001,
+            "submitted_evidence": 0.8250000000000001,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 1.0,
+            "detected_failure": 0.175,
+            "missing_evidence_penalty": 0.175,
+            "G_at_start": 0.9125000000000001
+          },
+          "final_state": {
+            "G": 0.3,
+            "B": 0.7
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.7,
+              "missing_evidence_penalty": 0.7,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.3,
+                "B": 0.7
+              }
+            }
+          ]
+        },
+        "B": {
+          "initial": "B",
+          "expected_totals": {
+            "high_effort": 7.0,
+            "success": 6.6000000000000005,
+            "submitted_evidence": 6.6000000000000005,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 8.0,
+            "detected_failure": 1.4,
+            "missing_evidence_penalty": 1.4,
+            "G_at_start": 6.300000000000001
+          },
+          "rates": {
+            "high_effort": 0.875,
+            "success": 0.8250000000000001,
+            "submitted_evidence": 0.8250000000000001,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 1.0,
+            "detected_failure": 0.175,
+            "missing_evidence_penalty": 0.175,
+            "G_at_start": 0.7875000000000001
+          },
+          "final_state": {
+            "G": 0.3,
+            "B": 0.7
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 0.0,
+                "B": 1.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.0,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.09999999999999998,
+              "missing_evidence_penalty": 0.09999999999999998,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 1.0,
+              "detected_failure": 0.7,
+              "missing_evidence_penalty": 0.7,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.3,
+                "B": 0.7
+              }
+            }
+          ]
+        }
+      }
+    },
+    "COMPLAINT_025": {
+      "values": [
+        {
+          "G": 0.0,
+          "B": 0.0
+        },
+        {
+          "G": 1.0,
+          "B": 0.4
+        },
+        {
+          "G": 1.85025,
+          "B": 1.143
+        },
+        {
+          "G": 2.6401571875,
+          "B": 1.94054875
+        },
+        {
+          "G": 3.3918394253906246,
+          "B": 2.6916865265624996
+        },
+        {
+          "G": 4.1058470346909175,
+          "B": 3.405732928732421
+        },
+        {
+          "G": 4.784160712840771,
+          "B": 4.084043842890314
+        },
+        {
+          "G": 5.428558247569469,
+          "B": 4.72844157455344
+        },
+        {
+          "G": 6.040735938302079,
+          "B": 5.340619251254473
+        }
+      ],
+      "decisions": [
+        {},
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 0.85,
+              "L": 1.0
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          },
+          "B": {
+            "effort": "L",
+            "utility": {
+              "H": 0.25,
+              "L": 0.4
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              },
+              "failure": {
+                "REPORT": 0.0,
+                "WITHHOLD": 0.0
+              }
+            },
+            "continuation_values": {
+              "G": 0.0,
+              "B": 0.0
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 1.78575,
+              "L": 1.85025
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 1.0
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.85
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.143,
+              "L": 0.951
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.0,
+                "WITHHOLD": 0.4
+              },
+              "failure": {
+                "REPORT": 0.4,
+                "WITHHOLD": 0.4
+              }
+            },
+            "continuation_values": {
+              "G": 1.0,
+              "B": 0.4
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 2.5909403125,
+              "L": 2.6401571875
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.85025,
+                "WITHHOLD": 1.85025
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.6734375
+              }
+            },
+            "continuation_values": {
+              "G": 1.85025,
+              "B": 1.143
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 1.94054875,
+              "L": 1.68741625
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 1.85025,
+                "WITHHOLD": 1.143
+              },
+              "failure": {
+                "REPORT": 1.143,
+                "WITHHOLD": 1.143
+              }
+            },
+            "continuation_values": {
+              "G": 1.85025,
+              "B": 1.143
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 3.341533627734375,
+              "L": 3.3918394253906246
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.6401571875,
+                "WITHHOLD": 2.6401571875
+              },
+              "failure": {
+                "REPORT": 1.94054875,
+                "WITHHOLD": 2.4652550781249998
+              }
+            },
+            "continuation_values": {
+              "G": 2.6401571875,
+              "B": 1.94054875
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 2.6916865265624996,
+              "L": 2.4429097171875
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 2.6401571875,
+                "WITHHOLD": 1.94054875
+              },
+              "failure": {
+                "REPORT": 1.94054875,
+                "WITHHOLD": 1.94054875
+              }
+            },
+            "continuation_values": {
+              "G": 2.6401571875,
+              "B": 1.94054875
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 4.055618822773925,
+              "L": 4.1058470346909175
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.3918394253906246,
+                "WITHHOLD": 3.3918394253906246
+              },
+              "failure": {
+                "REPORT": 2.6916865265624996,
+                "WITHHOLD": 3.216801200683593
+              }
+            },
+            "continuation_values": {
+              "G": 3.3918394253906246,
+              "B": 2.6916865265624996
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 3.405732928732421,
+              "L": 3.15664577640039
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 3.3918394253906246,
+                "WITHHOLD": 2.6916865265624996
+              },
+              "failure": {
+                "REPORT": 2.6916865265624996,
+                "WITHHOLD": 2.6916865265624996
+              }
+            },
+            "continuation_values": {
+              "G": 3.3918394253906246,
+              "B": 2.6916865265624996
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 4.733926972939857,
+              "L": 4.784160712840771
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.1058470346909175,
+                "WITHHOLD": 4.1058470346909175
+              },
+              "failure": {
+                "REPORT": 3.405732928732421,
+                "WITHHOLD": 3.9308185082012934
+              }
+            },
+            "continuation_values": {
+              "G": 4.1058470346909175,
+              "B": 3.405732928732421
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 4.084043842890314,
+              "L": 3.834978802493971
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.1058470346909175,
+                "WITHHOLD": 3.405732928732421
+              },
+              "failure": {
+                "REPORT": 3.405732928732421,
+                "WITHHOLD": 3.405732928732421
+              }
+            },
+            "continuation_values": {
+              "G": 4.1058470346909175,
+              "B": 3.405732928732421
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 5.378324901537409,
+              "L": 5.428558247569469
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.784160712840771,
+                "WITHHOLD": 4.784160712840771
+              },
+              "failure": {
+                "REPORT": 4.084043842890314,
+                "WITHHOLD": 4.609131495353157
+              }
+            },
+            "continuation_values": {
+              "G": 4.784160712840771,
+              "B": 4.084043842890314
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 4.72844157455344,
+              "L": 4.479374958681678
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 4.784160712840771,
+                "WITHHOLD": 4.084043842890314
+              },
+              "failure": {
+                "REPORT": 4.084043842890314,
+                "WITHHOLD": 4.084043842890314
+              }
+            },
+            "continuation_values": {
+              "G": 4.784160712840771,
+              "B": 4.084043842890314
+            }
+          }
+        },
+        {
+          "G": {
+            "effort": "L",
+            "utility": {
+              "H": 5.990502564206864,
+              "L": 6.040735938302079
+            },
+            "optimal_efforts": [
+              "L"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT",
+                "WITHHOLD"
+              ],
+              "failure": [
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 5.428558247569469,
+                "WITHHOLD": 5.428558247569469
+              },
+              "failure": {
+                "REPORT": 4.72844157455344,
+                "WITHHOLD": 5.253529079315461
+              }
+            },
+            "continuation_values": {
+              "G": 5.428558247569469,
+              "B": 4.72844157455344
+            }
+          },
+          "B": {
+            "effort": "H",
+            "utility": {
+              "H": 5.340619251254473,
+              "L": 5.091552747635336
+            },
+            "optimal_efforts": [
+              "H"
+            ],
+            "report": {
+              "success": "REPORT",
+              "failure": "WITHHOLD"
+            },
+            "optimal_reports": {
+              "success": [
+                "REPORT"
+              ],
+              "failure": [
+                "REPORT",
+                "WITHHOLD"
+              ]
+            },
+            "report_continuation": {
+              "success": {
+                "REPORT": 5.428558247569469,
+                "WITHHOLD": 4.72844157455344
+              },
+              "failure": {
+                "REPORT": 4.72844157455344,
+                "WITHHOLD": 4.72844157455344
+              }
+            },
+            "continuation_values": {
+              "G": 5.428558247569469,
+              "B": 4.72844157455344
+            }
+          }
+        }
+      ],
+      "forward": {
+        "G": {
+          "initial": "G",
+          "expected_totals": {
+            "high_effort": 0.9881016745605468,
+            "success": 2.9928610047363278,
+            "submitted_evidence": 2.9928610047363278,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 4.244645753552246,
+            "detected_failure": 1.251784748815918,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 6.8491076255920404
+          },
+          "rates": {
+            "high_effort": 0.12351270932006835,
+            "success": 0.37410762559204097,
+            "submitted_evidence": 0.37410762559204097,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.5305807191940307,
+            "detected_failure": 0.15647309360198974,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 0.8561384531990051
+          },
+          "final_state": {
+            "G": 0.7395348825801085,
+            "B": 0.2604651174198913
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 1.0,
+                "B": 0.0
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.475,
+              "detected_failure": 0.175,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 1.0,
+              "state_at_end": {
+                "G": 0.825,
+                "B": 0.175
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.825,
+                "B": 0.175
+              },
+              "high_effort": 0.175,
+              "success": 0.40499999999999997,
+              "submitted_evidence": 0.40499999999999997,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.55375,
+              "detected_failure": 0.14874999999999997,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.825,
+              "state_at_end": {
+                "G": 0.8381249999999999,
+                "B": 0.16187499999999996
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.8381249999999999,
+                "B": 0.16187499999999996
+              },
+              "high_effort": 0.16187499999999996,
+              "success": 0.39712499999999995,
+              "submitted_evidence": 0.39712499999999995,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.54784375,
+              "detected_failure": 0.15071874999999998,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8381249999999999,
+              "state_at_end": {
+                "G": 0.8371406249999999,
+                "B": 0.16285937499999997
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.8371406249999999,
+                "B": 0.16285937499999997
+              },
+              "high_effort": 0.16285937499999997,
+              "success": 0.3977156249999999,
+              "submitted_evidence": 0.3977156249999999,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5482867187499999,
+              "detected_failure": 0.15057109374999997,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8371406249999999,
+              "state_at_end": {
+                "G": 0.8372144531249999,
+                "B": 0.16278554687499996
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.8372144531249999,
+                "B": 0.16278554687499996
+              },
+              "high_effort": 0.16278554687499996,
+              "success": 0.3976713281249999,
+              "submitted_evidence": 0.3976713281249999,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.54825349609375,
+              "detected_failure": 0.15058216796874996,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372144531249999,
+              "state_at_end": {
+                "G": 0.8372089160156249,
+                "B": 0.16279108398437497
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.8372089160156249,
+                "B": 0.16279108398437497
+              },
+              "high_effort": 0.16279108398437497,
+              "success": 0.39767465039062494,
+              "submitted_evidence": 0.39767465039062494,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5482559877929687,
+              "detected_failure": 0.15058133740234372,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372089160156249,
+              "state_at_end": {
+                "G": 0.837209331298828,
+                "B": 0.16279066870117184
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.837209331298828,
+                "B": 0.16279066870117184
+              },
+              "high_effort": 0.16279066870117184,
+              "success": 0.3976744012207031,
+              "submitted_evidence": 0.3976744012207031,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5482558009155274,
+              "detected_failure": 0.15058139969482418,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.837209331298828,
+              "state_at_end": {
+                "G": 0.8372093001525878,
+                "B": 0.16279069984741207
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.8372093001525878,
+                "B": 0.16279069984741207
+              },
+              "high_effort": 0.0,
+              "success": 0.29999999999999993,
+              "submitted_evidence": 0.29999999999999993,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.47499999999999987,
+              "detected_failure": 0.17499999999999996,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372093001525878,
+              "state_at_end": {
+                "G": 0.7395348825801085,
+                "B": 0.2604651174198913
+              }
+            }
+          ]
+        },
+        "B": {
+          "initial": "B",
+          "expected_totals": {
+            "high_effort": 1.9183342451171874,
+            "success": 3.5510005470703123,
+            "submitted_evidence": 3.5510005470703123,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 4.663250410302734,
+            "detected_failure": 1.1122498632324218,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 5.918875068383789
+          },
+          "rates": {
+            "high_effort": 0.23979178063964843,
+            "success": 0.44387506838378904,
+            "submitted_evidence": 0.44387506838378904,
+            "failure_evidence": 0.0,
+            "observed_task_coverage": 0.5829063012878417,
+            "detected_failure": 0.13903123290405273,
+            "missing_evidence_penalty": 0.0,
+            "G_at_start": 0.7398593835479736
+          },
+          "final_state": {
+            "G": 0.7395348895880126,
+            "B": 0.2604651104119873
+          },
+          "rounds": [
+            {
+              "round": 1,
+              "remaining": 8,
+              "state_at_start": {
+                "G": 0.0,
+                "B": 1.0
+              },
+              "high_effort": 1.0,
+              "success": 0.9,
+              "submitted_evidence": 0.9,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.925,
+              "detected_failure": 0.024999999999999994,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.0,
+              "state_at_end": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              }
+            },
+            {
+              "round": 2,
+              "remaining": 7,
+              "state_at_start": {
+                "G": 0.9,
+                "B": 0.09999999999999998
+              },
+              "high_effort": 0.09999999999999998,
+              "success": 0.36,
+              "submitted_evidence": 0.36,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5199999999999999,
+              "detected_failure": 0.16,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.9,
+              "state_at_end": {
+                "G": 0.8325,
+                "B": 0.16749999999999998
+              }
+            },
+            {
+              "round": 3,
+              "remaining": 6,
+              "state_at_start": {
+                "G": 0.8325,
+                "B": 0.16749999999999998
+              },
+              "high_effort": 0.16749999999999998,
+              "success": 0.40049999999999997,
+              "submitted_evidence": 0.40049999999999997,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5503750000000001,
+              "detected_failure": 0.149875,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8325,
+              "state_at_end": {
+                "G": 0.8375625,
+                "B": 0.16243749999999998
+              }
+            },
+            {
+              "round": 4,
+              "remaining": 5,
+              "state_at_start": {
+                "G": 0.8375625,
+                "B": 0.16243749999999998
+              },
+              "high_effort": 0.16243749999999998,
+              "success": 0.39746249999999994,
+              "submitted_evidence": 0.39746249999999994,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.548096875,
+              "detected_failure": 0.150634375,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8375625,
+              "state_at_end": {
+                "G": 0.8371828124999999,
+                "B": 0.1628171875
+              }
+            },
+            {
+              "round": 5,
+              "remaining": 4,
+              "state_at_start": {
+                "G": 0.8371828124999999,
+                "B": 0.1628171875
+              },
+              "high_effort": 0.1628171875,
+              "success": 0.3976903125,
+              "submitted_evidence": 0.3976903125,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.548267734375,
+              "detected_failure": 0.15057742187499998,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8371828124999999,
+              "state_at_end": {
+                "G": 0.8372112890625,
+                "B": 0.1627887109375
+              }
+            },
+            {
+              "round": 6,
+              "remaining": 3,
+              "state_at_start": {
+                "G": 0.8372112890625,
+                "B": 0.1627887109375
+              },
+              "high_effort": 0.1627887109375,
+              "success": 0.3976732265625,
+              "submitted_evidence": 0.3976732265625,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5482549199218749,
+              "detected_failure": 0.150581693359375,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372112890625,
+              "state_at_end": {
+                "G": 0.8372091533203124,
+                "B": 0.1627908466796875
+              }
+            },
+            {
+              "round": 7,
+              "remaining": 2,
+              "state_at_start": {
+                "G": 0.8372091533203124,
+                "B": 0.1627908466796875
+              },
+              "high_effort": 0.1627908466796875,
+              "success": 0.39767450800781246,
+              "submitted_evidence": 0.39767450800781246,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.5482558810058593,
+              "detected_failure": 0.15058137299804686,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372091533203124,
+              "state_at_end": {
+                "G": 0.8372093135009765,
+                "B": 0.1627906864990234
+              }
+            },
+            {
+              "round": 8,
+              "remaining": 1,
+              "state_at_start": {
+                "G": 0.8372093135009765,
+                "B": 0.1627906864990234
+              },
+              "high_effort": 0.0,
+              "success": 0.3,
+              "submitted_evidence": 0.3,
+              "failure_evidence": 0.0,
+              "observed_task_coverage": 0.4749999999999999,
+              "detected_failure": 0.175,
+              "missing_evidence_penalty": 0.0,
+              "G_at_start": 0.8372093135009765,
+              "state_at_end": {
+                "G": 0.7395348895880126,
+                "B": 0.2604651104119873
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
