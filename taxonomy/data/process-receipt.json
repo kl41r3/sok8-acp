@@ -1,0 +1,35 @@
+{
+  "IEEE": {
+    "O": 4346,
+    "U": 2492,
+    "same_identifier_repeats": 1854,
+    "academic_records": 2489,
+    "official_standard_separate_track_records": 3,
+    "accepted_saved_bounded_body_records": 355,
+    "independently_body_reviewed": 355,
+    "unread_returned_scientific_cases": 0,
+    "unreviewed_saved_body_records": 0,
+    "remaining_scientific_questions": 165,
+    "remaining_technical_questions": 5,
+    "work_version_candidate_groups": 20,
+    "D2": {
+      "frozen": 172,
+      "attempted_saved_verified": 172,
+      "body": 157,
+      "route_or_mechanism_observation_gap": 13,
+      "incomplete_primary_Abstract_only": 2,
+      "unattempted": 0
+    },
+    "reviewer_type": "Independent AI scientific review; final63 used parent-explicitly-authorized Fast routing, same frozen I1/I2. Root and source collectors did not change routing. Not blind human consensus.",
+    "source_acceptance": "Partial"
+  },
+  "AAAI_IJCAI": {
+    "actual_unique_targeted_reads": 30,
+    "scientific_scope_uncertain_after_targeted_read": 16,
+    "permission_blocked_questions": 0,
+    "unadjudicated_returned_targeted_answers": 0,
+    "reviewer_type": "AI; initial recommendations visible, not blind or human consensus",
+    "source_coverage_complete": false
+  },
+  "scope": "Saved processing counts; arithmetic reproduction does not repeat AI scientific review or online source retrieval"
+}

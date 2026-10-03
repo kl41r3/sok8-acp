@@ -1,0 +1,13 @@
+# Reproduction contract
+
+Prerequisites: CPython-compatible Python >=3.9, standard library only, local filesystem access. No optional Python dependency is used. This staged data contains no train/test split and no model evaluation. Input rows are the complete saved source-record frame for this scope, including eligibility controls and separate normative/relation tracks; queries overlap and their counts are not additive.
+
+From the package directory, run `python3 -B code/reproduce.py --check-only`. SHA256SUMS pins all shipped files other than itself; MANIFEST.json pins byte sizes and CSV schemas/row counts. MANIFEST.json is included in SHA256SUMS and excludes itself from its own list. Generated outputs use LF, UTF-8, stable sorting and compact JSON cells. Failures produce a nonzero exit code. The checker then applies exactly the 237 redacted overlay entries to preserved pending scientific decisions and compares five outputs with `expected/`.
+
+To save the result, run `python3 -B code/reproduce.py --output outputs/run`. Use a new or empty directory. The five files are final-selection-records.csv (5241), source-counts.csv (5), identifier-selection.csv (5208), included-identifiers.csv (1301) and counts.json. AAMAS has no assigned academic selection pending quantity; CSV blank means unavailable/not applicable according to that column's definition. JSON null is Unknown for W/V. No independent-work ID is inferred.
+
+The typed keys are read from the frozen input projection, preserving the completed upstream normalization/alias review. Regrouping equal typed keys reproduces the 33 all-frame and 11 inclusion-row repeat deductions. It does not repeat upstream identity evidence review, guess DOI aliases, use title similarity, or merge different typed identifiers. An identifier is selected when at least one source member is included. All source-member scientific decisions remain visible; no global scientific verdict is assigned.
+
+The local private verifier checks 5242 immutable snapshot files (1385292629 bytes) against the original upstream manifest plus exact staged aggregate inputs. Those raw snapshots remain in their original local evidence tree and are excluded from the public candidate. Public readers can reproduce mechanical output from projections; access to the primary evidence and saved review metadata is needed to audit source collection/scientific judgments. Re-execution of AI reviews is not claimed: unrestricted prompts, model records and internal conversations are outside this package.
+
+The clean-copy verification command, receipt hashes and test interpreter appear in verification.md. Upstream scientific acceptance remains Partial regardless of a successful reproduction.

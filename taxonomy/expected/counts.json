@@ -1,0 +1,23 @@
+{
+  "scope": "frozen source-record selection and typed-identifier arithmetic",
+  "source_record_frame": 5241,
+  "selection_track_source_records": 5217,
+  "included_source_records": 1312,
+  "original_rule_or_evidence_exclusions": 3668,
+  "user_not_included_unresolved": 237,
+  "final_not_included_source_records": 3905,
+  "final_selection_pending_source_records": 0,
+  "scientific_pending_selection_records_preserved": 237,
+  "separate_standard_source_records": 3,
+  "relation_only_source_records": 21,
+  "all_typed_identifiers": 5208,
+  "selection_track_typed_identifiers": 5184,
+  "included_typed_identifiers": 1301,
+  "not_included_typed_identifiers": 3883,
+  "exact_source_row_repeat_deduction": 33,
+  "included_source_row_repeat_deduction": 11,
+  "user_overlay_typed_identifiers": 237,
+  "W_independent_works": null,
+  "V_verified_versions": null,
+  "scientific_coverage_work_version_acceptance": "Partial"
+}

@@ -1,0 +1,126 @@
+{
+  "scope": "Approved initial private publication of the complete 33-file English taxonomy/Method baseline",
+  "target": {
+    "owner": "kl41r3",
+    "repository": "sok8-acp",
+    "visibility": "private",
+    "branch": "main"
+  },
+  "package_revision": 5,
+  "user_scope_change": {
+    "exclude_manuscript": true,
+    "directory_name": "taxonomy",
+    "previous_directory_name": "artifact",
+    "source_originals_unchanged": true,
+    "include_original_method_documents": [
+      "source.md",
+      "workflow-template.md",
+      "acceptance.md"
+    ],
+    "english_only_entire_package": true
+  },
+  "taxonomy_baseline": {
+    "source": "taxonomy-artifact-20261002/public",
+    "destination": "taxonomy",
+    "file_count": 23,
+    "manifest_sha256": "025f1a2313dfc7db93c84559d2f9451791bf9f4dbca7ab1fbd61d5a6e758e0e5",
+    "copy_policy": "All 23 files byte-identical; directory rename leaves internal seal unchanged",
+    "current_source_locator": "archive/taxonomy-migration-20261003T035100Z/taxonomy-artifact-20261002/public"
+  },
+  "reproduction_scope": {
+    "outputs": [
+      "final-selection-records.csv",
+      "source-counts.csv",
+      "identifier-selection.csv",
+      "included-identifiers.csv",
+      "counts.json"
+    ],
+    "inputs": "Frozen identifiers and existing scientific screening decisions plus administrative selection overlay",
+    "not_reproduced": [
+      "native retrieval",
+      "licensed evidence capture",
+      "AI screening decisions",
+      "scientific correctness",
+      "independent work/version merging",
+      "record-level eight-function annotation",
+      "classification frequencies/saturation/agreement"
+    ],
+    "record_level_function_labels_supplied": false
+  },
+  "new_repository_files": [
+    "README.md",
+    "REVIEW.md",
+    "PROVENANCE.json",
+    "MANIFEST.json",
+    "SHA256SUMS",
+    ".gitignore",
+    "method/README.md"
+  ],
+  "private_upload_does_not_resolve_public_redistribution_license": true,
+  "method_policy_context": {
+    "policy_version": "cross-source-v2-20261001",
+    "approval_date": "2026-10-01",
+    "original_header_NotRun_refers_to": "Policy approval time, not present execution status",
+    "opaque_user_decision_identifiers_preserved_by_explicit_request": true,
+    "relative_links_preserved": true,
+    "relative_links_unresolved_in_package": 12,
+    "distinct_missing_dependency_targets": [
+      "acm-completion-20261001/gate-audit.md",
+      "acm-completion-20261001/protocol.json",
+      "acm-completion-20261001/query-manifest.json",
+      "archive/source-policy-v2-before-20261001T212521Z/acceptance.md",
+      "archive/source-policy-v2-before-20261001T212521Z/source.md",
+      "archive/source-policy-v2-before-20261001T212521Z/workflow-template.md",
+      "golden-rule.md"
+    ],
+    "not_a_standalone_search_execution_package": true,
+    "authoritative_originals_unchanged": true,
+    "release_text_is_english_translation": true
+  },
+  "method_translations": [
+    {
+      "source": "taxonomy/acm-sample-recovery/source.md",
+      "source_language": "Chinese",
+      "source_sha256": "5c5aa88f81a7a2560ac472a5a4cd85182bb91d1ba4d125964af17a317602a481",
+      "source_bytes": 6451,
+      "destination": "method/source.md",
+      "destination_language": "English",
+      "translated_sha256": "0fccbc054c8c9f514e9457a8130ba97f5b8eb43701528fea4a77a54cae4c0fb2",
+      "translated_bytes": 8186,
+      "original_source_unchanged": true,
+      "translation_policy": "Complete policy translation; preserved identifiers, numbers, links and decisions; user quotation explicitly labeled translated"
+    },
+    {
+      "source": "taxonomy/acm-sample-recovery/workflow-template.md",
+      "source_language": "Chinese",
+      "source_sha256": "b9230fb23cc1a19cab45cf69c1d1f589f4e1d72272f123e4c3564e6d9792c233",
+      "source_bytes": 7979,
+      "destination": "method/workflow-template.md",
+      "destination_language": "English",
+      "translated_sha256": "721769037fbf1396f4397d5b8af90c084f68108dfada082be25c33defdc780e4",
+      "translated_bytes": 10136,
+      "original_source_unchanged": true,
+      "translation_policy": "Complete policy translation; preserved identifiers, numbers, links and decisions; user quotation explicitly labeled translated"
+    },
+    {
+      "source": "taxonomy/acm-sample-recovery/acceptance.md",
+      "source_language": "Chinese",
+      "source_sha256": "a0dca5e4c4325bb01eabbd281c439829565eef60364d828ca99e9d2d5144d765",
+      "source_bytes": 5361,
+      "destination": "method/acceptance.md",
+      "destination_language": "English",
+      "translated_sha256": "b33ed210a61a4b572c331a4ea195775792d1324f1a987d50cc170429966295e9",
+      "translated_bytes": 7022,
+      "original_source_unchanged": true,
+      "translation_policy": "Complete policy translation; preserved identifiers, numbers, links and decisions; user quotation explicitly labeled translated"
+    }
+  ],
+  "concurrent_extension": {
+    "path": "modeling/",
+    "separately_authorized": true,
+    "included_in_this_batch": false,
+    "delivery": "Separate later commit after completion and verification"
+  },
+  "publication_batch": 1,
+  "publication_authorization": "User explicitly approved uploading all reviewed non-Modeling content now; Modeling follows in a separate later commit"
+}

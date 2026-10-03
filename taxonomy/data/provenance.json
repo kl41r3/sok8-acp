@@ -1,0 +1,124 @@
+{
+  "binding_unit": "Aggregate source bytes before privacy-preserving projection; originals retained locally",
+  "research_baseline_commit": "10c46f941dc607ddd09fab7cc5fd33249c33ec01",
+  "research_baseline_branch": "research/acm-sample-recovery-20261001",
+  "current_inputs_include_uncommitted_files": true,
+  "selection_overlay_effective_at_utc": "2026-10-02T23:17:34+00:00",
+  "source_artifacts": [
+    {
+      "sha256": "5137c7f6d294f4fe07e516e31a60e4f962f6c5183ac1e40cfa3cd9fb164f8120",
+      "bytes": 17354,
+      "source_artifact": "CURRENT.json"
+    },
+    {
+      "sha256": "212621663ba959a9c5e4ee5855bc87b7a74b66cd7bf5e6d5e26646fcc6f88376",
+      "bytes": 10460,
+      "source_artifact": "README.md"
+    },
+    {
+      "sha256": "5689568e3caa19bd39cfea506301cbb62b96f726c3a7ebaa74e86a0831d2fbc8",
+      "bytes": 21065977,
+      "source_artifact": "record-manifest.json"
+    },
+    {
+      "sha256": "a9c666db3c3afe4abe60e412761ad4714fbf8022353e19545e305eee6721117d",
+      "bytes": 8040946,
+      "source_artifact": "record-manifest.csv"
+    },
+    {
+      "sha256": "9af6fd64ba68790ea1d3925350f83ea88aa165821bd30f7350643bfd314c3e2d",
+      "bytes": 44921124,
+      "source_artifact": "exact-identifier-union.json"
+    },
+    {
+      "sha256": "fa605450e04b485925045be43af100db5c07aa4b6f2b14c6fdc2729e7a32a4db",
+      "bytes": 2060566,
+      "source_artifact": "final-selection-record-ledger.csv"
+    },
+    {
+      "sha256": "9320ecddf0f2409d414da19baca41b3381c15fa2e5c80adcf48f0d635625c675",
+      "bytes": 898,
+      "source_artifact": "final-selection-source-counts.csv"
+    },
+    {
+      "sha256": "ad744f621ffd54da48798a23ffec989cf7badef731094c03e3196f02953b6e5b",
+      "bytes": 4662126,
+      "source_artifact": "final-selection-identifier-view.csv"
+    },
+    {
+      "sha256": "08b38ffd0b87118713a2bccd4e5decf001981938c3e7012a5fbb257093a4e324",
+      "bytes": 1138299,
+      "source_artifact": "current-selected-inclusion-identifiers.csv"
+    },
+    {
+      "sha256": "dbd68dc14ecfdfb416d714564a859b4d5ef12a555d6b7afed907aa7a347704c0",
+      "bytes": 5004,
+      "source_artifact": "selection-flow-counts.json"
+    },
+    {
+      "sha256": "fe5c35452c2f7638c9c8b5ceb575e4462c4c593e5b9c47af8421f8a6864a7c5a",
+      "bytes": 80959,
+      "source_artifact": "query-counts.csv"
+    },
+    {
+      "sha256": "af897636ee10fc1549d5ed85da9af9784bad8c5060ccbf557ec504f30cb44112",
+      "bytes": 16418,
+      "source_artifact": "gate-matrix.csv"
+    },
+    {
+      "sha256": "cb58cd108e972e7d4dda46c7df144f539a1f909a9dea3bc01942c383f67454a1",
+      "bytes": 2645718,
+      "source_artifact": "snapshot-input-manifest.csv"
+    },
+    {
+      "sha256": "ed5ab66f1d035c47091709fe6649bdc1155ab175b5f99b77c5e66e126836cf54",
+      "bytes": 3320705,
+      "source_artifact": "snapshot-input-manifest.json"
+    },
+    {
+      "sha256": "bc9989ade0edd1c97ca9cdd52c6bd1c049457a051165e91e729c01ac23128037",
+      "bytes": 12569,
+      "source_artifact": "IEEE-final-acceptance-receipt.json"
+    },
+    {
+      "sha256": "4d521785a269109495d382c3976ac258462baec55df719c41386995590047e5e",
+      "bytes": 6915,
+      "source_artifact": "AAIJ-current-aggregate-handoff.json"
+    },
+    {
+      "sha256": "fe086c010383f6c514b4c91b39bc329a81ac2c73256c0fe153a4d4518b896416",
+      "bytes": 46194,
+      "source_artifact": "deliverable-manifest.json"
+    },
+    {
+      "sha256": "7e2265132f7d3039be0605ebd83b771487586a750d313838aabb9eed60ab7aae",
+      "bytes": 7246976,
+      "source_artifact": "user-disposition-overlays/001-20261002T231734Z/selection-overlay.json"
+    },
+    {
+      "sha256": "bf228d03374ef440a6a18da6d03f034fb7a8e6896158dec5f7f083587bb48fd2",
+      "bytes": 2404,
+      "source_artifact": "user-disposition-overlays/001-20261002T231734Z/method-amendment.md"
+    },
+    {
+      "sha256": "8a1bb17ab9c7bd3786d0dc9538e46edfc792eff0e66875c06871699c6f0e8c45",
+      "bytes": 2230,
+      "source_artifact": "user-disposition-overlays/001-20261002T231734Z/user-decision.json"
+    }
+  ],
+  "excluded_original_fields": [
+    "titles",
+    "abstracts",
+    "quotes",
+    "fulltext",
+    "screenshots",
+    "source_local_paths",
+    "thread_identifiers",
+    "internal_conversations"
+  ],
+  "projection_recipe": "Field whitelist in retained local build_artifact.py; public tables include identifier, decision, query and scoped gate data only",
+  "public_reproduction_scope": "Frozen projections to selection/typed-identifier counts; not source search, AI judgment, work/version merge, or taxonomy coding",
+  "raw_snapshot_hash_manifest_sha256": "cb58cd108e972e7d4dda46c7df144f539a1f909a9dea3bc01942c383f67454a1",
+  "raw_snapshot_files": 5242,
+  "raw_snapshot_bytes": 1385292629
+}

@@ -1,0 +1,6 @@
+source,all_source_records,selection_track_records,included_source_records,original_rule_or_evidence_excluded_records,user_directed_not_included_unresolved_records,final_not_included_records,final_selection_pending_records,scientific_pending_preserved_records,separate_standard_records,relation_only_records
+ACM,2573,2573,257,2265,51,2316,0,51,0,0
+IEEE,2492,2489,1010,1309,170,1479,0,170,3,0
+AAAI,96,96,25,61,10,71,0,10,0,0
+IJCAI,59,59,20,33,6,39,0,6,0,0
+AAMAS,21,0,0,0,0,0,,0,0,21

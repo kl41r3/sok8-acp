@@ -1,0 +1,227 @@
+{
+  "scope": "Local taxonomy corpus release candidate only",
+  "remote_publication": false,
+  "release_version": null,
+  "dataset_license": null,
+  "new_code_license_coverage": "Unresolved",
+  "upstream_baseline_commit": "10c46f941dc607ddd09fab7cc5fd33249c33ec01",
+  "baseline_includes_uncommitted_work": true,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "bde3f5e62abd46ec748697dbc956f0fb3cd026a1a9a4862ba806ccc05c72a95c",
+      "bytes": 3125
+    },
+    {
+      "path": "code/reproduce.py",
+      "sha256": "dac639ac79da1fe852f5715f951b7449be5e6653e471aa978acd926d24b7879a",
+      "bytes": 12999
+    },
+    {
+      "path": "data/gate-matrix.csv",
+      "sha256": "e4d0f196a67cc1934bed0bf69499add429b73312480a1e873a46eba06d209fa2",
+      "bytes": 9507,
+      "rows": 40,
+      "columns": [
+        "source",
+        "gate",
+        "status",
+        "scope"
+      ]
+    },
+    {
+      "path": "data/process-receipt.json",
+      "sha256": "542f46dcfdcc2ec1ef526cf9af4198d40ed809b73a7d063ba2769b67ed8891f3",
+      "bytes": 1388
+    },
+    {
+      "path": "data/provenance.json",
+      "sha256": "1dc506d2b46f4a0f30b58947bd605655599e0f4ce351d0d3303390a6e13607b2",
+      "bytes": 4684
+    },
+    {
+      "path": "data/query-counts.csv",
+      "sha256": "4cbd71af8dd2a4b25bd1c29e85aed398ae8c128ac71c93f9c70662017dd0751b",
+      "bytes": 36937,
+      "rows": 155,
+      "columns": [
+        "source",
+        "concept_id",
+        "expression_id",
+        "exact_query",
+        "actual_field",
+        "native_Hq",
+        "observed_Oq",
+        "local_matching_record_IDs",
+        "included_record_IDs",
+        "excluded_record_IDs",
+        "pending_record_IDs",
+        "count_scope",
+        "retrieval_status",
+        "matching_unique_record_IDs"
+      ]
+    },
+    {
+      "path": "data/records.csv",
+      "sha256": "62284bfa3d96b87d0e8dee28d2ae511e1adca68abe43c2fad36a5380596d282e",
+      "bytes": 753286,
+      "rows": 5241,
+      "columns": [
+        "source",
+        "recordID",
+        "normalized_identifier",
+        "union_identifier_key",
+        "track",
+        "scientific_disposition",
+        "scientific_clause",
+        "evidence_level"
+      ]
+    },
+    {
+      "path": "data/selection-overlay.csv",
+      "sha256": "ca7e439ebe61788f884326bea7ad850173ed7d567813ad1684db7d24443d7c18",
+      "bytes": 28645,
+      "rows": 237,
+      "columns": [
+        "source",
+        "recordID",
+        "union_identifier_key",
+        "prior_status",
+        "scientific_disposition",
+        "final_selection",
+        "reason"
+      ]
+    },
+    {
+      "path": "docs/analytical-codebook.md",
+      "sha256": "699eac30d7b58561cd1a9eb03dfa7113435a91c493e2f088908f3256210de067",
+      "bytes": 3406
+    },
+    {
+      "path": "docs/claim-to-artifact.csv",
+      "sha256": "34e400bb9ac7e90875f9dd365be52cbb9542df6e2f55444384a1e80c4fd7e227",
+      "bytes": 2518,
+      "rows": 8,
+      "columns": [
+        "claim_id",
+        "numerical_or_method_claim",
+        "inputs",
+        "generation_or_check",
+        "output",
+        "manuscript_locator",
+        "qualification"
+      ]
+    },
+    {
+      "path": "docs/data-dictionary.md",
+      "sha256": "1b4cb0a697d79ba14281f8b2c9a4d3bc03bafd96dc6ad3d149c192eb16fca05f",
+      "bytes": 4026
+    },
+    {
+      "path": "docs/licensing-and-release-readiness.md",
+      "sha256": "e3358e5dd76a545c02d61bfb29b1bdd74c58a50b2f541ddf305ccd0b1c95657a",
+      "bytes": 3176
+    },
+    {
+      "path": "docs/method-boundaries.md",
+      "sha256": "c8a0206f63bcac740ea59fae676edfc4c29c9ff209d3f09c1a805cd27fd039c7",
+      "bytes": 3288
+    },
+    {
+      "path": "docs/reproduction.md",
+      "sha256": "332a99b016baaafb910da64c55c31176fe4960fa48319d49ab5b9bd9edd8e95c",
+      "bytes": 2716
+    },
+    {
+      "path": "docs/upstream-software-license.txt",
+      "sha256": "07beffd4f18b7589153e21994a2e98199c77fa0a70e3f78f174adae5f392e85f",
+      "bytes": 1076
+    },
+    {
+      "path": "docs/verification.md",
+      "sha256": "96c3f51d30e9dad0a7b2708f3d8aded614814c68b9f45ee74456ae24f0e2342c",
+      "bytes": 2066
+    },
+    {
+      "path": "expected/counts.json",
+      "sha256": "82bae7a8d71a1590c3956f6864fd0e0388c0d8360e084925790e0c390c873da2",
+      "bytes": 913
+    },
+    {
+      "path": "expected/final-selection-records.csv",
+      "sha256": "f3a5b193d74ed04136fe9b651b2a1fc8c2ed48ee1e1303cd0e605a946535f35a",
+      "bytes": 1018365,
+      "rows": 5241,
+      "columns": [
+        "source",
+        "recordID",
+        "normalized_identifier",
+        "union_identifier_key",
+        "track",
+        "scientific_disposition",
+        "scientific_clause",
+        "evidence_level",
+        "final_selection",
+        "selection_basis"
+      ]
+    },
+    {
+      "path": "expected/identifier-selection.csv",
+      "sha256": "1e27b0cd226f5d72cc2fd839faa6b66401cfcf846dc5a7462fba65c17f6f9355",
+      "bytes": 775744,
+      "rows": 5208,
+      "columns": [
+        "union_identifier_key",
+        "normalized_identifier",
+        "source_record_count",
+        "source_members",
+        "source_record_members",
+        "original_scientific_dispositions",
+        "final_selection",
+        "user_disposition_source_record_count",
+        "global_scientific_verdict",
+        "independent_work_count",
+        "version_count"
+      ]
+    },
+    {
+      "path": "expected/included-identifiers.csv",
+      "sha256": "dd9d651d0112a400056bc77b06b88d5d683ceb9a98d58773361e66b0cf05bc0c",
+      "bytes": 194371,
+      "rows": 1301,
+      "columns": [
+        "union_identifier_key",
+        "normalized_identifier",
+        "source_record_count",
+        "source_members",
+        "source_record_members",
+        "original_scientific_dispositions",
+        "final_selection",
+        "user_disposition_source_record_count",
+        "global_scientific_verdict",
+        "independent_work_count",
+        "version_count"
+      ]
+    },
+    {
+      "path": "expected/source-counts.csv",
+      "sha256": "2bcd32454733f1aa3eef2bf0b358093949547ac1d2c9c0aa09172327e2f996f4",
+      "bytes": 481,
+      "rows": 5,
+      "columns": [
+        "source",
+        "all_source_records",
+        "selection_track_records",
+        "included_source_records",
+        "original_rule_or_evidence_excluded_records",
+        "user_directed_not_included_unresolved_records",
+        "final_not_included_records",
+        "final_selection_pending_records",
+        "scientific_pending_preserved_records",
+        "separate_standard_records",
+        "relation_only_records"
+      ]
+    }
+  ]
+}
