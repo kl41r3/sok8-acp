@@ -1,0 +1,474 @@
+{
+  "method_version": "2.0.0",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "server_checkpoint": "not exposed",
+  "temperature": "not exposed",
+  "sampling_seed": "not exposed",
+  "initial_reading": "identical complete author abstracts in separate contexts",
+  "adjudication": "only complete-label disagreements; same-publication supplementary passages where needed",
+  "jobs": {
+    "A01": {
+      "job_id": "A01",
+      "context_id": "context-01",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:11:26.068Z"
+        }
+      ]
+    },
+    "B01": {
+      "job_id": "B01",
+      "context_id": "context-02",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:12:00.675Z"
+        }
+      ]
+    },
+    "A02": {
+      "job_id": "A02",
+      "context_id": "context-03",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:16:19.441Z"
+        }
+      ]
+    },
+    "B02": {
+      "job_id": "B02",
+      "context_id": "context-04",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:17:18.559Z"
+        }
+      ]
+    },
+    "C01": {
+      "job_id": "C01",
+      "context_id": "context-05",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:17:51.832Z"
+        }
+      ]
+    },
+    "A03": {
+      "job_id": "A03",
+      "context_id": "context-06",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:21:35.347Z"
+        }
+      ]
+    },
+    "B03": {
+      "job_id": "B03",
+      "context_id": "context-07",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:21:51.110Z"
+        }
+      ]
+    },
+    "C02": {
+      "job_id": "C02",
+      "context_id": "context-08",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:22:56.494Z"
+        }
+      ]
+    },
+    "A04": {
+      "job_id": "A04",
+      "context_id": "context-09",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:26:38.988Z"
+        }
+      ]
+    },
+    "B04": {
+      "job_id": "B04",
+      "context_id": "context-10",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:27:00.635Z"
+        }
+      ]
+    },
+    "C03": {
+      "job_id": "C03",
+      "context_id": "context-11",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:27:59.114Z"
+        }
+      ]
+    },
+    "A05": {
+      "job_id": "A05",
+      "context_id": "context-12",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:31:16.165Z"
+        }
+      ]
+    },
+    "B05": {
+      "job_id": "B05",
+      "context_id": "context-13",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:31:53.049Z"
+        }
+      ]
+    },
+    "C04": {
+      "job_id": "C04",
+      "context_id": "context-14",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:32:03.750Z"
+        }
+      ]
+    },
+    "A06": {
+      "job_id": "A06",
+      "context_id": "context-15",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:35:28.683Z"
+        }
+      ]
+    },
+    "B06": {
+      "job_id": "B06",
+      "context_id": "context-16",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:36:16.299Z"
+        }
+      ]
+    },
+    "C05": {
+      "job_id": "C05",
+      "context_id": "context-17",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:36:25.661Z"
+        }
+      ]
+    },
+    "A07": {
+      "job_id": "A07",
+      "context_id": "context-18",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:39:49.556Z"
+        }
+      ]
+    },
+    "B07": {
+      "job_id": "B07",
+      "context_id": "context-19",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:40:11.105Z"
+        }
+      ]
+    },
+    "C06": {
+      "job_id": "C06",
+      "context_id": "context-20",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:41:03.358Z"
+        }
+      ]
+    },
+    "A08": {
+      "job_id": "A08",
+      "context_id": "context-21",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:43:41.157Z"
+        }
+      ]
+    },
+    "B08": {
+      "job_id": "B08",
+      "context_id": "context-22",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:45:41.870Z"
+        }
+      ]
+    },
+    "C07": {
+      "job_id": "C07",
+      "context_id": "context-23",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:45:54.356Z"
+        }
+      ]
+    },
+    "A09": {
+      "job_id": "A09",
+      "context_id": "context-24",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:49:08.637Z"
+        }
+      ]
+    },
+    "B09": {
+      "job_id": "B09",
+      "context_id": "context-25",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:49:34.040Z"
+        }
+      ]
+    },
+    "C08": {
+      "job_id": "C08",
+      "context_id": "context-26",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:50:55.292Z"
+        }
+      ]
+    },
+    "A10": {
+      "job_id": "A10",
+      "context_id": "context-27",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:53:31.808Z"
+        }
+      ]
+    },
+    "B10": {
+      "job_id": "B10",
+      "context_id": "context-28",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:54:48.009Z"
+        }
+      ]
+    },
+    "C09": {
+      "job_id": "C09",
+      "context_id": "context-29",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:55:21.994Z"
+        }
+      ]
+    },
+    "A11": {
+      "job_id": "A11",
+      "context_id": "context-30",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:57:43.231Z"
+        }
+      ]
+    },
+    "B11": {
+      "job_id": "B11",
+      "context_id": "context-31",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:58:31.404Z"
+        }
+      ]
+    },
+    "C10": {
+      "job_id": "C10",
+      "context_id": "context-32",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T21:59:25.711Z"
+        }
+      ]
+    },
+    "A12": {
+      "job_id": "A12",
+      "context_id": "context-33",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T22:03:00.336Z"
+        }
+      ]
+    },
+    "B12": {
+      "job_id": "B12",
+      "context_id": "context-34",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T22:03:47.285Z"
+        }
+      ]
+    },
+    "C11": {
+      "job_id": "C11",
+      "context_id": "context-35",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T22:04:03.437Z"
+        }
+      ]
+    },
+    "C12": {
+      "job_id": "C12",
+      "context_id": "context-36",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-19T22:09:57.037Z"
+        }
+      ]
+    },
+    "A13": {
+      "job_id": "A13",
+      "context_id": "context-37",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-21T23:54:43.449Z"
+        }
+      ]
+    },
+    "B13": {
+      "job_id": "B13",
+      "context_id": "context-38",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-21T23:54:50.285Z"
+        }
+      ]
+    },
+    "A14": {
+      "job_id": "A14",
+      "context_id": "context-39",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-21T23:54:57.369Z"
+        }
+      ]
+    },
+    "B14": {
+      "job_id": "B14",
+      "context_id": "context-40",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-21T23:58:24.629Z"
+        }
+      ]
+    },
+    "C13": {
+      "job_id": "C13",
+      "context_id": "context-41",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-21T23:59:48.514Z"
+        }
+      ]
+    },
+    "C14": {
+      "job_id": "C14",
+      "context_id": "context-42",
+      "model_contexts": [
+        {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "high",
+          "timestamp": "2026-10-22T00:02:13.866Z"
+        }
+      ]
+    }
+  }
+}

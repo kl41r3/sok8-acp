@@ -1,0 +1,652 @@
+{
+  "job_id": "C11",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R1005",
+      "identifier_key": "doi:10.1145/3534678.3539416",
+      "classification": "not_evidenced",
+      "mechanism": "Heterogeneous-graph representation and shared generation of station-specific pricing policies.",
+      "rationale": "The described mechanisms learn pricing policies from relationships among stations, without specifying coordination messages, commitments, delegation, or a joint action-execution procedure.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we propose a shared meta generator to generate individual customized dynamic pricing policies for large-scale yet diverse agents based on the extracted meta characteristics.",
+          "rationale": "This is generation of individual pricing policies; no interaction or distributed action rule is stated."
+        }
+      ],
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A identifies the operational boundary correctly: shared policy generation and relational representations do not themselves establish L3. B interprets joint learning as coordination of actions, which the abstract does not state. The targeted full-text attempt did not supply a missing coordination procedure; classification therefore rests on the available abstract.",
+      "supplement_attempts": [
+        {
+          "question": "Does MAGC specify an execution-time coordination procedure between station agents beyond graph representation and shared policy training?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586312+00:00"
+        },
+        {
+          "question": "Does MAGC specify an execution-time coordination procedure between station agents beyond graph representation and shared policy training?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3534678.3539416",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:06:37.586364+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1015",
+      "identifier_key": "doi:10.1145/3701716.3715176",
+      "classification": [
+        "L7"
+      ],
+      "mechanism": "Context-sensitive bargaining assistance evaluated with actual individual sellers.",
+      "rationale": "Actual sellers use the agent and the study evaluates its assistance with deals. Contextual action selection alone does not describe inter-agent negotiation rules.",
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "FishBargain has been tested by thousands of individual sellers on one of the largest online fleamarket platforms (Xianyu) in China.",
+          "rationale": "Actual human participation in evaluating commercial-agent interaction directly supports L7."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain the shared L7 finding. B adds L3 from choosing actions and utterances, but the passage describes one agent's dialogue policy and does not establish an agent-to-agent protocol or specified offer/counteroffer rules. Same-version publisher full text was inaccessible, so the additional L3 claim remains unsupported by what was read.",
+      "supplement_attempts": [
+        {
+          "question": "Does FishBargain define concrete offer/counteroffer interaction rules or multi-agent delegation beyond one assistant choosing utterances for a seller?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586369+00:00"
+        },
+        {
+          "question": "Does FishBargain define concrete offer/counteroffer interaction rules or multi-agent delegation beyond one assistant choosing utterances for a seller?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3701716.3715176",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:06:37.586370+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1030",
+      "identifier_key": "doi:10.1145/3770855.3817478",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Evaluation of retrieval and routing across a large MCP tool collection.",
+      "rationale": "Capability retrieval across servers is explicitly evaluated. Tool composition alone does not establish agent coordination or delegation.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Our analysis reveals that active tool composition strongly correlates with task success, whereas retrieval errors account for nearly half of all failures",
+          "rationale": "Retrieval of suitable tools from the server collection is a substantive evaluation target."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B's L2. A's L3 quote establishes a correlation between tool composition and task success, but does not state coordinated agent roles or delegated tasks. The targeted publisher retrieval did not yield the interaction details that could establish L3.",
+      "supplement_attempts": [
+        {
+          "question": "Does the evaluated multi-tool composition coordinate distinct agents or delegate tasks, rather than sequence tool calls inside one agent?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586373+00:00"
+        },
+        {
+          "question": "Does the evaluated multi-tool composition coordinate distinct agents or delegate tasks, rather than sequence tool calls inside one agent?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3770855.3817478",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:06:37.586374+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1033",
+      "identifier_key": "doi:10.1145/3770855.3818435",
+      "classification": "not_evidenced",
+      "mechanism": "Hierarchical expert-model selection and hyperparameter control within an advertising bidder.",
+      "rationale": "The hierarchy decomposes one bidding system into strategic tuning, expert selection and bid execution; these are internal optimization stages.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a hierarchical reinforcement learning framework that decouples strategic reasoning, model selection, and bid execution across three time scales.",
+          "rationale": "The roles are internal components of a bidder, rather than an inter-agent transaction or delegation protocol."
+        }
+      ],
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. The abstract explicitly explains the hierarchy as stages of an online bidding architecture. Calling the stages agents does not change their function, and B's coordination inference would erase the stated exclusion for internal prediction/optimization pipelines. No payment rule or permission policy is specified."
+    },
+    {
+      "record_id": "R1039",
+      "identifier_key": "doi:10.1145/3774904.3792943",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Randomized experiments on agents selecting products from marketplace listings.",
+      "rationale": "The research tests how product positions and attributes affect selection. Ratings and endorsements are observed choice attributes, without an explicit trust or counterparty-reputation judgment in the read text.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "We then analyze the current drivers of choices through randomized experiments on product positions and listing attributes.",
+          "rationale": "The substantive object is selection among described product offerings."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain A's L2. B treats sensitivity to ratings, reviews and endorsements as sufficient for L1, but the abstract reports purchasing choices and does not identify a trust-estimation or source/counterparty assessment function. The specific trust-semantics question could not be resolved by the failed publisher full-text retrieval, so L1 is not added.",
+      "supplement_attempts": [
+        {
+          "question": "Are ratings, reviews and endorsements analyzed as explicit source/counterparty trust or reputation judgments, or only as product-choice attributes?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586377+00:00"
+        },
+        {
+          "question": "Are ratings, reviews and endorsements analyzed as explicit source/counterparty trust or reputation judgments, or only as product-choice attributes?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3774904.3792943",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:06:37.586378+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1043",
+      "identifier_key": "doi:10.1145/3785462.3815873",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "mechanism": "Scientific-tool discovery and artifact-based delegation from planning to asynchronous HPC execution.",
+      "rationale": "The framework exposes tools and assigns distinct planning and execution roles to bio and Slurm servers, with an execution artifact passed between them.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "enables an assistant to discover scientific tools",
+          "rationale": "Tool discovery is an explicit implemented capability."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a bio server that validates arguments and emits hash-verified RunSpec artifacts, and a Slurm server that submits RunSpecs as batch jobs, polls status, and fetches standardized results and logs.",
+          "rationale": "Distinct server roles implement a concrete task handoff from plan generation to delegated asynchronous execution and monitoring."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. The two-server RunSpec handoff explicitly assigns planning and execution responsibilities, supporting L3 alongside discovery. B's extra L1 infers authentication from a hash-integrity check; the abstract does not bind the hash to an identity, credential, trusted source or counterparty trust decision."
+    },
+    {
+      "record_id": "R1047",
+      "identifier_key": "doi:10.1145/3786616",
+      "classification": [
+        "L3"
+      ],
+      "mechanism": "Distributed multi-issue bargaining with defined actions and negotiation parameter types.",
+      "rationale": "The contribution defines bargaining interactions and distributed heuristics. The read text names privacy and use terms without specifying permission semantics.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "defines a number of bargaining actions, negotiation parameter categories (such as numerical, hierarchical, or query-based) and associated classes of utility functions",
+          "rationale": "The framework defines the structure of automated provider-consumer bargaining interactions."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain A's L3. B infers L4 from privacy-policy and terms-of-use labels. Those labels can denote permissions, but their actual scope or rules are not given; treating them as economic negotiation dimensions alone does not establish authorization. No same-version body was located locally, and the publisher returned 403, so no additional L4 evidence was obtained.",
+      "supplement_attempts": [
+        {
+          "question": "Do the privacy-policy and terms-of-use parameters specify allowed users/actions, consent or a bounded authorization scope?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586382+00:00"
+        },
+        {
+          "question": "Do the privacy-policy and terms-of-use parameters specify allowed users/actions, consent or a bounded authorization scope?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3786616",
+          "access_status": "failed",
+          "error": "Failed to fetch: (403) Forbidden",
+          "recorded_at_utc": "2026-10-19T22:06:37.586383+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1049",
+      "identifier_key": "doi:10.1145/3793449.3793498",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Architecture for runtime discovery of reusable MCP capabilities through a registry.",
+      "rationale": "A capability registry explicitly supports discovery. Composition is named without an accompanying task or role coordination mechanism.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "conceptualization of a dynamic, runtime discovery, and composition Agent Capability Registry",
+          "rationale": "The proposed registry represents capabilities and makes them discoverable at runtime."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B's L2. A derives L3 from the same registry phrase, but a capability registry and an aspiration to compose services do not specify delegation or coordinated interactions. The named security framework also lacks concrete authentication or permission rules in the abstract. The targeted publisher request returned 403 and supplied no missing mechanism.",
+      "supplement_attempts": [
+        {
+          "question": "Does the capability-composition architecture specify task delegation or coordinated role/message rules, beyond runtime discovery and selecting tools?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586385+00:00"
+        },
+        {
+          "question": "Does the capability-composition architecture specify task delegation or coordinated role/message rules, beyond runtime discovery and selecting tools?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3793449.3793498",
+          "access_status": "failed",
+          "error": "Failed to fetch: (403) Forbidden",
+          "recorded_at_utc": "2026-10-19T22:06:37.586385+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1051",
+      "identifier_key": "doi:10.1145/3796519",
+      "classification": "not_evidenced",
+      "mechanism": "Lifecycle-based threat taxonomy and safeguards for MCP server implementations.",
+      "rationale": "The abstract specifies the scope of a security study, but not a concrete identity, authorization, capability-selection or agent-coordination mechanism analyzed within it.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category",
+          "rationale": "The safeguards are a research object, but their operational identity, permission, discovery or coordination functions are unspecified here."
+        }
+      ],
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. A promotes introductory descriptions of MCP discovery and communication into layer labels, while the stated research contribution is a server-lifecycle threat study whose safeguards are not functionally detailed. Server creation/deployment/maintenance is not a commerce lifecycle. Same-version body retrieval failed, leaving insufficient evidence for any specific layer.",
+      "supplement_attempts": [
+        {
+          "question": "Which specific authentication, permission, discovery or agent-interaction mechanisms are analyzed or specified by the lifecycle safeguards?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:06:37.586388+00:00"
+        },
+        {
+          "question": "Which specific authentication, permission, discovery or agent-interaction mechanisms are analyzed or specified by the lifecycle safeguards?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3796519",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:06:37.586388+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1052",
+      "identifier_key": "doi:10.1145/3800935.3830851",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Token-consumption cost model comparing hypermedia and MCP action discovery.",
+      "rationale": "The model substantively compares the cost of discovering available actions. Its ReAct loop is an internal agent-tool execution loop.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "architectural efficiency, the number of tool calls a discovery model requires to complete a task.",
+          "rationale": "The model treats capability/action discovery cost as a substantive architectural comparison."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. A assigns L3 to token-cost analysis of a ReAct loop, but a single agent's repeated tool-use cycles do not establish coordinated agents, delegated tasks or inter-agent interaction rules. The explicit action-discovery comparison supports L2."
+    },
+    {
+      "record_id": "R1059",
+      "identifier_key": "doi:10.1145/3816713.3819066",
+      "classification": [
+        "L3",
+        "L4",
+        "L6"
+      ],
+      "mechanism": "Tradable agent assets with separated ownership and execution rights, workflow composition and atomic barter.",
+      "rationale": "The marketplace composes distributed agent workflows, delegates exclusive execution rights and defines atomic trading of assets. Naming purchase and rental mechanisms does not state monetary payment or release rules.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The prosumers can build their own complex agentic workflows through the agents over which they hold the execution rights.",
+          "rationale": "Workflow composition explicitly combines separately held agents as task-performing components."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "temporary delegation of exclusive execution rights",
+          "rationale": "Execution authority is explicitly delegated and bounded, separately from ownership."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "We represent permanent-swap as an atomic one-to-one bartering problem where prosumers first propose their bids and later employ Bellman-Ford negative cycle detection algorithm to solve the resulting directed graph of bids.",
+          "rationale": "The mechanism defines how bids form an atomic asset-exchange transaction."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. The abstract supports coordinated workflows, rights delegation and transaction formation. A infers L5 from pay-as-you-prompt, leasing and purchase names, but does not identify who owes which payment, when it is due, or how funds are transferred or released. Atomic barter establishes an asset transaction, not by itself a monetary settlement mechanism. The targeted same-version full text was unavailable.",
+      "supplement_attempts": [
+        {
+          "question": "What payment obligations, transfer or fund-release rules implement pay-as-you-prompt, leasing and permanent buying?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:07:42.345612+00:00"
+        },
+        {
+          "question": "What payment obligations, transfer or fund-release rules implement pay-as-you-prompt, leasing and permanent buying?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3816713.3819066",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:07:42.345666+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1062",
+      "identifier_key": "doi:10.1145/3821216",
+      "classification": [
+        "L1",
+        "L4",
+        "L7"
+      ],
+      "mechanism": "A2A interceptor enforcing customer authentication, scoped token lifetimes and explicit consent.",
+      "rationale": "The research analyzes authentication weaknesses and designs execution-time authorization and human consent. Direct user-to-service data channels protect sensitive-data exposure.",
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "we identify key weaknesses in A2A: insufficient token lifetime control, lack of strong customer authentication, overbroad access scopes, and missing consent flows.",
+          "rationale": "Customer authentication is an explicit analyzed weakness."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "a Zero-Trust Interceptor that enforces explicit consent orchestration, ephemeral scoped tokens",
+          "rationale": "The interceptor enforces consent and temporal/scope constraints on authority."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "explicit consent orchestration",
+          "rationale": "User consent is an explicit designed approval interaction, rather than an inferred consequence of acting on a user's behalf."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. The concrete functions are customer authentication, bounded authority and explicit user approval. A adds L3 because data bypass intermediary agents, but direct user-to-service channels alone do not describe agent-to-agent task coordination, delegation or interaction sequencing. The security architecture does not automatically receive a separate orchestration label."
+    },
+    {
+      "record_id": "R1063",
+      "identifier_key": "doi:10.1145/3821576",
+      "classification": "not_evidenced",
+      "mechanism": "White-box tracing and evaluation of agentic-system performance, adherence and recovery.",
+      "rationale": "The abstract identifies engineering measurements and protocol grounding without specifying the agent interaction or delegation rules actually examined.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "By treating agentic spans as first-class citizens within distributed traces, our methodology enables granular analysis of engineering characteristics beyond simple capabilities.",
+          "rationale": "This establishes an observability/engineering study but not a specific layer function."
+        }
+      ],
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. A equates protocol adherence with L3, but the abstract does not reveal whether adherence concerns message syntax, tool invocation, task delegation, or multi-agent coordination. The concrete question was pursued through local source lookup and a same-version publisher request, which provided no body text. The resulting classification is definite not_evidenced on the available evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Which MCP/A2A protocol-adherence checks and recovery mechanisms evaluate inter-agent task delegation or coordinated interaction, rather than invocation syntax and runtime performance?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:07:42.345672+00:00"
+        },
+        {
+          "question": "Which MCP/A2A protocol-adherence checks and recovery mechanisms evaluate inter-agent task delegation or coordinated interaction, rather than invocation syntax and runtime performance?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3821576",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:07:42.345674+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1066",
+      "identifier_key": "doi:10.1145/3833541.3833681",
+      "classification": "not_evidenced",
+      "mechanism": "Synchronized joint training of a bidder's bid-decision and budget-allocation modules.",
+      "rationale": "The contribution coordinates learning updates within one bidding architecture to improve bidding and budgeting. No external coordination, payment rule or authorization mechanism is specified.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "integrates a DQN-based bid decision module with a PPO-based dynamic budget allocation module to achieve collaborative optimization.",
+          "rationale": "The explicitly described functions are bid optimization and budget allocation within a bidding system."
+        }
+      ],
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. B relies on the word agents and the synchronization of policy updates; the abstract explains these as coupled DQN/PPO components of the same bidder. This is the excluded case of internal optimization stages, even though their learning is interdependent. Second-price auction is only the experimental setting and does not establish L5."
+    },
+    {
+      "record_id": "R1067",
+      "identifier_key": "doi:10.1145/3847119",
+      "classification": [
+        "L1",
+        "L4"
+      ],
+      "mechanism": "Empirical analysis of authentication and authorization defects in MCP development frameworks.",
+      "rationale": "Authentication and authorization failures are explicit measured root-cause categories. Generic protocol/specification violations do not identify a specific coordination function.",
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "authentication &amp; authorization defects (11.6%)",
+          "rationale": "Authentication defects are explicitly measured and analyzed as a root-cause category."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "authentication &amp; authorization defects (11.6%)",
+          "rationale": "Authorization defects are explicitly measured and analyzed as a root-cause category."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. L1 and L4 are directly supported by a substantive defect category. A adds L3 from protocol/specification violations, but this broad category can include transport, compatibility or data handling; it does not establish analyzed inter-agent interaction rules. The targeted publisher full text was unavailable, so that additional inference is not supported.",
+      "supplement_attempts": [
+        {
+          "question": "Which protocol/specification violation cases concern task delegation or inter-agent interaction rules, beyond transport, version and parameter-handling defects?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:07:42.345678+00:00"
+        },
+        {
+          "question": "Which protocol/specification violation cases concern task delegation or inter-agent interaction rules, beyond transport, version and parameter-handling defects?",
+          "url": "https://dl.acm.org/doi/full/10.1145/3847119",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:07:42.345679+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1069",
+      "identifier_key": "doi:10.1145/501158.501182",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "mechanism": "Distributed supplier recommendation using repeated auctions among adaptive recommendation agents.",
+      "rationale": "The system selects supplier recommendations by consumer interest and uses repeated auctions to coordinate competing agents' access to limited attention space.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Successive auctions allow agents to rapidly adapt their bidding strategy to focus on consumers interested in their offerings.",
+          "rationale": "Recommendations are targeted according to the suitability of offerings for consumer interests."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We present a competitive distributed recommendation mechanism based on adaptive software agents for efficiently allocating the \"consumer attention space\", or banners. In our approach, each agent bids in an auction for the momentary attention of each consumer.",
+          "rationale": "The proposed mechanism coordinates competing recommendation agents through an explicit auction procedure for shared attention space."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. This paper proposes the distributed recommendation allocation mechanism itself, rather than studying one bidder within a fixed market. Each competing agent bids for each consumer's momentary attention and successive auctions organize their competing actions, which establishes L3. Interest-sensitive recommendation selection independently supports L2; no payment rule is specified."
+    },
+    {
+      "record_id": "R1081",
+      "identifier_key": "doi:10.1145/775152.775200",
+      "classification": [
+        "L6"
+      ],
+      "mechanism": "Rule- and ontology-based representation of contract creation, execution and exception provisions.",
+      "rationale": "The system models contract commitments and execution exceptions. The abstract does not specify a breach claim, evidence assessment, adjudication or linked remedy procedure.",
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "enabling more complex contracts with behavioral provisions, especially for handling exception conditions (e.g., late delivery or non-payment) that might arise during the execution of the contract.",
+          "rationale": "Contract execution and exception-management provisions are explicit substantive functions."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. B treats handling late delivery and non-payment as sufficient for L8, but naming execution exceptions is compatible with ordinary contract-management transitions. L8 requires the relation between breach/dispute handling, a decision rule and remedy; that relation is absent from the read abstract. The requested same-version body could not be retrieved, so L8 is not added.",
+      "supplement_attempts": [
+        {
+          "question": "Do SweetDeal exception provisions specify breach/dispute claims, evidence-based judgment and linked remedies, or only contract-execution conditions and transitions?",
+          "search_scope": "Filename lookup by source_record_id and DOI suffix; source-specific abstract and metadata locations inspected. No saved body or full-text PDF located.",
+          "access_status": "no_saved_same_version_body_located",
+          "recorded_at_utc": "2026-10-19T22:07:42.345682+00:00"
+        },
+        {
+          "question": "Do SweetDeal exception provisions specify breach/dispute claims, evidence-based judgment and linked remedies, or only contract-execution conditions and transitions?",
+          "url": "https://dl.acm.org/doi/full/10.1145/775152.775200",
+          "access_status": "failed",
+          "error": "URL is not accessible via this tool.",
+          "recorded_at_utc": "2026-10-19T22:07:42.345683+00:00",
+          "evidence_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R1092",
+      "identifier_key": "doi:10.1145/938985.939011",
+      "classification": [
+        "L2",
+        "L3",
+        "L5"
+      ],
+      "mechanism": "Reactive distributed routing that selects cost-efficient forwarding agents and compensates them with VCG premiums.",
+      "rationale": "The proposed routing protocol selects service providers along a path, coordinates their forwarding and specifies payments to intermediate nodes.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "it guarantees that routing is done along the most cost-efficient path",
+          "rationale": "The protocol selects a chain of forwarding service providers on reported forwarding costs."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "we propose Ad hoc-VCG, a reactive routing protocol that achieves the design objectives of truthfulness (i.e., it is in the agents' best interest to reveal their true costs for forwarding data) and cost-efficiency (i.e., it guarantees that routing is done along the most cost-efficient path)",
+          "rationale": "The reactive protocol organizes distinct agents' cost reports and dependent forwarding actions along a selected route."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "by paying to the intermediate nodes a premium over their actual costs for forwarding data packets.",
+          "rationale": "The mechanism explicitly pays forwarding providers premiums above costs and studies total overpayment; this is a modeled payment rule."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. This is a designed reactive routing protocol arranging mutually dependent forwarding actions by distinct selfish agents, rather than one bidder optimizing its own action. That concrete coordination role supports L3 in addition to the shared L2 provider/path selection and L5 payment findings. Truthfulness is incentive compatibility, so no L1 trust mechanism is inferred."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "job_id": "C09",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0803",
+      "identifier_key": "doi:10.1109/tie.2012.2193857",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "In order to match the buyers and sellers in the energy market, symmetrical assignment problem based on naíve auction algorithm is used.",
+          "rationale": "A specified assignment procedure coordinates buyer and seller actions within the multi-role microgrid architecture."
+        }
+      ],
+      "rationale": "The named assignment procedure supports inter-agent coordination; suitability-based discovery is not established.",
+      "mechanism": "Two-level microgrid management using naive-auction symmetric assignment.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A on L2: identifying buyers and sellers as allocation targets does not establish suitability-based provider selection. The abstract specifies an assignment algorithm and participant roles sufficient for L3, but not L2 criteria; the targeted publisher attempt yielded no body text.",
+      "supplement_attempts": [
+        {
+          "question": "Does buyer-seller assignment use resource or counterparty suitability beyond auction-value winner allocation?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does buyer-seller assignment use resource or counterparty suitability beyond auction-value winner allocation?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0807",
+      "identifier_key": "doi:10.1109/tii.2017.2679808",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "CEMS follows a dual phase energy management strategy.",
+          "rationale": "The described phases integrate local resources and subsequently adjust their operation; agent-to-agent coordination rules are not specified."
+        }
+      ],
+      "rationale": "The abstract establishes staged energy scheduling but not the interaction or delegation mechanism needed for L3.",
+      "mechanism": "Forecast-based local energy scheduling followed by real-time adjustment.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A: coordinating energy variables across two optimization phases is insufficient to establish coordination among agents. B infers inter-agent rules from the auction setting and shared imbalance objective. No identity-matched saved body was located, and the official-page attempt returned a verification page.",
+      "supplement_attempts": [
+        {
+          "question": "Does CEMS specify inter-agent message, delegation or coordination rules beyond local resource scheduling?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does CEMS specify inter-agent message, delegation or coordination rules beyond local resource scheduling?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0812",
+      "identifier_key": "doi:10.1109/tits.2021.3075202",
+      "classification": [
+        "L3",
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "users are allowed to bid and compromise on their preferred stops, charging time and energy simultaneously at separate charging stations.",
+          "rationale": "The multi-round interaction coordinates interdependent charging decisions across stations."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "we also develop a dynamic scheduling algorithm to address the changes of user’s reserved charges and unexpected arrivals of other vehicles.",
+          "rationale": "The design manages changes to already reserved charging services."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "saved_body_1",
+          "quote": "Users are allowed to customize their preferred charging destination, start time, and energy allocation of each charge by inputting their preferences into the smart charging bidding systems on their phones.",
+          "rationale": "The body specifies a human-facing preference-input mechanism, independently of whether human-subject experiments were performed."
+        }
+      ],
+      "rationale": "The auction coordinates bidding, updates reservations, and explicitly supports user preference input through phones.",
+      "mechanism": "Multi-round charging auctions with reservation rescheduling and phone-based preference input.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "saved_body_1",
+        "saved_body_2"
+      ],
+      "adjudication_reason": "Retain the shared L3/L6 and adopt A on L7 after body clarification. The abstract alone leaves modeled agent preferences ambiguous; the saved same-DOI section explicitly describes user phone inputs, automatic proxy bidding and user adjustments. L7 follows from designed human input, not an invented claim of human-subject evaluation."
+    },
+    {
+      "record_id": "R0816",
+      "identifier_key": "doi:10.1109/tkde.2026.3716724",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "MCP-Text2SQL decomposes heterogeneous contextual knowledge into semantically isolated model context protocol context servers and coordinates them through an explicit generation protocol.",
+          "rationale": "The designed protocol coordinates separately served context roles and structures their participation in generation."
+        }
+      ],
+      "rationale": "The research object is explicit interaction across separated context servers and feedback roles.",
+      "mechanism": "Protocol-driven context-server coordination and SQL validation feedback.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A: the evidence explicitly locates coordination across separate context servers and structures feedback as protocol interactions. This satisfies task/role orchestration beyond merely renaming a model-internal prediction/optimization sequence. Natural-language database interfaces in the background do not independently establish L7."
+    },
+    {
+      "record_id": "R0838",
+      "identifier_key": "doi:10.1109/tpwrs.2024.3360606",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "A double-sided auction method with an average pricing market (APM) mechanism is performed in P2P kW and nW trading for market clearing.",
+          "rationale": "The specified market-clearing mechanism coordinates buyers and sellers across the linked kW/nW markets."
+        }
+      ],
+      "rationale": "The joint market design supplies a named clearing mechanism; the payment obligation is not described beyond naming average pricing.",
+      "mechanism": "Double-sided clearing for jointly coordinated kilowatt and negawatt markets.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B on L3 and reject A’s L5 inference: market-clearing interaction is a substantive design element, but naming an average-pricing mechanism does not itself give a payment obligation or transfer rule under the fixed pricing/payment boundary. The official same-paper page supplied no body evidence to resolve that rule.",
+      "supplement_attempts": [
+        {
+          "question": "Does the average-pricing mechanism specify payment obligations or a transfer rule, and how are kW/nW participants coordinated?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does the average-pricing mechanism specify a payment obligation or transfer rule?",
+          "retrieved_at_utc": "2026-10-19T21:58:13.833444+00:00",
+          "access_status": "tool_access_error_on_misaddressed_locator",
+          "actual_fulltext_read": false,
+          "identity_binding": "Not identity-bound; DOI suffix was mistakenly used as article number. Discarded as evidence; corrected using frozen primary_url to article 10417815.",
+          "timestamp_precision": "Time this failed attempt was recorded; exact request timestamp not exposed"
+        },
+        {
+          "question": "Does the average-pricing mechanism specify payment obligations or a transfer rule, and how are kW/nW participants coordinated?",
+          "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0851",
+      "identifier_key": "doi:10.1109/tsg.2020.3042190",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "An iterative algorithm is first designed to clear the market and mitigate the uncertainty in supply and demand.",
+          "rationale": "The paper designs an iterative clearing procedure for interactions among community participants, beyond each agent’s price prediction."
+        }
+      ],
+      "rationale": "The designed iterative clearing procedure supports L3; read body sections describe bid/ask policies without a payment rule.",
+      "mechanism": "Iterative community-energy market clearing with adaptive bidding.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec2b-p1",
+        "sec4c-p1",
+        "sec4d-p1",
+        "sec5-p1"
+      ],
+      "adjudication_reason": "Adopt B on the disputed L5: the abstract distinguishes market spot-price determination from adaptive future-price prediction, but neither the abstract nor the saved sections specifies who pays whom under a payment rule. Read sections define bids/asks as prices, empirical/greedy bidding, mixture bidding and a simulation with exogenous energy charges. They confirm pricing and bidding research, not a substantive settlement rule. Retain L3 from the explicitly designed iterative market-clearing algorithm; publisher access did not supply the missing payment passage.",
+      "supplement_attempts": [
+        {
+          "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "saved_body_located_but_question_not_resolved",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0869",
+      "identifier_key": "doi:10.1109/tvt.2019.2920531",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This study proposes double auction models to incentivize AEV agents to participate in the market based on their time preferences and energy pricing.",
+          "rationale": "The reported mechanism studies auction incentives and dynamic prices but leaves interaction rules and payment obligations undescribed."
+        }
+      ],
+      "rationale": "The abstract does not establish the payment rule or designed negotiation interactions needed for either proposed layer.",
+      "mechanism": "Dynamic-pricing double-auction incentives for autonomous-vehicle energy markets.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Reject both inferred labels. A and B equate dynamic pricing with L5 without quoting a payment obligation or transfer rule. B additionally infers L3 from placing aggregators on cloudlets for communication and negotiation; this describes a setting, not the designed exchange protocol. Truthfulness and budget balance do not replace functional evidence. Saved-body lookup and an official-page attempt did not resolve these questions, so no layer is established in the read evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Does the double-auction design specify agent interaction rules or payment obligations beyond dynamic-price optimization and a negotiation setting?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does the double-auction design specify agent interaction rules or payment obligations beyond dynamic-price optimization and a negotiation setting?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0874",
+      "identifier_key": "doi:10.1109/twc.2014.012114.121317",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "we consider a system consisting of a set of source-to-destination pairs, relay nodes, group agents, and the auctioneer, where source nodes are grouped into different groups and each group is represented by a group agent.",
+          "rationale": "The designed repeated-auction system delegates representation to group agents and assigns coordinated participant roles."
+        }
+      ],
+      "rationale": "Repeated relay auctions explicitly organize group representation; suitability-based discovery is not established.",
+      "mechanism": "Repeated relay-assignment auctions with group-agent representation and collusion control.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A: group-agent representation in the designed repeated auction supports L3. B’s relay-assignment quote identifies the allocation target, but the abstract describes entity benefits and auction properties without a link/service suitability criterion needed for L2. The introductory statement that appropriate relays matter does not supply that criterion. Targeted publisher retrieval supplied no body passage.",
+      "supplement_attempts": [
+        {
+          "question": "Does relay assignment select providers using link/service suitability beyond benefits and auction winner allocation?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does relay assignment select providers using link/service suitability beyond benefits and auction winner allocation?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0877",
+      "identifier_key": "doi:10.1109/ucc.2011.34",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "With these aims, we are working towards a bundled service provider agent architecture, which can negotiate on the open service market.",
+          "rationale": "The abstract presents a negotiation-capable architecture and management aims without specifying negotiation or service-commitment operations."
+        }
+      ],
+      "rationale": "Provisioning and operation are management aims; no concrete transaction or fulfillment mechanism is described in the read evidence.",
+      "mechanism": "Bundled-provider agents for inter-cloud service-management responsibility.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B: A promotes the aim of managing risk/resilience in provision and operation into L6. The abstract does not identify contract acceptance, delivery commitments, fulfillment transitions or their management rules. Likewise the ability to negotiate does not establish L3 interaction design. No saved identity-matched body was found and the official-page tool returned an access error. The classification is definite on available evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Does bundled-service management specify contract formation, fulfillment transitions or negotiation rules beyond architectural aims?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does bundled-service management specify contract formation, fulfillment transitions or negotiation rules beyond architectural aims?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "tool_access_error",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0886",
+      "identifier_key": "doi:10.1109/vtc2023-fall60731.2023.10333815",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "In the first stage, the self-interested UAV jointly optimizes its trajectory and service price to maximize its long-term profits. In the second stage, the non-cooperative MUs optimize their binary offloading decisions to minimize the average task processing delay and service payment.",
+          "rationale": "The designed game sequences a provider’s service offer and distinct users’ offloading responses within each trading round."
+        }
+      ],
+      "rationale": "The specified two-stage provider/user interaction supports L3; service-price optimization alone does not establish L5.",
+      "mechanism": "Two-stage UAV offer and user offloading interaction with opponent-modeling DDQN.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B on the disputed L5. The abstract explicitly defines ordered roles across separate decentralized agents, supporting L3. A infers a payment mechanism from provider price and users’ cost objectives, but no substantive payment obligation or transfer rule is described. The official-page attempt did not provide a body passage that would justify adding L5.",
+      "supplement_attempts": [
+        {
+          "question": "Does the optimization specify a payment obligation or transfer rule beyond service-price and cost optimization?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "no_identity_matched_saved_body_found",
+          "method": "Source-record-ID path inventory and article/DOI search in saved body/evidence files"
+        },
+        {
+          "question": "Does the optimization specify a payment obligation or transfer rule beyond service-price and cost optimization?",
+          "retrieved_at_utc": "2026-10-19T21:57:52.487842+00:00",
+          "access_status": "javascript_robot_verification_page_only",
+          "actual_fulltext_read": false
+        }
+      ]
+    }
+  ]
+}

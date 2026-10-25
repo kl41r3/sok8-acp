@@ -1,0 +1,32 @@
+{
+  "source_frame_records": 5241,
+  "source_frame_identifiers": 5208,
+  "source_records": 5217,
+  "included_source_records": 1312,
+  "excluded_source_records": 3905,
+  "typed_identifiers": 5184,
+  "included_typed_identifiers": 1301,
+  "included_source_row_repeat_deduction": 11,
+  "by_source": {
+    "ACM": {
+      "records": 2573,
+      "include": 257,
+      "exclude": 2316
+    },
+    "IEEE": {
+      "records": 2489,
+      "include": 1010,
+      "exclude": 1479
+    },
+    "AAAI": {
+      "records": 96,
+      "include": 25,
+      "exclude": 71
+    },
+    "IJCAI": {
+      "records": 59,
+      "include": 20,
+      "exclude": 39
+    }
+  }
+}

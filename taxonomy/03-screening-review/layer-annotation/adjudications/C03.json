@@ -1,0 +1,520 @@
+{
+  "job_id": "C03",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0208",
+      "identifier_key": "doi:10.1109/ecmdd.1999.776412",
+      "classification": [
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "The method is based on the concept of law-governed interaction (LGI) which makes a strict separation between a declarative, formal statement of a policy and its enforcement.",
+          "rationale": "The proposed enforcement architecture subjects organizational purchasing agents to formally declared organizational policy."
+        }
+      ],
+      "rationale": "Organizational rules are a designed execution constraint on purchasing agents, establishing L4. The abstract does not describe an agent message protocol or dependent-action coordination mechanism.",
+      "mechanism": "Law-governed enforcement of organizational commerce policy.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disagreement is whether the name law-governed interaction and formal policy enforcement independently establish L3. They establish the policy/enforcement function but do not state the interaction rules or coordinated actions. I retain A’s L4; unavailable targeted body evidence does not justify adding L3.",
+      "supplement_attempts": [
+        {
+          "question": "Does LGI define substantive message/interaction rules between commerce agents, beyond enforcement of organizational authorization policy?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "ID4EF4939DE3C1448",
+          "article_id": "776412",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Does LGI define substantive message/interaction rules between commerce agents, beyond enforcement of organizational authorization policy?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "URL not accessible via web tool",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0212",
+      "identifier_key": "doi:10.1109/eee.2004.1287341",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "the \"knowledge\" that is used to describe the product and the deal are commonly represented by an object-oriented ontology called Knowledge Bead (KB)",
+          "rationale": "A shared ontology explicitly describes the traded product and deal, making resource description a substantive representation mechanism."
+        }
+      ],
+      "rationale": "L2 includes resource description as well as search. The product/deal ontology is central to the proposed knowledge-oriented trading system.",
+      "mechanism": "Knowledge Bead ontology for product and deal representation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A requires partner discovery or concrete negotiation interactions, but L2 expressly includes resource description. The abstract identifies the product/deal representation and its use in negotiation, so I adopt B’s L2 without inferring L3 or L6."
+    },
+    {
+      "record_id": "R0214",
+      "identifier_key": "doi:10.1109/eee.2005.38",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Especially, two kinds of automatic negotiations, mutual negotiation and third-party negotiation, are applied to reach an agreement according to user's choice.",
+          "rationale": "Bilateral and third-party mediated negotiation are alternative implemented agent interaction arrangements."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "according to user's choice.",
+          "rationale": "The user selects the automatic negotiation arrangement, an explicit human control input into the framework."
+        }
+      ],
+      "rationale": "The evaluated framework implements negotiation arrangements and lets the user choose among them.",
+      "mechanism": "User-selectable bilateral or mediated automatic negotiation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disputed L7 is supported by an explicit user choice governing the negotiation mode, not merely a generic benefit to users. L7 does not require a separate human-subject evaluation when a human control function is designed. I retain B’s L3/L7; reaching agreement alone does not establish managed contractual commitment."
+    },
+    {
+      "record_id": "R0216",
+      "identifier_key": "doi:10.1109/eee.2005.90",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "sec3_excerpt_1",
+          "quote": "The context manager agent (CMA) must interact with the P3P agent for producing the results of comparison between user preferences and site's privacy practices.",
+          "rationale": "The body specifies interaction between two agent roles to produce a preference/policy comparison."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "The context agent manages dynamic changes of the context, inform the user about the current privacy-related context for decision support, and automatically generate user preferences.",
+          "rationale": "Context and generated preferences support a human privacy decision."
+        }
+      ],
+      "rationale": "The saved method passage identifies comparison, retrieval and matching of privacy preferences and site practices. It does not establish enforced permission or consent constraints.",
+      "mechanism": "Context-agent/P3P-agent preference matching and human decision support.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3_excerpt_1",
+        "sec3_excerpt_2",
+        "sec3_excerpt_3",
+        "sec3_excerpt_4",
+        "sec3_excerpt_5"
+      ],
+      "adjudication_reason": "B infers L4 enforcement from application of privacy rules. The saved same-paper Context manager agent passages make the operation concrete as preference/practice comparison and selection of the relevant policy statement. That supports L3/L7 but does not establish a permission gate or consent enforcement mechanism, so I retain A’s L3/L7.",
+      "supplement_attempts": [
+        {
+          "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+          "method": "local_source_specific_saved_body_search",
+          "access_status": "success",
+          "result": "Read five saved official Context manager agent excerpts; preserved in supplements/C03/R0216.json.",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0230",
+      "identifier_key": "doi:10.1109/epdc56235.2022.9817339",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Furthermore, we investigated market-clearing mechanisms with different pricing rules under an equal rationing policy, in terms of competitiveness in the market and total profit of GenCos.",
+          "rationale": "The comparison measures competition and profit but does not explicitly specify payment obligations, transfers or settlement rules."
+        }
+      ],
+      "rationale": "The abstract establishes individual bidding optimization and an outcome comparison across named pricing schemes. It does not state the operative payment relation needed to establish L5.",
+      "mechanism": "Double Q-learning and Double SARSA bidding with comparison of named electricity pricing regimes.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A treats studied uniform and pay-as-bid regimes as established remuneration mechanisms. Substantive comparison satisfies the research-focus condition but the abstract still does not describe who pays whom or how receipts are determined; rule names alone are excluded by v2. Targeted body access failed, so I retain not_evidenced with the evidence-access limit recorded.",
+      "supplement_attempts": [
+        {
+          "question": "Does the studied uniform/pay-as-bid comparison define who pays whom or generator receipt rules, beyond naming the pricing schemes?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "I4CACCFF42AB87259",
+          "article_id": "9817339",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Does the studied uniform/pay-as-bid comparison define who pays whom or generator receipt rules, beyond naming the pricing schemes?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "Official page returned JavaScript-required robot-verification message; no body retrieved",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0246",
+      "identifier_key": "doi:10.1109/fuzz-ieee.2014.6891664",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The initial price estimation methodology selects an auction to participate in and assesses the value (initial price) of the auctioned item. Then the final price prediction model forecasts the bid amount by designing different bidding strategies using fuzzy reasoning techniques.",
+          "rationale": "Auction selection is stated, but no suitability criterion or resource/provider matching operation is explained; the concrete mechanisms concern price estimation and bidding."
+        }
+      ],
+      "rationale": "The method specifies price prediction and bid optimization. The abstract does not explain whether auction choice is based on resource/provider suitability or is another bidding-profit decision.",
+      "mechanism": "Initial price estimation and fuzzy final-price bidding strategy.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B infers L2 from selecting an auction. Unlike an explicit resource-description or matching mechanism, this sentence leaves the selection criterion unspecified. The potentially classification-changing question could not be resolved from saved body or the official page, so I retain not_evidenced rather than infer L2.",
+      "supplement_attempts": [
+        {
+          "question": "What suitability criterion is used to select an auction or its offered resource, beyond estimating and optimizing bid prices?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "I79A11DB7F3B984AE",
+          "article_id": "6891664",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "What suitability criterion is used to select an auction or its offered resource, beyond estimating and optimizing bid prices?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "Failed to fetch: Cache miss",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0250",
+      "identifier_key": "doi:10.1109/fuzzy.2010.5584680",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Furthermore, we introduce novel modifications of existing pricing and accepting techniques to work in conjunction with our charging module.",
+          "rationale": "In the stated market-rule setting, modified offer-admission rules regulate trading-agent interactions with the double auction."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "MyFuzzy which employs a fuzzy logic based module to impose its fees in order to balance the profit and market share.",
+          "rationale": "The charging module determines fees imposed on market participants, an explicit payment obligation."
+        }
+      ],
+      "rationale": "The agent designs market interaction rules and fee obligations. Admission of offers is not shown to form binding trade commitments.",
+      "mechanism": "Fuzzy market fee setting with modified offer-acceptance rules.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L6 because proposed transactions are admitted, whereas B recognizes offer-interaction rules as L3. Acceptance of a submitted offer in a double-auction rule system does not by itself show that an order is executed or a commitment is formed. The abstract directly supports L3/L5; targeted body access did not establish L6, so I adopt B’s set.",
+      "supplement_attempts": [
+        {
+          "question": "Do modified offer-acceptance rules establish transaction commitments, or only admit quotes to a double auction?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "I6EF418CC8F6303B3",
+          "article_id": "5584680",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Do modified offer-acceptance rules establish transaction commitments, or only admit quotes to a double auction?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "URL not accessible via web tool",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Do modified offer-acceptance rules establish transaction commitments, or only admit quotes to a double auction?",
+          "method": "native_browser official publisher landing page",
+          "access_status": "institutional_access_present_not_used_for_body",
+          "result": "Landing page showed Access provided by: Duke University. No body section opened or read; tab closed to respect the prohibition on accessing paywalled accounts. Only title/DOI and duplicate abstract were visible.",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0259",
+      "identifier_key": "doi:10.1109/gridedge61154.2025.10887526",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The proposed Q-learning framework aids DERs in their self-valuation by implicitly maximizing their own payoff through market participation, assuming a swing contract-based compensation structure.",
+          "rationale": "The contribution is a single DER’s payoff-maximizing market-participation strategy under assumed compensation."
+        }
+      ],
+      "rationale": "Selecting a venue to maximize the selling resource’s own payoff does not establish capability/resource discovery or suitability-based counterparty selection. The compensation and contract structure are assumed inputs.",
+      "mechanism": "Q-learning self-valuation and market-participation optimization for DERs.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B treats any learned market-venue choice as L2. Here the abstract specifies the selection purpose as maximizing the DER’s own payoff, without resource/capability matching or provider suitability. A’s not_evidenced fits the stated research function; the assumed compensation structure does not independently establish L5 or L6."
+    },
+    {
+      "record_id": "R0264",
+      "identifier_key": "doi:10.1109/hicss.1997.663394",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The messages in agent based commerce have adopted three layers: agent communication language, electronic commerce and product specification layers.",
+          "rationale": "The architecture specifies structured commerce-agent messages and demonstrates their generation and solution-method selection."
+        }
+      ],
+      "rationale": "Contract grammar determines message and solution-method structure. No binding commitment formation or contract-state management is stated.",
+      "mechanism": "Contract-type-dependent message generation and commerce-agent communication control.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B infers L6 from formal contract representation. The abstract uses the grammar to express bids/auctions and select communication/solution methods, but does not specify when obligations arise or how they are managed. I retain A’s L3; targeted body access failed to add commitment evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Does the contract grammar encode binding commitment formation or contract management, beyond negotiation message syntax?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "ID61DEDA26AE78A80",
+          "article_id": "663394",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Does the contract grammar encode binding commitment formation or contract management, beyond negotiation message syntax?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "URL not accessible via web tool",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0266",
+      "identifier_key": "doi:10.1109/hicss.1998.651684",
+      "classification": [
+        "L2",
+        "L4",
+        "L5",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "HyperNews establishes intraand cross-newspaper hyperlinks according to the interests of the reader",
+          "rationale": "The system locates relevant commercial news resources through interest-based links across newspapers."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "access to the content is bound to the payment.",
+          "rationale": "Content access is subject to an enforced payment-conditioned permission."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "The system enforces copyright control and payment on a \"pay per use\" basis.",
+          "rationale": "The system explicitly enforces per-use payment obligations."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "presents the information consumer with a personalized hypermedia electronic newspaper through a Java-based World Wide Web browser.",
+          "rationale": "The system presents personalized news to the human information consumer."
+        }
+      ],
+      "rationale": "Interest-based resource navigation, payment-gated access, per-use charging and human presentation are explicit design functions.",
+      "mechanism": "Personalized news-resource navigation with pay-per-use article agents.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B omits L2, but the abstract connects the search-for-relevant-information objective with actual interest-based intra- and cross-newspaper links. This is a concrete relevance-based resource-discovery function distinct from presentation, supporting A’s full set."
+    },
+    {
+      "record_id": "R0283",
+      "identifier_key": "doi:10.1109/hicss.2005.30",
+      "classification": [
+        "L2",
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "We propose several intelligent approaches in the search agents to enhance the performance of route finding, in particular a knowledge-basket approach.",
+          "rationale": "Search agents discover suitable multimodal transport resources/routes."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "We further support an agent-based auction sub-system for reservation of these mobile vehicles. We have built a route advisory system prototype with such features.",
+          "rationale": "The built prototype includes a specific vehicle-service reservation subsystem, an explicit commerce reservation/formation function."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "Our system supports a flexible multiple user interface views on different mobile platforms.",
+          "rationale": "The implemented advisory system provides human-facing mobile interfaces."
+        }
+      ],
+      "rationale": "The prototype supports route discovery, vehicle reservations and mobile user presentation.",
+      "mechanism": "Multimodal route search and auction-based vehicle reservation with mobile advisory views.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A excludes L6 because acceptance rules are not detailed. Here the abstract asserts an implemented subsystem for reservation of specific vehicles, not just generic market matching or background orders. That directly names a lifecycle operation in the built design and supports B’s L2/L6/L7; no separate payment or arbitration function is inferred."
+    },
+    {
+      "record_id": "R0297",
+      "identifier_key": "doi:10.1109/iacsit-sc.2009.131",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a high-level net model is presented to support distributed decision making by describing how consistently the distributed workflow transactions are executed and its recoverability from multiple resiliency.",
+          "rationale": "The net model analyzes coordination and recovery of interacting distributed workflow processes."
+        }
+      ],
+      "rationale": "The explicit research contribution concerns distributed workflow execution consistency and recovery. Product ordering supplies the motivation but no order/contract state or commitment operation is described.",
+      "mechanism": "High-level Petri-net analysis of distributed agent-workflow consistency and recovery.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L6 by connecting the product-ordering background sentence to generic workflow transactions. The stated analysis does not identify an order acceptance, delivery, cancellation or contractual transition. I retain B’s L3; the targeted body needed to distinguish order lifecycle semantics from generic workflow recovery was unavailable.",
+      "supplement_attempts": [
+        {
+          "question": "Does the net model analyze order/contract lifecycle transitions, or use ordering only as background for generic distributed workflow recovery?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "I62A12695D879D894",
+          "article_id": "5169372",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Does the net model analyze order/contract lifecycle transitions, or use ordering only as background for generic distributed workflow recovery?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "Official page returned JavaScript-required robot-verification message; no body retrieved",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0298",
+      "identifier_key": "doi:10.1109/ias.2017.8101788",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "network losses are quantified and assigned to the appropriate element, and the market prices are revised for DGs, loads and storage systems.",
+          "rationale": "The abstract establishes physical-loss allocation and adjusted prices but not a payment obligation or settlement flow."
+        }
+      ],
+      "rationale": "The paper designs a storage-inclusive auction framework and adjusts prices for assigned network losses. It does not explicitly identify participant liabilities, transfers or a studied agent-coordination procedure.",
+      "mechanism": "Storage-inclusive electricity-auction simulation with network-loss allocation and revised market prices.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A converts assignment of losses and revision of prices into participant charges. That payment relation is not stated in the abstract, and JADE/EzJCOM implementation does not establish a designed inter-agent coordination function. Saved body was absent and official access failed; I retain B’s not_evidenced with the missing-payment-evidence limit recorded.",
+      "supplement_attempts": [
+        {
+          "question": "Does network-loss assignment determine participant payment obligations, or only revised prices and physical loss allocation?",
+          "method": "local_source_specific_saved_body_search",
+          "source_record_id": "IC66D65EA077790B5",
+          "article_id": "8101788",
+          "access_status": "no_saved_body_found",
+          "search_scope": "Source-record-ID/article-ID filenames and matching saved text/html/evidence/capture records",
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        },
+        {
+          "question": "Does network-loss assignment determine participant payment obligations, or only revised prices and physical loss allocation?",
+          "method": "web.open official publisher page",
+          "access_status": "failed",
+          "result": "URL not accessible via web tool",
+          "fulltext_read": false,
+          "recorded_at_utc": "2026-10-19T21:30:50.612142+00:00"
+        }
+      ]
+    }
+  ],
+  "completion": {
+    "status": "all 13 final scientific decisions saved",
+    "records": 13,
+    "supplemented_records": [
+      "R0216"
+    ],
+    "classification_scope": "Frozen abstract evidence; five previously saved official body excerpts for R0216. Failed targeted body retrievals recorded per result.",
+    "completed_at_utc": "2026-10-19T21:30:50.612142+00:00"
+  }
+}

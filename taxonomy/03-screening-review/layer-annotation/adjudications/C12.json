@@ -1,0 +1,311 @@
+{
+  "job_id": "C12",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R1120",
+      "identifier_key": "doi:10.24963/ijcai.2019/957",
+      "classification": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "mechanism": "Competitor selection and central agent coordination in electricity-market decision support configured by user requirements.",
+      "rationale": "Saved same-paper Section 2 specifies DECON counterparty selection, a Manager coordinating distributed decision-support agents, and user-controlled quality/time requirements.",
+      "adjudication_reason": "Neither abstract-only label set captures the saved body. B's L7 is confirmed by explicit user requirements; add L2 for selecting the ideal negotiation counterpart and L3 for the manager's distribution and execution-time coordination of multiple agents. Price forecasts and negotiation tactics alone are not labeled payment or lifecycle.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "saved_1",
+          "quote": "The prenegotiation step aims at identifying the ideal competitor(s)\nthat should be approached so that the undertaken negotiations can provide as much benefit as possible for the supported player.",
+          "rationale": "DECON explicitly selects suitable negotiation counterparties."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "saved_1",
+          "quote": "The AiD-EM Manager\nagent also optimizes the performance of the system by distributing the AiD-EM agents by the available machines, and\nby executing the Efficiency/Effectiveness (2E) balance\nmanagement mechanism, which defines the amount of time\nthat each of the integrated decision support systems is allowed to use in its execution, depending on the purpose of\neach simulation and on the user’s requirements regarding\nthe expected balance between the achieved quality of results\nand the execution time of the simulation.",
+          "rationale": "A named manager allocates agents to machines and coordinates their execution budgets, a substantive orchestration mechanism."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "saved_1",
+          "quote": "depending on the purpose of\neach simulation and on the user’s requirements regarding\nthe expected balance between the achieved quality of results\nand the execution time of the simulation.",
+          "rationale": "Explicit user quality/time requirements control the operation of the decision-support system; this is human preference input, not a claim of a human-subject evaluation."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "saved_0",
+        "saved_1",
+        "saved_2"
+      ],
+      "supplement_attempts": []
+    },
+    {
+      "record_id": "R1128",
+      "identifier_key": "doi:10.5555/1105634.1105647",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "We have implemented a prototype system in which negotiation takes place between a human customer and multiple autonomous software agents, each carrying out sales operations on behalf of different merchants.",
+          "rationale": "Actual human-agent negotiation and its user interface are explicit. The abstract does not specify agent-agent interaction rules."
+        }
+      ],
+      "rationale": "Actual human-agent negotiation and its user interface are explicit. The abstract does not specify agent-agent interaction rules.",
+      "mechanism": "Human-customer negotiation with merchant software agents and incremental preference refinement.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt L7. B infers L3 from a distributed architecture, but the documented exchanges are between a human customer and agents; architecture alone does not establish agent-agent coordination."
+    },
+    {
+      "record_id": "R1130",
+      "identifier_key": "doi:10.5555/1339264.1339749",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The strategies allow the bidders to reduce their preferred bundle in response to adverse auction results which are known after each round.",
+          "rationale": "The studied mechanism is unilateral bid reformulation in an existing auction, not a designed coordination procedure."
+        }
+      ],
+      "rationale": "The studied mechanism is unilateral bid reformulation in an existing auction, not a designed coordination procedure.",
+      "mechanism": "Equilibrium search over bidder strategies that reduce bundles after auction feedback.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. Round feedback and permission to revise a bid do not by themselves turn analysis of each bidder's strategy into L3. No other layer is established."
+    },
+    {
+      "record_id": "R1152",
+      "identifier_key": "doi:10.5555/2343776.2343791",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "This mechanism is compared to a simple benchmark mechanism wherein the savings are divided equally among all home agents, and a cooperative solution wherein agents act to maximise social welfare.",
+          "rationale": "The paper determines a payment budget from informational savings and compares payment distribution rules."
+        }
+      ],
+      "rationale": "The paper determines a payment budget from informational savings and compares payment distribution rules.",
+      "mechanism": "Savings-funded scoring-rule payments for truthful demand estimates.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. The supplied text establishes payment incentives; reporting estimates to a centre is the elicitation setting and does not specify an independently studied messaging or coordination procedure sufficient for L3."
+    },
+    {
+      "record_id": "R1166",
+      "identifier_key": "doi:10.5555/3522802.3522899",
+      "classification": [
+        "L2",
+        "L3",
+        "L5",
+        "L6"
+      ],
+      "mechanism": "Location-based carrier selection, sequential freight offers, split payments, and load acceptance/delivery-state transitions.",
+      "rationale": "Official same-version proceedings Section 3 specifies nearest-active-truck selection, sequential quote offers, package-to-DC payments and truck wages, and acceptance/service/completion transitions.",
+      "adjudication_reason": "A's coordination reading is supported by the concrete sequential offer protocol. The supplement also resolves B's missing-function concern: distance and activity determine carrier suitability (L2), explicit revenue/wage shares establish L5, and load acceptance followed by service and completion establishes the modeled lifecycle (L6). These are simulation/model rules, not evidence of deployed transfers.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "official_dc",
+          "quote": "is willing to pay to the nearest active truck and continues to offer the quote to trucks in increasing order\nof distance until it is accepted.",
+          "rationale": "Carrier selection uses availability and distance, not merely auction winner optimization."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "official_dc",
+          "quote": "is willing to pay to the nearest active truck and continues to offer the quote to trucks in increasing order\nof distance until it is accepted.",
+          "rationale": "The distribution centre orchestrates successive offers among truck agents until acceptance."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "official_timeline",
+          "quote": "The DC offers a fraction, δ,\nof this price, p, to trucks as wages for offering transportation as a service. Trucks who find this wage,\nw = δ p, sufficient, accept the request.",
+          "rationale": "The payment model specifies a package price and the fraction transferred to the carrier as wages."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "official_trucks",
+          "quote": "Once the truck accepts a load\nbid, it goes away from the system for the service duration and again becomes active or online following\nsuccessful completion of the delivery.",
+          "rationale": "Acceptance, service duration and successful delivery drive the modeled fulfillment-state transition."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "official_timeline",
+        "official_trucks",
+        "official_dc"
+      ],
+      "supplement_attempts": [
+        {
+          "access_status": "failed_403",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "ACM fetch blocked; subsequently recovered official WSC proceedings."
+        },
+        {
+          "access_status": "local_network_dns_failure",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Direct urllib fetch failed DNS resolution; web tool successfully provided official PDF excerpts."
+        }
+      ]
+    },
+    {
+      "record_id": "R1178",
+      "identifier_key": "doi:10.65109/pjgh6650",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Post-decision semantic validation of tool suitability and parameter provenance.",
+      "rationale": "The saved official methodology checks tool behavior against the request and assigns parameter-origin labels; its studied function is suitable tool selection.",
+      "adjudication_reason": "Adopt B. The body explicitly situates semantic errors within permission-compliant invocations. Verification accepts plans based on semantic fit and provenance, without specifying granted permissions, role policies, authorization scope, or revocation. An execution-time semantic check is not automatically an authorization mechanism.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Building on this paradigm, we introduce VISTA, combining information isolation to construct a minimal trusted context and hierarchical semantic assessment to validate tool choice and parameter provenance.",
+          "rationale": "The substantive verification function checks suitability of the selected tool for the requested task."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "saved_intro",
+        "saved_method"
+      ],
+      "supplement_attempts": [
+        {
+          "access_status": "tool_inaccessible",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "DOI opening failed; saved official AAMAS 2026 full text used instead."
+        }
+      ]
+    },
+    {
+      "record_id": "R1189",
+      "identifier_key": "platform:IEEE:5573980",
+      "classification": "not_evidenced",
+      "mechanism": "Genetic optimization of a joint buyer-seller utility function for multiattribute printer procurement.",
+      "rationale": "The local body describes mathematical preference weights and a genetic optimization experiment. It establishes neither advice presented to humans nor concrete agent offer-exchange rules; negotiated payment/delivery attributes do not establish payment or lifecycle management.",
+      "adjudication_reason": "Adopt A's no-label result after inspecting saved Sections 3.3, 4.1 and 4.4. B inferred human interaction from advice to a negotiation party, but the primary body describes modeled buyer/seller utilities and an optimization output, not a human interface or human participation.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "saved_extent_1",
+          "quote": "Our model is established by maximizing the joint profit which is the summation of the profits of both a buyer and a seller, because a bilateral negotiation is to be carried out under the conditions of agreement for reciprocity, and because the value of the profit of a participant is a nonnegative real number.",
+          "rationale": "The evidenced mechanism optimizes modeled negotiation utility rather than establishing one of the eight layer functions."
+        }
+      ],
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "saved_extent_0",
+        "saved_extent_1",
+        "saved_extent_2",
+        "saved_extent_3"
+      ],
+      "supplement_attempts": [
+        {
+          "access_status": "tool_inaccessible",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Live IEEE fetch inaccessible; saved identity-bound native body excerpts available and read."
+        }
+      ]
+    },
+    {
+      "record_id": "R1194",
+      "identifier_key": "platform:IEEE:6060713",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "For the PoC of this framework, we use parallel auction simulations that synchronize execution time with auction cycles and shared prices information among simulators.",
+          "rationale": "The explicitly coordinated objects are simulators and their execution times, not trading agents' tasks or commercial interaction rules."
+        }
+      ],
+      "rationale": "The explicitly coordinated objects are simulators and their execution times, not trading agents' tasks or commercial interaction rules.",
+      "mechanism": "Synchronization of parallel auction simulator execution and shared price information.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. Simulator synchronization is infrastructure. The supplied abstract does not establish a mechanism coordinating agent actions in the L3 sense."
+    },
+    {
+      "record_id": "R1200",
+      "identifier_key": "platform:IEEE:6641018",
+      "classification": "not_evidenced",
+      "mechanism": "Distributed microgrid economic scheduling with a generalized progressive second-price auction.",
+      "rationale": "The abstract identifies distributed schedules and switching buyer/seller roles but does not specify the mechanism coordinating agent actions or its payment rule. The same-paper official body could not be retrieved.",
+      "adjudication_reason": "Adopt B on admitted evidence. A infers coordination from a distributed setting and named auction, whereas the actual coordination procedure is not described in the abstract. Official IEEE landing and PDF attempts failed. An unofficial search preview was not admitted under the official-source retrieval boundary, so the final result remains evidence_unavailable rather than asserting the paper lacks such functions.",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We apply and generalize a so-called progressive second price auction mechanism which was firstly presented by Lazar and Semret for allocation of variable size shares of resources.",
+          "rationale": "A mechanism name and its allocation context do not expose the generalized interaction or transfer rule needed for a positive layer."
+        }
+      ],
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "supplement_attempts": [
+        {
+          "access_status": "no_saved_body_found",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Targeted identifier/title lookup found frozen abstract and metadata only."
+        },
+        {
+          "access_status": "tool_inaccessible",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Official IEEE landing page inaccessible via web tool."
+        },
+        {
+          "access_status": "tool_inaccessible",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Official IEEE PDF endpoint inaccessible via web tool."
+        },
+        {
+          "access_status": "no_admissible_official_fulltext",
+          "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+          "detail": "Search exposed an unofficial ResearchGate fulltext preview; not used to establish labels under this task's source restriction."
+        }
+      ]
+    }
+  ],
+  "supplement_questions": {
+    "R1120": "Does AiD-EM substantively coordinate agents or expose user decision input, beyond unspecified decision support?",
+    "R1166": "Which bid/offer coordination and payment obligations are actually implemented for packages, trucks and distribution centres?",
+    "R1178": "Does the semantic verifier check explicit user-granted permissions or mandate limits, beyond semantic correctness?",
+    "R1189": "Is decision advice presented to human negotiators and is a concrete offer-exchange protocol specified?",
+    "R1200": "How does the generalized auction coordinate individual microgrid schedules and specify payment obligations?"
+  }
+}

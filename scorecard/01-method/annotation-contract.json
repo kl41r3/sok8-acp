@@ -1,0 +1,90 @@
+{
+  "system_prompt": "You are an independent rater for an academic SoK of the agentic commerce stack.\nScore only from the supplied rubric and the one protocol packet. Do not use\nprior leaderboard numbers. Do not invent locators.\n\nAllowed scores: 0, 0.5, 1, 1.5, 2. Use null if the packet has no usable locator.\n\nA is binned from the seven-property vector: count yes+partial, then 0-1 -> 0,\n2-4 -> 1, 5-7 -> 2. Property labels must be yes, partial, or no.\n\nReturn ONLY one JSON object, no markdown:\n{\n  \"protocol\":\"AP2\",\n  \"C\":1.5,\"I\":1.0,\"A\":1.0,\"EM\":1.0,\"S\":1.5,\n  \"A_count\":4,\n  \"auth_safety\":\"yes\",\"exec_correct\":\"partial\",\"econ_finality\":\"no\",\n  \"price_correct\":\"partial\",\"auditability\":\"yes\",\"compliance\":\"no\",\"recoverability\":\"no\",\n  \"cells\":{\n    \"C\":{\"promise\":\"\",\"evidence\":\"\",\"failure\":\"\",\"metric\":\"\",\"locator\":\"\"},\n    \"I\":{\"promise\":\"\",\"evidence\":\"\",\"failure\":\"\",\"metric\":\"\",\"locator\":\"\"},\n    \"A\":{\"promise\":\"\",\"evidence\":\"\",\"failure\":\"\",\"metric\":\"\",\"locator\":\"\"},\n    \"EM\":{\"promise\":\"\",\"evidence\":\"\",\"failure\":\"\",\"metric\":\"\",\"locator\":\"\"},\n    \"S\":{\"promise\":\"\",\"evidence\":\"\",\"failure\":\"\",\"metric\":\"\",\"locator\":\"\"}\n  }\n}\nKeep each cell string under 160 characters.\n",
+  "round_frames": {
+    "1": {
+      "temperature": 0.0,
+      "frame": "Rater frame: precision first. Omit a guarantee unless the packet names a deployed artifact and a locator. Score the protocol as an element of the agentic commerce stack, not as a standalone product. Kleros is scored as a candidate L8 for agent-speed commerce, not as a general-purpose court."
+    },
+    "2": {
+      "temperature": 0.3,
+      "frame": "Rater frame: walk the transaction lifecycle. A binding counts only if another layer or rail can verify it. Connectivity is not interoperability. Recoverability requires a forum and a consequence usable at the commerce seam, not a product that exists somewhere else."
+    },
+    "3": {
+      "temperature": 0.6,
+      "frame": "Rater frame: conservative home-layer test. If the assigned failure mode remains open, do not give 2. If evidence is a draft, optional extension, or marketing page, cap the cell at 1. Prefer the lower score when mixed."
+    }
+  },
+  "user_prompt_template": "{frame}\n\nScore ONLY {protocol}.\n\n# Rubric\n{rubric}\n\n# Layer ledger\n{layer_context}\n\n# Packet {protocol}\n{packet}",
+  "system_prompt_template": "{system_prompt}\n{frame}",
+  "json_retry_suffix": "\nYour previous reply was not valid JSON. Return only the JSON object.",
+  "maximum_attempts_per_protocol": 4,
+  "protocol_packet_files": {
+    "AP2": "ap2.md",
+    "x402": "x402.md",
+    "UCP": "ucp.md",
+    "ERC-8004": "erc8004.md",
+    "MCP": "mcp.md",
+    "A2A": "a2a.md",
+    "AG-UI": "agui.md",
+    "Kleros": "kleros.md"
+  },
+  "rubric": "rubric.md",
+  "layer_context": "evidence-packets/00_layer_coherence.md",
+  "normalization": "def normalize_row(row, expected=None):\n    name = row.get(\"protocol\")\n    if expected and name != expected:\n        row[\"protocol\"] = expected\n        name = expected\n    if name not in PROTOCOLS:\n        raise ValueError(f\"unexpected protocol {name!r}\")\n    for dim in DIMS:\n        val = row.get(dim)\n        if val == \"NA\" or val is None:\n            row[dim] = None\n            continue\n        val = float(val)\n        if val not in SCORES:\n            val = min(SCORES, key=lambda s: abs(s - val))\n        row[dim] = val\n    for prop in PROPS:\n        lab = str(row.get(prop) or \"no\").lower()\n        if lab not in PROP_LABELS:\n            lab = \"no\"\n        row[prop] = lab\n    count = sum(1 for p in PROPS if row[p] in {\"yes\", \"partial\"})\n    row[\"A_count\"] = count\n    row[\"A\"] = 0.0 if count <= 1 else (1.0 if count <= 4 else 2.0)\n    return row",
+  "normalization_constants": {
+    "PROTOCOLS": [
+      "AP2",
+      "x402",
+      "UCP",
+      "ERC-8004",
+      "MCP",
+      "A2A",
+      "AG-UI",
+      "Kleros"
+    ],
+    "DIMS": [
+      "C",
+      "I",
+      "A",
+      "EM",
+      "S"
+    ],
+    "PROPS": [
+      "auth_safety",
+      "exec_correct",
+      "econ_finality",
+      "price_correct",
+      "auditability",
+      "compliance",
+      "recoverability"
+    ],
+    "SCORES": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "PROP_LABELS": [
+      "yes",
+      "partial",
+      "no"
+    ]
+  },
+  "response_format": {
+    "deepseek-v4-flash": {
+      "type": "json_object"
+    },
+    "qwen3.7-plus": {
+      "type": "json_object"
+    },
+    "agnes-2.5-flash": null
+  },
+  "model_endpoints": {
+    "agnes-2.5-flash": "https://apihub.agnes-ai.com/v1/chat/completions",
+    "deepseek-v4-flash": "https://api.deepseek.com/chat/completions",
+    "qwen3.7-plus": "https://www.dmxapi.cn/v1/chat/completions"
+  },
+  "execution": "Three framed rounds per chat model, one request per protocol per round. Saved scores are normalized judgments. No embedding model enters the scorecard.",
+  "raw_response_availability": "Normalized per-cell judgments and round metadata are distributed. Raw service response envelopes and unsuccessful retries are not part of this release."
+}

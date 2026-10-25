@@ -1,78 +1,35 @@
-# Agentic commerce: data and reproducible analyses
+# Agentic Commerce: NeurIPS Workshop Artifacts
 
-This repository accompanies *Agentic Commerce Protocols: A Systematic Mapping and Evaluation*. It contains the frozen selection data, the source-to-claim synthesis ledger, and executable analyses for the paper's two conditional models.
+This repository contains the literature taxonomy and protocol scorecard for the NeurIPS Workshop manuscript. Saved source evidence, screening and classification judgments, protocol evidence packets, model ratings, author decisions, result tables, and plotting code support inspection and offline reconstruction.
+
+**[Browse all 1,301 included literature identifiers and classifications](taxonomy/included-literature-classifications-1301.csv)** or **[open the final eight-protocol scorecard](scorecard/final-scores-8.csv)**.
 
 ## Reproduce
 
-Use Python 3.12 in a new virtual environment:
+Install [uv](https://docs.astral.sh/uv/), then run from this directory:
 
 ```sh
-python3.12 -m venv .venv
-. .venv/bin/activate
-python -m pip install -r requirements.txt
-python -B reproduce.py --output outputs/reproduction
+uv sync --locked
+uv run --locked python -B reproduce.py --output /tmp/sok8-workshop-results
 ```
 
-The command verifies release checksums, reproduces five taxonomy outputs byte for byte, exports Tables 1–5, checks all 66 synthesis source links, proves five Case A symbolic identities, checks 100,000 direct-payoff cases, regenerates the 40,401-row threshold surface, and independently verifies Case B's 64 decision cells and eight forward expectations with rational arithmetic. It also verifies the costly-fallback and evidence-loss extensions, compares nine new datasets byte for byte, and regenerates the original plots, extension diagnostics, and four final manuscript figures. A successful run writes `outputs/reproduction/verification.json` with `passed: true`. Choose a new output directory for each run. The calculation uses no credentials or external model API; network access is needed only to install dependencies. Allow a few minutes and approximately 500 MB of free space including the environment.
+Choose a new or empty output directory outside the repository. Python 3.12.14 and the dependencies are pinned by `.python-version`, `pyproject.toml`, and `uv.lock`. Initial setup downloads the environment; computation then runs offline without credentials or paid APIs. Allow a few minutes and approximately 500 MB for the environment and outputs.
+
+The command reconstructs and compares 14 taxonomy result files, five scorecard tables, and nine scorecard figure files byte for byte. Generated results are placed under `literature/taxonomy/` and `scorecard/` inside the output directory. The repository's inputs and expected results remain unchanged. Plotting reads the newly reconstructed score table.
 
 ## Contents
 
-| Path | Purpose |
-|---|---|
-| `taxonomy/` | Frozen inputs, selection overlay, five expected outputs and standard-library reproduction code |
-| `synthesis/` | 40 mapped-corpus sources, five supplementary scholarly sources, 21 official documents, six claim contrasts and Tables 2–5 inputs |
-| `modeling/case-a/thresholds/` | Original Case A thresholds, symbolic/payoff checks, surface data and baseline plot |
-| `modeling/case-b/` | Original Case B finite-horizon solver, 64 cells and baseline plot |
-| `figures/` | Editable Figure 1 framework and its published PDF |
-| `modeling/case-a/fallback/` | Costly fallback, matched cancellation comparison, independent checks and frozen results |
-| `modeling/case-b/evidence-loss/` | Evidence availability, STRICT/HOLD comparison, independent oracle and sensitivity results |
-| `modeling/extensions/` | Extension runner, protected baseline inventory and review-response map |
-| `modeling/figures/` | Portable code for the four final one-column manuscript figures |
-| `figures/modeling/` | Four caption-free PDFs, editable SVGs, PNG previews and layout verification |
-| `method/` | Preserved English translations of the source and screening policies |
-| `claim-to-artifact.csv` | Paper labels mapped to inputs, generation code, outputs and checks |
+| Directory | Materials | Entry point |
+|---|---|---|
+| `taxonomy/` | Eligibility and annotation methods, source evidence, screening decisions, independent ratings, adjudications, and literature classifications | [Taxonomy guide](taxonomy/README.md) |
+| `scorecard/` | Five-dimensional protocol rubric, evidence packets, three chat models over three rounds, author decisions, locked scores, agreement statistics, and figures | [Scorecard guide](scorecard/README.md) |
 
-The taxonomy calculation reproduces 5,217 selection-track records, 1,312 included source records, 237 author-directed non-inclusions preserving their earlier pending decisions, and 1,301 included typed identifiers. Source records and identifiers are different counting units. Native searches and scientific screening judgments are supplied as frozen inputs. The public projections omit licensed source bodies and internal review conversations.
+The academic-selection frame contains 5,217 source records: 1,312 included and 3,905 excluded. Exact identifier consolidation gives 1,301 included identifiers; 771 receive functional layer labels and 530 receive `not_evidenced`. Of the labeled identifiers, 207 date from 2023 onward. The [taxonomy methods](taxonomy/01-method/README.md) distinguish source records, identifiers, and the functional analysis set.
 
-The synthesis ledger supports the six stated comparisons. It records each source's role and actual reading scope. These are purposively selected mechanism contrasts, with 40 sources linked to included corpus identifiers. The five supplementary scholarly sources remain outside that inclusion count. Protocol versions are identified by dated specification URLs or recorded snapshot notes.
+The protocol scorecard retains the evidence-coded pilot locked on 17 August 2026: eight protocols, five dimensions, and eleven author-set cells. Its evidence packets contain the earlier 304-record corpus context and supplementary specification URLs. The pilot's scores and source context remain frozen; the expanded literature taxonomy does not constitute a new protocol-scoring study. The [scorecard guide](scorecard/README.md) explains this relationship and maps the manuscript's score matrix, profiles, and adjudications to files.
 
-Case A describes incentive thresholds under the paper's payoff assumptions; the plotted zero-fee surface is a special case of the symbolic equations. Case B describes eight-round seller control with fixed state-dependent revenue and unobserved monitoring draws until after effort/reporting. Neither model is fitted to field outcomes.
+## Reproduction scope and source rights
 
-## Case A/B extensions
+Reconstruction starts from the saved evidence and scientific decisions. It establishes deterministic selection and classification aggregation, score aggregation, author-decision application, inter-model agreement, and figure generation. A new database search or new model judgments would be a separate study. The saved ratings provide model identifiers, dates, temperatures, prompts, evidence locators, and normalized judgments; they do not measure production protocol reliability.
 
-The original models and historical evidence are preserved. Case A adds review
-costs to feasible, preauthorized timeout fallback and compares it with
-cancellation under matched assumptions. Preserving execution does not remove
-cost-induced conflicts between the agent's request and the user's benefit.
-Case B adds independent post-submission evidence loss, reoptimizes effort and
-reporting under STRICT/HOLD missing-evidence rules, and varies effort cost and
-horizon. Truthful certificates can coexist with selective disclosure or
-loss-induced adverse updates. These are conditional comparisons, not optimal
-mechanisms, observed agent behavior, or a welfare ranking.
-
-The existing reproduction command includes the extensions. For focused commands,
-timing, ties, metric definitions and limitations, see
-[`modeling/extensions/README.md`](modeling/extensions/README.md). The four final
-figures are 3.30 inches wide, use at least eight-point text, and contain no
-embedded title or caption. Their reproducible source and export instructions
-are in [`modeling/figures/README.md`](modeling/figures/README.md). Original baseline
-plots remain available; the extension READMEs also document wider diagnostic
-exports. Manuscript source is maintained separately.
-
-## Framework figure
-
-`figures/Taxonomy_Editable.drawio` is the editable source of Figure 1. Install draw.io desktop separately, then export it with:
-
-```sh
-drawio --export --format pdf --crop --output framework.pdf figures/Taxonomy_Editable.drawio
-```
-
-On macOS the executable is `/Applications/draw.io.app/Contents/MacOS/draw.io`. Pass it to `reproduce.py --drawio <executable>` to include export in a run. PDF export was tested with draw.io 31.4.5. The original PDF uses EB Garamond; absent that font, draw.io substitutes another font, so export layout/font bytes can differ. The original PDF is included and checksum-verified.
-
-## Historical analyses
-
-The earlier independent-cap Case A grid, optimized-cap supplements, and saved GLM probes remain under `modeling/`. They are historical exploratory artifacts; the current paper uses `case-a/thresholds/` and the exact Case B control calculation. To additionally regenerate and replay the historical evidence locally, add `--legacy`. No live API call is made. See `modeling/README.md`.
-
-## Integrity and reuse
-
-`MANIFEST.json` records file sizes, hashes and CSV schemas/counts. `SHA256SUMS` also seals the manifest. See `REVIEW.md` for validation scope and `PROVENANCE.json` for provenance. Manuscript LaTeX and the full manuscript PDF are maintained separately. This release grants no new blanket software or data license; retained third-party notices remain applicable. Metadata/source identifiers link to the original publishers and protocol authors.
+Abstracts and quotations retain their source attribution and remain subject to their respective source rights. No blanket license is applied to third-party material. Publisher PDFs, credentials, private conversations, manuscript sources, and internal audit records are outside the released tree. Earlier repository contents remain available in Git history.

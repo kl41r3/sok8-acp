@@ -1,0 +1,10 @@
+{
+  "scope": "Original normalized judgments are preserved byte-for-byte, including their field gaps.",
+  "missing_cell_fields": [
+    {"model": "qwen3.7-plus", "round": 3, "protocol": "A2A", "dimension": "A", "missing_field": "evidence"},
+    {"model": "qwen3.7-plus", "round": 3, "protocol": "A2A", "dimension": "EM", "missing_field": "evidence"},
+    {"model": "qwen3.7-plus", "round": 3, "protocol": "A2A", "dimension": "S", "missing_field": "evidence"}
+  ],
+  "other_variation": "Fifteen cells also retain a score field inside the cell note. Aggregation uses the normalized protocol-level dimension values, as in the original pilot.",
+  "handling": "The supplied evidence packets, other note fields, scores, and aggregation remain available. Missing text is not filled with invented evidence. Reconstruction checks the exact three missing fields."
+}

@@ -1,0 +1,552 @@
+{
+  "job_id": "C04",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0303",
+      "identifier_key": "doi:10.1109/iat.2004.1342943",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "These are parameterized in order to allow users to tailor-make auctions according to their own needs.",
+          "rationale": "Parameterizable market-game construction does not identify a human preference interface or studied human-agent interaction."
+        }
+      ],
+      "rationale": "A configurable auction server supports constructing and executing customized market games.",
+      "mechanism": "A configurable auction server supports constructing and executing customized market games.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Does e-Game implement a human-facing preference/configuration interface or substantive inter-agent auction interaction rules?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B treats developer/user parameterization as sufficient L7 evidence. The abstract describes configurable auction types, but neither the interaction surface nor human participation studied; A therefore gives the supported evidence boundary. The specific interface/protocol question could not be resolved from body text after the saved-source search and official access attempt.",
+      "supplement_attempts": [
+        {
+          "question": "Does e-Game implement a human-facing preference/configuration interface or substantive inter-agent auction interaction rules?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645196+00:00"
+        },
+        {
+          "question": "Does e-Game implement a human-facing preference/configuration interface or substantive inter-agent auction interaction rules?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/1342943/",
+          "access_status": "failed",
+          "detail": "Publisher response was a JavaScript-required robot-verification page; no article body obtained.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645259+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0311",
+      "identifier_key": "doi:10.1109/iat.2006.106",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We present a machine-readable language in which the rules of the game can be written.",
+          "rationale": "The contribution specifies auction interaction rules in a language agents can interpret."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "sec4b",
+          "quote": "The outcome here is a tuple for each agent. ⟨⟨1,−pt⟩,⟨−1,pt⟩⟩\\langle\\langle 1, -p_{t}\\rangle, \\langle-1,p_{t}\\rangle\\rangle means that agent 1 gets (1) the item and pays −pt-p_{t} and agent 2 gives (-1) the item and receives ptp_{t}.",
+          "rationale": "The language encodes the buyer debit and seller receipt for a computed exchange price, establishing a theoretical payment rule."
+        }
+      ],
+      "rationale": "Machine-readable auction specifications communicate interaction rules and encode monetary transfers for mechanism analysis.",
+      "mechanism": "Machine-readable auction specifications communicate interaction rules and encode monetary transfers for mechanism analysis.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec2a",
+        "sec4b"
+      ],
+      "adjudication_reason": "The disagreement concerns whether pricing is merely an example name. Saved section 4.2 explicitly specifies buyer and seller monetary outcomes in the SMPL program, and section 2.1 identifies payment-price specification as a language requirement. L5 is therefore substantive alongside L3, supporting A. The evidence is a modeled transfer rule, not deployed settlement."
+    },
+    {
+      "record_id": "R0313",
+      "identifier_key": "doi:10.1109/iat.2007.78",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "In this note we introduce a model logistics subsystem and discuss how was integrated with the system.",
+          "rationale": "The abstract names logistics integration but does not state delivery, fulfillment or order-state behavior."
+        }
+      ],
+      "rationale": "The note adds a logistics subsystem to an agent-based e-commerce model with available product stock.",
+      "mechanism": "The note adds a logistics subsystem to an agent-based e-commerce model with available product stock.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Does the logistics subsystem manage delivery or fulfillment of accepted orders, rather than only inventory availability?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A infers fulfillment from the word logistics; B correctly identifies that the actual subsystem function is unspecified. Inventory availability and subsystem integration alone do not establish the L6 functional requirement. The needed same-paper body could not be obtained, so the final outcome is definite not_evidenced with an access-limited basis.",
+      "supplement_attempts": [
+        {
+          "question": "Does the logistics subsystem manage delivery or fulfillment of accepted orders, rather than only inventory availability?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645334+00:00"
+        },
+        {
+          "question": "Does the logistics subsystem manage delivery or fulfillment of accepted orders, rather than only inventory availability?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/4407301/",
+          "access_status": "failed",
+          "detail": "Official IEEE document URL was not accessible via the web tool.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645336+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0318",
+      "identifier_key": "doi:10.1109/icaace69793.2026.11509103",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Agents adjust their bidding strategies using both their historical rewards and predictions of other agents' behaviors.",
+          "rationale": "The described algorithm changes bidding strategies using reward and opponent predictions; no inter-agent task dependency or new interaction rule is specified."
+        }
+      ],
+      "rationale": "Experience-weighted attraction combines reinforcement and belief learning to adapt bids in a task-resource double auction.",
+      "mechanism": "Experience-weighted attraction combines reinforcement and belief learning to adapt bids in a task-resource double auction.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The abstract supplies a double-auction allocation setting but describes the contribution through individual bid adaptation. B infers L3 from the auction and allocation framing. Under the explicit bidding-versus-coordination boundary, no quoted rule coordinates interdependent agent actions beyond that setting; A is supported. No capability matching or payment rule is established."
+    },
+    {
+      "record_id": "R0323",
+      "identifier_key": "doi:10.1109/icaic67076.2026.11395813",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "real-time fraud detection using SHAP-explainable risk scores aggregated from user behavior, device fingerprinting, and transaction metadata.",
+          "rationale": "These signals support fraud-risk detection, but the abstract does not state authentication or a source/counterparty trust decision; explanation recipients are unspecified."
+        }
+      ],
+      "rationale": "A cybersecurity mesh uses behavioral, device and transaction telemetry to score payment fraud risk and adapt threat response.",
+      "mechanism": "A cybersecurity mesh uses behavioral, device and transaction telemetry to score payment fraud risk and adapt threat response.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Are the computed risk scores used to authenticate or assess the trustworthiness of an identified source or counterparty, and are SHAP explanations presented to human decision makers?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A interprets transaction-risk scoring as trust estimation. The score target described here is fraud risk, without an explicit decision about source or counterparty trustworthiness; zero-trust and autonomous policy enforcement do not themselves specify L1 or L4 mechanisms. B is supported on the abstract. Human presentation is also not established by SHAP alone. A targeted body check to resolve the trust-score target failed.",
+      "supplement_attempts": [
+        {
+          "question": "Are the computed risk scores used to authenticate or assess the trustworthiness of an identified source or counterparty, and are SHAP explanations presented to human decision makers?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645348+00:00"
+        },
+        {
+          "question": "Are the computed risk scores used to authenticate or assess the trustworthiness of an identified source or counterparty, and are SHAP explanations presented to human decision makers?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/11395813/",
+          "access_status": "failed",
+          "detail": "Official IEEE document URL was not accessible via the web tool.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645349+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0325",
+      "identifier_key": "doi:10.1109/icaide65466.2025.11189623",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Through the two-level coordination and interaction between multiple virtual power plants and the multi-scale rolling optimization strategy, the goal of maximizing revenue and balancing power supply and demand in the region is achieved",
+          "rationale": "A specified bi-level coordination and rolling procedure couples the operation of multiple power plants."
+        }
+      ],
+      "rationale": "A bi-level coordination model combines multiple virtual power plants with rolling optimization under forecast uncertainty.",
+      "mechanism": "A bi-level coordination model combines multiple virtual power plants with rolling optimization under forecast uncertainty.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the payment function define monetary transfers between parties, or only the buyer/seller payoff objective used in optimization?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both assessors establish L3. B additionally interprets payment function as a monetary transfer rule, but the abstract does not distinguish payoff/objective functions from obligations between parties. Naming buyer and seller roles does not resolve that ambiguity. The targeted body lookup failed, so L5 is not added and A is retained.",
+      "supplement_attempts": [
+        {
+          "question": "Does the payment function define monetary transfers between parties, or only the buyer/seller payoff objective used in optimization?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645355+00:00"
+        },
+        {
+          "question": "Does the payment function define monetary transfers between parties, or only the buyer/seller payoff objective used in optimization?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/11189623/",
+          "access_status": "failed",
+          "detail": "Publisher response was a JavaScript-required robot-verification page; no article body obtained.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645356+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0332",
+      "identifier_key": "doi:10.1109/icarai70085.2026.11635361",
+      "classification": [
+        "L1",
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "CFS is aggregated across all MCP sources contributing to a query, calibrated to a per-query trust probability via temperature scaling, and injected into both the retrieval reranking and LLM generation stages.",
+          "rationale": "Source staleness, drift and divergence are used in an explicit calibrated trust judgment."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "CFS is aggregated across all MCP sources contributing to a query, calibrated to a per-query trust probability via temperature scaling, and injected into both the retrieval reranking and LLM generation stages.",
+          "rationale": "The framework explicitly changes resource retrieval ranking based on source freshness and suitability for the query."
+        }
+      ],
+      "rationale": "A source-freshness score estimates trust and reranks retrieved context in distributed enterprise search.",
+      "mechanism": "A source-freshness score estimates trust and reranks retrieved context in distributed enterprise search.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A recognizes the trust estimate but omits the independently described retrieval use. The paper proposes and evaluates freshness injection into retrieval reranking, a resource-search selection function, rather than merely computing a reliability statistic. B is therefore supported for both L1 and L2; the LLM generation stage alone would not add L3."
+    },
+    {
+      "record_id": "R0333",
+      "identifier_key": "doi:10.1109/icbaie49996.2020.00088",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "agents notify their creators of their progress through accounts and e-mails, and can be configured anytime and anywhere.",
+          "rationale": "Explicit progress reporting and configuration provide human supervision and intervention."
+        }
+      ],
+      "rationale": "Agent-mediated buyer/seller negotiation exposes progress notifications and configurable behavior to human creators.",
+      "mechanism": "Agent-mediated buyer/seller negotiation exposes progress notifications and configurable behavior to human creators.",
+      "not_evidenced_reason": null,
+      "followup_question": "What inter-agent rules structure negotiation, and what binding commitment or post-agreement order/contract state does the business process manage?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "L7 is directly evidenced. B adds L3 from named pre/post-negotiation phases, but no interaction rule or agent coordination procedure is described. Both assessors add L6 from order/contract negotiation and a generic lifecycle phrase; the abstract does not establish commitment formation, fulfillment or post-agreement management. Those inferences exceed the frozen bargaining-versus-contract boundary. The targeted body access failed, leaving only L7 established.",
+      "supplement_attempts": [
+        {
+          "question": "What inter-agent rules structure negotiation, and what binding commitment or post-agreement order/contract state does the business process manage?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645367+00:00"
+        },
+        {
+          "question": "What inter-agent rules structure negotiation, and what binding commitment or post-agreement order/contract state does the business process manage?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/9196266/",
+          "access_status": "failed",
+          "detail": "Publisher response was a JavaScript-required robot-verification page; no article body obtained.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645367+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0334",
+      "identifier_key": "doi:10.1109/icbc51069.2021.9461112",
+      "classification": [
+        "L1",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "sec3a",
+          "quote": "Key pair (vksign,sksign) is used to identify a specific delegatee, while r is a private key for transaction encryption.",
+          "rationale": "The protocol binds a specific delegatee cryptographically and implements remote attestation as part of secure delegation."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "In DelegaCoin, an owner can delegate his coins through offline-transactions without interacting with the blockchain network.",
+          "rationale": "The designed offline coin-transfer mechanism is a payment function."
+        }
+      ],
+      "rationale": "DelegaCoin binds the delegatee and attests execution enclaves while constructing offline coin transfers and maintaining spend balances.",
+      "mechanism": "DelegaCoin binds the delegatee and attests execution enclaves while constructing offline coin transfers and maintaining spend balances.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3a",
+        "sec6"
+      ],
+      "adjudication_reason": "Body section III.A and VI clarify the disputed constraint: the enclave maintains balances, generates transactions and attests initialization. This establishes payment integrity and cryptographic identity/attestation, adding L1 to the common L5. B infers L4 from preventing malicious delegation, but no principal mandate, permission scope or authorization-policy decision is specified in the read sections; the balance check is an economic constraint. The final set consequently differs from both initial judgments."
+    },
+    {
+      "record_id": "R0364",
+      "identifier_key": "doi:10.1109/iccit.2007.343",
+      "classification": [
+        "L2",
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "personalized comparison on purchasing items",
+          "rationale": "The proposed buyer architecture compares cross-market items by buyer suitability."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The buyer using AgentU can collect items from different e-markets, and can order purchases simultaneously over the collected items.",
+          "rationale": "The architecture explicitly supports cross-market order placement, with order tracking also listed."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "personal decision support",
+          "rationale": "This service in the buyer-facing shopping-cart architecture supports human purchasing decisions."
+        }
+      ],
+      "rationale": "AgentU combines cross-market product comparison, simultaneous purchasing, order tracking and personalized buyer decision support.",
+      "mechanism": "AgentU combines cross-market product comparison, simultaneous purchasing, order tracking and personalized buyer decision support.",
+      "not_evidenced_reason": null,
+      "followup_question": "Which monetary obligations, transfers or settlement operations does AgentU financial/payment management implement?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "L2, L6 and L7 are supported by concrete buyer comparison, purchasing and decision-support functions. B adds L5 from the bare financial/payment management service name, without specifying obligations, transfer, escrow or settlement. The targeted body inquiry could not be completed; A is therefore retained without treating the list entry as a payment mechanism.",
+      "supplement_attempts": [
+        {
+          "question": "Which monetary obligations, transfers or settlement operations does AgentU financial/payment management implement?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; any saved-author-abstract is not body evidence.",
+          "attempted_at_utc": "2026-10-19T21:34:34.645436+00:00"
+        },
+        {
+          "question": "Which monetary obligations, transfers or settlement operations does AgentU financial/payment management implement?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/4420314/",
+          "access_status": "failed",
+          "detail": "Official IEEE document fetch failed; no article body obtained.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:34:34.645437+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0369",
+      "identifier_key": "doi:10.1109/iccsie55183.2023.10175239",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "By the bi-level coordination mechanism of multiple VPPs and the multi-scale rolling scheduling, it can achieve economic optimization and maximize energy usage.",
+          "rationale": "The bi-level mechanism coordinates multi-plant operation through rolling schedules."
+        }
+      ],
+      "rationale": "A two-layer coordination mechanism schedules multiple virtual power plants using uncertainty-aware rolling optimization.",
+      "mechanism": "A two-layer coordination mechanism schedules multiple virtual power plants using uncertainty-aware rolling optimization.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the buyer/seller payment function specify transfers or obligations between parties, or only optimization payoffs?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The explicit multi-plant coordination supports L3. The disputed payment function is not defined as a transfer or obligation in the abstract and may denote a payoff objective. B therefore relies on a function name rather than an evidenced payment rule. The targeted body attempt failed; A remains supported without L5.",
+      "supplement_attempts": [
+        {
+          "question": "Does the buyer/seller payment function specify transfers or obligations between parties, or only optimization payoffs?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; no source-bound body located.",
+          "attempted_at_utc": "2026-10-19T21:35:09.536582+00:00"
+        },
+        {
+          "question": "Does the buyer/seller payment function specify transfers or obligations between parties, or only optimization payoffs?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/10175239/",
+          "access_status": "failed",
+          "detail": "Publisher response was a JavaScript-required robot-verification page; no article body obtained.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:35:09.536635+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0389",
+      "identifier_key": "doi:10.1109/icdma.2011.38",
+      "classification": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "sec3a",
+          "quote": "It checks with the CRB for ratings, borrowing patterns and takes this into consideration for decision making.",
+          "rationale": "The bank agent uses credit-reference ratings and behavior to assess counterparties in its lending decision."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "sec3b",
+          "quote": "The Borrower agent has a choice to check with all the Bank's sales teams for products before the decision to buy or negotiate while keeping track of the Bank offering products suiting its needs.",
+          "rationale": "The borrower selects bank products on explicit suitability to its needs."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "sec3a",
+          "quote": "It uses a queue based priority model to schedule borrower agents' negotiation. Once an agent has negotiated, it waits for the other agents to have their turns before any re-negotiations.",
+          "rationale": "A specified turn and queue mechanism coordinates multiple borrower negotiations."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "sec3a",
+          "quote": "This agent performs authentication to all the functions of the CRB. It checks the agents for registration or subscription to the CRB.",
+          "rationale": "Registration/subscription is checked for access to CRB functions, establishing an operational permission gate."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "sec3a",
+          "quote": "It approves or disapproves a loan. It passes the details to the payment module for loan disbursement.",
+          "rationale": "The designed workflow makes loan disbursement follow the credit decision, specifying the release condition for funds."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "sec3a",
+          "quote": "Once an agreement is reached, the negotiation agent presents all details to the Credit Approval agent which scrutinizes and reserves the right to grant or deny the loan.",
+          "rationale": "A negotiated agreement enters a distinct grant/deny approval stage, defining when the loan is accepted beyond bargaining."
+        }
+      ],
+      "rationale": "A multi-agent loan marketplace selects suitable products, checks credit and service permissions, schedules negotiation, approves negotiated loans and triggers disbursement.",
+      "mechanism": "A multi-agent loan marketplace selects suitable products, checks credit and service permissions, schedules negotiation, approves negotiated loans and triggers disbursement.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3a",
+        "sec3b",
+        "sec4",
+        "sec6"
+      ],
+      "adjudication_reason": "The saved same-paper architecture resolves the core A/B disagreement: suitable-product selection is explicit in III.B, supporting L2 rather than B not_evidenced. III.A further supplies counterparty ratings, a negotiation queue, CRB access checks and post-agreement approval/disbursement. Those concrete mechanisms independently establish L1, L3, L4, L5 and L6. These additions follow read primary body text, not the title or earlier assessments. Loan approval is a lifecycle decision; CRB subscription checking separately supports authorization. Generic client advice and web technology alone do not establish L7."
+    },
+    {
+      "record_id": "R0390",
+      "identifier_key": "doi:10.1109/icdmw.2012.34",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "we implement three different fraud behaviours and three detection algorithms, and using the simulator, compare the ability of the detection algorithms to correctly identify fraudulent agents.",
+          "rationale": "The algorithms explicitly classify auction counterparties as fraudulent using simulated trading-behavior evidence, a studied counterparty trust judgment."
+        }
+      ],
+      "rationale": "A realistic auction simulator compares algorithms that identify fraudulent trading agents from auction behavior.",
+      "mechanism": "A realistic auction simulator compares algorithms that identify fraudulent trading agents from auction behavior.",
+      "not_evidenced_reason": null,
+      "followup_question": "Do the detection methods judge auction counterparties from behavior evidence or only detect generic infrastructure attacks?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The decisive distinction is the object of judgment: this abstract explicitly evaluates identifying fraudulent auction agents, not merely detecting an unspecified attack or transaction anomaly. That is a behavior-based judgment of trading-counterparty trustworthiness under L1. B requires authentication or a named reputation estimator, which is narrower than the frozen definition. A is supported. A bounded lookup for more detail failed but is not needed to establish the explicitly stated counterparty judgment; no dispute procedure is inferred.",
+      "supplement_attempts": [
+        {
+          "question": "Do the detection methods judge auction counterparties from behavior evidence or only detect generic infrastructure attacks?",
+          "route": "local_saved_source_specific_body",
+          "access_status": "no_body_located",
+          "detail": "Searched saved source paths by source record ID and IEEE article number; no source-bound body located.",
+          "attempted_at_utc": "2026-10-19T21:35:09.536706+00:00"
+        },
+        {
+          "question": "Do the detection methods judge auction counterparties from behavior evidence or only detect generic infrastructure attacks?",
+          "route": "official_publisher_web_open",
+          "url": "https://ieeexplore.ieee.org/document/6406459/",
+          "access_status": "failed",
+          "detail": "Official IEEE document URL was not accessible via the web tool.",
+          "fulltext_read": false,
+          "attempted_at_utc": "2026-10-19T21:35:09.536708+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0392",
+      "identifier_key": "doi:10.1109/icdsc.2001.918942",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We develop a new double auction protocol called the Threshold Price Double auction (TPD) protocol",
+          "rationale": "The contribution governs the interactions of multiple buyers and sellers through a specified auction protocol."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "the number of trades and prices of exchange are controlled by the threshold price.",
+          "rationale": "The designed threshold rule determines exchange prices paid in trades rather than forecasting market prices."
+        }
+      ],
+      "rationale": "A threshold-price double-auction protocol controls trades and exchange prices to retain incentive compatibility under false-name bidding.",
+      "mechanism": "A threshold-price double-auction protocol controls trades and exchange prices to retain incentive compatibility under false-name bidding.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "False names are the modeled strategic threat, but the proposed remedy changes trade and pricing rules while allowing false-name bids; it does not establish, authenticate or assess identities or counterparty trust. A therefore adds L1 from the threat vocabulary rather than the designed function. B is supported for L3 and the theoretical payment rule L5. No real transfer deployment is claimed."
+    }
+  ]
+}

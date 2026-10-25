@@ -1,0 +1,555 @@
+{
+  "job_id": "C02",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0108",
+      "identifier_key": "doi:10.1109/cec-eee.2006.37",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This article proposes two different price approximation mechanisms: one scarcity based-scheme and a second approach using shadow prices based on the dual formulation of the relaxed linear program of the allocation problem.",
+          "rationale": "This identifies the substantive algorithmic contribution as resource-price approximation."
+        }
+      ],
+      "rationale": "The studied mechanisms estimate resource prices and test allocation stability; the abstract does not establish a designed interaction procedure or payment obligation.",
+      "mechanism": "Scarcity and shadow-price approximation in iterative combinatorial grid allocation",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A treats the auctioneer communicating computed prices as L3. The communication is context for two price-approximation algorithms, while the substantive comparison concerns pricing and stability. Under the pricing-versus-coordination boundary, this does not establish L3; adopt not_evidenced."
+    },
+    {
+      "record_id": "R0111",
+      "identifier_key": "doi:10.1109/cec-eee.2007.14",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We propose to adopt reverse pricing for operational procurement decisions. We evaluate our proposal by conducting a simulation study using an agent-based simulation system, and can show that the novel approach results in a significant reduction of the bullwhip effect.",
+          "rationale": "The reported contribution evaluates procurement pricing and order variability, without supplying agent interaction rules."
+        }
+      ],
+      "rationale": "The abstract establishes customer-originated bids and supply-chain performance evaluation, but does not describe an inter-agent interaction procedure, payment rule, or contract commitment rule.",
+      "mechanism": "Reverse-pricing procurement simulation for bullwhip reduction",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A infers L3 from buyers bidding instead of sellers posting prices. That describes the pricing arrangement, without showing how the simulated agents coordinate proposals and responses. A concrete question about the implemented reverse-pricing interaction rules was checked against local saved evidence and the official article; no body was obtained. Retain not_evidenced on the abstract, with insufficient evidence for L3.",
+      "supplement_attempts": [
+        {
+          "question": "Does the reverse-pricing model specify buyer/vendor proposal, response or coordinated procurement rules beyond a change in the origin of prices?",
+          "access_status": "No saved same-record body found by record/article-ID filename and content search; normalized record supplies abstract only.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        },
+        {
+          "question": "Does the reverse-pricing model specify buyer/vendor proposal, response or coordinated procurement rules beyond a change in the origin of prices?",
+          "access_status": "web.open returned: URL is not accessible via this tool. No body read.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        }
+      ]
+    },
+    {
+      "record_id": "R0113",
+      "identifier_key": "doi:10.1109/cec-eee.2007.31",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "This paper investigates an alternative view, coming from law, that sees the decommitment fees as a means of compensating the victim for their loss.",
+          "rationale": "The research compares compensatory transfer obligations."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "leveled commitment contracts, in which one agent pays the other a fee to be released from their decommitment",
+          "rationale": "The evaluated policies manage withdrawal from contractual commitments."
+        }
+      ],
+      "rationale": "The paper evaluates payments compensating the counterparty and management of already formed commitments.",
+      "mechanism": "Compensatory fees for release from leveled-commitment contracts",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both assessments establish L5 and L6. B adds L8 because the counterparty receives compensation. The abstract concerns an allowed fee-based contract exit, without a disputed or breach claim, adjudication rule, or remedy procedure. Compensation alone therefore does not establish L8."
+    },
+    {
+      "record_id": "R0116",
+      "identifier_key": "doi:10.1109/cec.2007.4424548",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The performance of CNP in such an MMAS, especially the overall efficiency and the reliability of promised completion times, is investigated by using an MAS simulation environment. The results show that only managerside control of CNP can improve performance in an MMAS.",
+          "rationale": "Contract-net interaction and its coordinating manager control are directly evaluated."
+        }
+      ],
+      "rationale": "The paper evaluates the contract-net coordination protocol and manager-side control at large scale.",
+      "mechanism": "Contract-net manager-side coordination under concurrent interference",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L2 from the generic ability to allocate tasks to appropriate agents. No capability descriptions, search mechanism, or suitability criterion is described as a substantive study object. The evaluated protocol, manager control and cross-agent interference establish L3; the general allocation description does not separately establish L2."
+    },
+    {
+      "record_id": "R0124",
+      "identifier_key": "doi:10.1109/cei66465.2025.11398540",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "MCP-E integrates UI-aware input controls that allow large models to trigger structured widgets based on input context, enhancing user experience and reducing input friction.",
+          "rationale": "The protocol designs human-facing input controls."
+        }
+      ],
+      "rationale": "User input and progress interaction are explicit protocol functions.",
+      "mechanism": "Contextual input widgets and user-visible asynchronous task progress",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L3 for asynchronous tool-task submission. The described counterpart is a user submitting a tool task; no multi-agent task allocation, inter-agent interaction rules or agent subcontracting is established. Structured widgets and user progress queries directly establish L7."
+    },
+    {
+      "record_id": "R0141",
+      "identifier_key": "doi:10.1109/cinti67731.2025.11311789",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The framework introduces a non-invasive output suppression mechanism, semantic parsing modules, and multi-layered error handling to ensure structured control over solvers such as Gurobi.",
+          "rationale": "These are tool-adapter reliability functions, without an evidenced layer mechanism."
+        }
+      ],
+      "rationale": "The contribution addresses a single agent communicating with an optimization tool; no defined layer function is sufficiently established.",
+      "mechanism": "Protocol encapsulation, parsing and error handling for optimization solvers",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A interprets solver invocation as delegation. The abstract specifies output suppression, semantic parsing and error handling for an external optimizer, rather than inter-agent messages, roles or subcontracting. Tool integration alone does not establish L3; adopt B on this evidence."
+    },
+    {
+      "record_id": "R0149",
+      "identifier_key": "doi:10.1109/cloudsummit68932.2026.00020",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "it provides a gateway that bridges cloud-native MCP transports (SSE/HTTP) to constrained-device channels (UART, BLE, local Wi-Fi), presenting all downstream devices as standard MCP tool providers to the cloud agent.",
+          "rationale": "The gateway exposes heterogeneous device capabilities to an agent using a common provider representation."
+        }
+      ],
+      "rationale": "Device tool schemas and gateway exposure establish capability publication.",
+      "mechanism": "Publication of physical-device capabilities through standardized MCP tool definitions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L3 for message encoding and offline buffering. These are transport functions between an agent and physical tools, without agent-to-agent interaction or coordinated agent roles. The explicit structured capability exposure establishes L2."
+    },
+    {
+      "record_id": "R0151",
+      "identifier_key": "doi:10.1109/clustr.2002.1137780",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "In this paper we investigate the problem of designing protocols for resource allocation involving selfish agents.",
+          "rationale": "The protocol is designed to coordinate resource allocation involving multiple strategic agents."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We derive a protocol that implements our mechanism and present experiments to show its effectiveness.",
+          "rationale": "The coordinating mechanism is realized as an evaluated protocol."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "We prove that by using the optimal allocation algorithm the output function admits a truthful payment scheme satisfying voluntary participation.",
+          "rationale": "A theoretical payment scheme is explicitly analyzed, without implying executed financial transfers."
+        }
+      ],
+      "rationale": "The contribution designs and implements a protocol for allocating work among selfish resource owners and proves properties of its payment scheme.",
+      "mechanism": "Truthful load-balancing protocol and incentive-compatible resource payments",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B retains only the payment result. The abstract also explicitly studies resource-allocation protocols involving selfish agents and derives a protocol implementing the load-balancing mechanism. This is specified coordination of agents in a distributed resource-allocation task, rather than one bidder optimizing independently, so L3 is also established."
+    },
+    {
+      "record_id": "R0152",
+      "identifier_key": "doi:10.1109/cmpsac.1999.814322",
+      "classification": [
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The demonstration shows that a consumer can order arbitrary goods described in PCO without vendor barriers.",
+          "rationale": "The implementation demonstrates cross-vendor order placement."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "We have also implemented the PCO language and a user agent client named OpenBasket, to demonstrate a shopping application on Digiket.",
+          "rationale": "OpenBasket is the human-facing shopping client used in the demonstration."
+        }
+      ],
+      "rationale": "The implemented demonstrator supports consumer-facing shopping and cross-vendor order placement.",
+      "mechanism": "Cross-vendor ordering through the OpenBasket shopping client",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L3 because PCO connects distributed components. A common component language and decentralized architecture do not establish agent-to-agent interaction or delegation rules. The stated order demonstration and consumer client directly establish L6 and L7."
+    },
+    {
+      "record_id": "R0157",
+      "identifier_key": "doi:10.1109/coase.2015.7294070",
+      "classification": [
+        "L2",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "It is described how this prototype is able to facilitate contact between potential business partners",
+          "rationale": "The described freight-exchange prototype supports discovery of potential counterparties."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "perform contractually binding auctions of multimodal freight transport services utilizing a two-sided combinatorial auction model.",
+          "rationale": "The proposed auction architecture explicitly forms binding service commitments."
+        }
+      ],
+      "rationale": "The paper describes how a prototype enables partner contact and proposes auctions that form binding transport contracts.",
+      "mechanism": "Business-partner discovery and contract-forming freight auctions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B omits L2, but the abstract explicitly makes the prototype mechanism for facilitating contact between potential business partners a described study object. That is counterparty discovery, not an inferred winner-selection property. L6 is supported separately by the proposed binding-auction concept, whose implementation is future work."
+    },
+    {
+      "record_id": "R0162",
+      "identifier_key": "doi:10.1109/coec.2003.1210263",
+      "classification": [
+        "L1",
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "We also show how to use a cryptographic mechanism to protect the integrity of reputation information and to achieve a tight bounding between the identity and reputation of an agent.",
+          "rationale": "The contribution explicitly protects identity-linked reputation evidence."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "introducing a side-payment scheme, organized through a set of broker agents, that makes it rational for software agents to truthfully share the reputation information they have acquired in their past experience.",
+          "rationale": "Broker agents organize the incentivized information-sharing interaction among agents."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "introducing a side-payment scheme",
+          "rationale": "The paper designs transfers to induce truthful information sharing."
+        }
+      ],
+      "rationale": "The mechanism secures identity-bound reputation and organizes truthful sharing through broker agents and incentive transfers.",
+      "mechanism": "Broker-organized reputation sharing with cryptographic identity binding and side payments",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B omits L3, but the specified broker-agent role organizes the side-payment mechanism through which other agents share their acquired reputation information. This is a concrete multi-agent role/interaction arrangement serving the designed truth-telling mechanism, not merely an assertion that agents cooperate; L3 is supported alongside L1 and L5."
+    },
+    {
+      "record_id": "R0168",
+      "identifier_key": "doi:10.1109/compsac.2009.112",
+      "classification": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "body_sec4_3",
+          "quote": "The secure migration channel guarantees the confidentiality, integrity, and password-less authentication of an agent moving from host to host.",
+          "rationale": "Migration authentication is an explicit component of the platform design."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "body_sec4_2",
+          "quote": "Using this model, M-commerce service providers manually register their services to a service discovery server. A mobile agent locates a specific service by migrating to the service discovery server and subsequently submitting requests with the required description.",
+          "rationale": "The implemented mechanism publishes and searches service capabilities."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "body_sec4_2",
+          "quote": "The idea is to deploy intelligent mobile messengers for inter-agent communication [22]. Messengers are thin agents dedicated to deliver messages. Our system provides a set of built-in messengers as a part of its programming interface.",
+          "rationale": "The platform designs dedicated agent roles and message-delivery interactions."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "body_sec4_3",
+          "quote": "An incoming agent will be transferred to the Agent Verifier before it can be scheduled for execution. This module checks whether the agent obeys the security rules and detects potential security holes, such as illegal instructions, illegal memory requirements, bearing an expired life time limit, or whose stationery server being found in a blacklist.",
+          "rationale": "Execution admission enforces explicit security constraints on which incoming agent code may run."
+        }
+      ],
+      "rationale": "The saved same-version Section IV establishes implemented discovery, agent message delivery, migration authentication and verification/runtime restrictions.",
+      "mechanism": "Search-engine discovery, secure migration, mobile messengers and agent execution controls",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "body_sec4_3",
+        "body_sec4_2"
+      ],
+      "adjudication_reason": "The abstract lists functionalities and cannot alone distinguish A's insufficient-evidence result from B's L2. The bounded saved official body resolves the question: providers register service descriptions and agents retrieve ranked itineraries, establishing L2. The same inspected section explicitly describes password-less migration authentication (L1), a designed mobile-messenger communication mechanism (L3), and verifier/sandbox/runtime execution controls (L4). These concrete mechanisms justify an evidence-supported combination different from both initial outputs."
+    },
+    {
+      "record_id": "R0169",
+      "identifier_key": "doi:10.1109/compsac.2010.22",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "The proposed protocol has security agent between RFID tag and RFID-USB for RFID tags to practice Plug-and-Play function so that a process of registration, withdrawing, and payment are practiced.",
+          "rationale": "Withdrawal and payment processing are explicit functions of the proposed protocol."
+        }
+      ],
+      "rationale": "The abstract explicitly studies withdrawal and payment processing; signature anonymity and device interoperability do not establish additional layer functions on the obtained evidence.",
+      "mechanism": "Hash-chain micropayment, withdrawal and RFID interoperability",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L1 from secret signing and L3 from RFID interoperability. The abstract does not identify what is signed, an authentication/credential mechanism, or a trust judgment; anonymity by itself is insufficient for L1. The described interoperability joins tags and a USB module rather than specifying inter-agent coordination, so L3 is not established. A bounded body check for the signing/registration function did not retrieve text. Retain the explicit L5 payment mechanism.",
+      "supplement_attempts": [
+        {
+          "question": "Does the secret-signing/registration procedure define an authenticated identity or payment credential, beyond anonymity protection?",
+          "access_status": "No saved same-record body located by record/article-ID filename and content search; metadata/abstract only.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        },
+        {
+          "question": "Does the secret-signing/registration procedure define an authenticated identity or payment credential, beyond anonymity protection?",
+          "access_status": "web.open returned Failed to fetch: Cache miss. No body read.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        }
+      ]
+    },
+    {
+      "record_id": "R0183",
+      "identifier_key": "doi:10.1109/dasc/picom/datacom/cyberscitec.2018.00125",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "It highlights the threats and imminent risks that these software agents introduce in the chain as well as how these threats affect the trust relationship between principals.",
+          "rationale": "The abstract identifies a threat-analysis focus without an evidenced functional mechanism."
+        }
+      ],
+      "rationale": "The abstract evaluates risks introduced by software-agent intermediaries, but does not specify a delegation protocol, task/role coordination procedure, authorization control or evidence-based trust mechanism.",
+      "mechanism": "Threat analysis of software-agent intermediaries in online banking",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A interprets the introductory description of agents as delegated subcontractors as L3. Naming intermediaries and their principals does not establish a substantive coordination or delegation mechanism; the reported investigation concerns generic threats and their effect on trust relationships. A targeted same-paper body check for the role/delegation model found no saved body and the publisher returned a JavaScript anti-bot page. The supplied abstract remains insufficient for any layer, rather than establishing the absence of such functions in the unread paper.",
+      "supplement_attempts": [
+        {
+          "question": "Does the threat analysis substantively analyze a specified delegation or agent-role coordination model, rather than use subcontractor as a generic description?",
+          "access_status": "No saved same-record body located by record/article-ID filename and content search; metadata/abstract only.",
+          "retrieved_at_utc": "2026-10-19T21:26:11.745869+00:00"
+        },
+        {
+          "question": "Does the threat analysis substantively analyze a specified delegation or agent-role coordination model, rather than use subcontractor as a generic description?",
+          "access_status": "Official page returned JavaScript is disabled and robot-verification text; no article body read.",
+          "retrieved_at_utc": "2026-10-19T21:26:11.745869+00:00"
+        }
+      ]
+    },
+    {
+      "record_id": "R0186",
+      "identifier_key": "doi:10.1109/dexa.1999.795295",
+      "classification": [
+        "L1",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "In this work, we investigate and propose a protocol for enforcing non-repudiation in a session.",
+          "rationale": "The protocol supplies accountable evidence of communication that the participating agent cannot repudiate."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "As protocols for non-repudiation have focused on message non-repudiation, its adaptation to afford non-repudiation in a communication session for two agents in ABECOS is inefficient. In this work, we investigate and propose a protocol for enforcing non-repudiation in a session.",
+          "rationale": "The contribution designs the session-level interaction protocol between two agents."
+        }
+      ],
+      "rationale": "The research designs non-repudiable evidence for agent communication sessions through a proposed session protocol.",
+      "mechanism": "Session-level non-repudiation protocol for communicating agents",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B retains L1 only. The abstract explicitly contrasts message-level protocols with a proposed session-level protocol for two agents. Inter-agent communication rules themselves fall within L3; task allocation is not additionally required. The designed session protocol therefore establishes L3 alongside the provenance/non-repudiation function in L1. No dispute judgment process is established."
+    },
+    {
+      "record_id": "R0193",
+      "identifier_key": "doi:10.1109/dexa.2002.1045947",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "Agents were grouped in cooperative clusters according to similarity of opinions about others. Specifically this paper evaluates the privacy of these opinions while similarity can be easily estimated. The results of this evaluation will justify the use of secure computations in the introduction of newcomers.",
+          "rationale": "The substantive evaluation concerns protected reputation-opinion comparison for trust-based agent grouping."
+        }
+      ],
+      "rationale": "The paper studies privacy and secure computation of reputation-related opinions; an enforced group-access policy is not established in the obtained evidence.",
+      "mechanism": "Privacy-preserving similarity estimation of subjective trust opinions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B adds L4 from the requirement that access should be restricted and the grouping of close agents. The abstract locates its specific contribution in privacy evaluation during similarity estimation. It does not explain whether group membership actually grants or denies an action or information access. A bounded same-paper body check failed to retrieve text; retain L1 and do not infer authorization enforcement from the privacy motivation.",
+      "supplement_attempts": [
+        {
+          "question": "Does the paper define or evaluate an enforced group-membership access policy, or only privacy-preserving computation of reputation similarity?",
+          "access_status": "No saved same-record body located by record/article-ID filename and content search; metadata/abstract only.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        },
+        {
+          "question": "Does the paper define or evaluate an enforced group-membership access policy, or only privacy-preserving computation of reputation similarity?",
+          "access_status": "web.open returned URL is not accessible via this tool. No body read.",
+          "retrieved_at_utc": "2026-10-19T21:23:57Z"
+        }
+      ]
+    },
+    {
+      "record_id": "R0195",
+      "identifier_key": "doi:10.1109/dexa.2006.126",
+      "classification": [
+        "L1",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "They include: XML Digital Signature for digital signature; XML Encryption for cryptography; XML Key Management Specification for Public Key Infrastructure.",
+          "rationale": "The security specifications used in the proposed model include identity-linked digital signatures and PKI."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Using this standard, agents can communicate exchanging XML messages, but these messages are not secure. In this article, we propose a secure communication model for agents based on RDF and the XML security specifications.",
+          "rationale": "The contribution substantively designs the agent-message communication model."
+        }
+      ],
+      "rationale": "The designed model combines identity-linked message protection and explicit agent-to-agent communication.",
+      "mechanism": "XML-signature/PKI-backed RDF agent communication model",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B omits L3, but the paper explicitly proposes a secure communication model for agents built on RDF message exchange and XML security specifications. The frozen L3 definition includes inter-agent messages and interaction rules, without requiring a separate task-allocation function. Thus the designed communication model supports L3 and its signature/PKI component supports L1."
+    },
+    {
+      "record_id": "R0198",
+      "identifier_key": "doi:10.1109/dsn-s70715.2026.00036",
+      "classification": [
+        "L4",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "a policy enforcement component that enables administrators to define fine-grained safeguards against resource abuse across heterogeneous MCP tools and modalities.",
+          "rationale": "Administrators define constraints enforced on agent tool invocations."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "Aegis leverages the reasoning capabilities of large language models to analyze, categorize, and normalize diverse tool invocations into a unified, policy-friendly representation accessible to security practitioners.",
+          "rationale": "The normalization output is explicitly designed for human practitioners to understand and govern tool requests."
+        }
+      ],
+      "rationale": "The component enforces tool-use policies and explicitly represents heterogeneous invocations for human security practitioners.",
+      "mechanism": "Administrator-defined MCP policies and practitioner-facing invocation representation",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B keeps only L4. The abstract also makes normalization into a representation accessible to security practitioners an explicit contribution, linked to administrators defining policies. This establishes a human-facing representation and oversight function under L7; a human-subject experiment is not required for a designed representation to count."
+    }
+  ]
+}

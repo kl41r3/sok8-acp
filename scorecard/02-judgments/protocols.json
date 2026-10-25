@@ -1,0 +1,50 @@
+[
+  {
+    "protocol": "AP2",
+    "layer": "L4",
+    "origin": "Web2",
+    "score_source": "three-model median; section 2 accept"
+  },
+  {
+    "protocol": "x402",
+    "layer": "L5",
+    "origin": "Web3",
+    "score_source": "human cell 1 A=2; else median"
+  },
+  {
+    "protocol": "UCP",
+    "layer": "L6",
+    "origin": "Web2",
+    "score_source": "human cell 2 EM=1; else median"
+  },
+  {
+    "protocol": "ERC-8004",
+    "layer": "L1",
+    "origin": "Web3",
+    "score_source": "human cell 3 A=0.5; else median"
+  },
+  {
+    "protocol": "MCP",
+    "layer": "L2/L3",
+    "origin": "Web2",
+    "score_source": "human cell 4 EM=1.5; else median"
+  },
+  {
+    "protocol": "A2A",
+    "layer": "L2/L3",
+    "origin": "Web2",
+    "score_source": "human cell 5 EM=1; else median"
+  },
+  {
+    "protocol": "AG-UI",
+    "layer": "L7",
+    "origin": "Web2",
+    "score_source": "human cells 6-8 I=0.5 A=0.5 EM=1"
+  },
+  {
+    "protocol": "Kleros",
+    "layer": "L8",
+    "origin": "Web3",
+    "score_source": "object A; human cells 9-11 I=0.5 EM=1 C=1"
+  }
+]

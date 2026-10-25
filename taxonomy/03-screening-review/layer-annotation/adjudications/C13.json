@@ -1,0 +1,192 @@
+{
+  "job_id": "C13",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "P009",
+      "identifier_key": "doi:10.1145/779928.779936",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The algorithms will withdraw from one set of possible auctions and move to another set if this will produce a better-expected outcome, but will effectively manage the risk of accidentally winning outstanding bids/offers during the withdrawal process.",
+          "rationale": "The stated mechanism manages exposure to unwanted auction wins; the abstract does not establish changes to binding contracts or fulfillment states."
+        }
+      ],
+      "rationale": "The abstract establishes risk-aware bid and offer choices by one composition agent. It does not establish a studied commitment-formation or contract-management procedure, and the body needed to resolve that boundary was not obtained.",
+      "mechanism": "Risk-aware simultaneous bidding, offering, and withdrawal across component-purchase and composite-service auctions.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Does the withdrawal algorithm cancel or modify binding service/purchase commitments, or only stop bidding while managing the risk of winning still-live bids?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A and B disagree over whether withdrawal risk establishes L6. B infers transaction lifecycle management from outstanding offers and accidental wins, but these can also be consequences of one bidder stopping participation in existing auctions. The abstract specifies bid/offer risk optimization without explaining acceptance, cancellation of binding obligations, or fulfillment-state management. I therefore do not assign L6 or L3. Targeted retrieval did not obtain the body needed to determine whether the withdrawal algorithm additionally manages commitments; the final not_evidenced reason records this evidence limit.",
+      "supplement_attempts": [
+        {
+          "question": "Does the withdrawal algorithm cancel or modify binding service/purchase commitments, or only stop bidding while managing the risk of winning still-live bids?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "saved_body_not_located",
+          "detail": "Searched saved primary-source paths and target DOI/source-record identifiers; no same-version body was located. Only the supplied abstract and source metadata were available. No earlier layer judgments were used as primary evidence."
+        },
+        {
+          "question": "Does the withdrawal algorithm cancel or modify binding service/purchase commitments, or only stop bidding while managing the risk of winning still-live bids?",
+          "url": "https://dl.acm.org/doi/10.1145/779928.779936",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "HTTP 403 Forbidden; no body read."
+        },
+        {
+          "question": "Does the withdrawal algorithm cancel or modify binding service/purchase commitments, or only stop bidding while managing the risk of winning still-live bids?",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/779928.779936",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "HTTP 403 Forbidden; no PDF/body read."
+        },
+        {
+          "question": "Does the withdrawal algorithm cancel or modify binding service/purchase commitments, or only stop bidding while managing the risk of winning still-live bids?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "no_relevant_result",
+          "detail": "No usable same-publication body passage was returned; unrelated search hits were not used."
+        }
+      ]
+    },
+    {
+      "record_id": "P031",
+      "identifier_key": "doi:10.1109/is.2018.8710454",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "a validation procedure that detects incorrect liability executions in order to suspend payment transactions to questionable service providers.",
+          "rationale": "Execution validation determines whether the provider payment proceeds, establishing a payment-release condition."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The paper presents the validation methodology of a liability execution for agent-based service providers in a decentralized trading market, using the Model Checking method based on the mathematical model of finite state automata and Temporal Logic properties of interest.",
+          "rationale": "Formal checking evaluates performance of the provider's service obligation, substantively addressing fulfillment and acceptance."
+        }
+      ],
+      "rationale": "Model checking verifies service-liability fulfillment and gates payment. The available evidence does not connect this routine execution validation to adjudication of a dispute or breach claim.",
+      "mechanism": "Finite-state and temporal-logic verification of service execution with suspension of provider payment on failed validation.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does liability validation adjudicate a dispute or breach claim and impose a remedy, or is it a routine fulfillment-acceptance check that gates the original payment?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both raters establish L5 and L6; the disagreement is B's additional L8. A formal failed-performance result and withholding the original payment do not alone establish dispute or breach-claim handling under the L8 boundary. The described end-of-scenario behavior check can serve ordinary fulfillment acceptance. Reputation is discussed as motivation, not a developed L1 mechanism. I retain L5 and L6 and omit L8 because no claim, contest, arbitration, or breach-remedy procedure is established. Targeted full-text attempts were unsuccessful, so this decision is bounded to the supplied abstract.",
+      "supplement_attempts": [
+        {
+          "question": "Does liability validation adjudicate a dispute or breach claim and impose a remedy, or is it a routine fulfillment-acceptance check that gates the original payment?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "saved_body_not_located",
+          "detail": "Searched saved primary-source paths and target DOI/source-record identifiers; no same-version body was located. Only the supplied abstract and source metadata were available. No earlier layer judgments were used as primary evidence."
+        },
+        {
+          "question": "Does liability validation adjudicate a dispute or breach claim and impose a remedy, or is it a routine fulfillment-acceptance check that gates the original payment?",
+          "url": "https://ieeexplore.ieee.org/document/8710454/",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "Returned JavaScript/robot-verification page; no body read."
+        },
+        {
+          "question": "Does liability validation adjudicate a dispute or breach claim and impose a remedy, or is it a routine fulfillment-acceptance check that gates the original payment?",
+          "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8710454",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "URL not accessible via web tool; no PDF/body read."
+        },
+        {
+          "question": "Does liability validation adjudicate a dispute or breach claim and impose a remedy, or is it a routine fulfillment-acceptance check that gates the original payment?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "no_relevant_result",
+          "detail": "No usable same-publication body passage was returned; unrelated search hits were not used."
+        }
+      ]
+    },
+    {
+      "record_id": "P044",
+      "identifier_key": "doi:10.1145/1409540.1409559",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "In this paper we focus on the multi-agent system layer and concentrate on considerations for designing and implementing the auctioning and trading components of \"itchy feet\".",
+          "rationale": "The stated focus identifies a subsystem but gives no concrete trading protocol, commitment procedure, or human-facing control to classify."
+        }
+      ],
+      "rationale": "The mixed human-agent virtual world establishes application context, while the stated contribution concerns unspecified auctioning and trading components. The body needed to establish their specific functions was unavailable.",
+      "mechanism": "Design and implementation of auctioning and trading components within a three-layer virtual tourism environment.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Which human-facing trading controls or inter-agent interaction rules are actually designed in the auctioning components, as distinct from the surrounding 3D environment?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A assigns L7 from the immersive environment and the presence of human participants; B treats these as context because the paper focuses on the multi-agent subsystem. The abstract explicitly distinguishes that subsystem from the visualization layer and does not describe a studied human-facing control, presentation mechanism, or actual human-agent commercial interaction. It also lacks interaction rules sufficient for L3. I therefore withhold L7 and all other labels. The specific subsystem-function question could change the classification, but saved-body lookup and official retrieval yielded no usable body, supporting not_evidenced with evidence_unavailable.",
+      "supplement_attempts": [
+        {
+          "question": "Which human-facing trading controls or inter-agent interaction rules are actually designed in the auctioning components, as distinct from the surrounding 3D environment?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "saved_body_not_located",
+          "detail": "Searched saved primary-source paths and target DOI/source-record identifiers; no same-version body was located. Only the supplied abstract and source metadata were available. No earlier layer judgments were used as primary evidence."
+        },
+        {
+          "question": "Which human-facing trading controls or inter-agent interaction rules are actually designed in the auctioning components, as distinct from the surrounding 3D environment?",
+          "url": "https://dl.acm.org/doi/10.1145/1409540.1409559",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "HTTP 403 Forbidden; no body read."
+        },
+        {
+          "question": "Which human-facing trading controls or inter-agent interaction rules are actually designed in the auctioning components, as distinct from the surrounding 3D environment?",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/1409540.1409559",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "failed",
+          "detail": "HTTP 403 Forbidden; no PDF/body read."
+        },
+        {
+          "question": "Which human-facing trading controls or inter-agent interaction rules are actually designed in the auctioning components, as distinct from the surrounding 3D environment?",
+          "retrieved_at_utc": "2026-10-22T00:01:46.280382+00:00",
+          "access_status": "no_relevant_result",
+          "detail": "No usable same-publication body passage was returned; unrelated search hits were not used."
+        }
+      ]
+    },
+    {
+      "record_id": "P049",
+      "identifier_key": "doi:10.1145/1329125.1329186",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Our bidding agent is able to build probabilistic models of both the behaviour of users who view the adverts, and the auctions that it participates within. It then uses these models to maximise the exposure that its adverts receive.",
+          "rationale": "Audience and auction predictions feed one bidder's optimization of advertising exposure; they do not specify a human-facing interaction or presentation mechanism under study."
+        },
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We evaluate the effectiveness of this bidding agent through simulation against a range of alternative selection mechanisms including a simple bidding strategy, random allocation, and a centralised optimal allocation with perfect foresight.",
+          "rationale": "The comparison studies bid/allocation performance in simulation rather than establishing interaction outcomes with actual humans."
+        }
+      ],
+      "rationale": "The substantive contribution is an individual bidding strategy using probabilistic audience and auction models. Public displays supply the application setting and exposure supplies the optimization metric; a studied human-facing presentation or interaction function is not established.",
+      "mechanism": "Probabilistic audience and auction modeling for exposure-maximizing bids in advertising-space auctions.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A and B disagree over whether optimizing advertisement exposure constitutes L7 presentation. B treats downstream advertisements on public displays as sufficient, but the abstract locates the studied mechanism in one agent's models and bidding decisions and its evaluation in simulated allocation comparisons. It does not describe design or evaluation of presentation content, human-facing controls, preference entry, or commercial interactions with actual users. Audience behavior as an optimization input does not itself establish L7. I adopt not_evidenced; first-price terminology and allocation of advertising space also do not independently establish L5 or L2. The abstract specifies the mechanism and evaluation clearly enough to resolve this disagreement without supplementary retrieval."
+    }
+  ]
+}

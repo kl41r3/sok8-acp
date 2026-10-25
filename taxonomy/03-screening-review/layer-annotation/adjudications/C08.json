@@ -1,0 +1,280 @@
+{
+  "job_id": "C08",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0706",
+      "identifier_key": "doi:10.1109/peds.2011.6147283",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "allows controllable devices to dynamically react to market changes and adapt their bidding behaviours accordingly.",
+          "rationale": "Adaptive bidding and shifting a device’s demand are described, but the abstract does not specify a procedure coordinating the actions of the load, generator and DSM agents."
+        }
+      ],
+      "rationale": "Adaptive bidding and shifting a device’s demand are described, but the abstract does not specify a procedure coordinating the actions of the load, generator and DSM agents.",
+      "mechanism": "Adaptive device bidding and peak-to-off-peak load shifting in a DSM auction market.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disagreement is whether system-level load smoothing and a named auction platform establish L3. They do not by themselves: the quoted mechanism concerns individual adaptation, and the abstract lists agent roles without their interaction rules. A’s evidentiary objection is upheld. A targeted search for the missing coordination rule found no saved source-specific body; publisher retrieval did not yield a body that could be read within the access boundary. No positive layer is established by the material read.",
+      "supplement_attempts": [
+        {
+          "question": "What explicit message sequence or allocation-coordination rule connects the load, generator and DSM agents, beyond each device adapting its own bid?",
+          "retrieved_at_utc": "2026-10-19T21:52:22.962159+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for I67ABC245A231ED66 found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "What explicit message sequence or allocation-coordination rule connects the load, generator and DSM agents, beyond each device adapting its own bid?",
+          "retrieved_at_utc": "2026-10-19T21:52:22.962159+00:00",
+          "access_status": "failed",
+          "detail": "JavaScript/robot verification page; no article body returned."
+        },
+        {
+          "question": "What explicit message sequence or allocation-coordination rule connects the load, generator and DSM agents, beyond each device adapting its own bid?",
+          "retrieved_at_utc": "2026-10-19T21:52:22.962159+00:00",
+          "access_status": "not_read_account_boundary",
+          "detail": "Browser landing page identified title and DOI but displayed Access provided by Duke University. Did not inspect full-text sections under the instruction not to access paywalled accounts; temporary tab closed."
+        }
+      ]
+    },
+    {
+      "record_id": "R0707",
+      "identifier_key": "doi:10.1109/pes.2005.1489692",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "the auctioneer should allow the utility companies to submit price-elastic demand schedule that better reflects the consumers' price-substitution preferences.",
+          "rationale": "The paper proposes and evaluates a change in the auction interaction rule: utility companies may submit price-elastic demand schedules to the auctioneer instead of relying on an imposed price cap."
+        }
+      ],
+      "rationale": "The paper proposes and evaluates a change in the auction interaction rule: utility companies may submit price-elastic demand schedules to the auctioneer instead of relying on an imposed price cap.",
+      "mechanism": "Repeated-auction redesign changing the demand messages accepted by the auctioneer.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A’s L3 is supported. The contribution is a market rule specifying what demand submission the utility agents can make to the auctioneer, and its consumer-welfare effects are simulated. This is an explicitly designed multi-party interaction rule, beyond one bidder optimizing bids in an unchanged market. B treats the change as only an economic parameter, overlooking the described change in admissible demand messages. The abstract settles this point; no payment formula or human preference interface is established."
+    },
+    {
+      "record_id": "R0718",
+      "identifier_key": "doi:10.1109/pgsret.2018.8686004",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "incorporate both financial transmission rights auction and auction revenue rights allocation.",
+          "rationale": "The abstract names financial-rights mechanisms but does not state how revenue entitlements generate payments or transfers."
+        }
+      ],
+      "rationale": "The reported simulation combines rights auctions and allocation and compares participant costs, without describing a substantive payment obligation or transfer rule.",
+      "mechanism": "Simulation of financial transmission rights auctions and auction revenue rights allocation.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The dispute concerns L5. A infers a financial entitlement rule from the name auction revenue rights allocation; B correctly identifies the missing link to the modeled payment rule. A term naming revenue rights and a reduction in costs do not establish who pays whom or how proceeds are allocated. No saved source-specific body was located, and the publisher fetch returned a verification page. The final judgment therefore uses only the supplied abstract and establishes no layer.",
+      "supplement_attempts": [
+        {
+          "question": "Does the paper specify and analyze a rule assigning auction proceeds or congestion payments to rights holders, rather than only the allocation and cost effects of the rights?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for IC2AA612D38A9A85B found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "Does the paper specify and analyze a rule assigning auction proceeds or congestion payments to rights holders, rather than only the allocation and cost effects of the rights?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "failed",
+          "detail": "JavaScript/robot verification page; no article body returned."
+        }
+      ]
+    },
+    {
+      "record_id": "R0725",
+      "identifier_key": "doi:10.1109/powereng.2013.6635866",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Ontology of the proposed design, the MAS architecture, the Market Model and the Auction Methodology are all elaborated in the paper.",
+          "rationale": "Naming these architecture components does not identify their agent-interaction rules or capability-description function."
+        }
+      ],
+      "rationale": "The abstract proposes MAS control for an industrial microgrid, but does not explain how its agents coordinate, what their messages are, or how the named ontology supports resource discovery.",
+      "mechanism": "AMGEM architecture and auction methodology for microgrid electricity and industrial byproducts.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The L3 disagreement is resolved in favor of A’s evidence boundary. B infers coordination from a MAS control architecture and its auction setting; the abstract gives neither a specified distributed coordination procedure nor interaction rules. The concrete question about how market agents coordinate exchanges required body evidence. No saved source-specific body was located and the official publisher fetch failed. The architecture’s existence does not supply the missing functional evidence.",
+      "supplement_attempts": [
+        {
+          "question": "What specific inter-agent message or task-coordination rules implement the electricity and byproduct auction architecture?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for IDFF8D2FDF51DCF83 found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "What specific inter-agent message or task-coordination rules implement the electricity and byproduct auction architecture?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "failed",
+          "detail": "Error fetching publisher page; no body returned."
+        }
+      ]
+    },
+    {
+      "record_id": "R0726",
+      "identifier_key": "doi:10.1109/pst65910.2025.11268859",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "we present a conceptual model for dynamically computing trust and risk values to support financial transaction approvals through innovative recognition schemes.",
+          "rationale": "The substantive mechanism computes participant trust and risk from recognition schemes for KYC/AML decisions."
+        }
+      ],
+      "rationale": "The model studies dynamic social trust and recognition evidence. Transaction approvals are the supported outcome, but the abstract does not identify a permission, mandate or role-policy mechanism.",
+      "mechanism": "Decentralized recognition-based trust and risk computation for financial inclusion.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both raters establish L1. B additionally treats any transaction approval as L4. Under the fixed boundary, trust-based customer assessment does not alone establish an authorization policy: the abstract says the model supports approvals without describing granted permissions, mandate scope or execution-time permission checks. A targeted question sought such a rule; no saved body was located and the publisher returned a cache miss. Retain the supported L1 and omit L4. No payment rule is inferred from reported payment volumes.",
+      "supplement_attempts": [
+        {
+          "question": "Does the recognition/trust model specify an authorization policy that grants or checks permission to execute transactions, beyond assessing KYC/AML eligibility from trust and risk?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for I6291E4CE8465617C found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "Does the recognition/trust model specify an authorization policy that grants or checks permission to execute transactions, beyond assessing KYC/AML eligibility from trust and risk?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "failed",
+          "detail": "Cache miss; no body returned."
+        }
+      ]
+    },
+    {
+      "record_id": "R0769",
+      "identifier_key": "doi:10.1109/sp63933.2026.00042",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we conduct multiple experiments to assess the impact of both individual and combined dark patterns on web agent behavior.",
+          "rationale": "The evaluated function is autonomous agents consuming deceptive web interfaces, rather than presentation or interaction provided to humans in agent commerce."
+        }
+      ],
+      "rationale": "The study measures automated web-agent susceptibility to manipulated interfaces. Human users explain the origin of dark patterns, but human-facing agent representations, preference input, oversight or human-agent interaction are not the evaluated function.",
+      "mechanism": "Controlled experiments varying deceptive web interfaces and measuring LLM web-agent decisions.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The abstract settles the L7 dispute. B assigns L7 because the pre-existing web interfaces were designed for humans. Their origin is not sufficient: the study’s specified participants and measured decisions are web agents, and the modified presentation is evaluated as agent input. A’s outside-layer judgment is retained. Human users appear as motivation, while the logging and recordings are experimental instrumentation with no described human-facing agent interaction function. No additional body question is necessary to decide the stated scope."
+    },
+    {
+      "record_id": "R0777",
+      "identifier_key": "doi:10.1109/swste.2012.14",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "all its relevant subtasks are assigned to agents with the necessary capabilities",
+          "rationale": "Agent selection explicitly depends on the capability fit required by each subtask."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a particular task is considered to be complete if all its relevant subtasks are assigned to agents with the necessary capabilities, and the total costs of all the agents falls within a preset limit.",
+          "rationale": "The protocols coordinate the joint assignment of all constituent subtasks to an agent group under a shared feasibility condition."
+        }
+      ],
+      "rationale": "The protocols select capable agents and coordinate the full subtask allocation. Stated budget balance and a predetermined task payment do not specify the individual payment obligations or distribution rule in the abstract.",
+      "mechanism": "Incentive-compatible allocation of capable agent groups to jointly feasible complex tasks.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both raters correctly identify L2 and L3. B adds L5 from budget balance and the existence of a total task payment. Those facts constrain the allocation problem but do not themselves describe a substantive compensation rule. A targeted attempt sought the individual transfer/payment rule needed to establish L5; no saved source-specific body was located and the publisher URL was inaccessible. Retain L2 and L3 on their direct abstract evidence, without inferring L5.",
+      "supplement_attempts": [
+        {
+          "question": "What individual payment rule distributes the predetermined task payment among selected agents, and is that rule part of the analyzed protocols?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for ID1EE0CB16BCE54BC found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "What individual payment rule distributes the predetermined task payment among selected agents, and is that rule part of the analyzed protocols?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "failed",
+          "detail": "Publisher URL not accessible via web tool; no body returned."
+        }
+      ]
+    },
+    {
+      "record_id": "R0782",
+      "identifier_key": "doi:10.1109/syscon66367.2026.11503513",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "derives unsafe control actions and constraints, replays traces with scenario injection, and outputs an evidence bundle linking each decision to constraint IDs.",
+          "rationale": "This establishes a safety-modeling and trace-evidence mechanism, but does not identify the content of an authorization or payment rule."
+        }
+      ],
+      "rationale": "The paper models a financial gateway and enforces safety/compliance constraints on synthetic traces, while the abstract does not state which constraint grants or checks permission or which modeled rule controls transfers and settlement.",
+      "mechanism": "SysML/STPA safety modeling, constraint enforcement and trace evidence for an agent financial gateway.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disagreement is whether generic executable constraints and payment-system components establish L4 and L5. They do not alone: constraint enforcement could implement safety or risk requirements rather than permission rules, and naming spend APIs and ledger adapters does not describe payment obligations or settlement control. A’s evidentiary objection is upheld. The targeted question sought the concrete permission and payment rules; no saved body was located and the official publisher URL was inaccessible. No layer is established by the abstract; planned evaluation is not treated as completed evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Which modeled constraints check permission to spend, and which rules govern payment obligations, transfers or settlement rather than generic safety and compliance?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "no_saved_body_located",
+          "detail": "No source-specific body file for I8EFCA49580914027 found; supplied source record has author abstract and metadata."
+        },
+        {
+          "question": "Which modeled constraints check permission to spend, and which rules govern payment obligations, transfers or settlement rather than generic safety and compliance?",
+          "retrieved_at_utc": "2026-10-19T21:53:05.576413+00:00",
+          "access_status": "failed",
+          "detail": "Publisher URL not accessible via web tool; no body returned."
+        }
+      ]
+    }
+  ]
+}

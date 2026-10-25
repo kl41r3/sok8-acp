@@ -1,0 +1,540 @@
+{
+  "model": "deepseek-v4-flash",
+  "returned_model": "deepseek-v4-flash",
+  "round": 3,
+  "temperature": 0.6,
+  "frame": "Rater frame: conservative home-layer test. If the assigned failure mode remains open, do not give 2. If evidence is a draft, optional extension, or marketing page, cap the cell at 1. Prefer the lower score when mixed.",
+  "usage": [
+    {
+      "prompt_tokens": 3060,
+      "completion_tokens": 7184,
+      "total_tokens": 10244,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 6579
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 2676
+    },
+    {
+      "prompt_tokens": 3117,
+      "completion_tokens": 11084,
+      "total_tokens": 14201,
+      "prompt_tokens_details": {
+        "cached_tokens": 384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 10539
+      },
+      "prompt_cache_hit_tokens": 384,
+      "prompt_cache_miss_tokens": 2733
+    },
+    {
+      "prompt_tokens": 3063,
+      "completion_tokens": 3323,
+      "total_tokens": 6386,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2753
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2551
+    },
+    {
+      "prompt_tokens": 3062,
+      "completion_tokens": 6281,
+      "total_tokens": 9343,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5754
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2550
+    },
+    {
+      "prompt_tokens": 2955,
+      "completion_tokens": 6146,
+      "total_tokens": 9101,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5497
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2443
+    },
+    {
+      "prompt_tokens": 2991,
+      "completion_tokens": 6919,
+      "total_tokens": 9910,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 6254
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2479
+    },
+    {
+      "prompt_tokens": 2932,
+      "completion_tokens": 7668,
+      "total_tokens": 10600,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 7117
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2420
+    },
+    {
+      "prompt_tokens": 2988,
+      "completion_tokens": 6254,
+      "total_tokens": 9242,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5628
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 2476
+    }
+  ],
+  "annotated_at": "2026-08-17T02:05:58.187198+00:00",
+  "protocols": [
+    {
+      "protocol": "AP2",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 1.0,
+      "A_count": 3,
+      "auth_safety": "yes",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Signed mandates commit agents to payment intent (moral hazard/commitment).",
+          "evidence": "Intent/Cart Mandates signed as W3C VCs; chain of evidence described.",
+          "failure": "Revocation not propagated into settlement; signature does not guarantee faithful execution.",
+          "metric": "No revocation latency or scope-violation metric specified.",
+          "locator": "ind-google-ap2-blog; spec-ap2"
+        },
+        "I": {
+          "promise": "Bind AP2 mandates across Web2 and Web3 rails.",
+          "evidence": "Payment-agnostic cards/stablecoins/bank; A2A x402 extension; UCP binding.",
+          "failure": "Cross-layer binding is optional/one-sided; no auditable conformance test.",
+          "metric": "No cross-protocol verification metric.",
+          "locator": "ind-google-ap2-blog; ucp.dev"
+        },
+        "A": {
+          "promise": "Deliver assurance via authorization, execution, audit artifacts.",
+          "evidence": "VC mandates and chain of evidence; no finality/pricing/compliance/recovery artifacts.",
+          "failure": "Four of seven properties absent.",
+          "metric": "3/7 properties addressed; A=1.",
+          "locator": "spec-ap2; ind-google-ap2-blog"
+        },
+        "EM": {
+          "promise": "Operate where banking/court/ID institutions are weak.",
+          "evidence": "Supports stablecoins and bank transfers; no dispute forum.",
+          "failure": "Still needs legal/platform fallback for remedy.",
+          "metric": "No weak-institution deployment or artifact metric.",
+          "locator": "ind-google-ap2-blog"
+        },
+        "S": {
+          "promise": "Stable, versioned, governed, adopted spec.",
+          "evidence": "Public GitHub repo and 60+ collaborators; positioned with A2A/MCP.",
+          "failure": "No versioned spec or named governance; repo thin.",
+          "metric": "No independent implementation count.",
+          "locator": "spec-ap2; ind-google-ap2-blog"
+        }
+      }
+    },
+    {
+      "protocol": "x402",
+      "C": 1.5,
+      "I": 1.5,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 2.0,
+      "A_count": 4,
+      "auth_safety": "yes",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "partial",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Payment authorization & settlement evidence.",
+          "evidence": "HTTP 402, PAYMENT-SIGNATURE, on-chain settlement.",
+          "failure": "No atomic bind of delivery to finality.",
+          "metric": "Verifiable proof exists; gap remains.",
+          "locator": "spec-x402; consensus_dissent_ledger L5"
+        },
+        "I": {
+          "promise": "Cross-layer payment proof propagates.",
+          "evidence": "CAIP-2, EVM/Solana/Algorand SDKs, HTTP 402.",
+          "failure": "Facilitator trust limits full seam propagation.",
+          "metric": "Proof verified; settlement relies on facilitator.",
+          "locator": "spec-x402"
+        },
+        "A": {
+          "promise": "Covers payment flow assurance properties.",
+          "evidence": "Auth via signature; audit via proof/tx; no KYC/refund.",
+          "failure": "Finality, compliance, recoverability absent.",
+          "metric": "4 of 7 properties addressed.",
+          "locator": "spec-x402"
+        },
+        "EM": {
+          "promise": "Works without banks/courts/ID via crypto wallet.",
+          "evidence": "No accounts/KYC; stablecoins; facilitator fallback.",
+          "failure": "Still needs trusted facilitator and stablecoin access.",
+          "metric": "No bank/ID/court required.",
+          "locator": "spec-x402"
+        },
+        "S": {
+          "promise": "Stable, governed, adopted spec.",
+          "evidence": "Linux Foundation x402; multiple SDKs/middleware; IETF drafts.",
+          "failure": "Core spec versioning not independently audited.",
+          "metric": "Named governance + independent implementations.",
+          "locator": "spec-x402; ietf-draft-hopley-x402"
+        }
+      }
+    },
+    {
+      "protocol": "UCP",
+      "C": 1.5,
+      "I": 1.5,
+      "A": 1.0,
+      "EM": 0.0,
+      "S": 1.0,
+      "A_count": 4,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "partial",
+      "compliance": "no",
+      "recoverability": "partial",
+      "cells": {
+        "C": {
+          "promise": "Portable order lifecycle state across merchants",
+          "evidence": "Order object with fulfillment events and refund adjustments in spec",
+          "failure": "Post-purchase state remains merchant-specific; webhooks optional",
+          "metric": "Merchant implementations of order webhooks",
+          "locator": "spec-ucp https://ucp.dev/latest/specification/overview/"
+        },
+        "I": {
+          "promise": "Interoperate with AP2, MCP, A2A via well-known profile",
+          "evidence": "Capability negotiation and version dates in business profile",
+          "failure": "No verified end-to-end propagation across all seams",
+          "metric": "Number of specified transport bindings",
+          "locator": "spec-ucp /.well-known/ucp"
+        },
+        "A": {
+          "promise": "Covers auth, execution, audit, refund properties",
+          "evidence": "OAuth identity linking; order/refund objects; AP2 mandates",
+          "failure": "Finality, pricing, compliance not addressed",
+          "metric": "4 of 7 properties observed",
+          "locator": "spec-ucp; ind-digitalapplied-standards"
+        },
+        "EM": {
+          "promise": "Works without strong institutional support",
+          "evidence": "MoR with PSP/card/bank finality",
+          "failure": "Depends on banking/card rails; no alternative settlement",
+          "metric": "Institutional dependency count",
+          "locator": "spec-ucp; ind-agenticplug-tracker"
+        },
+        "S": {
+          "promise": "Stable governed specification",
+          "evidence": "Versioned spec at ucp.dev/latest; co-developed by large firms",
+          "failure": "No independent implementation count; lodging/food incomplete",
+          "metric": "Independent implementer count",
+          "locator": "spec-ucp; GitHub Universal-Commerce-Protocol/ucp"
+        }
+      }
+    },
+    {
+      "protocol": "ERC-8004",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 0.0,
+      "EM": 0.5,
+      "S": 1.0,
+      "A_count": 1,
+      "auth_safety": "no",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "partial",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Portable identity and behavioral trust via registries.",
+          "evidence": "EIP-8004 defines identity, reputation, validation registries.",
+          "failure": "Cannot cryptographically guarantee capabilities; Sybil inflation.",
+          "metric": "Reputation score via getSummary with client filter.",
+          "locator": "spec-erc8004"
+        },
+        "I": {
+          "promise": "Interop via A2A/MCP/ENS/DID/wallet endpoints.",
+          "evidence": "Registry endpoints and optional x402Support.",
+          "failure": "No cross-chain reputation propagation.",
+          "metric": "Endpoint format conformance.",
+          "locator": "spec-erc8004"
+        },
+        "A": {
+          "promise": "Assurance coverage of seven properties.",
+          "evidence": "Only auditability partially addressed via on-chain feedback.",
+          "failure": "No enforcement of execution/finality.",
+          "metric": "Count of properties addressed = 1.",
+          "locator": "spec-erc8004"
+        },
+        "EM": {
+          "promise": "Works without courts/cards/banks via blockchain identity.",
+          "evidence": "Draft spec, no deployed artifact.",
+          "failure": "Requires blockchain access; no loss-bearer artifact yet.",
+          "metric": "Deployment status; testnet availability.",
+          "locator": "spec-erc8004"
+        },
+        "S": {
+          "promise": "Public EIP draft with governance.",
+          "evidence": "EIP-8004, Magicians thread, multi-org authors.",
+          "failure": "Draft status; limited independent implementers.",
+          "metric": "EIP status; implementer count.",
+          "locator": "spec-erc8004"
+        }
+      }
+    },
+    {
+      "protocol": "MCP",
+      "C": 1.5,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 1.5,
+      "A_count": 2,
+      "auth_safety": "partial",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "partial",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Capability discovery and tool invocation solve discovery/effort problems.",
+          "evidence": "Versioned spec defines prompts, resources, tools; tool-call logs exist.",
+          "failure": "Advertised capability not bound to demonstrated performance; intent fidelity unproven.",
+          "metric": "Validation rate of discovered capabilities; none specified.",
+          "locator": "protocol-root-model-context-protocol; sur-ehtesham2025-agent-interop"
+        },
+        "I": {
+          "promise": "Connects AI apps to tools across clients and servers, enabling interop.",
+          "evidence": "Clients include Claude/ChatGPT/VS Code/Cursor; UCP treats MCP as transport.",
+          "failure": "No propagation of trust/payment guarantees across layer seams or Web2-Web3.",
+          "metric": "Number of interoperable client/server pairs; no cross-layer audit metric.",
+          "locator": "protocol-root-model-context-protocol; spec-ucp"
+        },
+        "A": {
+          "promise": "Authorization and auditability are addressed; other assurance properties absent.",
+          "evidence": "User-mediated delegated access; tool-call logs as evidence records.",
+          "failure": "No economic finality, pricing, compliance, or recoverability artifacts.",
+          "metric": "2 of 7 properties partially artifacted; count in spec.",
+          "locator": "protocol-root-model-context-protocol; oa-w7167155035"
+        },
+        "EM": {
+          "promise": "Works without courts, banks, cards, or formal ID for core tool use.",
+          "evidence": "Open internet standard; no bank/ID/court dependency in spec.",
+          "failure": "No loss-bearer artifact or accountability when institutional support is weak.",
+          "metric": "Operations usable without those institutions; no metric defined.",
+          "locator": "protocol-root-model-context-protocol"
+        },
+        "S": {
+          "promise": "Stable, versioned open standard with broad independent adoption.",
+          "evidence": "Versioned docs 2026-07-28; listed clients Claude/ChatGPT/VS Code/Cursor.",
+          "failure": "Named governance body not explicitly identified in reviewed packet.",
+          "metric": "Spec version and count of independent client implementations.",
+          "locator": "protocol-root-model-context-protocol"
+        }
+      }
+    },
+    {
+      "protocol": "A2A",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 0.0,
+      "EM": 1.0,
+      "S": 2.0,
+      "A_count": 1,
+      "auth_safety": "no",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Agent Card provides machine-readable capability advertisement for discovery.",
+          "evidence": "Live spec defines Agent Card JSON with skills, endpoint, auth requirements.",
+          "failure": "No validation binds advertised capability to demonstrated performance; intent fidelity unproven.",
+          "metric": "No checkable capability-performance metric; task traces only.",
+          "locator": "https://a2a-protocol.org/latest/topics/key-concepts/"
+        },
+        "I": {
+          "promise": "Agents interoperate over HTTP with typed tasks, messages, and artifacts.",
+          "evidence": "Spec defines JSON-RPC polling, SSE, webhooks; MCP/x402/AP2 pairings.",
+          "failure": "Cross-seam propagation to Web3/payments is optional adapter, not native.",
+          "metric": "No spec-level verifiable cross-layer binding; adopters cited only.",
+          "locator": "https://a2a-protocol.org/latest/specification/"
+        },
+        "A": {
+          "promise": "Assurance coverage: task traces for auditability.",
+          "evidence": "Task ID and message/artifact history allow reconstruction; no payment/consent.",
+          "failure": "Other six properties absent; no authorization, finality, pricing, compliance, recovery.",
+          "metric": "1 of 7 properties addressed; A_count=1 -> score 0.",
+          "locator": "https://a2a-protocol.org/latest/specification/"
+        },
+        "EM": {
+          "promise": "Works over plain web transport without banks, courts, cards, or platform.",
+          "evidence": "Direct HTTP endpoints self-describe auth; no institutional dependency.",
+          "failure": "No settlement, escrow, or remedy artifact; loss-bearer has no recourse.",
+          "metric": "Institutional dependence low; no inspectable loss artifact -> score 1.",
+          "locator": "https://a2a-protocol.org/latest/"
+        },
+        "S": {
+          "promise": "Stable, governed, multi-vendor standard.",
+          "evidence": "Linux Foundation TSC (AWS, Google, IBM, MS, Salesforce, SAP, SN); 6 SDKs.",
+          "failure": "None named; governance and independent implementations present.",
+          "metric": "Named governance plus multiple independent SDKs/implementations.",
+          "locator": "https://a2a-protocol.org/latest/specification/"
+        }
+      }
+    },
+    {
+      "protocol": "AG-UI",
+      "C": 1.5,
+      "I": 0.0,
+      "A": 0.0,
+      "EM": 0.0,
+      "S": 1.5,
+      "A_count": 1,
+      "auth_safety": "partial",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "no",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Event protocol surfaces agent state and UI intents for user oversight.",
+          "evidence": "Docs list streaming chat, thinking-step visualization, interrupts.",
+          "failure": "T5 open: interface transparency does not close weaker seams.",
+          "metric": "No metric for seam fidelity.",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "I": {
+          "promise": "No cross-layer or Web2-Web3 binding specified.",
+          "evidence": "Positions next to MCP/A2A; framework integrations only.",
+          "failure": "Connectivity without propagation; no auditable binding.",
+          "metric": "None.",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "A": {
+          "promise": "Addresses one property partially via HITL interrupts.",
+          "evidence": "Interrupts (pause, approve, edit, retry) in docs.",
+          "failure": "No mandate, settlement, or dispute objects.",
+          "metric": "Count 1/7 properties addressed.",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "EM": {
+          "promise": "No reduction of dependence on missing institutions.",
+          "evidence": "Docs contain no banking, ID, enforcement, stability artifacts.",
+          "failure": "Requires functioning platform/delivery; no loss-bearer artifact.",
+          "metric": "None.",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "S": {
+          "promise": "Open protocol with multiple framework integrations.",
+          "evidence": "GitHub repo, docs, SDKs for Kotlin/Go/Dart/Rust.",
+          "failure": "No versioned spec or named governance in packet.",
+          "metric": "No independent adoption census.",
+          "locator": "https://github.com/ag-ui-protocol/ag-ui"
+        }
+      }
+    },
+    {
+      "protocol": "Kleros",
+      "C": 1.5,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.5,
+      "S": 1.0,
+      "A_count": 4,
+      "auth_safety": "no",
+      "exec_correct": "partial",
+      "econ_finality": "partial",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "yes",
+      "cells": {
+        "C": {
+          "promise": "Decentralized arbitration and enforceable escrow for contract disputes.",
+          "evidence": "Live court since 2019; whitepaper, ERC-792/1497, Escrow product.",
+          "failure": "Days-scale latency; no agent-speed enforcement standard.",
+          "metric": "Dispute resolution latency from court logs (unpublished here).",
+          "locator": "https://docs.kleros.io/"
+        },
+        "I": {
+          "promise": "Arbitration/evidence interface bindable by external smart contracts.",
+          "evidence": "ERC-792 and ERC-1497 documented on docs site.",
+          "failure": "Optional, one-sided integration; not default for AP2/x402/UCP.",
+          "metric": "Count of external protocols with auditable ERC-792 binding.",
+          "locator": "https://docs.kleros.io/"
+        },
+        "A": {
+          "promise": "Evidence and appeal mechanism provide auditability and recoverability.",
+          "evidence": "ERC-1497 evidence records; escrow and appeals in docs.",
+          "failure": "Authorization, pricing, and compliance not enforced by Kleros.",
+          "metric": "Seven properties addressed: 4 (2 yes, 2 partial).",
+          "locator": "https://docs.kleros.io/"
+        },
+        "EM": {
+          "promise": "Dispute resolution without courts, banks, or formal ID.",
+          "evidence": "Crowdsourced jury, crypto wallets, no KYC, on-chain escrow.",
+          "failure": "Cross-jurisdiction recognition not automatic; needs crypto access.",
+          "metric": "Jurisdictions recognizing Kleros awards (not specified).",
+          "locator": "https://kleros.io/static/whitepaper.pdf"
+        },
+        "S": {
+          "promise": "Stable public specification with governance and ERC standards.",
+          "evidence": "Whitepaper, docs, ERC-792/1497, Cooperative/Snapshot governance.",
+          "failure": "Limited independent implementers; corpus has only 3 OA records.",
+          "metric": "Number of independent implementations/integrations.",
+          "locator": "https://docs.kleros.io/"
+        }
+      }
+    }
+  ]
+}

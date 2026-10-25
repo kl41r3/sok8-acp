@@ -1,0 +1,167 @@
+{
+  "lock_date": "2026-08-17",
+  "model_order": [
+    "agnes-2.5-flash",
+    "deepseek-v4-flash",
+    "qwen3.7-plus"
+  ],
+  "scoring_object": "Protocol as an element of the agentic-commerce stack; Kleros as a stack L8 candidate.",
+  "near_agreement_rule": "Keep the three-model median for all other cells; accepted by the author.",
+  "decisions": [
+    {
+      "cell_id": 1,
+      "protocol": "x402",
+      "dimension": "A",
+      "model_medians_in_order": [
+        1.0,
+        2.0,
+        2.0
+      ],
+      "gate": "spread",
+      "dispute": "Seven-property count 2-4 or 5-7. Do receipts or HTTP 402 count as recoverability or compliance?",
+      "locked_score": 2.0,
+      "author_reason": "Don't take any of the old placeholder into consideration"
+    },
+    {
+      "cell_id": 2,
+      "protocol": "UCP",
+      "dimension": "EM",
+      "model_medians_in_order": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "gate": "spread",
+      "dispute": "Depends on merchant of record, card rails, OAuth, or usable where institutions are weak",
+      "locked_score": 1.0,
+      "author_reason": null
+    },
+    {
+      "cell_id": 3,
+      "protocol": "ERC-8004",
+      "dimension": "A",
+      "model_medians_in_order": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "gate": "spread",
+      "dispute": "On-chain feedback is one property, or does validation also count",
+      "locked_score": 0.5,
+      "author_reason": null
+    },
+    {
+      "cell_id": 4,
+      "protocol": "MCP",
+      "dimension": "EM",
+      "model_medians_in_order": [
+        2.0,
+        1.0,
+        0.5
+      ],
+      "gate": "spread",
+      "dispute": "Does peer tool access substitute for platform trust. Spread is now 0.5-2.0",
+      "locked_score": 1.5,
+      "author_reason": null
+    },
+    {
+      "cell_id": 5,
+      "protocol": "A2A",
+      "dimension": "EM",
+      "model_medians_in_order": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "gate": "spread",
+      "dispute": "Can Agent Cards work without a platform",
+      "locked_score": 1.0,
+      "author_reason": null
+    },
+    {
+      "cell_id": 6,
+      "protocol": "AG-UI",
+      "dimension": "I",
+      "model_medians_in_order": [
+        1.0,
+        0.0,
+        0.5
+      ],
+      "gate": "spread",
+      "dispute": "Verifiable cross-layer binding, or frontend only",
+      "locked_score": 0.5,
+      "author_reason": null
+    },
+    {
+      "cell_id": 7,
+      "protocol": "AG-UI",
+      "dimension": "A",
+      "model_medians_in_order": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "gate": "spread",
+      "dispute": "How many assurance properties do interrupts and logs cover",
+      "locked_score": 0.5,
+      "author_reason": null
+    },
+    {
+      "cell_id": 8,
+      "protocol": "AG-UI",
+      "dimension": "EM",
+      "model_medians_in_order": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "gate": "spread",
+      "dispute": "Qwen treats a UI protocol as useless without courts or cards",
+      "locked_score": 1.0,
+      "author_reason": null
+    },
+    {
+      "cell_id": 9,
+      "protocol": "Kleros",
+      "dimension": "I",
+      "model_medians_in_order": [
+        0.0,
+        1.0,
+        0.5
+      ],
+      "gate": "spread",
+      "dispute": "Object A: not wired into AP2, x402, or UCP. Suggested 0",
+      "locked_score": 0.5,
+      "author_reason": null
+    },
+    {
+      "cell_id": 10,
+      "protocol": "Kleros",
+      "dimension": "EM",
+      "model_medians_in_order": [
+        1.0,
+        1.5,
+        1.0
+      ],
+      "gate": "object",
+      "dispute": "Object A locked: court ≠ cash-out or local legal substitute. Suggested 0.5 or 1, not 1.5",
+      "locked_score": 1.0,
+      "author_reason": null
+    },
+    {
+      "cell_id": 11,
+      "protocol": "Kleros",
+      "dimension": "C",
+      "model_medians_in_order": [
+        1.0,
+        1.5,
+        1.0
+      ],
+      "gate": "object",
+      "dispute": "Object A locked: solves general arbitration, not agent-speed L8. Suggested 0.5 or 1",
+      "locked_score": 1.0,
+      "author_reason": null
+    }
+  ],
+  "provenance": "English extraction of the accepted decisions in the original author review. Empty reason fields remain null. Dispute text records the question, not an invented author justification."
+}

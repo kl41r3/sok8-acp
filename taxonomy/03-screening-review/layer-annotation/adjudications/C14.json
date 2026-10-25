@@ -1,0 +1,64 @@
+{
+  "job_id": "C14",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "P064",
+      "identifier_key": "doi:10.1609/aaai.v26i1.8172",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "official_body_coordination",
+          "quote": "this CVPP will first aggregate all their reports and\nproductions based on the formulas presented in Section 2,",
+          "rationale": "Section 3.3 specifies how the cooperative aggregates its members’ reports and production using Section 2’s formulas before interacting with the Grid. Read together with the formal representative role in Section 2 and the two-stage mechanism in Section 3, this establishes a specified coordination mechanism across DERs, their cooperative and the Grid."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "we design a payment mechanism that encourages DERs to join CVPPs with large overall production.",
+          "rationale": "The designed and evaluated scoring-rule mechanism determines payments for cooperative electricity production and accurate forecasts; Sections 3.2 and 3.3 additionally specify Grid-to-CVPP and CVPP-to-DER payment rules."
+        }
+      ],
+      "rationale": "The work specifies cooperative aggregation of member reports and production, representation to the Grid, and scoring-rule payment distribution. These establish coordination and payment functions.",
+      "mechanism": "Hierarchical aggregation of DER forecasts and production through CVPP representatives, coupled to scoring-rule payments from the Grid and contribution-weighted payments to members.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "official_body_coordination"
+      ],
+      "adjudication_reason": "A retained only L5; B added L3 because forecast incentives aid supply scheduling. The abstract establishes L5 but leaves the coordinating procedure underspecified. Same-version official Sections 2 and 3 resolve this: the CVPP represents its members to the Grid, aggregates their reports and production under specified formulas, and implements a two-stage reporting/payment mechanism. L3 therefore follows from that substantive coordination and representation, rather than from the general scheduling benefit or the word cooperative. The final set is L3 and L5."
+    },
+    {
+      "record_id": "P067",
+      "identifier_key": "doi:10.1609/aaai.v40i42.40895",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "official_body_capability",
+          "quote": "it processes the entire poisoned de\u0002scription as a ground-truth representation of the tool’s capa\u0002bilities.",
+          "rationale": "The poisoned metadata explicitly represents tool capabilities during pre-execution planning. Sections 3.1-3.4 construct and compare attacks on that description surface and record which available tools the agent selects and with what parameters, substantively evaluating capability description and its effect on tool use."
+        }
+      ],
+      "rationale": "The benchmark studies malicious capability descriptions at tool registration and evaluates their effect on pre-execution tool use. The relevant function is capability description, supported by the official body’s explicit account of how agents consume that metadata.",
+      "mechanism": "Tool-description poisoning at MCP registration, evaluated through function-hijacking and parameter-tampering test cases against available tools.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "official_body_capability"
+      ],
+      "adjudication_reason": "A treated the work as general security evaluation lacking identity or permission mechanisms; B identified the registration metadata as an L2 resource-description surface. The official body resolves whether metadata actually has that functional role: Section 2.2 states that the agent consumes it as the representation of tool capabilities, while Sections 3.1-3.4 systematically vary poisoned descriptions and observe resulting tool calls. This is substantive analysis of capability description and supports L2 even though the study’s purpose is security evaluation. No L1 is added from generic trust language, and no L4 is added from unauthorized-operation or permission-bypass motivation without a specified authorization policy being studied."
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "job_id": "C06",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0509",
+      "identifier_key": "doi:10.1109/icsc67292.2026.00035",
+      "classification": [
+        "L2",
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "The framework defines a semantic contract for each API (linking all inputs and outputs to an ontology)",
+          "rationale": "Ontology-linked API inputs and outputs provide designed service-capability descriptions."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "A prototype was developed in realistic e-commerce scenarios (free-form product listing and adaptive order handling) to evaluate feasibility. Methodologically, two agent-augmented API services were evaluated on 40 test cases (20 per scenario) against baseline implementations, measuring task success, policy compliance, and latency.",
+          "rationale": "Adaptive order handling is implemented and evaluated as one of the two services; this is direct research on order management."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "embeds a neuro-symbolic control loop that interprets user intent, applies domain knowledge and business rules, and dynamically plans actions.",
+          "rationale": "User-intent interpretation, together with the stated free-form service scenario, is a designed input function for the agent service."
+        }
+      ],
+      "rationale": "The design describes API capabilities, interprets free-form user intent, and implements and evaluates adaptive order handling.",
+      "mechanism": "Ontology-grounded API capability contracts and user-intent-driven order handling.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain A’s L6 as well as the shared L2/L7. Adaptive order handling is explicitly one of the two implemented services tested against baselines, so it is a substantive order-management function, not incidental mention of orders. An abstract need not enumerate every order-state transition to establish that scope. Policy compliance alone does not establish role-based authorization."
+    },
+    {
+      "record_id": "R0528",
+      "identifier_key": "doi:10.1109/icsssm.2005.1500212",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Resource allocation requests are bidded for a long session in the multiunit Vickrey-Clarke-Groves auction.",
+          "rationale": "This identifies the auction used for resource bidding, without exposing the studied agent coordination rules."
+        }
+      ],
+      "rationale": "The available abstract identifies a resource auction and revenue-oriented configuration, but does not specify inter-agent interaction or coordination rules, provider-fit selection, or payment obligations.",
+      "mechanism": "Autonomic network service configuration using multiunit VCG bidding.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "What message, role, or scheduling procedure does the design use to coordinate multiple service agents beyond submitting resource bids?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt the evidence limit underlying A’s conclusion. B infers substantive L3 from the named auction; the abstract only says requests are bid in that auction and service configuration is optimized. The missing allocation interaction procedure could establish L3, but no saved body was found and the official page was inaccessible. No layer is established by the material actually read.",
+      "supplement_attempts": [
+        {
+          "question": "What message, role, or scheduling procedure does the design use to coordinate multiple service agents beyond submitting resource bids?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "What message, role, or scheduling procedure does the design use to coordinate multiple service agents beyond submitting resource bids?",
+          "url": "https://ieeexplore.ieee.org/document/1500212/",
+          "access_status": "unavailable",
+          "details": "web.open returned: URL https://ieeexplore.ieee.org/document/1500212/ is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0553",
+      "identifier_key": "doi:10.1109/iiai-aai53430.2021.00062",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a dynamic travel permit allocation mechanism was introduced to alleviate urban traffic congestion especially during rush hours, which could actively respond to time-series changes in the participant schedules.",
+          "rationale": "The stated mechanism concerns dynamic permit allocation; interaction or commitment rules are not supplied."
+        }
+      ],
+      "rationale": "The abstract establishes a schedule-sensitive allocation objective and simulation outcome but does not describe the personal-trading or coordination procedure.",
+      "mechanism": "Dynamic travel-permit allocation combining auctions and personal trading.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "How do participants propose, accept, and execute personal trades when schedules change, and does the proposed mechanism specify that interaction?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A’s caution is supported: an allocation mechanism responding to schedules does not by itself specify a protocol coordinating agents’ interdependent actions. B’s L3 depends on an inferred interaction procedure. The specific trading and acceptance rules could change the classification, but neither saved body nor accessible official body was obtained. The final result is not_evidenced on the available evidence.",
+      "supplement_attempts": [
+        {
+          "question": "How do participants propose, accept, and execute personal trades when schedules change, and does the proposed mechanism specify that interaction?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "How do participants propose, accept, and execute personal trades when schedules change, and does the proposed mechanism specify that interaction?",
+          "url": "https://ieeexplore.ieee.org/document/9791039/",
+          "access_status": "unavailable",
+          "details": "web.open returned: Failed to fetch https://ieeexplore.ieee.org/document/9791039/: Cache miss.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0554",
+      "identifier_key": "doi:10.1109/iiai-aai59060.2023.00092",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "In this study, we implement a price mechanism that can be continuously changed between a comparable continuance double auction (CDA) and FBA, analyze the profits/losses and risks of MM, and investigate whether MM can continue to provide liquidity even on FBA by utilizing an artificial market model, which is an agent-based model for a financial market.",
+          "rationale": "The implemented continuous-to-batch market mechanism changes the temporal interaction of market agents and is directly compared for its effects on their actions."
+        }
+      ],
+      "rationale": "The paper implements and compares alternative temporal rules for market interaction and measures their consequences for agents’ execution and liquidity provision.",
+      "mechanism": "Agent-market comparison of continuous versus frequent-batch auction execution.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B’s L3. The price mechanism is explicitly varied between continuous and frequent-batch auctions, making when participants’ orders interact a substantive comparative object. This is broader than a single bidder optimizing within a fixed auction. A’s liquidity/risk description captures outcomes but omits this implemented coordination rule. No payment obligation, suitability-based discovery, or contract-management rule is established."
+    },
+    {
+      "record_id": "R0565",
+      "identifier_key": "doi:10.1109/imns67862.2026.11655291",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "the evaluation demonstrates that indirect prompt injection achieves a 100% success rate in manipulating product ranking",
+          "rationale": "Ranking products for agent selection is the explicitly manipulated and evaluated discovery function."
+        }
+      ],
+      "rationale": "Product ranking is explicitly attacked and evaluated. Signed mandates motivate the system, but the abstract does not establish study of their authorization fields or enforcement rules.",
+      "mechanism": "Prompt-injection manipulation of shopping-agent product ranking.",
+      "not_evidenced_reason": null,
+      "followup_question": "Which mandate fields, consent scopes, or account-permission checks are explicitly analyzed or exercised by the two attack experiments?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain A’s L2 and reject B’s inference of L4 from the introductory AP2 mandate description. The measured attacks concern product ranking and cross-account disclosure; the statement that they do not break cryptographic enforcement does not specify a mandate-scope or role-permission rule being analyzed. A targeted check for those rules failed, so L4 remains unestablished in the evidence actually read.",
+      "supplement_attempts": [
+        {
+          "question": "Which mandate fields, consent scopes, or account-permission checks are explicitly analyzed or exercised by the two attack experiments?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "Which mandate fields, consent scopes, or account-permission checks are explicitly analyzed or exercised by the two attack experiments?",
+          "url": "https://ieeexplore.ieee.org/document/11655291/",
+          "access_status": "unavailable",
+          "details": "Official IEEE page returned only a JavaScript-disabled robot-verification notice; no article body was available through web.open.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0566",
+      "identifier_key": "doi:10.1109/indcon.2012.6420774",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The proposed framework maintains an auction market, in which energy sellers and buyers shall practice trading. This framework integrates distributed storage as a part of demand side management.",
+          "rationale": "The auction platform and storage-integration objective are explicit, but the functional interaction procedure is not described."
+        }
+      ],
+      "rationale": "The abstract identifies a multi-agent auction platform and integration goals without specifying interaction rules, coordinated dispatch, payment obligations, or transaction management.",
+      "mechanism": "Microgrid auction framework integrating storage and demand response.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Which explicit auction-message or dispatch procedure coordinates seller, buyer, storage, and demand-response agents in the proposed framework?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A’s evidence boundary. B interprets the existence of an auction market with storage integration as sufficient coordination, but the available abstract does not explain how sellers, buyers, storage, or loads coordinate their interdependent actions. The dispatch or auction interaction procedure could establish L3; the saved-source search and official retrieval did not supply it. The definite result is not_evidenced.",
+      "supplement_attempts": [
+        {
+          "question": "Which explicit auction-message or dispatch procedure coordinates seller, buyer, storage, and demand-response agents in the proposed framework?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "Which explicit auction-message or dispatch procedure coordinates seller, buyer, storage, and demand-response agents in the proposed framework?",
+          "url": "https://ieeexplore.ieee.org/document/6420774/",
+          "access_status": "unavailable",
+          "details": "web.open returned: URL https://ieeexplore.ieee.org/document/6420774/ is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0567",
+      "identifier_key": "doi:10.1109/indin.2005.1560476",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Resource allocation requests are bidded for a long session in the multi-unit Vickrey-Clarke-Groves auction.",
+          "rationale": "The source states the resource-bidding mechanism used without detailing coordination among service agents."
+        }
+      ],
+      "rationale": "Resource bidding and revenue-oriented network configuration are stated, but no explicit multi-agent interaction, suitability selection, payment rule, or service-commitment process is available.",
+      "mechanism": "Market-based autonomic service activation through resource bidding.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "What agent interaction or service-activation coordination procedure is designed beyond submitting resource-allocation requests to the named auction?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt the evidence limit in A’s conclusion. B’s L3 relies on treating the named multi-unit VCG auction as a described agent coordination protocol. The abstract specifies use of that auction, not the service-agent interaction procedure being designed. The concrete procedure could change the result, but no saved body or accessible official body was obtained; the result follows only the available abstract.",
+      "supplement_attempts": [
+        {
+          "question": "What agent interaction or service-activation coordination procedure is designed beyond submitting resource-allocation requests to the named auction?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "What agent interaction or service-activation coordination procedure is designed beyond submitting resource-allocation requests to the named auction?",
+          "url": "https://ieeexplore.ieee.org/document/1560476/",
+          "access_status": "unavailable",
+          "details": "web.open returned: URL https://ieeexplore.ieee.org/document/1560476/ is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0571",
+      "identifier_key": "doi:10.1109/infocom59046.2026.11571532",
+      "classification": [
+        "L3",
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The attack follows legitimate collaborative execution paths while distorting internal agent decision-making, resulting in a confused-deputy–style misuse of authority. We formalize a threat model for A2A–MCP integrated environments and validate the reproducibility of the attack through simulation-based experiments across two agent frameworks.",
+          "rationale": "Collaborative agent execution paths are directly modeled and experimentally tested as the attack mechanism."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "This paper demonstrates that, in such environments, internal MCP tool execution can be induced solely through semantic manipulation by an external agent, without protocol violations or privilege escalation. The attack follows legitimate collaborative execution paths while distorting internal agent decision-making, resulting in a confused-deputy–style misuse of authority.",
+          "rationale": "The study directly analyzes the external-agent/internal-tool authority boundary and induced misuse of execution authority."
+        }
+      ],
+      "rationale": "The threat model and experiments analyze collaborative execution paths and confused-deputy misuse of internal tool authority. The abstract does not specify an identity, reputation, or source-based trust-judgment mechanism.",
+      "mechanism": "External-agent semantic manipulation of collaborative tool execution and internal execution authority.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the threat model analyze a concrete source- or counterparty-evidence trust rule, authentication, reputation, or trust estimate beyond semantic persuasion?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B’s L3/L4. Legitimate A2A-to-tool execution paths are tested, and execution-authority misuse is an explicit object of the formal threat model. A’s additional L1 is based on the phrase semantic trust; the abstract does not describe authentication, reputation, trust estimation, or a source/counterparty-evidence rule. A targeted search for such a rule did not produce readable body evidence, so that phrase alone does not add L1.",
+      "supplement_attempts": [
+        {
+          "question": "Does the threat model analyze a concrete source- or counterparty-evidence trust rule, authentication, reputation, or trust estimate beyond semantic persuasion?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "Does the threat model analyze a concrete source- or counterparty-evidence trust rule, authentication, reputation, or trust estimate beyond semantic persuasion?",
+          "url": "https://ieeexplore.ieee.org/document/11571532/",
+          "access_status": "unavailable",
+          "details": "web.open returned: URL https://ieeexplore.ieee.org/document/11571532/ is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0596",
+      "identifier_key": "doi:10.1109/isads.2005.1452068",
+      "classification": [
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "In this paper, we use auction-based scheduling method for resource reservation. We propose a variant version of traditional ascending auction for automatic resource reservation.",
+          "rationale": "The proposed system explicitly forms advance resource reservations through auction-based scheduling, a future provisioning commitment rather than mere price prediction."
+        }
+      ],
+      "rationale": "Automatic advance resource reservation is an explicit designed scheduling function. The abstract does not state how the auction variant changes interactions among agents.",
+      "mechanism": "Auction-based advance reservation of time-specific computing resources.",
+      "not_evidenced_reason": null,
+      "followup_question": "What specific bid/response or participation interaction rule does the auction variant change, apart from the individual heuristic bidding strategy?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain A’s L6. The work explicitly proposes an auction variant for automatic advance reservation, supporting management of future resource provisioning commitments. B additionally infers L3 from the word variant; no changed bid/response protocol or multi-agent coordination procedure is specified, while the described evaluation centers on heuristic bidding strategies. Targeted retrieval could not resolve that missing procedure, so L3 is not added.",
+      "supplement_attempts": [
+        {
+          "question": "What specific bid/response or participation interaction rule does the auction variant change, apart from the individual heuristic bidding strategy?",
+          "source": "taxonomy/02-source-evidence/IEEE",
+          "access_status": "no_saved_body_located",
+          "details": "Searched source-specific file inventory for source_record_id and IEEE article number; searched record IDs in source evidence excluding CSV and normalized candidate exports. Only occurrence/provenance manifests matched; no identifier-bound body file located.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z"
+        },
+        {
+          "question": "What specific bid/response or participation interaction rule does the auction variant change, apart from the individual heuristic bidding strategy?",
+          "url": "https://ieeexplore.ieee.org/document/1452068/",
+          "access_status": "unavailable",
+          "details": "web.open returned: Failed to fetch https://ieeexplore.ieee.org/document/1452068/: Cache miss.",
+          "retrieved_at_utc": "2026-10-19T21:42:02Z",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0597",
+      "identifier_key": "doi:10.1109/isads66912.2025.00008",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "utilizing advanced learning techniques for analysis of client behavior and adaptive product suggestions.",
+          "rationale": "Product recommendations adapt to client behavior, establishing suitability-based selection of offered resources."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "A distributed IoT-enabled marketplace's interactions between several representative types-those handling purchasing, supply, inventory, and monitoring functions-are described in a conceptual design.",
+          "rationale": "The research explicitly describes interaction among differentiated marketplace agent roles, supporting designed role coordination."
+        }
+      ],
+      "rationale": "Client-behavior-based product suggestions establish suitability-oriented product selection, and the conceptual design explicitly addresses interactions across purchasing, supply, inventory, and monitoring roles.",
+      "mechanism": "Behavior-adaptive product suggestions and coordination of differentiated marketplace agent roles.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A’s L2/L3. The product-suggestion sentence describes behavior-adaptive selection, which fits L2. B’s L7 would require evidence that human-facing presentation, preference input, explanation, supervision, or actual human-agent interaction is substantively studied; product suggestions alone do not establish that additional scope. L3 is supported by the expressly described conceptual design of interactions across specified roles, beyond generic cooperation language."
+    }
+  ]
+}

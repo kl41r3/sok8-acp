@@ -1,0 +1,525 @@
+{
+  "model": "agnes-2.5-flash",
+  "returned_model": "agnes-2.5-flash",
+  "round": 3,
+  "temperature": 0.6,
+  "frame": "Rater frame: conservative home-layer test. If the assigned failure mode remains open, do not give 2. If evidence is a draft, optional extension, or marketing page, cap the cell at 1. Prefer the lower score when mixed.",
+  "usage": [
+    {
+      "completion_tokens": 1573,
+      "prompt_tokens": 3373,
+      "total_tokens": 4946,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1055,
+        "text_tokens": 518
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      }
+    },
+    {
+      "completion_tokens": 2427,
+      "prompt_tokens": 3475,
+      "total_tokens": 5902,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1606,
+        "text_tokens": 821
+      }
+    },
+    {
+      "completion_tokens": 1682,
+      "prompt_tokens": 3358,
+      "total_tokens": 5040,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1066,
+        "text_tokens": 616
+      }
+    },
+    {
+      "completion_tokens": 1504,
+      "prompt_tokens": 3393,
+      "total_tokens": 4897,
+      "completion_tokens_details": {
+        "reasoning_tokens": 759,
+        "text_tokens": 745
+      }
+    },
+    {
+      "completion_tokens": 1518,
+      "prompt_tokens": 3271,
+      "total_tokens": 4789,
+      "completion_tokens_details": {
+        "reasoning_tokens": 692,
+        "text_tokens": 826
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      }
+    },
+    {
+      "completion_tokens": 2112,
+      "prompt_tokens": 3316,
+      "total_tokens": 5428,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1544,
+        "text_tokens": 568
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      }
+    },
+    {
+      "completion_tokens": 1230,
+      "prompt_tokens": 3233,
+      "total_tokens": 4463,
+      "completion_tokens_details": {
+        "reasoning_tokens": 740,
+        "text_tokens": 490
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 256
+      }
+    },
+    {
+      "completion_tokens": 1797,
+      "prompt_tokens": 3323,
+      "total_tokens": 5120,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1146,
+        "text_tokens": 651
+      }
+    }
+  ],
+  "annotated_at": "2026-08-17T01:39:37.638193+00:00",
+  "protocols": [
+    {
+      "protocol": "AP2",
+      "C": 1.5,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 1.0,
+      "A_count": 3,
+      "auth_safety": "partial",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "partial",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Scoped signed payment mandates resolve L4 moral hazard / commitment",
+          "evidence": "Intent Mandate and Cart Mandate as W3C VCs with chain intent→cart→payment",
+          "failure": "Revocation not consistently propagated into settlement per ledger L4 open issue",
+          "metric": "Revocation propagation latency across rails; currently unspecified",
+          "locator": "spec-ap2; ind-google-ap2-blog; ledger L4 entry T2"
+        },
+        "I": {
+          "promise": "Cross-layer binding propagates AP2 mandates to UCP and A2A-x402 rails",
+          "evidence": "UCP spec binds payment to AP2; A2A x402 extension with Coinbase/MetaMask",
+          "failure": "Binding is one-sided; revocation scope not enforced across seam",
+          "metric": "Cross-layer revocation verification rate",
+          "locator": "spec-ap2; ucp.dev"
+        },
+        "A": {
+          "promise": "Seven-property assurance coverage for agent payment mandates",
+          "evidence": "Signed mandates, audit trail, price in cart; no dispute forum or rollback",
+          "failure": "Execution correctness and recoverability remain unaddressed",
+          "metric": "Count of addressed properties from seven; bin 2-4 → 1",
+          "locator": "spec-ap2; ind-google-ap2-blog"
+        },
+        "EM": {
+          "promise": "Payment-agnostic rail supporting cards, stablecoins, RTGS for low-infrastructure markets",
+          "evidence": "Blog lists cards, stablecoins, real-time bank transfers as supported",
+          "failure": "Still depends on card/bank rails; no fallback without banking access",
+          "metric": "Institutional independence score; needs 2+ missing institutions replaced",
+          "locator": "ind-google-ap2-blog"
+        },
+        "S": {
+          "promise": "Versioned public spec with governance and multiple implementations",
+          "evidence": "Public GitHub spec, reference implementations, 60+ named collaborators",
+          "failure": "Single-vendor origin; limited independent adopters beyond collaborators",
+          "metric": "Count of independent implementations; currently minimal",
+          "locator": "spec-ap2; ind-google-ap2-blog"
+        }
+      }
+    },
+    {
+      "protocol": "x402",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.5,
+      "S": 1.0,
+      "A_count": 3,
+      "auth_safety": "yes",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Cryptographic payment evidence binds payer identity and amount to a service request.",
+          "evidence": "HTTP 402 with PAYMENT-SIGNATURE; facilitator verifies and settles; base flow has no KYC.",
+          "failure": "No atomic bind of delivery to finality; payment ≠ service fulfillment remains T3.",
+          "metric": "Ratio of verified PAYMENT-SIGNATURE to successful settlement; delivery-guarantee gap.",
+          "locator": "spec-x402; consensus_dissent_ledger L5 T3"
+        },
+        "I": {
+          "promise": "Links payment proof across Web2 (HTTP) and Web3 (blockchain) layers; integrates with ERC-8004 and AP2.",
+          "evidence": "ERC-8004 abstract references proofOfPayment in off-chain feedback; AP2 blog describes x402 extension.",
+          "failure": "Cross-layer binding is optional/advisory, not auditable end-to-end between L4 mandate and L5 settlement.",
+          "metric": "Number of layers with auditable cross-boundary guarantees vs. total seam crossings.",
+          "locator": "spec-x402; erc8004-abstract; ind-google-ap2-blog"
+        },
+        "A": {
+          "promise": "Four of seven assurance properties have observable artifacts; authorization and auditability strongest.",
+          "evidence": "PAYMENT-SIGNATURE (auth), optional signed receipts (audit), exact/upto schemes (exec partial).",
+          "failure": "No recoverability (semi-trusted facilitator, no native dispute forum); no economic finality for service outcome.",
+          "metric": "Property coverage count; dispute-resolution artifact presence/absence.",
+          "locator": "spec-x402; ietf-draft-hopley-x402-payment-evidence-frame; oa-w7161203592"
+        },
+        "EM": {
+          "promise": "Usable without traditional banking, cards, or platform accounts; stablecoin and multi-chain support.",
+          "evidence": "'Zero friction: No accounts or personal information needed'; EVM, Solana, Algorand SDKs; CAIP-2 IDs.",
+          "failure": "Facilitator is semi-trusted intermediary; stablecoins require issuer trust; no court-dependent recourse.",
+          "metric": "Dependency count on traditional institutions (banks, courts, card networks) vs. alternatives available.",
+          "locator": "spec-x402; docs.x402.org"
+        },
+        "S": {
+          "promise": "Public spec under Linux Foundation governance with multiple independent SDKs and IETF draft extensions.",
+          "evidence": "x402.org spec; TS/Go/Python SDKs; middleware for Express, Next, Hono, FastAPI; IETF drafts for receipts.",
+          "failure": "Marketing-driven adoption claims; compliance/receipt drafts are not yet deployed artifacts.",
+          "metric": "Versioned spec release count; independent implementer count beyond founding orgs.",
+          "locator": "spec-x402; ietf-draft-hopley-x402-payment-evidence-frame"
+        }
+      }
+    },
+    {
+      "protocol": "UCP",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 0.5,
+      "S": 1.5,
+      "A_count": 3,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "partial",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Order and refund state management across the post-purchase lifecycle",
+          "evidence": "`spec-ucp` defines order objects with fulfillment events and refund adjustment types",
+          "failure": "Post-purchase state and refund portability remain merchant-specific (L6 ledger T4)",
+          "metric": "Cross-merchant portability rate of order/refund state",
+          "locator": "spec-ucp; sok8/corpus/consensus_dissent_ledger.md L6 row",
+          "score": 1
+        },
+        "I": {
+          "promise": "Guarantees propagate across layer seams via REST/MCP/A2A transports and AP2/VC bindings",
+          "evidence": "`spec-ucp` documents transits over REST, MCP, A2A; built-in AP2 mandate support",
+          "failure": "End-to-end propagation of guarantees across all connected layers not independently verifiable",
+          "metric": "Independent protocol verify rate across seam bindings",
+          "locator": "spec-ucp; ind-digitalapplied-standards",
+          "score": 1
+        },
+        "A": {
+          "promise": "Partial assurance across execution tracking, authorization linkage, and audit traces",
+          "evidence": "OAuth 2.0 identity linking; order/fulfillment objects; refund adjustments; webhook records",
+          "failure": "No enforceable mandate-scope check; no end-to-end auditable reconstruction; no dispute protocol",
+          "metric": "Property coverage count across seven assurance dimensions",
+          "locator": "spec-ucp; ledger L6 T4",
+          "score": 1
+        },
+        "EM": {
+          "promise": "Hybrid MoR design with web fallback should reduce some dependency on formal rails",
+          "evidence": "`ind-agenticplug-tracker` notes hybrid model; `continue_url` degrades to web checkout",
+          "failure": "Payment finality still requires PSP/card/bank rails; OAuth identity link needs platform trust",
+          "metric": "Usability rate in environments without banking or platform support",
+          "locator": "spec-ucp; ind-digitalapplied-standards",
+          "score": 0.5
+        },
+        "S": {
+          "promise": "Versioned public specification with named governance and vendor adoption",
+          "evidence": "ucp.dev/latest/specification/overview/ versioned URL; Google/Shopify/Walmart/Stripe/Visa co-developed",
+          "failure": "Consortium-driven rather than independent standards-body process; limited independent implementer count",
+          "metric": "Number of independent implementations against published spec",
+          "locator": "spec-ucp; github.com/Universal-Commerce-Protocol/ucp",
+          "score": 1.5
+        }
+      }
+    },
+    {
+      "protocol": "ERC-8004",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 1.0,
+      "A_count": 4,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "partial",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "On-chain identity + reputation registry to mitigate adverse selection.",
+          "evidence": "Three registries (identity, reputation, validation) with `supportedTrust` flag.",
+          "failure": "T1: identity ≠ capability; 'cannot cryptographically guarantee advertised capabilities are functional'.",
+          "metric": "Sybil-inflation rate and percentage of capability claims with cryptographic verification.",
+          "locator": "spec-erc8004, Security Considerations; L1 ledger consensus"
+        },
+        "I": {
+          "promise": "Optional adapters to A2A/MCP/ENS/DID and x402 may link upward.",
+          "evidence": "Endpoint fields and `x402Support` flag in spec; feedback MAY include `proofOfPayment`.",
+          "failure": "No auditable binding to AP2 mandates or x402 settlement; cross-chain consistency unspecified.",
+          "metric": "Number of protocols that can verify an ERC-8004 registration natively.",
+          "locator": "spec-erc8004; `oa-w7164615253`"
+        },
+        "A": {
+          "promise": "Reputation tracking and validation hooks for assurance.",
+          "evidence": "On-chain feedback records, `getSummary` with client filter; validation hooks for TEE/zkML.",
+          "failure": "Economic finality, pricing correctness, and recoverability absent; execution scope unbound.",
+          "metric": "Count of traceable transactions from registry event to observable outcome.",
+          "locator": "spec-erc8004; L1 ledger consensus"
+        },
+        "EM": {
+          "promise": "Chain-native identity and reputation usable without courts/cards.",
+          "evidence": "Self-custodial, on-chain registries; optional x402 for payment-agnostic operation.",
+          "failure": "Still requires wallet, RPC access, and blockchain fees as fallback.",
+          "metric": "Operations completable with only a mnemonic seed and public RPC.",
+          "locator": "spec-erc8004; Magicians thread"
+        },
+        "S": {
+          "promise": "Stable, governed spec with multiple implementers.",
+          "evidence": "Public EIP draft with institutional signatories (MetaMask, EF, Google, Coinbase).",
+          "failure": "Draft status; no versioned finalized spec; limited independent implementations.",
+          "metric": "Number of independent reference implementations and governance decisions recorded.",
+          "locator": "spec-erc8004 (EIP site, Draft)"
+        }
+      }
+    },
+    {
+      "protocol": "MCP",
+      "C": 1.0,
+      "I": 1.5,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 2.0,
+      "A_count": 3,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Capability discovery binds advertised tools to client requests.",
+          "evidence": "Tool/resource/prompts discovery; user-mediated access (intro page).",
+          "failure": "No binding of advertised capability to demonstrated performance (L2) and multi-hop intent fidelity unbound (L3, T2).",
+          "metric": "Rate of tool-call log matching principal intent per invocation.",
+          "locator": "protocol-root-model-context-protocol; sur-ehtesham2025-agent-interop; spec layer ledger L2/L3"
+        },
+        "I": {
+          "promise": "Open transport binding AI apps to tools and data sources across vendor boundaries.",
+          "evidence": "Clients: Claude, ChatGPT, VS Code, Cursor; first-class transport per UCP; multi-implementer ecosystem.",
+          "failure": "No agent-to-agent payment, mandate, or dispute binding (A2A 'What A2A is not'); governance gaps noted in measurement paper.",
+          "metric": "Number of independent clients and tool servers using shared schema.",
+          "locator": "oa-w4415947096; sur-ehtesham2025-agent-interop; protocol-root-model-context-protocol"
+        },
+        "A": {
+          "promise": "Partial assurance via capability discovery and tool-call traceability.",
+          "evidence": "Capability registry; user-mediated delegated access; tool-call logs; broad implementer base.",
+          "failure": "No economic finality, pricing correctness, compliance continuity, or recoverability artifacts in spec.",
+          "metric": "Proportion of seven properties with observable artifact; exec-fidelity audit coverage.",
+          "locator": "protocol-root-model-context-protocol; oa-w7167155035; sur-ehtesham2025-agent-interop"
+        },
+        "EM": {
+          "promise": "Reduced dependence on traditional intermediaries via direct agent-to-tool contracts.",
+          "evidence": "Client-server model works without banks/cards; user-mediated access; no KYC dependency in core spec.",
+          "failure": "Still requires platform/tool-server availability and internet access; no fallback for absent infrastructure.",
+          "metric": "Operational count in low-banking-density environments; tool-server availability rate.",
+          "locator": "protocol-root-model-context-protocol; oa-w4415947096"
+        },
+        "S": {
+          "promise": "Stable, governed, widely adopted open standard.",
+          "evidence": "Versioned docs (2026-07-28); multiple independent client/server implementations; public intro and spec pages.",
+          "failure": "No named governance body or standards-process record in packet; survey notes governance gaps.",
+          "metric": "Count of independent implementations; versioned spec release cadence.",
+          "locator": "protocol-root-model-context-protocol; oa-w4415947096; sur-ehtesham2025-agent-interop"
+        }
+      }
+    },
+    {
+      "protocol": "A2A",
+      "C": 1.0,
+      "I": 1.0,
+      "A": 2.0,
+      "EM": 0.0,
+      "S": 1.0,
+      "A_count": 5,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "yes",
+      "compliance": "partial",
+      "recoverability": "partial",
+      "cells": {
+        "C": {
+          "promise": "Advertise agent capability via Agent Card; route tasks to matching agents",
+          "evidence": "Agent Card JSON with capabilities/skills/endpoint; task lifecycle with ID",
+          "failure": "L3 failure T2—multi-hop handoff unbound; completion trace ≠ intent fidelity",
+          "metric": "Bind advertised capability to demonstrated outcome per task",
+          "locator": "https://a2a-protocol.org/latest/specification/"
+        },
+        "I": {
+          "promise": "Connect agent-to-agent across organizational boundaries; extend to AP2 for payments",
+          "evidence": "Explicitly complementary to MCP; AP2 described as extension for payments; UCP transport via Agent Card URL",
+          "failure": "Optional binding only; no auditable cross-layer mandate propagation",
+          "metric": "Count of protocols with verified binding clause",
+          "locator": "sur-ehtesham2025-agent-interop"
+        },
+        "A": {
+          "promise": "Scope authorization, track task traces, carry auth declarations",
+          "evidence": "Auth declared on Agent Card; credentials in HTTP headers; task/message/part artifacts; audit trails in traces",
+          "failure": "Overprivilege/long-lived tokens per arxiv-2505.12490v3; payment finality absent; compliance continuity unaddressed",
+          "metric": "Properties addressed × artifacts per property",
+          "locator": "arxiv-2505.12490v3"
+        },
+        "EM": {
+          "promise": "Operate over standard HTTP/S without proprietary rails",
+          "evidence": "HTTP-based transport; no card/bank/KYC dependency in core spec",
+          "failure": "Still requires platform infrastructure, TLS, stable network; no offline or lightweight-path artifact",
+          "metric": "Availability without banking/KYC/court access",
+          "locator": "https://a2a-protocol.org/latest/topics/key-concepts/"
+        },
+        "S": {
+          "promise": "Versioned spec under Linux Foundation governance; multi-SDK availability",
+          "evidence": "Official SDKs in Python/JS/Java/C#/Go/Rust; TSC includes AWS/Cisco/Google/IBM/Microsoft/Salesforce/SAP/ServiceNow",
+          "failure": "No independent third-party implementations confirmed beyond official SDKs; no published external audit",
+          "metric": "Number of independent conformant implementations",
+          "locator": "https://a2a-protocol.org/latest/"
+        }
+      }
+    },
+    {
+      "protocol": "AG-UI",
+      "C": 1.0,
+      "I": 0.5,
+      "A": 0.0,
+      "EM": 0.0,
+      "S": 0.5,
+      "A_count": 0,
+      "auth_safety": "no",
+      "exec_correct": "no",
+      "econ_finality": "no",
+      "price_correct": "no",
+      "auditability": "no",
+      "compliance": "no",
+      "recoverability": "no",
+      "cells": {
+        "C": {
+          "promise": "Stream agent state and UI intents to reveal interface behavior",
+          "evidence": "Live docs at docs.ag-ui.com describe streaming events, interrupts, HITL; no event-schema dump in corpus",
+          "failure": "L7/T5 open: interface transparency does not create enforceable remedy; no mandate/dispute objects",
+          "metric": "",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "I": {
+          "promise": "Pair alongside MCP and A2A for agent↔user communication",
+          "evidence": "Docs position AG-UI next to MCP (tools) and A2A (agents); no cross-layer binding specification",
+          "failure": "No auditable binding to L4/L5/L8 guarantees; propagation across layer seams is unspecified",
+          "metric": "",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "A": {
+          "promise": "—",
+          "evidence": "Protocol explicitly omits mandate, settlement, and dispute objects; docs state it does not make agents auditable for L4/L5/L8",
+          "failure": "All seven properties absent: no authorization scoping, no finality, no pricing, no audit trail, no compliance, no recourse",
+          "metric": "",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "EM": {
+          "promise": "—",
+          "evidence": "Web2-origin protocol focused on streaming UI; no artifacts addressing banking access, legal enforcement, ID, platform trust, or currency stability",
+          "failure": "Depends on existing UI/tech stack; no reduction in institutional dependence",
+          "metric": "",
+          "locator": "https://docs.ag-ui.com/"
+        },
+        "S": {
+          "promise": "Open protocol with SDKs and framework integrations",
+          "evidence": "GitHub repo and integration table on docs site; no versioned spec, no named governance body",
+          "failure": "No standards-body process; no independent implementation census beyond listed SDKs",
+          "metric": "",
+          "locator": "https://github.com/ag-ui-protocol/ag-ui"
+        }
+      }
+    },
+    {
+      "protocol": "Kleros",
+      "C": 1.0,
+      "I": 0.0,
+      "A": 1.0,
+      "EM": 1.0,
+      "S": 1.5,
+      "A_count": 4,
+      "auth_safety": "partial",
+      "exec_correct": "partial",
+      "econ_finality": "partial",
+      "price_correct": "no",
+      "auditability": "no",
+      "compliance": "no",
+      "recoverability": "yes",
+      "cells": {
+        "C": {
+          "promise": "Contract enforcement via crowdsourced jury dispute resolution",
+          "evidence": "Court product with staked jurors, appeals hierarchy, ERC-792 arbitration standard, live since 2019",
+          "failure": "No native agent-speed standard; enforcement latency is days-scale, not machine transaction speed",
+          "metric": "Mean resolution time from Court logs; proportion of disputes resolved below agent-latency threshold",
+          "locator": "spec-kleros-whitepaper, ietf-draft-kotecha-agentic-dispute-protocol, ledger L8 entry"
+        },
+        "I": {
+          "promise": "No specified binding to L4/L5/L6 protocols",
+          "evidence": "Kleros operates as standalone L8 forum; no protocol-level integration clause with AP2, x402, or UCP",
+          "failure": "Not wired as default remedy into lower-layer specs; cross-jurisdiction enforcement not automatic",
+          "metric": "Number of upper-layer protocol specs referencing Kleros as a required or verifiable enforcement rail",
+          "locator": "sok8/corpus/tagged_records oa-w4412976487"
+        },
+        "A": {
+          "promise": "Some dispute-assurance properties via on-chain arbitration",
+          "evidence": "Stake-weighted juror voting, appeals hierarchy, ERC-1497 evidence submission, escrow product, Proof of Humanity",
+          "failure": "Recovery exists but is human-scale (days); no automated compliance, pricing, or end-to-end auditability",
+          "metric": "Proportion of seven assurance properties addressed with observable artifact",
+          "locator": "docs.kleros.io, spec-erc792, spec-erc1497"
+        },
+        "EM": {
+          "promise": "Reduced dependence on traditional courts and banks",
+          "evidence": "On-chain dispute resolution; does not require card networks or KYC bureaus; Proof of Humanity for identity",
+          "failure": "Still requires cryptocurrency access, internet connectivity, and crypto-custody knowledge absent in many EM contexts",
+          "metric": "Count of required traditional institutions eliminated vs. new crypto-infrastructure dependencies introduced",
+          "locator": "kleros.io, docs.kleros.io"
+        },
+        "S": {
+          "promise": "Public specification with governance and deployed products",
+          "evidence": "White paper (Lesaege et al.), ERC-792/ERC-1497 standards, cooperative governance via Snapshot, live products (Court, Escrow, Curate)",
+          "failure": "Governance structure is cooperative but not a formal standards-body process; independent implementer count unverifiable from packet alone",
+          "metric": "Number of independent implementations; versioned-spec presence; governance body designation",
+          "locator": "kleros.io/whitepaper.pdf, docs.kleros.io"
+        }
+      }
+    }
+  ]
+}

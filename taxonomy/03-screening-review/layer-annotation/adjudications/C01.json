@@ -1,0 +1,672 @@
+{
+  "job_id": "C01",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0007",
+      "identifier_key": "doi:10.1109/2.589910",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We are also developing a Common Business Language (CBL) that lets application agents communicate using messages and objects that model communications in the real business world.",
+          "rationale": "The proposed CBL specifies a shared language and message/object representation for application-agent interaction."
+        }
+      ],
+      "rationale": "CBL establishes L3. Authentication, billing and payment occur as examples in a middleware service list, without an identity mechanism or payment obligation described.",
+      "mechanism": "Common Business Language and interoperable application-agent messaging",
+      "not_evidenced_reason": null,
+      "followup_question": "Does Eco System specify an authentication mechanism or billing/payment obligation, rather than list example shared services?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A and B agree on CBL interaction. B additionally infers L1/L5 from example service names; under the explicit-function and substantive-object tests this list does not establish those mechanisms. The specific body question could not be answered through the recorded official retrieval, so L3 is retained without those additions.",
+      "supplement_attempts": [
+        {
+          "question": "Does Eco System specify an authentication mechanism or billing/payment obligation, rather than list example shared services?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does Eco System specify an authentication mechanism or billing/payment obligation, rather than list example shared services?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/589910/",
+          "access_status": "failed_to_obtain_body",
+          "error": "Failed to fetch: Cache miss",
+          "fulltext_read": false
+        },
+        {
+          "question": "Does Eco System specify an authentication mechanism or billing/payment obligation, rather than list example shared services?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "bounded publisher-domain search using exact article URL and title terms",
+          "url": "https://ieeexplore.ieee.org/document/589910/",
+          "access_status": "no_identity_matched_body_result",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0011",
+      "identifier_key": "doi:10.1109/4236.612214",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "CLF allows for dynamically adding new services and for coordinating the access to multiple services.",
+          "rationale": "The framework coordinates access to multiple autonomous services, an explicit designed coordination function."
+        }
+      ],
+      "rationale": "The described CLF coordination supports L3. Naming transactional payment among component functionalities does not describe a payment rule or transfer process.",
+      "mechanism": "Composable coordination of autonomous commerce services",
+      "not_evidenced_reason": null,
+      "followup_question": "Does XPect specify who pays whom, or payment commitment/release rules, rather than name transactional payment as a component?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disputed L5 rests on the component list, while L3 has an explicit coordination function. No same-paper body was obtained to establish payment obligations; retain L3 only.",
+      "supplement_attempts": [
+        {
+          "question": "Does XPect specify who pays whom, or payment commitment/release rules, rather than name transactional payment as a component?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does XPect specify who pays whom, or payment commitment/release rules, rather than name transactional payment as a component?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/612214/",
+          "access_status": "failed_to_obtain_body",
+          "error": "Error fetching official article URL",
+          "fulltext_read": false
+        },
+        {
+          "question": "Does XPect specify who pays whom, or payment commitment/release rules, rather than name transactional payment as a component?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "bounded publisher-domain search using exact article URL and title terms",
+          "url": "https://ieeexplore.ieee.org/document/612214/",
+          "access_status": "no_identity_matched_body_result",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0021",
+      "identifier_key": "doi:10.1109/acai68217.2025.11406667",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Specifically, we propose the MCP Server Standard Framework as a foundational architecture designed to mitigate these vulnerabilities through a combination of secure by design principles and advanced threat detection mechanisms.",
+          "rationale": "The stated security architecture does not identify concrete authentication evidence or permitted-action checks in the supplied abstract."
+        }
+      ],
+      "rationale": "Authentication and authorization are named solution areas, but their mechanisms and policy checks are not described. The requested body evidence was not available through the recorded attempts.",
+      "mechanism": "Security architecture for MCP impersonation, supply-chain and context threats",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Which concrete authentication evidence and action-permission checks does the proposed MCP security framework implement or analyze?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B treats named authentication/authorization solution areas as established L1/L4; A identifies the missing mechanism. Under the frozen security boundary, names and security aims alone do not establish the concrete identity or permission function. With necessary body evidence unavailable, the final classification is not_evidenced, rather than an inference of L1/L4.",
+      "supplement_attempts": [
+        {
+          "question": "Which concrete authentication evidence and action-permission checks does the proposed MCP security framework implement or analyze?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Which concrete authentication evidence and action-permission checks does the proposed MCP security framework implement or analyze?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/11406667/",
+          "access_status": "failed_to_obtain_body",
+          "error": "JavaScript verification page; no article body returned",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0023",
+      "identifier_key": "doi:10.1109/access.2018.2846779",
+      "classification": [
+        "L1",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "body_05",
+          "quote": "The Miner M puts its signature after verification of the PCA’s signature and Bank A’s signature in PT.",
+          "rationale": "The designed transaction protocol verifies the patient-agent and bank signatures, providing concrete authentication of payment participants."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "body_07",
+          "quote": "Bank A prepares a new transaction called UTXO(Unspent transaction) for the PCA and Output Transaction(OT) for Miner M. Finally, Bank A builds a block with all transactions produced to complete the payment and sends the block leaving the Previous Transaction Hash field empty to Miner M and the PCA.",
+          "rationale": "The protocol defines bank-created output transactions and payment completion for the nominated miner, not merely transaction-price prediction."
+        }
+      ],
+      "rationale": "The saved same-version transaction-fee section establishes payment construction/completion and verification of participant signatures. These support L1 and L5.",
+      "mechanism": "Patient-agent virtual-credit payment protocol with miner/bank signature verification",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "body_01",
+        "body_02",
+        "body_03",
+        "body_04",
+        "body_05",
+        "body_06",
+        "body_07",
+        "body_08",
+        "body_09",
+        "body_10"
+      ],
+      "adjudication_reason": "The abstract alone left A uncertain while B inferred payment from a structural feature. The saved official Transaction Fee Protocol resolves that question directly through PCA credit purchases, signed payment transactions, signature checks and bank payment completion. L5 is confirmed and L1 is additionally evidenced. No permission-scope policy or suitability-based miner selection is established by the sections read."
+    },
+    {
+      "record_id": "R0033",
+      "identifier_key": "doi:10.1109/access.2024.3491189",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This study introduces a joint bidding and incentivizing model for a price-maker LA participating in a peak-regulation ancillary service market (PRM) and developing an incentive-based demand response (IBDR), where the LA’s objective is to maximize its long-term cumulative payoff.",
+          "rationale": "The explicitly studied mechanism jointly optimizes one aggregator's bid and incentive-price decisions; this is an economic objective rather than a described transfer obligation."
+        }
+      ],
+      "rationale": "The abstract identifies coupled price/quantity optimization and payoff maximization. It does not describe a payment obligation or an inter-agent coordination protocol.",
+      "mechanism": "Multi-task reinforcement learning for one load aggregator's bids and incentive price",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "Does the incentive model study a payment obligation or transfer rule to responding loads beyond optimizing an incentive-price decision?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B interprets an incentive price as a substantive transfer rule. The frozen pricing/payment boundary requires evidence of who pays whom or a payment condition; that evidence is absent from the abstract, and the bounded body attempt returned no body. The described optimization falls outside the layer functions; no L5 is assigned.",
+      "supplement_attempts": [
+        {
+          "question": "Does the incentive model study a payment obligation or transfer rule to responding loads beyond optimizing an incentive-price decision?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does the incentive model study a payment obligation or transfer rule to responding loads beyond optimizing an incentive-price decision?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/10742324/",
+          "access_status": "failed_to_obtain_body",
+          "error": "JavaScript verification page; no article body returned",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0042",
+      "identifier_key": "doi:10.1109/acsacw69556.2025.00043",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "We apply proactive threat modeling to assess potential security issues in A2A deployments, focusing on aspects such as Agent Card management, task execution integrity, and authentication methodologies.",
+          "rationale": "Authentication methodologies are an explicit object of the paper's threat-model analysis, supporting L1 without requiring a newly invented authentication algorithm."
+        }
+      ],
+      "rationale": "The abstract explicitly studies authentication methodologies. Its broader reference to protocol operational dynamics does not identify an interaction rule or coordination procedure analyzed in substance.",
+      "mechanism": "Threat-model analysis of A2A authentication security",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the A2A security analysis substantively examine agent interaction rules or task coordination, beyond protocol context and authentication?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Both judgments support L1. B adds L3 from the broad statement about fundamental elements and operational dynamics; that does not specify which agent-interaction function is studied. The concrete body question remained unresolved after official retrieval, so retain the directly supported L1.",
+      "supplement_attempts": [
+        {
+          "question": "Does the A2A security analysis substantively examine agent interaction rules or task coordination, beyond protocol context and authentication?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does the A2A security analysis substantively examine agent interaction rules or task coordination, beyond protocol context and authentication?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/11418008/",
+          "access_status": "failed_to_obtain_body",
+          "error": "JavaScript verification page; no article body returned",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0043",
+      "identifier_key": "doi:10.1109/aeeca49918.2020.9213474",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "A venture capital mechanism with stage financing and venture value decision model is used to model investment.",
+          "rationale": "This states investment and value-decision modeling; it does not specify a funding commitment, release condition, or payment obligation."
+        }
+      ],
+      "rationale": "The paper models platform-market evolution, financing/value decisions and adaptive user choice. The abstract does not establish an operational layer mechanism.",
+      "mechanism": "Multilevel simulation of platform evolution, investment and adoption decisions",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "Does staged financing specify funding commitments, release conditions or payment obligations beyond investment/value decisions?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B turns stage financing into a commitment/release mechanism, but the text gives only an investment/value model and no such release or obligation rule. The official body attempt supplied no additional evidence. Under the pricing/investment versus payment distinction, the evidenced research focus remains outside the layer functions.",
+      "supplement_attempts": [
+        {
+          "question": "Does staged financing specify funding commitments, release conditions or payment obligations beyond investment/value decisions?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does staged financing specify funding commitments, release conditions or payment obligations beyond investment/value decisions?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/9213474/",
+          "access_status": "failed_to_obtain_body",
+          "error": "URL is not accessible via this tool",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0045",
+      "identifier_key": "doi:10.1109/aetcse69203.2026.11504442",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "provides a full-process, safe and standardized intelligent solution for health consultation with human triage fallback and high-risk question intervention mechanisms.",
+          "rationale": "Human triage fallback and intervention are explicit oversight functions of the proposed consultation system."
+        }
+      ],
+      "rationale": "Human fallback and intervention support L7. Dynamic computing-power matching is named but its selection criteria and capability descriptions are not supplied.",
+      "mechanism": "Health-consultation agent with human triage and risk intervention",
+      "not_evidenced_reason": null,
+      "followup_question": "Does dynamic computing-power matching select resources by stated capability or suitability, beyond deployment/scaling optimization?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disputed L2 relies on matching as a mechanism name. The abstract describes deployment/scaling efficiency but not suitability-based resource selection, which the frozen boundary requires. No body evidence was obtained to resolve that gap; L7 remains supported directly.",
+      "supplement_attempts": [
+        {
+          "question": "Does dynamic computing-power matching select resources by stated capability or suitability, beyond deployment/scaling optimization?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does dynamic computing-power matching select resources by stated capability or suitability, beyond deployment/scaling optimization?",
+          "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/11504442/",
+          "access_status": "failed_to_obtain_body",
+          "error": "JavaScript verification page; no article body returned",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0047",
+      "identifier_key": "doi:10.1109/aicconf69182.2026.11600651",
+      "classification": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "When encountering ambiguous queries that match multiple items, the system presents relevant options and requests user clarification rather than guessing.",
+          "rationale": "The system explicitly searches/selects external work-item resources by resolving which candidate matches the user query, beyond an unexplained matching keyword."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Our system employs three specialized agents (Executor, Validator, Refiner) that intercept and validate every query before returning results.",
+          "rationale": "The coordinated procedure gives execution, validation and refinement roles to distinct agents."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "When encountering ambiguous queries that match multiple items, the system presents relevant options and requests user clarification rather than guessing.",
+          "rationale": "Candidate presentation and clarification requests are human-facing preference/input mechanisms studied in the retrieval evaluation."
+        }
+      ],
+      "rationale": "The design covers query-to-resource suitability, coordinated agent validation and explicit user clarification.",
+      "mechanism": "Specialized-agent work-item retrieval and user-assisted disambiguation",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The disagreement is whether work-item retrieval establishes L2. Here the object and basis are explicit: external work items are selected against ambiguous user queries, with alternatives and clarification evaluated on semantic searches. This satisfies resource search/selection, so L2 is supported in addition to the shared L3/L7; no body supplement is needed."
+    },
+    {
+      "record_id": "R0058",
+      "identifier_key": "doi:10.1109/aiot66900.2025.00032",
+      "classification": [
+        "L1",
+        "L4",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "MCP-IPE validates Personal Access Tokens (PATs), binds each agent to a provisioned AE identifier",
+          "rationale": "Token validation and binding to a provisioned entity establish agent identity."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "enforces deny-by-default scopes",
+          "rationale": "Deny-by-default scopes explicitly constrain which tool operations may be executed."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "A minimal, modular proof-of-concept with a management portal (PAT issuance, AE/ACP provisioning, audit) is implemented over the open-source tinyIoT CSE.",
+          "rationale": "The management portal provides a human-facing surface for provisioning agent identities/access policies and audit."
+        }
+      ],
+      "rationale": "The designed proxy establishes identity, authorization and an administration/oversight surface.",
+      "mechanism": "Authenticated and scope-restricted MCP-to-oneM2M proxy with management portal",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A adds L3 for translation of tool calls into CRUD operations. That evidence describes adaptation between a single agent-tool interface and a service API, without a multi-agent interaction/coordination or delegation rule. L1/L4/L7 are directly described and retained; protocol conversion alone does not add L3."
+    },
+    {
+      "record_id": "R0074",
+      "identifier_key": "doi:10.1109/bdai70753.2026.11655126",
+      "classification": [
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The O2C framework will consist of intelligent order validation agents, billing intelligence, fraud prevention systems, payment prediction models, and workflow optimization agents with intelligent capabilities to make autonomous decisions.",
+          "rationale": "Order validation is a proposed autonomous component for order acceptance/processing within the commerce lifecycle."
+        }
+      ],
+      "rationale": "The explicit order-validation component supports L6. Workflow coordination and billing intelligence are component descriptions without a specified inter-agent action sequence or payment obligation; payment prediction alone is not L5.",
+      "mechanism": "Order-to-cash automation with autonomous order validation",
+      "not_evidenced_reason": null,
+      "followup_question": "What inter-agent coordination rules and billing/payment obligations are specified beyond the framework component names?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A identifies the directly described lifecycle function. B adds L3 from workflow coordination and L5 from billing intelligence, but their quotes do not describe coordination rules or payment obligations. The concrete body question could not be answered from the official retrieval; retain L6 only.",
+      "supplement_attempts": [
+        {
+          "question": "What inter-agent coordination rules and billing/payment obligations are specified beyond the framework component names?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "What inter-agent coordination rules and billing/payment obligations are specified beyond the framework component names?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/11655126/",
+          "access_status": "failed_to_obtain_body",
+          "error": "URL is not accessible via this tool",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0081",
+      "identifier_key": "doi:10.1109/cars67163.2025.11337310",
+      "classification": [
+        "L1",
+        "L2",
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "ETDI incorporates cryptographic identity verification, immutable versioned tool definitions, and explicit permission management, often leveraging OAuth 2.0.",
+          "rationale": "Cryptographic identity verification directly authenticates tools."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "ETDI incorporates cryptographic identity verification, immutable versioned tool definitions, and explicit permission management, often leveraging OAuth 2.0.",
+          "rationale": "Immutable versioned tool definitions are a substantive design for the capability descriptions exposed to agents; preserving and versioning those definitions belongs to capability description, not merely general security."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "tool capa-bilities are dynamically evaluated against explicit policies using a dedicated policy engine, considering runtime context beyond static OAuth scopes.",
+          "rationale": "A dedicated runtime policy engine evaluates permitted tool capabilities against explicit policies beyond static scopes."
+        }
+      ],
+      "rationale": "The extension substantively designs identity verification, capability-definition versioning and action authorization.",
+      "mechanism": "Cryptographically verified, versioned tool definitions with runtime access policies",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A and B agree on L1/L4. L2 does not require an additional search algorithm: the frozen definition expressly includes capability descriptions. Immutable versioned tool definitions are a designed part of ETDI, with tool capabilities explicitly connected to policy evaluation in the next sentence. Therefore B's L2 is supported alongside L1/L4 on the supplied abstract."
+    },
+    {
+      "record_id": "R0084",
+      "identifier_key": "doi:10.1109/cbdcom68404.2025.00041",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We propose a mechanism for decentralized truthful double auction markets, combining approximate VCG allocation, folk-theoretic penalty protocols, and multi-agent reinforcement learning (MARL).",
+          "rationale": "The abstract names allocation, penalty and learning ingredients, but does not describe any penalty-triggered agent action or interaction rule."
+        }
+      ],
+      "rationale": "The short abstract establishes auction allocation and incentive-compatibility goals, but no explicit interaction, payment or dispute-handling procedure. The required body was not obtained.",
+      "mechanism": "Approximate allocation and strategic-penalty ingredients in learned double auctions",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "What agent response rules are specified by the folk-theoretic penalty protocol, and are payments or adjudicated violations actually modeled?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B treats the phrase penalty protocols as sufficient L3. The frozen method requires an identified coordination method and its role, rather than a protocol name alone; the abstract does not state who responds to what or how agents' actions depend on one another. Recorded attempts did not obtain those details, so the final result is not_evidenced with evidence_unavailable. VCG naming and generic penalties also do not independently establish L5/L8.",
+      "supplement_attempts": [
+        {
+          "question": "What agent response rules are specified by the folk-theoretic penalty protocol, and are payments or adjudicated violations actually modeled?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "What agent response rules are specified by the folk-theoretic penalty protocol, and are payments or adjudicated violations actually modeled?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/11344236/",
+          "access_status": "failed_to_obtain_body",
+          "error": "Failed to fetch: Cache miss",
+          "fulltext_read": false
+        },
+        {
+          "question": "What agent response rules are specified by the folk-theoretic penalty protocol, and are payments or adjudicated violations actually modeled?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "bounded publisher-domain search using exact article URL and title terms",
+          "url": "https://ieeexplore.ieee.org/document/11344236/",
+          "access_status": "no_identity_matched_body_result",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0091",
+      "identifier_key": "doi:10.1109/ccdc.2010.5498548",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a genetic-agent-based model that can efficiently carry out bilateral negotiations with multi-attributes and ensure the fairness in a negotiation.",
+          "rationale": "The model's stated negotiation capability and fairness objective do not specify offer/counteroffer exchange or coordinated multi-agent action rules."
+        }
+      ],
+      "rationale": "The abstract states iterative optimization of trading proposals and satisfaction, without identifying a negotiation-interaction procedure. Body evidence needed to settle L3 was unavailable.",
+      "mechanism": "Genetic optimization for multiattribute bilateral negotiation",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Does the genetic model specify offer/counteroffer interaction rules rather than only optimize a negotiation outcome?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B infers L3 because the optimized model conducts bilateral negotiation; A distinguishes that objective from an evidenced offer-exchange rule. Under the frozen bidding/coordination and bargaining boundaries, negotiation goals and internal optimization alone do not establish L3. No relevant official body was obtained, so not_evidenced is final on the available evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Does the genetic model specify offer/counteroffer interaction rules rather than only optimize a negotiation outcome?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does the genetic model specify offer/counteroffer interaction rules rather than only optimize a negotiation outcome?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/5498548/",
+          "access_status": "failed_to_obtain_body",
+          "error": "Failed to fetch: Cache miss",
+          "fulltext_read": false
+        },
+        {
+          "question": "Does the genetic model specify offer/counteroffer interaction rules rather than only optimize a negotiation outcome?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "bounded publisher-domain search using exact article URL and title terms",
+          "url": "https://ieeexplore.ieee.org/document/5498548/",
+          "access_status": "no_identity_matched_body_result",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0096",
+      "identifier_key": "doi:10.1109/ccece.2006.277699",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The reasoning model of the negotiation agent has been implemented partially by using c# based on Microsoft .NET. The reliability and the flexibility of the reasoning model are finally evaluated.",
+          "rationale": "The evaluated object is a fuzzy reasoning model; the abstract does not explain an offer-exchange or multi-agent coordination rule."
+        }
+      ],
+      "rationale": "Autonomous negotiation with other agents is claimed, but the abstract gives no interaction protocol, concession exchange or coordination procedure. Necessary body evidence was not obtained.",
+      "mechanism": "Fuzzy reasoning for autonomous multi-issue negotiation",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "Does FINA specify offer-exchange or multi-agent coordination rules beyond its internal fuzzy reasoning model?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B treats the ability to negotiate with other agents as an interaction mechanism. That establishes the intended setting, while the actual described implementation/evaluation concerns the internal reasoning model. The frozen standard requires evidence of the inter-agent rule; the bounded official retrieval did not supply it. The final classification is not_evidenced with evidence_unavailable.",
+      "supplement_attempts": [
+        {
+          "question": "Does FINA specify offer-exchange or multi-agent coordination rules beyond its internal fuzzy reasoning model?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does FINA specify offer-exchange or multi-agent coordination rules beyond its internal fuzzy reasoning model?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/4054682/",
+          "access_status": "failed_to_obtain_body",
+          "error": "Failed to fetch: Cache miss",
+          "fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0098",
+      "identifier_key": "doi:10.1109/ccgrid.2001.923245",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a Market Server, a Market Resource Agent, a Market Resource Broker and Market Trader and scheduler used for negotiation and job deployment.",
+          "rationale": "The proposed architecture assigns complementary resource-agent, broker, trader and scheduler roles to coordinate negotiation and deployment of delegated computational jobs."
+        }
+      ],
+      "rationale": "The architecture explicitly coordinates negotiation/job deployment through complementary roles. The abstract describes economic mapping but not provider capability descriptions or suitability criteria.",
+      "mechanism": "Decentralized computational-market roles for negotiation and job deployment",
+      "not_evidenced_reason": null,
+      "followup_question": "Does mapping consumers to providers use explicit capability or suitability criteria beyond economic allocation?",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The shared L3 is supported by the architecture's role-based negotiation/deployment function. B adds L2 from consumer-provider mapping, but mapping is described only through economic models; a suitability criterion or capability-discovery operation is not supplied. Recorded body retrieval did not resolve that question, so only L3 is retained.",
+      "supplement_attempts": [
+        {
+          "question": "Does mapping consumers to providers use explicit capability or suitability criteria beyond economic allocation?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "saved-primary-body lookup",
+          "scope": "CURRENT-LOCATORS plus IEEE source-evidence filenames matched by source record ID and article number; normalized source record provides abstract/metadata only",
+          "access_status": "no_saved_body_located"
+        },
+        {
+          "question": "Does mapping consumers to providers use explicit capability or suitability criteria beyond economic allocation?",
+          "retrieved_at_utc": "2026-10-19T21:21:12.468484+00:00",
+          "method": "web.open official publisher article URL",
+          "url": "https://ieeexplore.ieee.org/document/923245/",
+          "access_status": "failed_to_obtain_body",
+          "error": "JavaScript verification page; no article body returned",
+          "fulltext_read": false
+        }
+      ]
+    }
+  ]
+}

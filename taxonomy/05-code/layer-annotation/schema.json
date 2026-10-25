@@ -1,0 +1,20 @@
+{
+  "method_version": "2.0.0",
+  "wrapper": {"job_id": "A01", "role": "independent", "model": "gpt-6-astra", "reasoning_effort": "high", "method_version": "2.0.0", "records": []},
+  "record_example": {
+    "record_id": "R0001",
+    "identifier_key": "doi:...",
+    "classification": ["L3"],
+    "evidence": [{"layer": "L3", "evidence_id": "abstract", "quote": "Exact contiguous source text", "rationale": "Specific functional connection"}],
+    "rationale": "Concise explanation of the selected functional scope.",
+    "mechanism": "Specific research mechanism",
+    "not_evidenced_reason": null,
+    "followup_question": "",
+    "evidence_read": ["abstract"]
+  },
+  "classification_alternative": "not_evidenced",
+  "not_evidenced_reason_values": ["outside_layer_functions", "insufficient_evidence", "evidence_unavailable"],
+  "not_evidenced_evidence_layer": null,
+  "adjudication_additional_required_field": "adjudication_reason",
+  "allowed_layers": ["L1", "L2", "L3", "L4", "L5", "L6", "L7", "L8"]
+}

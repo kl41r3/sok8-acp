@@ -1,0 +1,45 @@
+{
+  "unit": "40 protocol-dimension cells before author adjudication",
+  "category_order": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2
+  ],
+  "model_order": [
+    "agnes-2.5-flash",
+    "deepseek-v4-flash",
+    "qwen3.7-plus"
+  ],
+  "pairwise_cohens_kappa": [
+    {
+      "model_a": "agnes-2.5-flash",
+      "model_b": "deepseek-v4-flash",
+      "unweighted": -0.027837259100642397,
+      "quadratic_weighted": 0.25
+    },
+    {
+      "model_a": "agnes-2.5-flash",
+      "model_b": "qwen3.7-plus",
+      "unweighted": 0.4156706507304117,
+      "quadratic_weighted": 0.43548387096774194
+    },
+    {
+      "model_a": "deepseek-v4-flash",
+      "model_b": "qwen3.7-plus",
+      "unweighted": 0.08428720083246619,
+      "quadratic_weighted": 0.423728813559322
+    }
+  ],
+  "mean_unweighted_cohens_kappa": 0.15737353082074518,
+  "fleiss_kappa": 0.12352639671963096,
+  "rating_counts": {
+    "0.0": 8,
+    "0.5": 5,
+    "1.0": 77,
+    "1.5": 23,
+    "2.0": 7
+  },
+  "scope": "Inter-model agreement, not human inter-rater reliability."
+}

@@ -1,0 +1,592 @@
+{
+  "job_id": "C05",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0407",
+      "identifier_key": "doi:10.1109/icect.2004.1319738",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "we specify the SET/A protocol which is an agent-based payment protocol for credit card transactions in UML statechart diagrams.",
+          "rationale": "The analyzed and extended object is the credit-card payment protocol itself."
+        }
+      ],
+      "rationale": "L5 is directly supported by formal analysis of a credit-card payment protocol. The disputed L3 quote describes a cardholder inquiry sent directly to a merchant after the mobile agent fails; it does not establish agent-to-agent coordination or delegation. This payment-recovery message alone does not warrant a second functional layer.",
+      "mechanism": "Formal model checking and timeout recovery for the SET/A credit-card payment protocol.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "L5 is directly supported by formal analysis of a credit-card payment protocol. The disputed L3 quote describes a cardholder inquiry sent directly to a merchant after the mobile agent fails; it does not establish agent-to-agent coordination or delegation. This payment-recovery message alone does not warrant a second functional layer."
+    },
+    {
+      "record_id": "R0408",
+      "identifier_key": "doi:10.1109/icect.2004.1319740",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "make the payment on behalf of the cardholder",
+          "rationale": "Payment execution is an explicit function of the proposed protocol."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "autonomously sign contracts",
+          "rationale": "The proposed signing mechanism enables formation of a contractual commitment."
+        }
+      ],
+      "rationale": "Retain L5 and L6 because the designed cryptographic protocol expressly enables payment and contract signing. Reject the disputed L1: signature shares, non-repudiation and a trusted third party do not by themselves describe identity authentication, credential verification or trust estimation. No identity-check passage was obtained from the bounded publisher attempt. Negotiating and choosing the best merchant are stated goals without the corresponding selection or interaction mechanism; role-limited information disclosure is not an action-authorization rule.",
+      "mechanism": "Shared-signature and signcryption mechanisms for autonomous contract signing and cardholder payment.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain L5 and L6 because the designed cryptographic protocol expressly enables payment and contract signing. Reject the disputed L1: signature shares, non-repudiation and a trusted third party do not by themselves describe identity authentication, credential verification or trust estimation. No identity-check passage was obtained from the bounded publisher attempt. Negotiating and choosing the best merchant are stated goals without the corresponding selection or interaction mechanism; role-limited information disclosure is not an action-authorization rule.",
+      "supplement_attempts": [
+        {
+          "question": "Do the signature-share/signcryption-share mechanisms authenticate identity or establish credentials, rather than only hide secrets?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Do the signature-share/signcryption-share mechanisms authenticate identity or establish credentials, rather than only hide secrets?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0409",
+      "identifier_key": "doi:10.1109/icect.2005.15",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Using a value iteration algorithm, we then indicate a novel solution technique for determining optimal policies for the negotiation problem without explicit knowledge of the dynamics of the system.",
+          "rationale": "An optimal negotiation policy is specified as the research mechanism, but agent interaction rules are not described."
+        }
+      ],
+      "rationale": "The abstract establishes optimization of negotiating-agent strategies and deadlines. It does not identify the offer/response rules or a coordinated procedure that would establish L3 under the negotiation boundary. A infers L3 from formal negotiation modeling; B correctly identifies the missing functional detail. No same-version body was available from the bounded retrieval to resolve that missing detail.",
+      "mechanism": "MDP and value-iteration learning of adaptive bilateral negotiation strategies.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The abstract establishes optimization of negotiating-agent strategies and deadlines. It does not identify the offer/response rules or a coordinated procedure that would establish L3 under the negotiation boundary. A infers L3 from formal negotiation modeling; B correctly identifies the missing functional detail. No same-version body was available from the bounded retrieval to resolve that missing detail.",
+      "supplement_attempts": [
+        {
+          "question": "Does the MDP define inter-agent offer/counteroffer and response rules rather than only optimize an individual negotiation policy?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the MDP define inter-agent offer/counteroffer and response rules rather than only optimize an individual negotiation policy?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0411",
+      "identifier_key": "doi:10.1109/icect.2009.78",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "sec3c",
+          "quote": "consultations Agent uses utility function to evaluate the suggestion proposed by the other side and uses it self's negotiation strategy to decide to accept, reject or offer a counter-proposal. It repeats until both sides accept or one side abandons and leaves",
+          "rationale": "The framework specifies an iterative inter-agent offer and response procedure."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "sec3c",
+          "quote": "establish the interaction mechanism between consultation Agent and the user, so that we will be able to more accurately and effectively extract user's preference for consultation objects and other binding",
+          "rationale": "Human preference elicitation is an explicit design function."
+        }
+      ],
+      "rationale": "Saved Section III.C resolves B's question: it explicitly specifies accept/reject/counterproposal decisions repeated until acceptance or abandonment, which establishes L3. It also makes agent-user interaction for extracting preferences a framework design component, adding L7 beyond either initial set. Negotiation termination alone does not establish management of binding contracts or a separate L6 mechanism.",
+      "mechanism": "One-to-many consultation agents with preference elicitation, offer evaluation and accept/reject/counterproposal exchanges.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3a",
+        "sec3c"
+      ],
+      "adjudication_reason": "Saved Section III.C resolves B's question: it explicitly specifies accept/reject/counterproposal decisions repeated until acceptance or abandonment, which establishes L3. It also makes agent-user interaction for extracting preferences a framework design component, adding L7 beyond either initial set. Negotiation termination alone does not establish management of binding contracts or a separate L6 mechanism."
+    },
+    {
+      "record_id": "R0431",
+      "identifier_key": "doi:10.1109/icicta.2014.125",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "the information are communicated between the negotiation case database and users through the negotiation agent.",
+          "rationale": "The proposed system explicitly mediates negotiation information to human users."
+        }
+      ],
+      "rationale": "Retain L7 because the model expressly communicates negotiation information between a case database and human users through their agents. Reject the disputed L3: stating that negotiations are interactions and that the model has seven elements does not disclose exchange rules or task coordination; the concrete algorithmic focus described is multi-objective optimization. The publisher body could not be read to supply those rules.",
+      "mechanism": "Multi-objective agent negotiation model mediating negotiation-case information to users.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Retain L7 because the model expressly communicates negotiation information between a case database and human users through their agents. Reject the disputed L3: stating that negotiations are interactions and that the model has seven elements does not disclose exchange rules or task coordination; the concrete algorithmic focus described is multi-objective optimization. The publisher body could not be read to supply those rules.",
+      "supplement_attempts": [
+        {
+          "question": "Does the seven-element model specify substantive inter-agent negotiation exchange rules beyond multi-objective strategy optimization?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the seven-element model specify substantive inter-agent negotiation exchange rules beyond multi-objective strategy optimization?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0444",
+      "identifier_key": "doi:10.1109/icin69025.2026.11481801",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This work introduces a two-layer hybrid reinforcement learning framework that combines DQN-based device bidding with a DDPG-driven system agent capable of dynamically adjusting pricing and fairness rules.",
+          "rationale": "Bidding and pricing/fairness optimization are the concrete described mechanisms; identity/trust evaluation and payment rules are not established."
+        }
+      ],
+      "rationale": "A assigns L1 from a stated goal of learning trust rules, while B distinguishes that goal from the described mechanism. The concrete two-layer method describes bidding plus pricing/fairness adjustment; it does not specify reputation evidence or a trust estimate. Nor does pricing adjustment identify a payment obligation. The bounded full-text attempt did not yield the missing mechanism, so no layer is established.",
+      "mechanism": "Hybrid DQN device bidding and DDPG system-level adjustment of pricing and fairness rules.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A assigns L1 from a stated goal of learning trust rules, while B distinguishes that goal from the described mechanism. The concrete two-layer method describes bidding plus pricing/fairness adjustment; it does not specify reputation evidence or a trust estimate. Nor does pricing adjustment identify a payment obligation. The bounded full-text attempt did not yield the missing mechanism, so no layer is established.",
+      "supplement_attempts": [
+        {
+          "question": "Does the proposed RL system concretely estimate counterparty trust or reputation, and does pricing prescribe an actual payment obligation?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the proposed RL system concretely estimate counterparty trust or reputation, and does pricing prescribe an actual payment obligation?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0449",
+      "identifier_key": "doi:10.1109/icise.2009.525",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a group of buyers agent with the mutual cooperation, the sellers agent and the trading hall agent system that manages both of their agent system information.",
+          "rationale": "The architecture names roles and information management but provides no concrete negotiation coordination rule."
+        }
+      ],
+      "rationale": "The trading hall is said to manage agent-system information, and buyers are said to cooperate. Neither statement specifies which interdependent actions are coordinated or how. A infers an L3 mechanism from these roles; the frozen boundary requires the missing coordination procedure. No body passage was obtained to add it.",
+      "mechanism": "Mobile-agent negotiation architecture with buyer, seller and trading-hall roles.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The trading hall is said to manage agent-system information, and buyers are said to cooperate. Neither statement specifies which interdependent actions are coordinated or how. A infers an L3 mechanism from these roles; the frozen boundary requires the missing coordination procedure. No body passage was obtained to add it.",
+      "supplement_attempts": [
+        {
+          "question": "Does the trading-hall agent coordinate specified buyer/seller negotiation actions rather than merely store agent information?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the trading-hall agent coordinate specified buyer/seller negotiation actions rather than merely store agent information?",
+          "access_status": "access_failed",
+          "detail": "URL is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0451",
+      "identifier_key": "doi:10.1109/icitbs.2018.00105",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a negotiation strategy based on GA is proposed which introduces GA to study the opponent's preference and utility function",
+          "rationale": "Opponent modeling and strategy optimization do not alone establish inter-agent orchestration."
+        }
+      ],
+      "rationale": "The concrete contribution described is an individual negotiation strategy learning the opponent's preferences and utility function. General references to communication language, knowledge sharing and a negotiation process do not specify substantive exchange or coordination rules. Thus A's L3 inference exceeds the available description; the failed body access leaves that functional gap unresolved without a pending classification.",
+      "mechanism": "Genetic-algorithm learning of opponent preferences and utility for negotiation strategy.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The concrete contribution described is an individual negotiation strategy learning the opponent's preferences and utility function. General references to communication language, knowledge sharing and a negotiation process do not specify substantive exchange or coordination rules. Thus A's L3 inference exceeds the available description; the failed body access leaves that functional gap unresolved without a pending classification.",
+      "supplement_attempts": [
+        {
+          "question": "Does the model define knowledge-sharing or offer-response interaction rules in addition to learning opponent utility?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the model define knowledge-sharing or offer-response interaction rules in addition to learning opponent utility?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0459",
+      "identifier_key": "doi:10.1109/icmas.2000.858520",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Agents create models of their opponents during negotiation, which help them predict better the opponent actions.",
+          "rationale": "The specified mechanism predicts an opponent to improve decisions, without describing inter-agent rules or human input."
+        }
+      ],
+      "rationale": "The influence diagram models negotiation and predicts opponent actions; its evaluation compares deal outcomes and failure rates. These facts substantiate strategy optimization, but not offer/counteroffer interaction rules or a coordination mechanism. A conflates interdependence of strategic decisions with L3 orchestration. Student preference models alone also do not establish researched human input or interaction. The bounded publisher fetch supplied no additional body evidence.",
+      "mechanism": "Influence-diagram opponent modeling to improve an agent's negotiation decisions.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The influence diagram models negotiation and predicts opponent actions; its evaluation compares deal outcomes and failure rates. These facts substantiate strategy optimization, but not offer/counteroffer interaction rules or a coordination mechanism. A conflates interdependence of strategic decisions with L3 orchestration. Student preference models alone also do not establish researched human input or interaction. The bounded publisher fetch supplied no additional body evidence.",
+      "supplement_attempts": [
+        {
+          "question": "Does the influence-diagram model specify inter-agent negotiation exchange rules, or only optimize an individual agent strategy?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the influence-diagram model specify inter-agent negotiation exchange rules, or only optimize an individual agent strategy?",
+          "access_status": "access_failed",
+          "detail": "Failed to fetch: Cache miss",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0463",
+      "identifier_key": "doi:10.1109/icmecg.2009.95",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This system reduced communication traffic effectively, realized the asynchronous transfer of information and platform-independent",
+          "rationale": "The stated result concerns communication transport rather than a specified agent coordination procedure."
+        }
+      ],
+      "rationale": "A treats asynchronous information transfer and facilitator roles as L3. The abstract provides transport and platform benefits but does not describe interaction rules or identify coordinated business tasks. Under the fixed boundary, use of an MAS and transport capability is insufficient. The publisher attempt yielded no task or protocol detail.",
+      "mechanism": "FIPA-based distributed e-commerce agent architecture with asynchronous information transport.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A treats asynchronous information transfer and facilitator roles as L3. The abstract provides transport and platform benefits but does not describe interaction rules or identify coordinated business tasks. Under the fixed boundary, use of an MAS and transport capability is insufficient. The publisher attempt yielded no task or protocol detail.",
+      "supplement_attempts": [
+        {
+          "question": "What task coordination or substantive message rules are designed beyond asynchronous transport?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "What task coordination or substantive message rules are designed beyond asynchronous transport?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0471",
+      "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+      "classification": [
+        "L3",
+        "L4",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "sec4_p3",
+          "quote": "One party consists of a coordinating agent and a number of sub-agents. All sub-agents represent the preferences and constraints of the same party, but they can use different negotiation strategies.",
+          "rationale": "The framework defines coordinated subsidiary agents with a common represented party and distinct negotiation strategies."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "sec4_p3",
+          "quote": "only the negotiators have the decision-making power to determine which agreement should be accepted.",
+          "rationale": "Final acceptance authority is explicitly reserved to the principal negotiator rather than delegated to the negotiating agents."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "sec4_p3",
+          "quote": "the negotiators may also use the decision-support functions of negotiation support system to determine which agreement is the best.",
+          "rationale": "The framework gives human negotiators decision support for selecting and approving an agreement."
+        }
+      ],
+      "rationale": "The saved Section IV supplies the mechanism missing from the abstract: coordinating agents manage sub-agents using different strategies and report candidate outcomes, establishing L3. It also specifies human decision-support and reserves agreement acceptance to the negotiator, establishing L7 and L4 respectively. A's L7 is supported with substantive body evidence; B's abstract-only uncertainty is resolved, and the final set adds the coordination and approval boundary. An illustrative agreement or warranty term alone is not a separate contract-management or dispute-resolution mechanism.",
+      "mechanism": "Coordinating and subsidiary negotiation agents report candidate agreements to human negotiators who retain final approval.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec4_p0",
+        "sec4_p1",
+        "sec4_p2",
+        "sec4_p3"
+      ],
+      "adjudication_reason": "The saved Section IV supplies the mechanism missing from the abstract: coordinating agents manage sub-agents using different strategies and report candidate outcomes, establishing L3. It also specifies human decision-support and reserves agreement acceptance to the negotiator, establishing L7 and L4 respectively. A's L7 is supported with substantive body evidence; B's abstract-only uncertainty is resolved, and the final set adds the coordination and approval boundary. An illustrative agreement or warranty term alone is not a separate contract-management or dispute-resolution mechanism."
+    },
+    {
+      "record_id": "R0475",
+      "identifier_key": "doi:10.1109/icmlc.2005.1526950",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This paper gives a protocol (VAMA) and strategy for multi-attribute auction. Some useful properties like strategy-proof also have been proved.",
+          "rationale": "The paper studies an auction protocol and strategies, but the abstract does not state the functional rules needed for a positive layer."
+        }
+      ],
+      "rationale": "A infers L3 from proposing a protocol, but the abstract does not disclose its message/exchange rules. Strategy-proofness and the Vickrey-type title likewise do not establish a particular payment rule, while multiple attributes do not reveal suitability selection. The bounded official access failed to supply those details. The protocol is the studied mechanism, but none of its layer functions is sufficiently evidenced in the material read.",
+      "mechanism": "Strategy-proof multiattribute auction protocol with buyer and seller strategy analysis.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A infers L3 from proposing a protocol, but the abstract does not disclose its message/exchange rules. Strategy-proofness and the Vickrey-type title likewise do not establish a particular payment rule, while multiple attributes do not reveal suitability selection. The bounded official access failed to supply those details. The protocol is the studied mechanism, but none of its layer functions is sufficiently evidenced in the material read.",
+      "supplement_attempts": [
+        {
+          "question": "What concrete message, seller-selection and payment rules are specified in VAMA?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "What concrete message, seller-selection and payment rules are specified in VAMA?",
+          "access_status": "access_failed",
+          "detail": "URL is not accessible via this tool.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0494",
+      "identifier_key": "doi:10.1109/icoco67189.2025.11334130",
+      "classification": [
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "key challenges, such as decentralized access control, audit complexity, and the risks of shadow AI, can be effectively mitigated.",
+          "rationale": "The implemented service evaluates access governance against deployments lacking organizational approval."
+        }
+      ],
+      "rationale": "L4 is supported because the proposed deployed service specifically addresses access-control governance and organizational approval. The disputed L3 rests on the routing-service name, protocol compliance and background claims about A2A/MCP task transfer. These do not disclose the service's own task or agent-interaction coordination rules. No body passage was available from the targeted official access to establish those rules.",
+      "mechanism": "Deployed A2A/MCP-compatible routing architecture addressing decentralized access control and unapproved agent deployment.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "L4 is supported because the proposed deployed service specifically addresses access-control governance and organizational approval. The disputed L3 rests on the routing-service name, protocol compliance and background claims about A2A/MCP task transfer. These do not disclose the service's own task or agent-interaction coordination rules. No body passage was available from the targeted official access to establish those rules.",
+      "supplement_attempts": [
+        {
+          "question": "What task-routing or inter-agent coordination rules are implemented beyond supporting A2A/MCP compatibility?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "What task-routing or inter-agent coordination rules are implemented beyond supporting A2A/MCP compatibility?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0497",
+      "identifier_key": "doi:10.1109/icoin.1998.648406",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "usage based mini payment method, vicarious billing management instead of each CPs (Content Provider)",
+          "rationale": "The paper implements usage-dependent payment and manages billing for content providers."
+        }
+      ],
+      "rationale": "The billing mechanism directly supports L5. The disputed L1 cannot be inferred from the label vicarious certification: its only explained purpose is providing an open service interface, without any identity, credential or trust check. A treats certification as sufficient; B correctly identifies the missing mechanism. The bounded publisher fetch did not supply that mechanism.",
+      "mechanism": "Usage-based micropayment and delegated billing management for web content providers.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The billing mechanism directly supports L5. The disputed L1 cannot be inferred from the label vicarious certification: its only explained purpose is providing an open service interface, without any identity, credential or trust check. A treats certification as sufficient; B correctly identifies the missing mechanism. The bounded publisher fetch did not supply that mechanism.",
+      "supplement_attempts": [
+        {
+          "question": "Does vicarious certification perform identity or credential checks, or simply provide a service interface?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does vicarious certification perform identity or credential checks, or simply provide a service interface?",
+          "access_status": "access_failed",
+          "detail": "Error fetching URL.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    },
+    {
+      "record_id": "R0498",
+      "identifier_key": "doi:10.1109/icoin.2014.6799688",
+      "classification": [
+        "L2",
+        "L5",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "sec4",
+          "quote": "the software agent sitting on the user's handheld device can quickly scan the environment around (i.e., the broadcasted signals from different base stations and access points), select the best option to connect to and then connect automatically.",
+          "rationale": "The proposed agent discovers advertised services and selects a provider according to the user's requirements."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "sec4",
+          "quote": "The agent can keep track of the usage and calculate the payment value that can be paid on the spot (spot payment) or afterwards to the service operator depending on the preferred payment options.",
+          "rationale": "The proposal specifies usage-based payable calculation, recipient and timing options, rather than price forecasting alone."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "sec4",
+          "quote": "Users activate the desired profile (several may be configured for the device) when attempting to obtain networking services.",
+          "rationale": "The proposed workflow includes an explicit human preference-selection input that directs the service agent."
+        }
+      ],
+      "rationale": "Saved Sections III-IV resolve the provider-selection disagreement in favor of L2: an agent scans provider broadcasts and selects according to service and cost requirements. They also specify usage tracking, payable-value calculation and payment timing, confirming L5. Explicit activation of a configured user profile establishes L7 preference input. Price ranges are economic constraints rather than a separate L4 authorization mechanism; general network-security restrictions and policy conflicts do not establish additional identity or dispute layers.",
+      "mechanism": "Profile-based discovery and selection of advertised access services with usage accounting, payable-value calculation and human profile activation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3",
+        "sec4"
+      ],
+      "adjudication_reason": "Saved Sections III-IV resolve the provider-selection disagreement in favor of L2: an agent scans provider broadcasts and selects according to service and cost requirements. They also specify usage tracking, payable-value calculation and payment timing, confirming L5. Explicit activation of a configured user profile establishes L7 preference input. Price ranges are economic constraints rather than a separate L4 authorization mechanism; general network-security restrictions and policy conflicts do not establish additional identity or dispute layers."
+    },
+    {
+      "record_id": "R0500",
+      "identifier_key": "doi:10.1109/icpads.1997.652560",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we use various encryption mechanisms and we apply a novel method for mobile agent systems by using distributed transactions processing based on the OMG Object Transaction Service in our architecture.",
+          "rationale": "The concrete mechanism is secure fault-tolerant execution through computing transactions, not an evidenced financial settlement rule."
+        }
+      ],
+      "rationale": "The described contribution is security and failure handling for mobile-agent execution using the OMG Object Transaction Service. Monetary transactions are presented as an enabled application; no payer/payee obligation, transfer, funds commitment or settlement behavior is specified. Therefore A's L5 conflates distributed computing transactions with payment. The bounded publisher access supplied no additional financial mechanism, and generic encryption also does not establish identity or authorization functions.",
+      "mechanism": "Encrypted mobile-agent execution and fault tolerance using distributed computing transactions.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "The described contribution is security and failure handling for mobile-agent execution using the OMG Object Transaction Service. Monetary transactions are presented as an enabled application; no payer/payee obligation, transfer, funds commitment or settlement behavior is specified. Therefore A's L5 conflates distributed computing transactions with payment. The bounded publisher access supplied no additional financial mechanism, and generic encryption also does not establish identity or authorization functions.",
+      "supplement_attempts": [
+        {
+          "question": "Does the architecture define financial transfer/settlement behavior, or only computing transactions for secure mobile execution?",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source_record_id file paths and article-number occurrences; no source-specific saved body located.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00"
+        },
+        {
+          "question": "Does the architecture define financial transfer/settlement behavior, or only computing transactions for secure mobile execution?",
+          "access_status": "access_failed",
+          "detail": "JavaScript is disabled. In order to continue, we need to verify that you are not a robot. This requires JavaScript.",
+          "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+          "actual_fulltext_read": false
+        }
+      ]
+    }
+  ],
+  "execution_note": "All 16 original abstracts and both assessments read independently. Bounded same-version saved-body supplements read for R0411, R0471 and R0498; unsuccessful official-source attempts recorded individually. Original A/B inputs and judgments unchanged. Service-side model checkpoint, temperature and seed not exposed."
+}

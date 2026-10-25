@@ -1,0 +1,1461 @@
+{
+  "C01/R0023": [
+    {
+      "evidence_id": "body_01",
+      "level": "fulltext_excerpt",
+      "text": "The Patient Centric Agent is software that executes on a patient’s laptop, desktop or a dedicated server. The patient agent node contains three modules: medical Data Management Module(DMM), Security Service Module(SSM), and Miner Management Module(MMM). The agent node plays a critical role in our architecture and the functionality of each component is described as follows:",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Patient Centric Agent(PCA), paragraph 1"
+    },
+    {
+      "evidence_id": "body_02",
+      "level": "fulltext_excerpt",
+      "text": "In IoT Blockchain healthcare, the management of huge streamed data is prime target to make the system efficient and effective. Blockchain in IoT healthcare also need to deal with Transaction Fee and healthcare provider’s fee in a secure manner. Digital Currency(DC) in Bitcoin or Ethereum is still not as widespread as traditional currency. Therefore, we propose to incorporate the conventional banking system into our IoT Blockchain healthcare system. In the proposed payment protocol, we assume that the patient, Miner and healthcare provider own Virtual Credit Account(VCA) in the Banking system. Every node in Blockchain network is associated with one or more traditional banks. Due to security threat, traditional Smart Card/Credit Card for financial transactions are discarded in favour of virtual credit. The PCA buys Virtual Credit Pints(VCP) from a bank using the patient’s Smart Card/ Credit Card. The payment protocol of the proposed e-healthcare system is illustrated in Fig. 12. and is described as follows:",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 1"
+    },
+    {
+      "evidence_id": "body_03",
+      "level": "fulltext_excerpt",
+      "text": "Patient Centric Agent(PCA) purchases Credit Points(CP) from Bank A in exchange for traditional currency.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 2"
+    },
+    {
+      "evidence_id": "body_04",
+      "level": "fulltext_excerpt",
+      "text": "PCA constructs a Payment Transaction(PT) as shown in Fig. 13. The PT holds PCA’s signature and Bank A’s signature. The PCA sends PT to Miner M nominated by the PCA for target hash generation.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 3"
+    },
+    {
+      "evidence_id": "body_05",
+      "level": "fulltext_excerpt",
+      "text": "The Miner M puts its signature after verification of the PCA’s signature and Bank A’s signature in PT. The Miner M transfers the PT(Payment Transaction) to Miner’s Bank B.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 4"
+    },
+    {
+      "evidence_id": "body_06",
+      "level": "fulltext_excerpt",
+      "text": "Bank B verifies all signatures on the PT and inserts its signature into the PT. The Bank B requests Bank A to make a Deposit Transaction(DT) for Miner M.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 5"
+    },
+    {
+      "evidence_id": "body_07",
+      "level": "fulltext_excerpt",
+      "text": "Bank A prepares a new transaction called UTXO(Unspent transaction) for the PCA and Output Transaction(OT) for Miner M. Finally, Bank A builds a block with all transactions produced to complete the payment and sends the block leaving the Previous Transaction Hash field empty to Miner M and the PCA.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 6"
+    },
+    {
+      "evidence_id": "body_08",
+      "level": "fulltext_excerpt",
+      "text": "The PCA and Miner M generate their respective hash value by placing the Previous Hash Block in local Blockchain. Banks in Blockchain maintain a global Blockchain for processing of UTXO and OT like Bitcoin.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 7"
+    },
+    {
+      "evidence_id": "body_09",
+      "level": "fulltext_excerpt",
+      "text": "Payment protocol.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 8 / figure caption"
+    },
+    {
+      "evidence_id": "body_10",
+      "level": "fulltext_excerpt",
+      "text": "Format of Payment Transaction.",
+      "normalization": "raw",
+      "identity_binding": {
+        "identifier_key": "doi:10.1109/access.2018.2846779",
+        "title": "Continuous Patient Monitoring With a Patient Centric Agent: A Block Architecture",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion",
+        "original_observed_at_utc": "2026-10-02T07:35:03.211Z"
+      },
+      "question": "Does the customized blockchain specify an actual payment transaction and verification sequence beyond the abstract mention of secure payments?",
+      "retrieved_at_utc": "2026-10-19T21:20:29.855145+00:00",
+      "access_status": "read_saved_primary_excerpt",
+      "read_scope": "Transaction Fee Protocol, paragraph 10 / figure caption"
+    }
+  ],
+  "C02/R0168": [
+    {
+      "evidence_id": "body_sec4_2",
+      "level": "fulltext_excerpt",
+      "text": "A commonly used M-commerce approach is to let consumers to search for products from physically distributed vendor sites. However, this approach may be impractical to a large scale of E-markets distributed over the Internet. Deploying mobile agent paradigm in M-commerce offers a possible solution because the customer may dispatch agents to search for possible vendor locations. This in turn leads us to the service discovery problem, that is, how to find vendor sites available to an M-commerce application. Following this trend, it becomes increasingly important to give agents the ability of finding and making use of services that are available in a network [14]. A variety of Service Discovery Protocols (SDPs) are currently under development by some companies and research groups. The most well known schemes are Sun's Java based Jini™ [15], Salutation [16], Microsoft's UPP [17], IETF's Service Location Protocol (SLP) [18] and OASIS UDDI [19]. Some of these SDPs are extended and applied by several mobile agent systems to solve the service discovery problem.\n\nIn the development of the proposed platform, we have implemented a new service discovery mechanism which is called Discovery Service via Search Engine Model [20]. This mechanism is based on a search engine, a global Web search tool with centralized index and fuzzy retrieval. Using this model, M-commerce service providers manually register their services to a service discovery server. A mobile agent locates a specific service by migrating to the service discovery server and subsequently submitting requests with the required description. Before a service can be discovered, it should make itself public. This process is called service advertisement. A service advertisement should consist of the service identifier, plus a simple string describing what the service is, or a set of strings for specifications and attributes. The most significant feature of our discovery service is that we enrich the service description by using web page's URL to replace the traditional string-set service description in mobile agent systems. On the other hand, a mobile agent can move to a service discovery server, communicate with the locating agent to obtain an itinerary that includes a list of ranked host addresses of the service providers. Based on the given itinerary, the mobile agent may travel from host to host to carry out an M-commerce transaction.\n\nIn an M-commerce environment, data may be stored among physically distributed sites. Therefore endowing mobile agents with the ability of accessing remote databases is the basis for M-commerce applications. This encourages us to explore the strategies of coupling a mobile agent programming language with database access facilities. In recent years numerous approaches have been made under the topic of designing a coupled system that integrates a relational database and a logic programming language. They all enable programmers to access large amounts of shared data for knowledge processing, manage data efficiently as well as process data intelligently. Generally speaking, coupling a logic programming language with database access facility can be roughly divided into two categories. A loosely coupled system embeds a non-logic language, such as the Structure Query Language (SQL), within the logic programming context and a closely coupled system provides database query interface as a subset or an extension of the language for featuring dynamic query formulation and view access. In order to let vendor agents communicate with database systems, the current implementation of our proposed system provides a set of database access primitives, which enables agents to establish connection with data sources and make requests for desired information [21]. At the current stage, the database model in our system is MySQL, the most popular open source DBMS system in the world.\n\nIn an M-commerce application, agents are not working alone. They need to communicate with each other to cooperate and generate a global data aggregation for further analysis. For example, mobile agents of an M-commerce application might exchange messages to compare prices of goods they gathered before making a shopping decision. Most existing mobile agent systems adopt some kind of communication models/protocols from traditional distributed systems. However, our proposal adopts a different strategy to cope with this issue. The idea is to deploy intelligent mobile messengers for inter-agent communication [22]. Messengers are thin agents dedicated to deliver messages. Our system provides a set of built-in messengers as a part of its programming interface. A mobile agent at any remote sites and at any time may dispatch messengers to deliver data to designated receivers. For example, suppose that a mobile agent has completed its M-commerce work at a remote vendor server, it can either migrate back to its home server, or dispatch a messenger to deliver result to the home agent.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0168",
+        "source_record_id": "I827C4D78D0D7216E",
+        "title": "Implementing an Mobile Agent Platform for M-Commerce",
+        "doi": "10.1109/COMPSAC.2009.112",
+        "primary_url": "https://ieeexplore.ieee.org/document/5254151",
+        "binding": "Saved official native capture binds this title and DOI to article 5254151 and Section IV paragraph text."
+      },
+      "question": "Does the implemented platform concretely discover service providers, authenticate migrating agents, or constrain agent execution, rather than merely list these functions?",
+      "retrieved_at_utc": "2026-10-19T21:26:11.745869+00:00",
+      "original_capture_at_utc": "2026-10-02T19:27:22.997Z",
+      "access_status": "Read saved official IEEE native-body capture; only Section IV paragraphs 1-7 read for this adjudication."
+    },
+    {
+      "evidence_id": "body_sec4_3",
+      "level": "fulltext_excerpt",
+      "text": "Communication among agents takes place by means of an Agent Communication Language (ACL). The essence of an ACL is to make agents understanding the purpose and meaning of their exchanged data. In general, a message consists of two aspects, namely, performative and content. The performative specifies the purpose of a message and the content gives a concrete description for achieving the purpose. In order to facilitate open standards of ACL's, our current implementation is in compliance with the FIPA ACL message structure specification [23].\n\nIn a large-scale open network, we have to assume that a mobile agent system is subject to the fundamental security threats of disclosure, modification, denial of service, misuse, abuse, repudiation, and so on. The security challenge here is much more severe than the one in traditional client/server model. In addition, security mechanism should be able fit the purpose of various M-commerce applications with different security requirements. Therefore, we are encouraged to develop the security mechanism based on the most well known techniques. We may adopt WAP WTLS [24] or TLS [25] to provide message integrity, authentication and non-repudiation between mobile devices and the home server. On the other hands, we provide a simple security mechanism within the execution environment to protect mobile agents as well as agent servers. In the current design of our system, the integrated security mechanism consists of three kernel components: secure migration protocol, agent verifier and security monitor. The secure migration channel guarantees the confidentiality, integrity, and password-less authentication of an agent moving from host to host. However, the use of mobile agents raises another two important security concerns, i.e., agents need protection from malicious hosts and hosts need to be protected against malicious agents. Unfortunately, the problem posed by malicious hosts to agents seems impossible to be fully solved, because there is no easy way to enforce a host, especially a malicious host, to obey security requirements. Once an agent has arrived at a host, it submits itself completely to the host and cannot stop the host from malicious attacking. Even though some solutions have been proposed, many of them are used for attack detection, rather than prevent agents against misbehaving servers. At current stage, we assume that M-commerce servers behave truthfully and honestly.\n\nOn the other hand, in the design of our project, we take a great measure to protect hosts against malicious agents. First of all, the virtual machine is constructed as a sandbox, a commonly used technique to control agent execution at the byte-code instruction level. Secondly, there are two types of security policies for detecting malicious agents. One is agent verification and the other is runtime monitoring. Agent verification is mainly used to check an incoming mobile agent that has just arrived from a foreign host. An incoming agent will be transferred to the Agent Verifier before it can be scheduled for execution. This module checks whether the agent obeys the security rules and detects potential security holes, such as illegal instructions, illegal memory requirements, bearing an expired life time limit, or whose stationery server being found in a blacklist. Unfortunately, the verification process cannot find all potential dangers to the host server. It is possible that some agents are deliberately coded to damage remote servers and some are poorly coded to cause unexpected, harmful side effects. Even though the verifier can protect hosts against illegal instructions, it is not power enough to prevent denial of service attacks. For example, an agent might generate a huge number of clones to exhaust memory of the host, or it might infinitely migrate from host to host and do nothing. Such ill-behaved agents use up the host's resources or services, such as by constantly consuming network bandwidth, CPU time and memory resources, and eventually cause the server malfunction. In order to prevent such potential risks, a run-time check is required to monitor the agent's execution. We adopt limitation techniques to control the persistent survivability of mobile agents, that is, to directly control mobile agents from their dynamic behaviors during different stages of their lifecycle.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0168",
+        "source_record_id": "I827C4D78D0D7216E",
+        "title": "Implementing an Mobile Agent Platform for M-Commerce",
+        "doi": "10.1109/COMPSAC.2009.112",
+        "primary_url": "https://ieeexplore.ieee.org/document/5254151",
+        "binding": "Saved official native capture binds this title and DOI to article 5254151 and Section IV paragraph text."
+      },
+      "question": "Does the implemented platform concretely discover service providers, authenticate migrating agents, or constrain agent execution, rather than merely list these functions?",
+      "retrieved_at_utc": "2026-10-19T21:26:11.745869+00:00",
+      "original_capture_at_utc": "2026-10-02T19:27:22.997Z",
+      "access_status": "Read saved official IEEE native-body capture; only Section IV paragraphs 1-7 read for this adjudication."
+    }
+  ],
+  "C03/R0216": [
+    {
+      "evidence_id": "sec3_excerpt_1",
+      "level": "fulltext_excerpt",
+      "text": "The context manager agent (CMA) must interact with the P3P agent for producing the results of comparison between user preferences and site's privacy practices.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0216",
+        "identifier_key": "doi:10.1109/eee.2005.90",
+        "title": "Maturing e-Privacy with P3P and context agents",
+        "source_record_id": "I3E3AD853861A97BF",
+        "doi": "10.1109/EEE.2005.90",
+        "binding": "Saved official IEEE capture identifies title and DOI and matches the frozen abstract hash."
+      },
+      "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+      "retrieved_at_utc": "2026-10-02T17:26:49.072Z",
+      "read_from_saved_source_at_utc": "2026-10-19T21:30:15.732063+00:00",
+      "access_status": "read_from_previously_saved_official_publisher_excerpt",
+      "original_capture_normalization": "Read-only native DOM rendered text; whitespace collapsed in body passages. Hashes cover UTF8 capture bytes, not publisher PDF/HTTP bytes."
+    },
+    {
+      "evidence_id": "sec3_excerpt_2",
+      "level": "fulltext_excerpt",
+      "text": "Another assumption is made with regard to the policy statements on the web server side.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0216",
+        "identifier_key": "doi:10.1109/eee.2005.90",
+        "title": "Maturing e-Privacy with P3P and context agents",
+        "source_record_id": "I3E3AD853861A97BF",
+        "doi": "10.1109/EEE.2005.90",
+        "binding": "Saved official IEEE capture identifies title and DOI and matches the frozen abstract hash."
+      },
+      "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+      "retrieved_at_utc": "2026-10-02T17:26:49.072Z",
+      "read_from_saved_source_at_utc": "2026-10-19T21:30:15.732063+00:00",
+      "access_status": "read_from_previously_saved_official_publisher_excerpt",
+      "original_capture_normalization": "Read-only native DOM rendered text; whitespace collapsed in body passages. Hashes cover UTF8 capture bytes, not publisher PDF/HTTP bytes."
+    },
+    {
+      "evidence_id": "sec3_excerpt_3",
+      "level": "fulltext_excerpt",
+      "text": "A potential problem existing in the P3P Versions 1.0 and 1.1 standards concerns automating the identification of statements in a P3P policy file.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0216",
+        "identifier_key": "doi:10.1109/eee.2005.90",
+        "title": "Maturing e-Privacy with P3P and context agents",
+        "source_record_id": "I3E3AD853861A97BF",
+        "doi": "10.1109/EEE.2005.90",
+        "binding": "Saved official IEEE capture identifies title and DOI and matches the frozen abstract hash."
+      },
+      "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+      "retrieved_at_utc": "2026-10-02T17:26:49.072Z",
+      "read_from_saved_source_at_utc": "2026-10-19T21:30:15.732063+00:00",
+      "access_status": "read_from_previously_saved_official_publisher_excerpt",
+      "original_capture_normalization": "Read-only native DOM rendered text; whitespace collapsed in body passages. Hashes cover UTF8 capture bytes, not publisher PDF/HTTP bytes."
+    },
+    {
+      "evidence_id": "sec3_excerpt_4",
+      "level": "fulltext_excerpt",
+      "text": "For example, the http://www.staples.ca has a policy statement for the browsing transaction, and another policy statement for online purchasing and registration.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0216",
+        "identifier_key": "doi:10.1109/eee.2005.90",
+        "title": "Maturing e-Privacy with P3P and context agents",
+        "source_record_id": "I3E3AD853861A97BF",
+        "doi": "10.1109/EEE.2005.90",
+        "binding": "Saved official IEEE capture identifies title and DOI and matches the frozen abstract hash."
+      },
+      "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+      "retrieved_at_utc": "2026-10-02T17:26:49.072Z",
+      "read_from_saved_source_at_utc": "2026-10-19T21:30:15.732063+00:00",
+      "access_status": "read_from_previously_saved_official_publisher_excerpt",
+      "original_capture_normalization": "Read-only native DOM rendered text; whitespace collapsed in body passages. Hashes cover UTF8 capture bytes, not publisher PDF/HTTP bytes."
+    },
+    {
+      "evidence_id": "sec3_excerpt_5",
+      "level": "fulltext_excerpt",
+      "text": "During the rule matching, only one of these statements need be retrieved and matched for a particular user online activity.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0216",
+        "identifier_key": "doi:10.1109/eee.2005.90",
+        "title": "Maturing e-Privacy with P3P and context agents",
+        "source_record_id": "I3E3AD853861A97BF",
+        "doi": "10.1109/EEE.2005.90",
+        "binding": "Saved official IEEE capture identifies title and DOI and matches the frozen abstract hash."
+      },
+      "question": "Does the context/P3P mechanism enforce permissions or consent constraints, or only compare preferences and inform users?",
+      "retrieved_at_utc": "2026-10-02T17:26:49.072Z",
+      "read_from_saved_source_at_utc": "2026-10-19T21:30:15.732063+00:00",
+      "access_status": "read_from_previously_saved_official_publisher_excerpt",
+      "original_capture_normalization": "Read-only native DOM rendered text; whitespace collapsed in body passages. Hashes cover UTF8 capture bytes, not publisher PDF/HTTP bytes."
+    }
+  ],
+  "C04/R0311": [
+    {
+      "evidence_id": "sec2a",
+      "level": "fulltext_excerpt",
+      "text": "2.1. Machine-Understandable Auctions (mua)The idea of the Machine-Understandable Auction comes from the need for agents to have the ability to understand the rules and properties of auctions which they may not have seen before. Consider the following scenarios:\nAn agent may move to a new auction house and download a published specification for an auction.Individual agents may have their own libraries of mechanisms, and may swap proposed mechanisms, until agreement is reached on which one to use.Agents may engage in a phase of negotiation over the rules of the game, until agreeing on its final form. This currently happens in many human scenarios.A tailor-made mechanism may be designed by one of the agents, to fit precisely the parameters of the scenario. This type of Automated Mechanism Design has been shown to be feasible in certain cases [12], [13].All of these scenarios have a common feature: the particular mechanism proposed is likely to be novel to most of the agents who are being asked to participate in it. These agents will need to be able to understand the rules and properties of the auction to make a decision about whether or not to participate, and if participating they must determine their optimal strategy.By understanding we mean: firstly, an understanding of what the participants are allowed to do at any stage in the auction; secondly, an understanding of the game-theoretic properties of the auction.The first requirement can be met by having a standard machine-readable specification language for auction protocols. This language must allow an auction to be specified by stating the rules which participating agents must follow; this includes specifying how the winner is determined, and the price to be paid. These rules must be sufficiently rigorous to ensure that a system of agents complying with the rules will enjoy the properties which the auction was designed to have. Such a language could simply be a general purpose programming language; this would be sufficiently expressive to capture any auctions which could be implemented. However, the more general the language is (i.e. free from any constructs specific to particular auction classes), the more difficult it will be to deduce the properties of the mechanisms encoded in it. Hence the choice of language is related to the second requirement.The second requirement can be met by giving the agents some algorithms which they can use to deduce the properties of mechanisms. The types of game theoretic properties which the agents must understand include pareto efficiency, optimality of revenue, individual rationality, strategyproof-ness, etc. [10]. Two extreme solutions can be envisaged: On the one hand we could have a completely general auction language and give agents procedures which they can use to analyse an arbitrary mechanism and deduce which properties hold for it; on the other hand we could forego the auction specification language and instead provide a trusted library of specific mechanisms, annotated with a description of their properties. The first solution is not feasible computationally; the second solution precludes the possibility of using any mechanism which is not in the trusted library, hence it is too restrictive for the types of agent scenarios described above. We advocate a compromise solution: The language will be designed for certain classes of mechanisms and their properties. Once specific class of auction and desired property is chosen, the language allows the details of the particular mechanism to be specified. When parts of an auction are customisable, the desired property should still be verifiable. Furthermore, certain components of a mechanism can be specified in a trusted library, while other details can be left open and specified through the language. For example, we may have a (proven) optimal winner determination algorithm in the library, and a new mechanism may choose to use this, while specifying its own customised pricing rules.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0311",
+        "identifier_key": "doi:10.1109/iat.2006.106",
+        "title": "Realising Common Knowledge Assumptions in Agent Auctions",
+        "source_record_id": "I8229176B1C933212",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the machine-readable language substantively specify and analyze who pays whom, rather than merely mention auction pricing?",
+      "retrieved_at_utc": "2026-10-02T08:51:42.597Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.483615+00:00"
+    },
+    {
+      "evidence_id": "sec4b",
+      "level": "fulltext_excerpt",
+      "text": "4.2. Example: Two Player Double AuctionThis auction example is from Gibbons [3, p. 158]. There is one buyer and one seller. The buyer's offer price is pbp_{b} and the seller's asking price is psp_{s}. If pb≥psp_{b}\\geq p_{s} then trade occurs at price p=(pb+ps)/2p=(p_{b}+p_{s})/2, otherwise no trade occurs. We specify this mechanism with the following SMPL program. The players' valuations are drawn from independent uniform distributions on [0, 1]. Note that for automated checking we can only use integer ranges, so we replace the original type (and price) ranges of [0, 1] with the integer range 0..999. The outcome here is a tuple for each agent. ⟨⟨1,−pt⟩,⟨−1,pt⟩⟩\\langle\\langle 1, -p_{t}\\rangle, \\langle-1,p_{t}\\rangle\\rangle means that agent 1 gets (1) the item and pays −pt-p_{t} and agent 2 gives (-1) the item and receives ptp_{t}.\nM0::⎡⎣⎢⎢⎢⎢wait out1=0;in2:=1; waitout2=0pb:=out1;⋅ps=out2;pt=(pb+ps)/2⋅if pb≥psthenP:=⟨⟨1−pt⟩,⟨−1,pt⟩⟩else P⋅=⟨⟨0,0⟩,⟨0,0⟩⟩⎤⎦⎥⎥⎥⎥∥M1::[choose 0..999]∥M2::[waitin2=0;choose 0..999]\\eqalignno{\n&M_{0}::\\left[\\eqalign{\n&{\\bf wait}\\ out_{1} =0; in_{2}: =1;\\ {\\bf wait}out_{2} =0\\cr\n&p_{b}:= out_{1};\\cdot p_{s} = out_{2}; p_{t}=(p_{b}+p_{s})/2\\cdot\\cr\n&{\\bf if}\\ p_{b} \\geq p_{s}{\\bf then} P:=\\langle\\langle 1\n-p_{t}\\rangle,\\langle-1,p_{t}\\rangle\\rangle\\cr\n&{\\bf else}\\ P\\cdot=\\langle\\langle 0,0\\rangle,\\langle 0,0\\rangle\\rangle\n}\\right]\\cr\n&\\Vert M_{1}:: [{\\bf choose}\\ 0..999]\\cr\n&\\Vert M_{2}:: [{\\bf wait} in_{2}=0; {\\bf choose}\\ 0..999]}View Source\\eqalignno{\n&M_{0}::\\left[\\eqalign{\n&{\\bf wait}\\ out_{1} =0; in_{2}: =1;\\ {\\bf wait}out_{2} =0\\cr\n&p_{b}:= out_{1};\\cdot p_{s} = out_{2}; p_{t}=(p_{b}+p_{s})/2\\cdot\\cr\n&{\\bf if}\\ p_{b} \\geq p_{s}{\\bf then} P:=\\langle\\langle 1\n-p_{t}\\rangle,\\langle-1,p_{t}\\rangle\\rangle\\cr\n&{\\bf else}\\ P\\cdot=\\langle\\langle 0,0\\rangle,\\langle 0,0\\rangle\\rangle\n}\\right]\\cr\n&\\Vert M_{1}:: [{\\bf choose}\\ 0..999]\\cr\n&\\Vert M_{2}:: [{\\bf wait} in_{2}=0; {\\bf choose}\\ 0..999]}This mechanism has many BNEs. The following equilibrium gives the best expected gains for the players.\npb(vb)=23vb+112,ps(vs)=23vs+14p_{b}(v_{b})={2\\over 3}v_{b}+{1\\over 12}, p_{s}(v_{s})={2\\over 3}v_{s}+{1\\over 4}View Sourcep_{b}(v_{b})={2\\over 3}v_{b}+{1\\over 12}, p_{s}(v_{s})={2\\over 3}v_{s}+{1\\over 4}Where vbv_{b} and vsv_{s} are the valuations (types) of the buyer and seller. This gives the following strategy programs:\nStrat1::[action:=23×value+112]Strat2::[action:=23×value+14]\\eqalign{\n&Strat_{1}:: \\left [{action}: ={2\\over 3}\\times value+{1\\over\n12}\\right]\\cr\n&Strat_{2}:: \\left[{action}: ={2\\over 3}\\times value+{1\\over\n4}\\right]}View Source\\eqalign{\n&Strat_{1}:: \\left [{action}: ={2\\over 3}\\times value+{1\\over\n12}\\right]\\cr\n&Strat_{2}:: \\left[{action}: ={2\\over 3}\\times value+{1\\over\n4}\\right]}In the case of this small number (two) of players, it is clearly feasible to calculate the expected utility of taking an action, as we have a single opponent. We simply go through each of our opponent's possible types, and find the action he would take according to the specified strategy, and then we can calculate our utility from the SMPL program.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0311",
+        "identifier_key": "doi:10.1109/iat.2006.106",
+        "title": "Realising Common Knowledge Assumptions in Agent Auctions",
+        "source_record_id": "I8229176B1C933212",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the machine-readable language substantively specify and analyze who pays whom, rather than merely mention auction pricing?",
+      "retrieved_at_utc": "2026-10-02T08:51:42.597Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.483706+00:00"
+    }
+  ],
+  "C04/R0334": [
+    {
+      "evidence_id": "sec3a",
+      "level": "fulltext_excerpt",
+      "text": "A. System FrameworkSystem Setup. In this phase, the coin owner O\\mathcal{O} and the delegatee D\\mathcal{D} initialize their TEEs to provide environments for the operations with respect to the delegation.Negotiation. pms ← ParamGen(1λ): O\\mathcal{O} agrees with D\\mathcal{D} for the pre-shared information. Here, λ is a security parameter.Enclave Initiation. hdlO,hdlD←Encvlnit(1λ,pms){\\text{hd}}{{\\text{l}}_{\\mathcal{O}}},\\;{\\text{hd}}{{\\text{l}}_{\\mathcal{D}}} \\leftarrow {\\text{Encvlnit}}\\left( {{1^\\lambda },{\\text{pms}}} \\right). O\\mathcal{O} and D\\mathcal{D} initialize the enclave EO{E_{\\mathcal{O}}} and ED{E_{\\mathcal{D}}} with outputting the enclave handles hdlO{\\text{hd}}{{\\text{l}}_{\\mathcal{O}}} and hdlD{\\text{hd}}{{\\text{l}}_{\\mathcal{D}}}.Key Generation. (pkTx,skTx),(pkO,skO),keyseal←KeyGenTEE(hdlO,1λ)\\left( {{\\text{p}}{{\\text{k}}_{{\\text{Tx}}}},{\\text{s}}{{\\text{k}}_{{\\text{Tx}}}}} \\right),\\left( {{\\text{p}}{{\\text{k}}_{\\mathcal{O}}},{\\text{s}}{{\\text{k}}_{\\mathcal{O}}}} \\right),{\\text{ke}}{{\\text{y}}_{{\\text{seal}}}}\\quad \\leftarrow {\\text{KeyGe}}{{\\text{n}}^{{\\text{TEE}}}}\\left( {{\\text{hd}}{{\\text{l}}_{\\mathcal{O}}},{1^\\lambda }} \\right) and (pkD,skD),(vksign,sksign),r←KeyGenTEE(hdlD,1λ)\\left( {{\\text{p}}{{\\text{k}}_{\\mathcal{D}}},{\\text{s}}{{\\text{k}}_{\\mathcal{D}}}} \\right),\\left( {{\\text{v}}{{\\text{k}}_{{\\text{sign}}}},{\\text{s}}{{\\text{k}}_{{\\text{sign}}}}} \\right),{\\text{r}}\\; \\leftarrow {\\text{KeyGe}}{{\\text{n}}^{{\\text{TEE}}}}\\left( {{\\text{hd}}{{\\text{l}}_{\\mathcal{D}}},{1^\\lambda }} \\right). O\\mathcal{O} and D\\mathcal{D} run the enclaves EO{E_{\\mathcal{O}}} and ED{E_{\\mathcal{D}}} to create their internal keys. Key pair (pkTx,skTx) is used for transaction generation. Key pair (pkO,skO)\\left( {{\\text{p}}{{\\text{k}}_{\\mathcal{O}}},{\\text{s}}{{\\text{k}}_{\\mathcal{O}}}} \\right) and (pkD,skD)\\left( {{\\text{p}}{{\\text{k}}_{\\mathcal{D}}},{\\text{s}}{{\\text{k}}_{\\mathcal{D}}}} \\right) are used for remote assertion, while keyseal is a sealing key used to export the state to the trusted storage. Key pair (vksign,sksign) is used to identify a specific delegatee, while r is a private key for transaction encryption.Quote Generation. quote←QuoGenTEE(skO,sksign,pms):O{\\text{quote}} \\leftarrow {\\text{QuoGe}}{{\\text{n}}^{{\\text{TEE}}}}\\left( {{\\text{s}}{{\\text{k}}_{\\mathcal{O}}},{\\text{s}}{{\\text{k}}_{{\\text{sign}}}},{\\text{pms}}} \\right):\\mathcal{O} generate a quote for requesting an encrypted symmetric encryption key from D\\mathcal{D}.Key Provision. ctr←ProvisionTEE(quote,sksign,pkO,pms):O{\\text{c}}{{\\text{t}}_{\\text{r}}} \\leftarrow {\\text{Provisio}}{{\\text{n}}^{{\\text{TEE}}}}\\left( {{\\text{quote}},{\\text{s}}{{\\text{k}}_{{\\text{sign}}}},{\\text{p}}{{\\text{k}}_{\\mathcal{O}}},{\\text{pms}}} \\right):\\mathcal{O} proves D\\mathcal{D} that EO{E_{\\mathcal{O}}} has been instantiated with a quote to request an encrypted symmetric encryption key ctr.Key Extraction. r←ExtractTEE(skO,ctr):O{\\text{r}} \\leftarrow {\\text{Extrac}}{{\\text{t}}^{{\\text{TEE}}}}\\left( {{\\text{s}}{{\\text{k}}_{\\mathcal{O}}},{\\text{c}}{{\\text{t}}_{\\text{r}}}} \\right):\\mathcal{O} extracts a symmetric encryption key r from ctr using skO{\\text{s}}{{\\text{k}}_{\\mathcal{O}}}.State Retrieval. binit = DecTEE(keyseal,cinit): Encrypted states are read back by the enclave EO{E_{\\mathcal{O}}} under keyseal, where binit is the initial balance and cinit is the initial encrypted balance. This step prevents unexpected occasions that may destroy the state in TEEs memory.Coin Deposit. The enclave EO{E_{\\mathcal{O}}} generates an address and its corresponding private key pkTx for deposits. Afterwards, O\\mathcal{O} sends coins to this address in the form of fund deposits.Address Creation. addr ← AddrGenTEE(1λ,pkTx): O\\mathcal{O} calls EO{E_{\\mathcal{O}}} to generate a transaction address addr. The private key skTx of addr is secretly stored inside TEEs and is generated by an internal pseudo-random number.Coin Deposit. bdeposit = UpdateB(addr,binit): O\\mathcal{O} generates an arbitrary transaction and transfers some coins to addr as the fund deposits.Coin Delegation. In this phase, neither O\\mathcal{O} nor D\\mathcal{D} interacts with blockchain. O\\mathcal{O} can instantly complete the coin delegation through offline transactions.Signature Generation. σTx ← TranSignTEE(skTx,addr,bTx): EO{E_{\\mathcal{O}}} generates a valid signature σTx.Balance Update. bupdate ← UpdateTEE(bdeposit,bTx): EO{E_{\\mathcal{O}}} checks current balance to ensure that it is enough for deduction. Then, EO{E_{\\mathcal{O}}} updates the balance.Transaction Generation. Tx ← TranGenTEE(addr,bTx,σTx): EO{E_{\\mathcal{O}}} generates a transaction Tx using σTx.Coin Delegation. cttx ← TranEncTEE(r,Tx): O\\mathcal{O} sends encrypted transaction cttx to D\\mathcal{D}.State Seal. cupdate ← EncTEE(keyseal,bupdate): Once completing the delegation, the records cupdate are permanently stored outside the enclave. If any abort or halt happens, a reinitiated enclave starts to reload the missing information.Coin Spend. Tx ← TranDecTEE(r,cttx): D\\mathcal{D} decrypts cttx with r, and then spends Tx by forwarding it to blockchain network.Correctness. The DelegaCoin scheme is correct if the following properties hold: For all Tx, bdeposit, bupdate and bTx.Correctness of Update:\nPr[bT×≠(bdeposit−bupdate)]≤negl(λ).\\begin{equation*}\\Pr \\left[ {{{\\text{b}}_{{\\text{T}} \\times }} \\ne \\left( {{{\\text{b}}_{{\\text{deposit}}}} - {{\\text{b}}_{{\\text{update}}}}} \\right)} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}View Source\\begin{equation*}\\Pr \\left[ {{{\\text{b}}_{{\\text{T}} \\times }} \\ne \\left( {{{\\text{b}}_{{\\text{deposit}}}} - {{\\text{b}}_{{\\text{update}}}}} \\right)} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}Correctness of Seal:\nPr[DecTEE(keyseal,EncTEE(keyseal,binit))≠binit]≤negl(λ).\\begin{equation*}\\Pr \\left[ {{\\text{De}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{ke}}{{\\text{y}}_{{\\text{seal}}}},{\\text{En}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{ke}}{{\\text{y}}_{{\\text{seal}}}},{{\\text{b}}_{{\\text{init}}}}} \\right)} \\right) \\ne {{\\text{b}}_{{\\text{init}}}}} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}View Source\\begin{equation*}\\Pr \\left[ {{\\text{De}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{ke}}{{\\text{y}}_{{\\text{seal}}}},{\\text{En}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{ke}}{{\\text{y}}_{{\\text{seal}}}},{{\\text{b}}_{{\\text{init}}}}} \\right)} \\right) \\ne {{\\text{b}}_{{\\text{init}}}}} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}Correctness of Delegation:\nPr[TranDecTEE(r,TranEncTEE(r,Tx))≠Tx]≤negl(λ).\\begin{equation*}\\Pr \\left[ {{\\text{TranDe}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{r}},{\\text{TranEn}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {r,Tx} \\right)} \\right) \\ne {\\text{Tx}}} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}View Source\\begin{equation*}\\Pr \\left[ {{\\text{TranDe}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {{\\text{r}},{\\text{TranEn}}{{\\text{c}}^{{\\text{TEE}}}}\\left( {r,Tx} \\right)} \\right) \\ne {\\text{Tx}}} \\right] \\leq {\\text{negl}}\\left( \\lambda \\right).\\end{equation*}",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0334",
+        "identifier_key": "doi:10.1109/icbc51069.2021.9461112",
+        "title": "An Offline Delegatable Cryptocurrency System",
+        "source_record_id": "I5A9599B8E8C53D56",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does coin delegation enforce principal authorization or scoped permissions, or does it only secure payment transfer and prevent double spending?",
+      "retrieved_at_utc": "2026-10-02T08:15:47.985Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.483935+00:00"
+    },
+    {
+      "evidence_id": "sec6",
+      "level": "fulltext_excerpt",
+      "text": "\n                                SECTION VI.ImplementationWe implement a prototype2 with three types of entities: the owner node, the delegatee node, and the blockchain system. The owner node and the delegatee node are separately running on two computers. The codes of these nodes are both developed in C++ using the Intel® SGX SDK 1.6 under the operating system of Ubuntu 20.04.1 LTS. For the blockchain network, we adopt the Bitcoin testnet [20] as our prototype platform. Specifically, we employ SHA-256 as the hash algorithm, and ECDSA [21] with secp256k1 [22] as the initial setting to sign transactions, which is the same with Bitcoin testnet’s configuration.Functionalities. We emphasize two main functionalities in our protocol, including isolated transaction generation and remote attestation. The delegation inside TEEs has full responsibility to govern the behaviours of participants. In particular, The TEEs first calls the function sgx_create_enclave and enclave_init_ra to create and initialize an enclave EO{E_{\\mathcal{O}}}. Then, it derives the transaction key skTx under the user’s invocation. Next, it generates a transaction with calling create_address_from_string and generate_transaction. The transaction can only be generated inside the enclave without exposing to the public. Afterwards, EO{E_{\\mathcal{O}}} creates a quote by calling the function ra_network_send_receive, and proves to the delegatee that its enclave has been successfully initialized and is ready for the further delegation.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0334",
+        "identifier_key": "doi:10.1109/icbc51069.2021.9461112",
+        "title": "An Offline Delegatable Cryptocurrency System",
+        "source_record_id": "I5A9599B8E8C53D56",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does coin delegation enforce principal authorization or scoped permissions, or does it only secure payment transfer and prevent double spending?",
+      "retrieved_at_utc": "2026-10-02T08:15:47.985Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.483966+00:00"
+    }
+  ],
+  "C04/R0389": [
+    {
+      "evidence_id": "sec3a",
+      "level": "fulltext_excerpt",
+      "text": "A. Bank Module\n\nSales Agent: The agent has knowledge of all Bank products. It provides advice to clients. It performs loan amortization for the borrower agent and also collects client data for income, capital and capacity analysis.\n\nNegotiator/Liaison Agent: This agent tries to maximize the Bank's loan interest rate whilst taking into consideration the needs of the client. Checks that it only negotiates with agents with a Credit Score. It uses a queue based priority model to schedule borrower agents' negotiation. Once an agent has negotiated, it waits for the other agents to have their turns before any re-negotiations. It checks with the CRB for ratings, borrowing patterns and takes this into consideration for decision making. Once an agreement is reached, the negotiation agent presents all details to the Credit Approval agent which scrutinizes and reserves the right to grant or deny the loan.\n\nFigure 2 Agent Diagram\n\nShow All\n\nFigure 3: System Workflow\n\nShow All\n\nCredit Risk Agent: This agent uses some (data mining/credit risk) techniques (to estimate profitability and looks overly at all the business to prevent losses). It checks and rechecks with the CRB and confirms the advice from the Negotiator Agent. It approves or disapproves a loan. It passes the details to the payment module for loan disbursement.\n\nCRB Agents: Authentication Agent/Logging Agent. This agent performs authentication to all the functions of the CRB. It checks the agents for registration or subscription to the CRB. It registers the Bank and Borrower clients for the CRB Services. It provides access to the database and logs events.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0389",
+        "identifier_key": "doi:10.1109/icdma.2011.38",
+        "title": "A Two-Phase Trust and Reputation Based Multi-Agent System (MAS) e-Loan Negotiation System",
+        "source_record_id": "I97D188EA9D6F6ADA",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the proposed system actually select suitable bank products and implement trust evaluation or agent negotiation, rather than merely motivate these functions?",
+      "retrieved_at_utc": "2026-10-02T08:34:31.958Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.484108+00:00"
+    },
+    {
+      "evidence_id": "sec3b",
+      "level": "fulltext_excerpt",
+      "text": "B. Virtual Market Agents\n\nMarket Regulator Agent: Registers all agents that participate at the market. New agents are registered only if they provide the required data and have no record of bad conduct. Bad conduct here means wanting to talk to other Borrower agents as they negotiate. The agents should work in a strictly Non Co-operative way. This agent is a norms enforcer. It keeps all the other agents under surveillance. It reduces the internal trust ratings of agents that break regulations.\n\nBorrower Agent: This agent registers to perform any activity at the market. It provides the required information in its totality. This agent registers with the CRB for credit rating. The Borrower agent has a choice to check with all the Bank's sales teams for products before the decision to buy or negotiate while keeping track of the Bank offering products suiting its needs. It enters into negotiation with the Bank for a favorable interest rate and repayment terms. Keeps records of previous activity",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0389",
+        "identifier_key": "doi:10.1109/icdma.2011.38",
+        "title": "A Two-Phase Trust and Reputation Based Multi-Agent System (MAS) e-Loan Negotiation System",
+        "source_record_id": "I97D188EA9D6F6ADA",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the proposed system actually select suitable bank products and implement trust evaluation or agent negotiation, rather than merely motivate these functions?",
+      "retrieved_at_utc": "2026-10-02T08:34:31.958Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.484132+00:00"
+    },
+    {
+      "evidence_id": "sec4",
+      "level": "fulltext_excerpt",
+      "text": "SECTION IV.\nMethodology and Implementation\n\nA number of agent development methodologies have been proposed by the agent research community. Among them are Gaia, Gaia2, MaSE, Prometheus and ROADMAP [9]. A lack of support tools are hindering the extensive use of agent methodologies. Our system has been modeled based on MASE approach due to its concrete processes and simplicity. We identified agent goals, roles and classes. The three separate and autonomous modules that comprise our system are Banks, Credit Reference Bureau and the Virtual Marketplace. Each one of the modules is run separately and has its own regulatory framework.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0389",
+        "identifier_key": "doi:10.1109/icdma.2011.38",
+        "title": "A Two-Phase Trust and Reputation Based Multi-Agent System (MAS) e-Loan Negotiation System",
+        "source_record_id": "I97D188EA9D6F6ADA",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the proposed system actually select suitable bank products and implement trust evaluation or agent negotiation, rather than merely motivate these functions?",
+      "retrieved_at_utc": "2026-10-02T08:34:31.958Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.484156+00:00"
+    },
+    {
+      "evidence_id": "sec6",
+      "level": "fulltext_excerpt",
+      "text": "SECTION VI.\nTechnologies\n\nThe project is implemented in the Java Language. JADE is used as the distributed agent middleware platform. The latest (at the time) current version of JADE version 4.0 “Two-in One” is used as the agent development platform.\n\nOntologies for agent actions, terms and concepts between or among our agents were developed with the use of the Bean Ontology class.\n\nThe Java Server Pages technology is used as the web interface development tool. Oracle RDBMS was used as the persistence end for data storage.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0389",
+        "identifier_key": "doi:10.1109/icdma.2011.38",
+        "title": "A Two-Phase Trust and Reputation Based Multi-Agent System (MAS) e-Loan Negotiation System",
+        "source_record_id": "I97D188EA9D6F6ADA",
+        "same_version_basis": "Saved native IEEE body capture is bound to the same article number, title and DOI; no alternate manuscript used."
+      },
+      "question": "Does the proposed system actually select suitable bank products and implement trust evaluation or agent negotiation, rather than merely motivate these functions?",
+      "retrieved_at_utc": "2026-10-02T08:34:31.958Z",
+      "access_status": "saved_primary_body_read",
+      "read_at_utc": "2026-10-19T21:33:32.484180+00:00"
+    }
+  ],
+  "C05/R0411": [
+    {
+      "evidence_id": "sec3a",
+      "level": "fulltext_excerpt",
+      "text": "A. Consensus modelA good model should have the following attributes: can effectively describe consultations; can describe the dynamic characteristics of consultations, support the learning ability of Agent. The computing resources that are needed in the consultation process needs are limited. Based on the above design objectives, this paper gives the single-to-many negotiation model, a framework structure is as follows:\nFig. 4. Model frameworkShow All\nOne important feature of this model is the introduction of the resource center idea in the consensus model and stressed the important role of the resources in automatic consultations and make full use of consultations themselves and other function modules on the commerce platform which is related to consultation and the important resources in the entire e-commerce operation network environments, then analyze, filter and re-integrate those resources. Then apply the resources selectively on the decision management and many other important sessions of the automatic consultation. In order to guide consultation better and to lower costs, increase efficiency and shorten the time.Pool resources in accordance with the different contents of resources can be divided into commodity information base, knowledge base, case base and rule base. The commodity information base mainly stores basic information of commodity which are connected with enterprise ERP. The knowledge base stores the consultation experience of Agent and records the action and strategy of the entire consultation process. Through the study of the knowledge base can make timely adjustments in the process of consultation. And achieve the goal of consensus better. Examples base stores commodities' consultations examples; the rule base stores the rules and related concept of the entire consultation process.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0411",
+        "identifier_key": "doi:10.1109/icect.2009.78",
+        "title": "Consultation Mechanism in Multi-agent System Based on J2EE",
+        "source_record_id": "I3319291D85CDA1B0",
+        "primary_url": "https://ieeexplore.ieee.org/document/4796025/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "Which messages, acceptance/counterproposal rules and user inputs are defined by the consultation model?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T07:41:07.301Z",
+      "section": "sec3a"
+    },
+    {
+      "evidence_id": "sec3c",
+      "level": "fulltext_excerpt",
+      "text": "C. Model framework structural designThe two major aspects of the framework design: first, establish the interaction mechanism between consultation Agent and the user, so that we will be able to more accurately and effectively extract user's preference for consultation objects and other binding, and construct ability function according to the user's preference; Secondly, consultations Agent uses utility function to evaluate the suggestion proposed by the other side and uses it self's negotiation strategy to decide to accept, reject or offer a counter-proposal. It repeats until both sides accept or one side abandons and leaves, the entire consultation process was as follows:\nFig. 6. Consultations flowchartShow All\nIn this model, the buyer Agent needs the seller Agent to consulate. The seller responds the buyer's consultation request by founding seller's consultation. After the buyer founded the buyer's agent int consulate environment, meanwhile it would found matching consultation process according to related seller's parameters in the environment. In the consultative process, the buyer and the seller consultation process consulate according to the users' Agent which they represented. After finishing this, they will return the consultation result to the corresponding father Agent. The buyer and the seller evaluate the result s returned by the strategy consultation process, and decide to choose which process' result based on its own consltation to complete the deal.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0411",
+        "identifier_key": "doi:10.1109/icect.2009.78",
+        "title": "Consultation Mechanism in Multi-agent System Based on J2EE",
+        "source_record_id": "I3319291D85CDA1B0",
+        "primary_url": "https://ieeexplore.ieee.org/document/4796025/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "Which messages, acceptance/counterproposal rules and user inputs are defined by the consultation model?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T07:41:07.301Z",
+      "section": "sec3c"
+    }
+  ],
+  "C05/R0471": [
+    {
+      "evidence_id": "sec4_p0",
+      "level": "fulltext_excerpt",
+      "text": "An agent is a software program that acts flexibly on behalf of its principals to achieve particular objectives.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0471",
+        "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+        "title": "A framework for integrated negotiation support system",
+        "source_record_id": "I553A9428AD9BB304",
+        "primary_url": "https://ieeexplore.ieee.org/document/1380683/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "What human-facing assistance, final approval authority and coordinated inter-agent negotiation steps does the framework specify?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T18:02:39.998Z",
+      "section": "#sec4 p[index=1] normalized UTF16[0,111)"
+    },
+    {
+      "evidence_id": "sec4_p1",
+      "level": "fulltext_excerpt",
+      "text": "Negotiation: let's consider an example and suppose the negotiation between agent A and agent B . The first offer was agent A to agent B without additional services. The complete negotiation progress can be described as follows: O A 1 =(<price,500>, O B 1 =(<price,600>, O A 2 =(<price,525>, O B 2 =(<price,575>, O A 3 =(<price,525>, O B 3 =(<price,575>, O A 4 =(<pric e 2 550>, O B 4 =(<price,550>, (<delivery time,20> <quality,high>),void) (<delivery time,25> <quality,high>),void) (<delivery time,20> <quality,high>),void) (<delivery time,20> <quality,high>),void) (<deiivery time,20> <quality,high>),void) (<delivery time,20> <quality,high>),<warranty,3−year >) (<delivery time,20> <quality,high>),<warranty,2−year>) (<deiivery time,20> <quality,high>),<warranty,2−year>) View Source",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0471",
+        "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+        "title": "A framework for integrated negotiation support system",
+        "source_record_id": "I553A9428AD9BB304",
+        "primary_url": "https://ieeexplore.ieee.org/document/1380683/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "What human-facing assistance, final approval authority and coordinated inter-agent negotiation steps does the framework specify?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T18:02:39.998Z",
+      "section": "#sec4 p[index=10]"
+    },
+    {
+      "evidence_id": "sec4_p2",
+      "level": "fulltext_excerpt",
+      "text": "In O B 3 agent B provided the additional service, namely 3-year warranty. And in O A 4 agent A proposed 2-year warranty. Agent B in O B 4 accepted the proposal and they made an agreement.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0471",
+        "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+        "title": "A framework for integrated negotiation support system",
+        "source_record_id": "I553A9428AD9BB304",
+        "primary_url": "https://ieeexplore.ieee.org/document/1380683/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "What human-facing assistance, final approval authority and coordinated inter-agent negotiation steps does the framework specify?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T18:02:39.998Z",
+      "section": "#sec4 p[index=11]"
+    },
+    {
+      "evidence_id": "sec4_p3",
+      "level": "fulltext_excerpt",
+      "text": "Figure 2 shows the instances of one-to-may negotiation. One agent can negotiate with many other agents. One party consists of a coordinating agent and a number of sub-agents. All sub-agents represent the preferences and constraints of the same party, but they can use different negotiation strategies. When sub-agents make an agreement and then coordinating agent can inform negotiators of the negotiation outcome, only the negotiators have the decision-making power to determine which agreement should be accepted. Certainly, the negotiators may also use the decision-support functions of negotiation support system to determine which agreement is the best.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0471",
+        "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+        "title": "A framework for integrated negotiation support system",
+        "source_record_id": "I553A9428AD9BB304",
+        "primary_url": "https://ieeexplore.ieee.org/document/1380683/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "What human-facing assistance, final approval authority and coordinated inter-agent negotiation steps does the framework specify?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T18:02:39.998Z",
+      "section": "#sec4 p[index=19]"
+    }
+  ],
+  "C05/R0498": [
+    {
+      "evidence_id": "sec3",
+      "level": "fulltext_excerpt",
+      "text": "SECTION III.\nUsing Policy-based Techniques to Price Ubiquitous Network Services\n\nPolicies have been used as a means of implementing flexible and adaptive systems for the management of Internet services, distributed and security systems [7]–​[9]. Later on, policy-based network management (PBNM) received even more attention due to the fact that policies are considered an enabler of the autonomic networking paradigm [10]–​[11].\n\nAs defined in [7], policies are rules governing the behaviour of a system. As in any rule-based system, one of the major issues is the detection and resolution of the conflicts. A policy conflict occurs when the conditions of two or more policy rules that apply to the same set of managed objects are simultaneously satisfied, but the actions of two or more of these policy rules conflict with each other. A model to deal with policy conflicts has been proposed in [12] and has been used in the core of an autonomic networking environment proving to be functionally correct and computationally efficient [13]. This approach may be used in our pricing context problem. In fact, a user may have policies to drive her access to the network services, whereas different service providers may also have different pricing policies to promote the use of their respective resources. The final outcome will be the result of solving a likely conflicting situation between the user's policies and the service providers' policies.\n\nA different issue arises considering the policy deployment problem. A policy-based managed system (i.e. a pricing system) may be constituted by many different components and these components need to be driven by different enforceable policies that globally ensure a given system behaviour. Even in systems where only a few tenths of policies need to be deployed it would be almost impossible to design these policies independently and guarantee at the same time global system behaviour. Therefore a procedure, also known as policy generation and refinement, is needed that coming from a high level goal assists the policy designer to systematically derive system enforceable policies. In that area is worthy to mention the work of Rubio et al. [14] that was later formulated as a holistic refinement approach and validated in a QoS management environment [11]. This approach could be clearly adopted for the definition of pricing policies.\n\nFrom a complementary point of view, pricing policies for a network providing ubiquitous services can then be defined using the policy management paradigm, so that when a potential client “walks” into the coverage area of a provider's Base Station (BS) a basic exchange can inform the client about the active policies for accessing the network facilities. Policies may include price structures (tariffs), security restrictions (who is allowed in), and resource allocation schemes (e.g. bandwidth). The potential client (more specifically: an agent on her behalf) would analyze those policies which will be expressed on open format (XML) and standard technologies; (see for example [9], [15]) and decide whether she would like to use the offered services, which should match the user's profile preferences.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0498",
+        "identifier_key": "doi:10.1109/icoin.2014.6799688",
+        "title": "Policy-based pricing for pervasive services in future heterogeneous wireless access networks",
+        "source_record_id": "I45D8559E0D439576",
+        "primary_url": "https://ieeexplore.ieee.org/document/6799688/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "Does the proposed scheme specify provider suitability selection, payment calculation and user preference input?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T08:09:14.952Z",
+      "section": "sec3"
+    },
+    {
+      "evidence_id": "sec4",
+      "level": "fulltext_excerpt",
+      "text": "SECTION IV.\nHow Our Scheme May Work?\n\nFor our user-oriented pricing scheme to work, one of the important criteria are operators publishing the distinct services/application profiles on offer with their associating features at different QoS levels. This information is part of a knowledge plane that allows communication between connected networks [16]. Along with that, it is important for the operators to also publish the corresponding cost of accessing those services [1] as explained earlier in this paper. Interested users looking for accessing one or more of those published services, in the context of the ‘as and when required’ connectivity vision, can then choose from multiple options based on their requirements as specified in their profiles. This is in contrast to the existing scenario where users, bound by a prepaid or long-term service agreement with a particular operator (unless carrying a phone with multiple SIM cards), at any time, are mostly limited to a fixed set of inflexible choices offered by that operator. In cases where users carry a multi-SIM phone, choices increase but that comes at the cost of dealing with different operators. Also, phones with multiple SIM cards are more expensive. Moreover, when selecting operators for service agreements it is often few of the key metropolitan or wide area network operators that users choose from. Services offered by small or less known wide area network operators as well as most of the hotspot operators (and even femtocell operators) generally remain unknown to the users. So, bound by such inflexible service agreements, possibilities remain that users miss out on using suitable and less expensive services offered by those operators.\n\nA key requirement in this context is how the users will come to know of the different services and their corresponding tariffs that operators are offering? In line with our earlier discussion, we assume that the different base stations and access points governed by different operators periodically broadcast the individual services and their corresponding tariffs for potential customers to know about them and decide accordingly. This could be particularly useful for urban and suburban environments where users can have multiple different options to choose from for a specific service requirement. Imagine a situation where a user sitting on a café on a busy urban street wants to log in to Skype for an urgent video chat. As far as the tariff goes for that service, there could be multiple different options (3G, 4G, WiMAX, WiFi etc) to choose from offered by different service providers. On knowing the user's requirements, the software agent sitting on the user's handheld device can quickly scan the environment around (i.e., the broadcasted signals from different base stations and access points), select the best option to connect to and then connect automatically. So the user does not have to select manually from the different options. The user can then utilize the service as per individual requirements. The agent can keep track of the usage and calculate the payment value that can be paid on the spot (spot payment) or afterwards to the service operator depending on the preferred payment options.\n\nAs figure 1 (adopted from [17]) illustrates, several BSs and Access Points (AP) are sharing the same infrastructure location and possibly some systems as well. The abilities to offer different access technologies allows the BSs and APs to offer different access services to specific targets, widening the potential number of customers. Different users equipped with different types of terminals that are under the coverage area of the shared service space select the most appropriate one, among the different BSs and APs, for their required service. Thus, the integration of heterogeneous wireless access network technologies allow multimode wireless devices, equipped with multiple interfaces, to use appropriate networks that meet their service and cost requirements in any location and under any context circumstance.\n\nMost of the existing and future cellular technologies including WiMAX and LTE support multimedia broadcast services by means of which the base stations of these technologies are able to broadcast multimedia traffic to large user communities. While WiMAX supports the Multicast and Broadcast Service (MBS), Multimedia Broadcast and Multicast Services (MBMS) is the specification for the same service in 3GPP networks (LTE and LTE-Advanced) [18]–​[19].\n\nFig. 1. Envisioned Multi-Provider/Multi-Technology Access Services Scenario\n\nShow All\n\nUsers activate the desired profile (several may be configured for the device) when attempting to obtain networking services. The device-resident software agent will check the requirements and price ranges allowed for the active profile (see Fig. 1, lower right-hand side comer) and compare that with the tariffs broadcasted by the potential network providers before making an automatic decision. For our work we assume that aided by this broadcasting facility, along with the multimedia broadcasts, the different network operators enable the base stations in different locations to periodically advertise the list of services on offer and their tariffs to the existing and potential customers. Services on offer and their broadcasts could vary between operators and the underlying network technologies and may purely depend on the different policies pre-set by individual operators [20]. It may also happen that different base stations using the same underlying technology but controlled by different operators may broadcast different services and tariffs depending on individual policies. Policies may be based on different factors. The following is a list selected from our review of the relevant literature and it is a starting point for the definition of our proof-of-concept scenarios:\n\nType of services offered (example: high speed multimedia or simple email),\n\nType of traffic flow (example: data only or voice only or both),\n\nTime of the day the service is offered (example: very busy/medium busy/not busy hours),\n\nLocation of the particular base station offering the service (example: located on a very busy urban area or on a quiet suburb),\n\nDay/date the service is offered (example: let's say operator A offering reduced rate multimedia traffic to its customers within a certain time every Sunday),\n\nLayered charging for users to choose from (example: let's say operator B offering best quality multimedia services to its customers at a very high speed but at a relatively high price compared to what operator C is offering for a less speedy service),\n\nLoad of base stations (example: a heavily loaded base station can refrain from broadcasting any service and tariffs),\n\nHistory of user/customer profiles (example: operators can keep a log of previous temporary customer IDs and maintain individual customer profiles based on the service the customer had available before so that next time when the same customer logs in a discounted rate could be offered),\n\nPopularity of a service (example: a popular service liked by customers may have lower pricing structure compared to other services in order to attract more customers).",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0498",
+        "identifier_key": "doi:10.1109/icoin.2014.6799688",
+        "title": "Policy-based pricing for pervasive services in future heterogeneous wireless access networks",
+        "source_record_id": "I45D8559E0D439576",
+        "primary_url": "https://ieeexplore.ieee.org/document/6799688/",
+        "binding_basis": "Source-specific saved native capture matches DOI/title and frozen abstract."
+      },
+      "question": "Does the proposed scheme specify provider suitability selection, payment calculation and user preference input?",
+      "retrieved_at_utc": "2026-10-19T21:37:55.585326+00:00",
+      "access_status": "read_saved_same_version_primary_body",
+      "original_capture_at_utc": "2026-10-02T08:09:14.952Z",
+      "section": "sec4"
+    }
+  ],
+  "C07/R0624": [
+    {
+      "evidence_id": "sec3c",
+      "level": "fulltext_excerpt",
+      "text": "The two major aspects of the framework design: first, establish the interaction mechanism between consultation Agent and the user, so that we will be able to more accurately and effectively extract user's preference for consultation objects and other binding, and construct ability function according to the user's preference; Secondly, consultations Agent uses utility function to evaluate the suggestion proposed by the other side and uses it self's negotiation strategy to decide to accept, reject or offer a counter-proposal. It repeats until both sides accept or one side abandons and leaves, the entire consultation process was as follows:\n\n\nShow All\n\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0624",
+        "identifier_key": "doi:10.1109/isip.2008.111",
+        "title": "Research on a Consultation Mechanism of Third Party E-Commerce Platform",
+        "source_record_id": "IBB8E322B1FD60124",
+        "primary_url": "https://ieeexplore.ieee.org/document/4554112/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the consultation model specify offer/counteroffer interaction rules and user preference input?",
+      "retrieved_at_utc": "2026-10-02T19:39:25.877Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "sec3a",
+      "level": "fulltext_excerpt",
+      "text": "A good model should have the following attributes: can effectively describe consultations; can describe the dynamic characteristics of consultations, support the learning ability of Agent. The computing resources that are needed in the consultation process needs are limited. Based on the above design objectives, this paper gives the single-to-many negotiation model. A framework structure is as follows:\n\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0624",
+        "identifier_key": "doi:10.1109/isip.2008.111",
+        "title": "Research on a Consultation Mechanism of Third Party E-Commerce Platform",
+        "source_record_id": "IBB8E322B1FD60124",
+        "primary_url": "https://ieeexplore.ieee.org/document/4554112/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the consultation model specify offer/counteroffer interaction rules and user preference input?",
+      "retrieved_at_utc": "2026-10-02T19:39:25.877Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "sec3d",
+      "level": "fulltext_excerpt",
+      "text": "Here we choose the evaluation results based on knowledge to particularize.\n\nAssuming a buyer user which has a target preference value (0.6,0.8,0.6) enters the e-commerce consultation environment to buy commodities named product1, in the current environment a business selling the commodity. Therefore, the current supply and demand ratio is 1, the seller's agent target preference value is (0.2,0.9,0.4), the current period of validity is one year. According to the consultation process model, the user's consultation process is as follows:\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0624",
+        "identifier_key": "doi:10.1109/isip.2008.111",
+        "title": "Research on a Consultation Mechanism of Third Party E-Commerce Platform",
+        "source_record_id": "IBB8E322B1FD60124",
+        "primary_url": "https://ieeexplore.ieee.org/document/4554112/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the consultation model specify offer/counteroffer interaction rules and user preference input?",
+      "retrieved_at_utc": "2026-10-02T19:39:25.877Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    }
+  ],
+  "C07/R0654": [
+    {
+      "evidence_id": "payoff1",
+      "level": "fulltext_excerpt",
+      "text": "An effective incentive mechanism plays an important role in constructing a fair and efficient HFL system due to the fact that the preprocessing of data, model training, and transmission at edge IoT devices all need cost meanwhile free-riding edge IoT devices are ubiquitous and they always hope to obtain higher returns by free-riding methods while saving the cost as much as possible. According to Fig. 1, the incentive process of the HFL assisted by the untrusted MEC server can be described as follows: the cloud platform of the SP initializes and publishes the learning tasks. Edge IoT devices set the payment that the SP should pay to them, based on their local data size, data distribution, and capacity in terms of computation and communication. Then, edge IoT devices broadcast their payment to the cloud platform, which selects the set of IoT devices to participate in FL and determines the payment for participated edge IoT devices.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0654",
+        "identifier_key": "doi:10.1109/jiot.2023.3277553",
+        "title": "DRL-Based Secure Aggregation and Resource Orchestration in MEC-Enabled Hierarchical Federated Learning",
+        "source_record_id": "I8A74D7A9AD48827E",
+        "primary_url": "https://ieeexplore.ieee.org/document/10129163/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Who sets and receives the payment, and what device/server interaction process is designed?",
+      "retrieved_at_utc": "2026-10-02T08:16:17.801Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "payoff2",
+      "level": "fulltext_excerpt",
+      "text": "Payoff Model of Edge IoT Devices: It is assumed that edge IoT devices are trusted, which means that edge IoT devices either may not participate in the learning process by contributing zero data size at the \nt\n th edge iteration but they do not inject poisonous data into its local data, or contribute training data with the highest quality instead of participating in local training using low-quality and noiseless data, to avoid the phenomenon that updating the fall local model degrades the accuracy of the aggregated model.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0654",
+        "identifier_key": "doi:10.1109/jiot.2023.3277553",
+        "title": "DRL-Based Secure Aggregation and Resource Orchestration in MEC-Enabled Hierarchical Federated Learning",
+        "source_record_id": "I8A74D7A9AD48827E",
+        "primary_url": "https://ieeexplore.ieee.org/document/10129163/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Who sets and receives the payment, and what device/server interaction process is designed?",
+      "retrieved_at_utc": "2026-10-02T08:16:17.801Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    }
+  ],
+  "C07/R0680": [
+    {
+      "evidence_id": "section1",
+      "level": "fulltext_excerpt",
+      "text": "To address limitations in traditional middleware-based IoRT systems with tight coupling, static configurations, and a lack of semantic understanding, we propose a framework that embeds MCP components across the IoRT system. Fig. 1 provides a comprehensive view of the complete system architecture, demonstrating the coordination and interaction among all framework components. At the infrastructure layer, each sensor or actuator can optionally be paired with an MCP server. Perception elements are registered as resources, while actuation functions are exposed as tools. Middleware functions can be also encapsulated via MCP, enabling semantic access to otherwise specific protocol operations. Upper-layer services can utilize their own MCP servers to define reusable prompts for common workflows. The MCP Host provides a centralized, LLM-based orchestration interface, allowing for system-wide semantic interaction. Although MCP integration introduces flexibility and modularity, middleware remains essential for real-time data routing and low-latency control. Therefore, the proposed architecture supports coexistence between MCP and conventional middleware, with deployment strategies determined by specific application requirements. The advantages brought by MCP in IoRT are as follows:",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section2",
+      "level": "fulltext_excerpt",
+      "text": "1) Modular Interoperability: Devices, services, or components can be encapsulated into MCP modules by implementing the MCP client/server interface. This promotes uniformity in packaging and invocation.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section3",
+      "level": "fulltext_excerpt",
+      "text": "To evaluate the semantic orchestration capabilities of MCP in an IoRT context, we deployed MCP servers both in the DTB device and the user side for workflow, as shown in Fig. 2(b) and (d). Notably, we did not deploy a MCP server in the cloud backend, as the focus was to validate end-to-end task composition between user operations and edge devices via MCP.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section4",
+      "level": "fulltext_excerpt",
+      "text": "The context and key components of the use case demonstration: (a) device/service configuration and MCP integration within the scenario; (b) MCP server configuration for DTB devices; (c) dialog interface of the environment adjustment workflow, with detailed context shown in other subfigures; (d) example MCP server configuration for services; (e) natural language workflow returned to the MCP host; (f) end-to-end workflow execution process; (g) time consumption statistics for different workflows and steps.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section5",
+      "level": "fulltext_excerpt",
+      "text": "On DTB, the MCP server exposes the following resources and tools:",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section6",
+      "level": "fulltext_excerpt",
+      "text": "resource://iot/devices provides the online devices for reference for LLM parsing.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section7",
+      "level": "fulltext_excerpt",
+      "text": "get_device_state(device_id) provides real-time environmental data, and returns it in JSON structure.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section8",
+      "level": "fulltext_excerpt",
+      "text": "control_device(device_id, operation) and enable control of the switches for the environmental regulator, the operation can be chosen as one of the following: \ntemperature_up\n, \ntemperature_down\n, \nfan_open\n, \nfan_close\n.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "section10",
+      "level": "fulltext_excerpt",
+      "text": "We conducted two sets of experiments in different scenarios to further validate the advantages of MCP integration, specifically its support for modular device/service access and the decoupling of data sources from service logic.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0680",
+        "identifier_key": "doi:10.1109/miot.2025.3615709",
+        "title": "Enabling Modular and Intelligent IoRT Systems: Integrating the Model Context Protocol for Semantic Decoupling at the Edge",
+        "source_record_id": "I90945B8890D71EA5",
+        "primary_url": "https://ieeexplore.ieee.org/document/11235950/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the prompt path implement human-facing workflow control rather than only internal prompts?",
+      "retrieved_at_utc": "2026-10-02T08:25:39.318Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    }
+  ],
+  "C07/R0690": [
+    {
+      "evidence_id": "postal1",
+      "level": "fulltext_excerpt",
+      "text": "A. Smart Postal Agent Service\n\nThe Smart Postal Agent Service is the core component in the smart postal system. It is able to query the UPS for user's detailed contact information based on limited information, typically the user names; it receives from the mobile handheld. For instance, after receiving the names of the sender and receiver from the mobile handheld, the SPAS relays them to the UPS, where the names are resolved into detailed contact information, e.g. the addresses, emails, telephone numbers, etc. from both sender and receiver. By consolidating the detailed contact information it receives from the UPS and other communication properties like required delivery time, the weight of the parcel, the current location of the parcel, extra media, etc. it receives from the mobile handheld, the SPAS is able to calculate the tariff of the current parcel and transfer transaction related information to the PS for execution. The SPAS is capable to send notification to both the sender and the receiver. When the receiver gets the parcel, he can touch the parcel with his NFC enabled mobile handheld. The mobile handheld will send a message to the SPAS to confirm that the parcel arrives at its destination. The SPAS then based on request, sends a “parcel has been received” notification back to the sender. Moreover, the SPAS is responsible to deposit and query the RCS to/for user's detailed contact information and communication properties based on an RFID.\n\nFigure 1. Smart Postal System Architecture\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0690",
+        "identifier_key": "doi:10.1109/nfc.2010.9",
+        "title": "NFC Enabled Smart Postal System",
+        "source_record_id": "IACEDAFDDB7B05F14",
+        "primary_url": "https://ieeexplore.ieee.org/document/5476466/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the postal agent manage delivery and receipt states, and how do the stated payment and identity services operate in that workflow?",
+      "retrieved_at_utc": "2026-10-02T08:38:14.605Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "postal2",
+      "level": "fulltext_excerpt",
+      "text": "D. Payment Service\n\nThe PS is responsible for charging the cost of the parcel based on several criteria, the distance, the weight of the parcel, the type of the parcel and the way of transmission, etc. The payment could be deducted from pre-paid account or charged to a mobile or bank account directly. An GUI was provided for reviewing the summary of the payment.\n\nFigure 2. Mobile Postal Application Building Blocks\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0690",
+        "identifier_key": "doi:10.1109/nfc.2010.9",
+        "title": "NFC Enabled Smart Postal System",
+        "source_record_id": "IACEDAFDDB7B05F14",
+        "primary_url": "https://ieeexplore.ieee.org/document/5476466/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the postal agent manage delivery and receipt states, and how do the stated payment and identity services operate in that workflow?",
+      "retrieved_at_utc": "2026-10-02T08:38:14.605Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    },
+    {
+      "evidence_id": "postal3",
+      "level": "fulltext_excerpt",
+      "text": "IV. Scenarios\n\nIn order to further dive into the smart postal system, three different scenarios, mail preparation, mail distribution and mail reception, will be illustrated.\n\nA. Mail Preparation\n\nUser “S” is going to send a parcel to User “R”. After touching the RFID enabled smart stamp, the handheld “S” 1) sends the retrieved RFID identity and its own mobile identity to the SPAS. The SPAS will then 2) check with the RCS whether the received RFID is new or currently in use. In case of a new RFID that is not in use, the SPAS requires the handheld “S” to 3) submit the source name, the destination name and communication properties. After receiving those information, the SPAS 4) queries the UPS to resolve the source and destination names into a detailed contact information of both the sender and the receiver including telephone numbers, email addresses, physical addresses and so on. Here the physical addresses of the sender and the receiver are not necessarily to be their home addresses. In case they are on vocation outside the country for a long period, their temporary “mobile” addresses will be used in the smart postal system system. Therefore the parcel will eventually arrive at a person no matter where he is. The detailed contact information is sent back to the SPAS in an XML format or any other similar format. The SPAS integrates communication properties into the XML file and 5) deposits it together with the RFID into the RCS. Optionally the SPAS will send a message to User “R” (the message could be an SMS or email) saying “User S is going to send you a parcel” based on personal settings. The message flow is shown in Figure 4.\n\nFigure 4. Scenario: Mail Preparation Message Flow\n\nShow All\n\nB. Mail Distribution\n\nDuring delivery of the parcel, the smart postal system updates the parcel's location and arrival time and optionally sends a message back to User “S” and/or User “R” based on personal settings. The message flow is shown in Figure 5. When the parcel arrives in the first RFID and sensor enabled device “D”, the device “D” 1) sends the detected RFID, the device ID, the weight and the location of the parcel to the SPAS. By checking the device ID, the SPAS recognizes the message is coming from a valid distributor. Then the SPAS 2) queries the detailed communication information from the RCS based on the received RFID. It 3) sends payment related information to the PS for execution of the mobile payment for this delivery of this parcel. Finally the SPAS 4) 5) sends a message to User “S”, e.g. “The cost of the delivery is 2.3 euros and the parcel is currently in location X …”\n\nFigure 5. Scenario: Mail Distribution Message Flow\n\nShow All\n\nC. Mail Reception\n\nWhen User “R” receives the parcel, he touches the smart stamp with his NFC enabled mobile handheld. It could be considered as putting his signature on the receipt of the parcel. The handheld “R” 1) sends the RFID and its mobile identity to the SPAS. The SPAS 2) resolves the RFID into communication information. It verifies whether the received mobile identity is equal to the mobile identity of the User “R”. In case there are events, extra media, etc. defined in the communication properties inside the XML file, the SPAS 3) sends them back to the handheld “R”, where events get executed and extra media gets displayed. Optionally a notification message, e.g. “the parcel arrives at the destination” 4) is sent back to the handheld “S”. The message flow is shown in Figure 6.\n\nFigure 6. Scenario: Mail Reception Message Flow\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0690",
+        "identifier_key": "doi:10.1109/nfc.2010.9",
+        "title": "NFC Enabled Smart Postal System",
+        "source_record_id": "IACEDAFDDB7B05F14",
+        "primary_url": "https://ieeexplore.ieee.org/document/5476466/",
+        "binding": "Saved official IEEE capture matches DOI/title and source record"
+      },
+      "question": "Does the postal agent manage delivery and receipt states, and how do the stated payment and identity services operate in that workflow?",
+      "retrieved_at_utc": "2026-10-02T08:38:14.605Z",
+      "local_read_at_utc": "2026-10-19T21:48:07.137871+00:00",
+      "access_status": "read_from_saved_official_fulltext_capture"
+    }
+  ],
+  "C09/R0812": [
+    {
+      "evidence_id": "saved_body_1",
+      "level": "fulltext_excerpt",
+      "text": "Users are allowed to customize their preferred charging destination, start time, and energy allocation of each charge by inputting their preferences into the smart charging bidding systems on their phones. And users’ smart phones are connected with the auctioneer and charging stations through appropriate communication methods and Internet-of-Things services. User \nj\n only needs to input the energy demand \nSo\nC\nj,k\n and the start time \ns\nt\nj,k\n at their preferred station \nk∈\nK\nj\n into the system, and her bid \nb\nω\nj,k\n=⟨s\nt\nω\nj,k\n,f\nt\nω\nj,k\n,\np\nω\nj,k\n⟩\n for station \nk\n can be automatically generated (\nf\nt\nω\nj,k\n=s\nt\nω\nj,k\n+\nSo\nC\nj,k\nE\nj\nR\nk\n ). Besides, users can attach their bidding price \np\nω\nj,k\n on each bid, and a proxy software agent will bid automatically and monitor the process such that users do not need to stay online and bid manually. User, of course, can flexibly adjust the parameters such as the charging destination, the energy allocation for this station and the start time for each charge. It is noteworthy that generating feasible bids at several stations by smart devices has to satisfy the following constraints on energy and time:",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0812",
+        "identifier_key": "doi:10.1109/tits.2021.3075202",
+        "title": "A Simultaneous Multi-Round Auction Design for Scheduling Multiple Charges of Battery Electric Vehicles on Highways",
+        "source_doi": "10.1109/TITS.2021.3075202",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion"
+      },
+      "question": "Does preference elicitation involve a designed human-facing input or intervention interface rather than only simulated agent preferences?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T07:23:24.408Z",
+      "access_status": "read_saved_official_body_excerpt"
+    },
+    {
+      "evidence_id": "saved_body_2",
+      "level": "fulltext_excerpt",
+      "text": "The results of SMRA are compared with the centralized model of HMCSP. The efficiency, information revelation, penetration level and running time of these two methods are tested for three different groups of problem instances and two different increments \nε\n . To guarantee the optimality of solutions, the centralized model is coded in ILOG Optimization Programming Language (OPL) and solved by IBM ILOG CPLEX Optimizer 12.6.3 as optimization engine. The auction process is coded in Java (Eclipse IDE 2019-09), with which its winner determination is solved by ILOG CPLEX. All experiments are carried out in a desktop with a processor of Intel(R) Core(TM) i7-4790U CPU @3.60GHz, 16GB memory.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0812",
+        "identifier_key": "doi:10.1109/tits.2021.3075202",
+        "title": "A Simultaneous Multi-Round Auction Design for Scheduling Multiple Charges of Battery Electric Vehicles on Highways",
+        "source_doi": "10.1109/TITS.2021.3075202",
+        "source_version": "Current official IEEE Xplore article record; same identifier as frozen export; no alternate-version assertion"
+      },
+      "question": "Does preference elicitation involve a designed human-facing input or intervention interface rather than only simulated agent preferences?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T07:23:24.408Z",
+      "access_status": "read_saved_official_body_excerpt"
+    }
+  ],
+  "C09/R0851": [
+    {
+      "evidence_id": "sec2b-p1",
+      "level": "fulltext_excerpt",
+      "text": "Double auction scheme enables multiple buyers and sellers to decide simultaneously and independently how much to bid or ask in the auction through specific decision-making rules without knowing the strategies of others. It should be noted that there exist slight differences in auction terminologies in related references. For example, the authors use terminologies asks for sellers and bids for buyers in [3], [39], while in [12], [21] the sellers’ price is called as reservation price; in [25], [28] sellers offer what they are willing to sell, and buyers bid for what they need to buy; while in [24], bids and asks are not only referring to prices but also quantities. For the sake of clarity in this article, bids and asks are only referring to prices, and we will use bidding price (pip_{i}\n) to represent the bidibid_{i}\n or askiask_{i}\n, and quantity (qiq_{i}\n) to represent the sis_{i}\n or bib_{i}\n of agent ii\n in some equations for simplification.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0851",
+        "identifier_key": "doi:10.1109/tsg.2020.3042190",
+        "title": "A Community Sharing Market With PV and Energy Storage: An Adaptive Bidding-Based Double-Side Auction Mechanism",
+        "source_doi": [
+          "10.1109/TSG.2020.3042190"
+        ],
+        "source_version": "Official IEEE Xplore saved native HTML for the same DOI and article number"
+      },
+      "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T10:11:30.041Z",
+      "access_status": "read_saved_official_body_excerpt"
+    },
+    {
+      "evidence_id": "sec4c-p1",
+      "level": "fulltext_excerpt",
+      "text": "An empirical method means agents predict the supply and demand on the past values by searching historical data, which has been applied in [3], [15]. In this work the empirical prediction is performed by averaging the previously recorded prices from past similar weather days. Based on the PV production percentage (of the full clear-sky generation) during a day, the historical data could be classified into three groups: i) above 70%, ii) between 30% and 70%, and iii) below 30%. It’s worth noting that when enough data is available, the group numbers can be increased to consider more features, such as temperature, holiday, etc. Therefore the spot price estimation can be obtained as:P∗=∑d=1n(ωd⋅P∗.d)(26)\\begin{equation*} P_{*}=\\sum _{d=1}^{n}{\\left ({\\omega _{d}\\cdot P_{*.d} }\\right)}\\tag{26}\\end{equation*}\nView Source\\begin{equation*} P_{*}=\\sum _{d=1}^{n}{\\left ({\\omega _{d}\\cdot P_{*.d} }\\right)}\\tag{26}\\end{equation*}\n where ωd\\omega _{d}\n is a weighing factor of the most recent nn\n similar days, which can be selected based on personal preference, market fluctuations, and weather similarity. P∗.dP_{*.d}\n is the spot prices set of day dd\n. Similarly, the historical successful bidding prices set PiP_{i}\n can also be calculated by this method. The empirical method learns from the historical spot price as well as the historical successful bidding prices, then in the empirical bidding, the bid/ask can be conducted as:Pemp=Pi+β⋅(P∗−Pi)(27)\\begin{equation*} P_{emp}=P_{i}+\\beta \\cdot \\left ({P_{*}-P_{i}}\\right)\\tag{27}\\end{equation*}\nView Source\\begin{equation*} P_{emp}=P_{i}+\\beta \\cdot \\left ({P_{*}-P_{i}}\\right)\\tag{27}\\end{equation*}\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0851",
+        "identifier_key": "doi:10.1109/tsg.2020.3042190",
+        "title": "A Community Sharing Market With PV and Energy Storage: An Adaptive Bidding-Based Double-Side Auction Mechanism",
+        "source_doi": [
+          "10.1109/TSG.2020.3042190"
+        ],
+        "source_version": "Official IEEE Xplore saved native HTML for the same DOI and article number"
+      },
+      "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T10:11:30.041Z",
+      "access_status": "read_saved_official_body_excerpt"
+    },
+    {
+      "evidence_id": "sec4d-p1",
+      "level": "fulltext_excerpt",
+      "text": "In the previous subsection, we introduced the empirical bidding and greedy bidding. In practice, following the empirical method usually underestimates the winning price, because there is always a gap between the successful bidding and the final spot price. Greedy bidding usually provides a higher estimation than the empirical bidding, however, this aggressive behavior might decrease the bidding success rate due to price matching failure. To bridge the gap, we propose an adaptive mixture strategy to help agents provide bidding prices.Pmix=Pr(Ξ)Pgreedy+(1−Pr(Ξ))Pemp(29)\\begin{equation*} P_{mix}=Pr\\left ({\\Xi }\\right)P_{greedy} + \\left ({1-Pr\\left ({\\Xi }\\right)}\\right)P_{emp} \\tag{29}\\end{equation*}\nView Source\\begin{equation*} P_{mix}=Pr\\left ({\\Xi }\\right)P_{greedy} + \\left ({1-Pr\\left ({\\Xi }\\right)}\\right)P_{emp} \\tag{29}\\end{equation*}\n where Pr(Ξ)Pr(\\Xi)\n is a probability that the greedy method provides a better bids/asks than the empirical method in the previous round. The mixture model can provide better bids/asks when the greedy bidding outperforms the empirical bidding. When the greedy bidding strategy doesn’t have a good accuracy, the agent can choose empirical bidding to ensure a success. Fig. 4 depicts the overall process of the proposed adaptive bidding strategy. As per Fig. 4, for agent i{i}\n in round t{t}\n, given a dataset consisting of historical trading records, bidding and market response, it first constructs the supply and demand forecasts in the empirical and LSTM sets. Then through a proper choice of the bidding strategy (29), the agent finally decides its bidding price at time t{t}\n. After the agent submits its bidding price into the auction market and the new market response occurs, this pair will be recorded and added to the historical dataset. The mixture model aggregates the merits of these two estimators and provides a better estimation. We will compare these bidding strategies in the case study.\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0851",
+        "identifier_key": "doi:10.1109/tsg.2020.3042190",
+        "title": "A Community Sharing Market With PV and Energy Storage: An Adaptive Bidding-Based Double-Side Auction Mechanism",
+        "source_doi": [
+          "10.1109/TSG.2020.3042190"
+        ],
+        "source_version": "Official IEEE Xplore saved native HTML for the same DOI and article number"
+      },
+      "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T10:11:30.041Z",
+      "access_status": "read_saved_official_body_excerpt"
+    },
+    {
+      "evidence_id": "sec5-p1",
+      "level": "fulltext_excerpt",
+      "text": "The developed sharing market is evaluated with a case study of 10 agents within a community in Austin, Texas, from May 30 to July 11, 2016 (6 weeks) [44]. Agents 1–7 are PV prosumers and agents 8–10 are pure consumers. It is assumed that all agents are equipped with a 3 kWh battery storage system. In this article the energy charge is set to be 9 ¢/kWh [45], and the buy-back rate is set to be 6 ¢/kWh [33]. The PV, load, and netload curves of the 10 agents within the first week are plotted in Fig. 5. It is noted that due to the proximity of agents, the solar power generation profiles are similar and only vary in magnitude. For each individual agent, the load and netload profiles vary greatly from one household to another, and this is due to the different consumption behavior. However, the aggregated community netload is rather consistent.\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0851",
+        "identifier_key": "doi:10.1109/tsg.2020.3042190",
+        "title": "A Community Sharing Market With PV and Energy Storage: An Adaptive Bidding-Based Double-Side Auction Mechanism",
+        "source_doi": [
+          "10.1109/TSG.2020.3042190"
+        ],
+        "source_version": "Official IEEE Xplore saved native HTML for the same DOI and article number"
+      },
+      "question": "Does spot-price determination establish a payment/transfer rule beyond bid prediction and market clearing?",
+      "retrieved_at_utc": "2026-10-19T21:57:20.445220+00:00",
+      "original_capture_at_utc": "2026-10-02T10:11:30.041Z",
+      "access_status": "read_saved_official_body_excerpt"
+    }
+  ],
+  "C10/R0903": [
+    {
+      "evidence_id": "section-001-01",
+      "level": "fulltext_excerpt",
+      "text": "SECTION II.\nProblem Formalization\n\nThe general description of our task allocation problem assumes there are M candidate tasks \nI={\nT\n1\n.….\nT\nM\n }, where each \nT\ni\n is composed of several subtasks \n{S\nT\ni\n1\n,…,S\nT\ni\nk\ni\n}\n. The overall payment of a task, \np(\nT\ni\n), is predefined and known to all and no inter-task payment transfer is allowed. Moreover, by definition, the task payments need to be fully paid out for their completion. However, the partitioning of the task payment among its subtasks is not predetermined, but will be set as part of the task allocation process. Here a task is considered to have been completed if all its subtasks have been executed.\n\nFor the completion of these tasks, a set of agents, \nA={\nA\n1\n,…,\nA\nN\n, is given. Each of these agents have capabilities to perform multiple subtasks (where some overlapping of different agents' capabilities is assumed). Here, we assume these capabilities to be known to all participating agents and the central manager. However, as the subtasks should be carried out simultaneously, we assume that each agent is capable of performing only one subtask at a time.3 Note, that given the dependency on the resource constraints and the reward structures, perhaps not all the tasks will be executed.\n\nIn this paper we assume the agents' capabilities are known to all, including the central manager, but the central manager can only assign subtasks to those agents that have indicated their willingness to perform them. Therefore, an agent may strategize by choosing which of the subtasks it is willing to undertake and by manipulating their corresponding declared costs. Note that in doing so agents may use the information they have about the other agents' capabilities and their cost distributions as we define below. Here, we assume the agents to be characterized by a quasi-linear utility function which is defined as the difference between the payment an agent receives and its cost to perform the particular subtask.\n\nFormally, a knowledge capability function \n(φ)\n) that is known to all agents and the central manager is assumed, where \nφ(\nA\nj\n,S\nT\nij\n)\n) equals one if agent \nA\nj\n is capable of performing subtask \nS\nT\nil\n and otherwise zero. Using this function, we summarize each agent's capabilities by \nΨ\nj\n=\n: \n[S\nT\ni\nl\n|φ(\nA\nj\n,S\nT\ni\nl\n)=1}\n. Conversely, for any subtask \nS\nT\ni\nl\n there is a set of agents capable of completing it, \nΩ\nj\nl\n={\nA\nj\n|φ(\nA\nj\n,S\nT\ni\nl\n)=1\n. Moreover, each agent \nA\nj\n incurs a private cost for performing a given subtask \nS\nT\nj\ni\n,\nc\nj\ni\n taken from a common distribution \nF\ni\nj\n in the range of \n⌈\nθ\ni\nl\n,\nθ\n¯\n¯\n¯\ni\nl\n.\n\nAn allocation \nΦ\n is defined as a match between some of the agents and some of the subtasks, \nΦ={(\nA\ni\n1\n,S\nT\ni\n1\n1\n, ),…,(\nA\ni\nn\n,S\nT\ni\nn\nm\n,)}\n. Here \nΦ\nT\n indicates the set of tasks allocated by \nΦ(\nΦ\nT\n⊂I)\n, An allocation Φ is feasible, if and only if it satisfies three conditions:\n\nC1 Each agent in \nΦ\n is allocated at most one subtask (see footnote 3).\n\nC2 Any task is either fully allocated (one agent per subtask) or it is unallocated.\n\nC3 For each task \nT\ni\n∈\nΦ\nT\n, the total cost for the agents to perform its constituent subtasks does not exceed the task's total payment \np(\nT\ni\n)\n.\n\nAs discussed in the introduction, we seek to find an efficient allocation. To this end, we define the value of an allocation \nΦ, V(Φ)\n, to be the difference between the total payments of the allocated tasks and the total cost for the assigned agents to perform the corresponding subtasks, \nV(Φ)=\n∑\nT∈\nΦ\nT\np(T)−\n∑\n(\nA\nj\n,S\nT\ni\nl\n)∈Φ\nc\nj\ni\nl\n. The feasible allocation with the highest value is considered to be the efficient allocation \nΦ\neff\n. Consequently, the efficiency of any proposed allocation \nΦ\n is measured relative to \nΦ\neff\n as: \nefficiency(Φ)=\nV(Φ)\nV(\nΦ\neff\n)\n.\n\nNext we present a formal description of the problem we are trying to solve using an integer program. Specifically, we will examine this problem in a number of different cases as discussed in the Introduction. The variables \nyi\n. and \nx\nj\ni\nl\n are decision variables where \ny\ni\n=1\n if task \nT\ni\n is chosen to be allocated and otherwise zero, and \nx\nj\nj\nl\n=1\n if agent \nA\nj\n is chosen to perform subtask \nS\nT\ni\nj\n, and otherwise zero:\nΦ\neff\n=\nmax\ny\ni\n,\nx\nj\ni\nl\n(\n∑\ni=1\nM\ny\ni\n⋅p(\nT\ni\n)−\n∑\nj=1\nN\n∑\nS\nT\ni\nl\n∈\nΨ\nj\nx\nj\ni\nl\n⋅\nc\nj\ni\nl\n)\nsuch that:\n∑\nS\nT\ni\nl\n∈\nΨ\nj\nx\nj\ni\nl\n≤1,∀j∈1,…,N\n∑\nj∈\nΩ\ni\nl\nx\nj\ni\nl\n=\ny\ni\n,∀i∈1,…,M, and l∈1,…,\nk\ni\nx\nj\ni\nl\n,\ny\ni\n∈{0,1}∀i∈1,…,M,∀l∈1,…,\nk\ni\n,∀j∈\nΩ\ni\nl\n(1)\n(2)\n(3)\n(4)\nView Source\nwhere equations 2 and 3 correspond to C1 and C2, respectively. Note that condition C3 is implicitly achieved by the definition of \nΦ\nef\nf\n4\n4",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0903",
+        "identifier_key": "doi:10.1109/wi-iat.2012.152",
+        "title": "Efficient Complex Tasks Allocation within Agents Environment of Known Capabilities",
+        "official_url": "https://ieeexplore.ieee.org/document/6511585",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I72E2F4E0F2A5C1B5/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does the allocation protocol determine how task payments are divided among subtask-performing agents, beyond treating payment as an exogenous budget?",
+      "retrieved_at_utc": "2026-10-02T08:27:59.602Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    },
+    {
+      "evidence_id": "section-001-02",
+      "level": "fulltext_excerpt",
+      "text": "A. The Priority Protocol for the SHS Setting\n\nFor the SHS setting we developed the priority protocol which is Bayesian Nash incentive compatible (Theorem 3) and has a polynomial complexity (Theorem 2). Moreover, the allocation's value returned by the priority protocol is very close to the efficient one as demonstrated by our extensive experimental evaluation.\n\nIn principle, according to this protocol, the central manager asks agents to report their costs for each of the subtasks. Next, the central manager ranks the subtasks with respect to each agents' reported costs so that a priority vector is generated per agent where lower costs are associated with higher priorities. Given this set of priority vectors, the central manager finds the allocation that maximizes the agents' total priority (subject to their individual ranking). This allocation necessarily allocates all subtasks of all tasks. Otherwise, by allocating the unallocated subtasks to the remaining agents (there are more agents than subtasks and they are capable of performing any subtask), one can increase the sum of priorities. Specifically, this allocation can be solved by performing the maximum weighted matching algorithm in a bipartite graph, \nG\npriority\n=(\nV\n1\n,\nV\n2\n,E)\n, where \nV\n1\n represents the set of subtasks, \nV\n2\n corresponds to the set of agents in \nA\n. Each \nA\nj\n∈\nV\n2\n is connected by an edge to each \nST∈\nV\n1\n where the edge's weight corresponds to \nA\nj\n \n′\ns\n priority to perform subtask \nST\n. Full details of the protocol appear in Figure 1. Next, we present some properties of the priority protocol that hold for the SHS setting.\n\nFigure 1. The Priority protocol.\n\nShow All\n\nTable I Agents’ Capabilities and Costs in Proof of Theorem 5.\n\nTheorem 2:\n\nThe priority protocol is polynomial.\n\nTheorem 3:\n\nThe priority protocol is Bayesian Nash incentive compatible.\n\nHowever, as we prove next, this protocol is not strategy-proof. The reason for this is that if an agent had known the other agents' declarations, it could have increased its utility by manipulating its reported costs.\n\nTheorem 4:\n\nThe priority protocol is not strategy-proof.\n\nTheorem 5:\n\nThe priority protocol is not efficient.\n\nEven though the priority protocol does not always return the efficient solution (Theorem 5), as our experimental results show, the protocol's efficiency is very high (see Figure 2 and Figure 3). Before describing these experiments, we begin by justifying the design of these experiments. In particular, we prove, in the next proposition, that only the total number of subtasks within a given allocation problem affects its efficiency level, while the specific way in which the tasks are divided into subtasks has no affect on the resulted efficiency level. Namely, the efficiency of an allocation problem with one task that consists of 15 subtasks, or three tasks, each consisting of 5 subtasks, or five tasks, each consisting of 3 subtasks, are all the same.\n\nTheorem 6:\n\nThe efficiency of the priority protocol is not affected by the particular division of tasks into subtasks.\n\nGiven Theorem 6, it is sufficient to consider one task and to increase its number of subtasks for the protocol's experimental evaluation. Indeed, for the following experiments we set the allocation problem to include one task while the number of subtasks varies. Moreover, we set the number of agents to be equal to the total number of subtasks. We drew the agents' costs to perform each of the subtasks from a uniform distribution over [0]–[100], and we set the task's payment to be equal to the sum of its subtasks' upper bound costs.6\n\nFigure 2. The priority protocol efficiency as a function of the total number of subtasks\n\nShow All\n\nFigure 3. The priority protocol efficiency as a function of the agent's number\n\nShow All\n\nFigure 2 illustrates the efficiency level achieved by the priority protocol (y axis) as a function of the total number of subtasks in the allocation problem (x axis). The results show that the priority protocol's efficiency7 increases with the total number of subtasks. Moreover, even for a small allocation problem with only twenty subtasks (which is equal to an allocation problem with four tasks each including five subtasks), the efficiency achieved exceeds 99%.\n\nUnfortunately as the ratio between the number of agents and the total number of subtasks increases, the protocol performances decrease as demonstrated in Figure 3. For this figure, the total number of subtasks is set at 20 while the rest of the parameters were chosen in the same manner as those used for Figure 2. Despite the drop in the efficiency, we see that even for a small setting8 (with a total number of 20 subtasks) the efficiency is still over 96% even in the case where the number of agents is six times larger than the overall number of subtasks.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0903",
+        "identifier_key": "doi:10.1109/wi-iat.2012.152",
+        "title": "Efficient Complex Tasks Allocation within Agents Environment of Known Capabilities",
+        "official_url": "https://ieeexplore.ieee.org/document/6511585",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I72E2F4E0F2A5C1B5/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does the allocation protocol determine how task payments are divided among subtask-performing agents, beyond treating payment as an exogenous budget?",
+      "retrieved_at_utc": "2026-10-02T08:27:59.602Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    }
+  ],
+  "C10/R0912": [
+    {
+      "evidence_id": "section-001-01",
+      "level": "fulltext_excerpt",
+      "text": "SECTION 2.\nDefects of the Will in Electronic Contracting through Software Agents\n\nAmong the different types of error, the one that will most likely occur in situations of declaration issued by intelligent software agents is the so-called “error on the object of the negotius”. This is supported by the developments in where the representation of incomplete information and the reasoning based on partial assumptions is studied, using the representation of null values to characterize abnormal or exceptional situations. The identification of null values emerges as a strategy for the enumeration of cases, for which one intends to distinguish between situations where the answers are known (true or false) or unknown [2]. It will be considered two types of null values: the former will allow the representation of unknown values, not necessarily taken from a given set of values, and the later will represent unknown values, taken from a given set of possible values. Consider the following as a case study to show some examples of how null values can be used to represent unknown situations. In what follows it will be considered the extensions of the predicates that denote some of the properties inherited by an agent, aiming at a measure of its awareness. This may be formally stated in terms of the predicate error-on-the-object-of-negotiation (eon for short), in the form:\neon:time−period×object−of−negotiation\nView Source\nwhere the arguments stand for themselves. In terms of the extension of predicate eon this may be stated as follows:\n\nSECTION Program 1\nThe extended logic program for error-on-the-object of negotiation (eon for short) with respect to January\n\ni.e. with respect to the computational model it were considered extended logic programs with two kinds of negation, classical negation \n¬\n and default negation not. Intuitively, not \np\n is true whenever there is no reason to believe \np\n, whereas \n¬p\n requires a proof of the negated literal. An extended logic program (program, for short) is a finite collection of rules r of the form\np←\np\n1\n∧…∧\np\nn\n   ∧not\nq\n1\n∧…∧not\nq\nm\n(n,m≥0\nView Source\nwhere the \np\ni\n, \nq\nj\n, and \np\n are classical ground literals, i.e. either positive atoms or atoms preceded by the classical negation sign \n¬\n [3]. These extended logic programs or theories that will be also represented as evolutionary logic programs or theories, stand for the population of candidate solutions to model the universe of discourse. Indeed, in our approach, we will not get a solution to a particular problem, but rather model the universe of the discourse of the agent. Is there a reason for an annulation of the contract? If the contract had been celebrated and concluded between human people there could be a reason for annulation. What then in the case of a contract celebrated by software agents? The issue of incidental error must be considered.\n\nDefinition 1: Extended Logic Program\n\nThe knowledge in an agent's knowledge base is made of logic clauses of the form \nr\nk\n:\np\ni+j+1\n←\np\n1\n∧\np\n2\n∧…∧\np\ni−1\n∧not\np\ni\n∧…∧not\np\ni+j,\n where \ni,j,k\n belong to the set of natural numbers, \np\n1,…pi+j\n are literals, i.e. a formula of the form \np\n or \n¬p\n, where \np\n is an atom, and where \nr\nk\n, not, \np\ni+j+1\n, and \np\n1\n∧\np\n2\n∧…∧\np\ni−1\n∧not \np\ni\n∧…∧\np\ni+j\n stand, respectively, for the clause's identifier, the negation-by-failure operator, the rule's consequent, and the rule's antecedent. If \ni=j=0\n the clause is called a fact and is represented as \nr\nk\n:\np\n1\n. An Extended Logic Program (ELP for short) is seen as a set of clauses, as given by the definition being referred to above.\n\nDefinition 2: Agent Knowledge Base\n\nAn Agent Knowledge Base (AKB) is taken from an ordered theory \nOT=(T,<,(S,≺))\n, where \nT,>,S\n and \n≺stand\n, respectively, for an AKB in clausal form, a noncircular ordering relation over such clauses, a set of priority rules, and a non-circular ordering relation over such rules.\n\nDefinition 3: Argument\n\nAn argument (i.e. a proof, or series of reasons in support or refutation of a proposition) or arguments have their genesis on mental-states seen as a consequence of the proof processes that go on unceasingly at the agent's own knowledge about its states of awareness, consciousness or erudition.\n\nDefinition 4: Meta Theorem Problem Solver for an Universe of Discourse with Incomplete Information\n\nA meta theorem problem solver in this context is given by the signature demo: \nT,V←{true,false}\n, which infers the valuation \nV\n of a theorem \nT\n in terms of the logical constants of false, true and unknown, according to the following set of productions:\ndemo(T,true)←T.demo(T,false)←¬T.demo(T,unknown)←notT,not¬T.\nView Source\n\nThe concept of unknown/incomplete information is connected to that of null values. These elements are atoms that represent abstract concepts with no particular definition, i.e. elements which have a well-defined (or even non-defined) range of values have valid options.\n\nDefinition 5: Negotiation Argument with an Implicit Meta Theorem Problem Solver\n\nTaking ordered theory OT, a negotiation argument is a finite, non-empty sequence of rules of the form \n⟨\nr\n1\n,…,demo(\nr\ni\n,\nV\ni\n),…,\nr\nn\n⟩\n such that, for each rule \nr\nj\n with \np\n as a part of the antecedent, there is a sequence rule \nr\ni\n(i<j)\n on which the consequent is \np\n.\n\nThe conclusion of an argument relates to the consequent of the last rule used in that same argument. Formally, one may have:\n\nDefinition 6: Argument Conclusion\n\nThe conclusion of an argument \nA\n1\n=⟨\nr\n1\n,…,\nr\nn\n⟩,conc(\nA\n1\n)\n, is the consequent of the last rule \n(\nr\nn\n)\n.\n\nBy composing an argument with rules or facts that spawn from local knowledge (e.g. previous experiences), the attack or counter-argument launched by other agent's during the meeting is conditioned (due to the fact that local knowledge is hard to deny). Taking into account the two forms of argument attack (conclusion denial and premise denial), a conflict amongst two agents (e.g. against/favour a specific proposal) can be formally specified in the form:\n\nDefinition 7: Conflict/Attack over Arguments\n\nLet \nA\n1\n=⟨\nr\n1,1\n,…,\nr\n1,n\n⟩\n be the argument of agent 1 and \nA\n2\n=⟨\nr\n2,l\n,…,\nr\n2,m\n⟩\n be the argument of agent 2. Then,\n\nif \nr\n1,i\n∈\nA\n1\n or \nr\n2,j\n∈\nA\n2\n are local, the arguments are said to be in “probable conflict”;\n\nA\n1\n attacks \nA\n2\niff \nA\n1\n executes a conclusion denial attack or a premise denial attack over \nA\n2\n;\n\nA\n1\n executes a conclusion denial attack over \nA\n2\n iff (if and only if) there is no local knowledge involved and \nconc(\nA\n1)\n is contrary to conc \n(\nA\n2)\n;\n\nA\n1\n executes a premise denial attack over \nA\n2\n iff there is no local knowledge involved and \nconc(\nA\n1\n)\n is contrary to some \nr\n2,j\n∈\nA\n2\n.\n\nHaving in mind the use of rational agents, a proper definition of coherency must be formulated:\n\nDefinition 8: Argument Coherency\n\nAn argument \nA\n1\n=⟨\nr\n1\n,…,\nr\nn\n⟩\n is said to be “coherent” iff\n¬\n∃\nai,aj\n \na\ni\n,\na\nj\n∈subarguments(A)∧i≠j:\na\ni\n attacks \na\nj\n.\nView Source\nTaking into account the definition of conflict/attack and the concept of evolution of the decision it is possible to logically define the victory/defeat pair.\n\nDefinition 9: Victory/Defeat of Arguments\n\nLet \nA\n1\n=⟨\nr\n1,1\n,…,\nr\n1,n\n⟩\n be the argument of agent 1 and \nA\n2\n=⟨\nr\n2,1\n,…\nr\n2,m\n⟩\n be the argument of agent 2 and \nA\n2\n is presented after \nA\n1\n. Then, \nA\n1\n is defeated by \nA\n2\n (or \nA\n2\n is victorious over \nA\n1\n )iff\n\nA\n2\n is coherent and \nA\n1\n is incoherent;\n\nA\n2\n is coherent, executes a conclusion denial attack over \nA\n1\n (coherent) and the conclusion rule of \nA\n2\n is prioritary (taking into account the OT theory) over \nA\n1\n;\n\nA\n2\n is coherent, executes a premise denial attack over \nA\n1\n (coherent) and the conclusion rule of \nA\n2\n is prioritary (taking into account the OT theory) over \nA\n1\n.\n\nDefinition 9: Priority Clauses\n\nPriority clauses, which are embedded in the KB of each agent, are rules of the form \nPRIO:\nr\nk\n:priority(\nK\ni\n,\nK\nj\n)\n where \nK\ni\n and \nK\nj\n represent different knowledge classifications and \nr\nk\n is the rule identification.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0912",
+        "identifier_key": "doi:10.1109/wi-iatw.2006.74",
+        "title": "Formal Models in Web Based Contracting",
+        "official_url": "https://ieeexplore.ieee.org/document/4053311",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I9C33F78B8EDF3EEC/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does information quality measure counterparty or source trust, or only logical knowledge fitness; what concrete agent interaction rules are formalized?",
+      "retrieved_at_utc": "2026-10-02T08:35:06.906Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    },
+    {
+      "evidence_id": "section-001-02",
+      "level": "fulltext_excerpt",
+      "text": "SECTION 3.\nThe Computational Model\n\nMost evolutionary computation problems are well defined, and quantitative comparisons of performance among the competing entities are straightforward [3] [4] [5]. In our approach, the learning procedure is based on evolution and is built on a quantification process of the quality of information that stems from a logic program or theory. This may be stated as follows: let \ni ( i ∈{1,…,m})\n denote the predicates whose extensions make an extended logic program or theory, and j \n(j∈{1,…,n})\n the attributes for those predicates [2]. Let \nx\nj\n∈[\nmin\nj\n, \nmax\nj\n]\n be a value for attribute j. To each predicate it is also associated a scoring function \nV\nij\n:[\nmin\ni\n,\nmax\ni\n]→[0,1]\n, that gives the score predicate i assigned to a value of attribute j in the range of its acceptable values, i.e. its domain (for the sake of simplicity, scores are kept in the interval [0, 1]). The next element of the model to be considered, it is the relative importance that a predicate assigns to each of its attributes under observation, i.e \nw\nij\n stands for the relevance of attribute j for predicate i (it is also assumed that the weights of all predicates are normalized \n(\n∑\n1≤j≤n\nw\nij\n=1∀i)\n. With this material in mind, it is now possible to define a predicate's scoring function, i.e a value \nx=(\nx\n1\n,…,\nx\nn\n)\n in the multi-dimensional space defined by the attributes domains, may be given in the form \nV\ni\n(x)=\n∑\n1≤j≤n\nw\nij\n×\nV\nij\n(\nx\nj\n)\n. It is therefore possible to measure the quality of the information that stems from a logic program or theory, by posting the \nV\ni\n(x)\n values into a multi-dimensional space, whose axes denote the logic program predicates, with a numbering ranging from 0 (at the center) to 1 (Figure 1), where the dashed area stands for the quality of information that springs from an extended logic program or theory P, built on the extension of five predicates, here named as \np\n1\n…\np\n5\n. For example, let us now consider the case referred to above (that of contracting upon an erroneous conviction of the agent). For the sake of simplicity it will be considered only three predicates, namely those denoting the object-of-the-negotiation (obn for short), the error-on-the-person-of-the-declare (eop for short), and the error-on-the-object-of-negotiation (eon for short), whose extensions with respect to a well defined time period, namely that goes through January to April, are given as the set of axioms shown in Program 1. In terms of the predicate eop the assemblage is given by Program 2. It is now possible, using the learning procedure referred to above, to quantify the quality of information that stems from the agent knowledge base at a specific point in time, i.e. one may evolve the logic program or theory that models the universe of discourse of the agent, in which fitness is judged by one criterion alone, the quality of information (Figure 2).\n\nThe mental states of the agent, with respect to the months of February and March and April, are obtained in the same way, although are not explicitly represented, for a lack of space.\n\nFigure 1 A measure of the quality-of-information for logic program or theory P\n\nShow All\n\nSECTION Program 2\nThe extended logic program for error-on-the-person-of-the-declare (eop for short) with respect to January\n\nSECTION Program 3\nThe extended logic program for object-of-negotiation (obn for short) with respect to January\n\nFinally, and to predicate obn, one has:\n\nFigure 2 A measure of the quality of information that drivens the contracting processes in January\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0912",
+        "identifier_key": "doi:10.1109/wi-iatw.2006.74",
+        "title": "Formal Models in Web Based Contracting",
+        "official_url": "https://ieeexplore.ieee.org/document/4053311",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I9C33F78B8EDF3EEC/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does information quality measure counterparty or source trust, or only logical knowledge fitness; what concrete agent interaction rules are formalized?",
+      "retrieved_at_utc": "2026-10-02T08:35:06.906Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    }
+  ],
+  "C10/R0925": [
+    {
+      "evidence_id": "section-001-01",
+      "level": "fulltext_excerpt",
+      "text": "A. System Composition\n\nThe FIPA ontology service specification [4] deals with technologies enabling agents to manage explicit, declaratively represented ontologies. An ontology service for a community of agents is specified for this purpose. It is required that the service be provided by a dedicated agent, called an Ontology Agent (OA), whose role in the community is to provide some or all of the following services: ①discovery of public ontologies in order to access them, ②maintain (for example, register with the DF, upload, download, and modify) a set of public ontologies, ③translate expressions between different ontologies and/or different content languages, ④respond to query for relationships between terms or between ontologies, and, ⑤facilitate the identification of a shared ontology for communication between two agents.\n\nIn the system, there are three roles, some OAs, several ordinary agents and DF as registration center. A DF provides a yellow pages directory service to agents [5]. It is the trusted, benign custodian of the agent directory. It is trusted in the sense that it must strive to maintain an accurate, complete and timely list of agents. It is benign in the sense that it must provide the most current information about agents in its directory on a nondiscriminatory basis to all authorized agents.\n\nThis paper applies the method into web service discovery mechanism. With the help of OAs, the method can effectively improve the efficiency of discovery.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0925",
+        "identifier_key": "doi:10.1109/wicom.2008.2627",
+        "title": "Web Service Discovery Based on the Cooperation of UDDI and DF",
+        "official_url": "https://ieeexplore.ieee.org/document/4680816",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I9480C5E5CE68465E/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does the proposed UDDI/DF mechanism specify inter-agent message and role interactions beyond invoking agent technology for discovery?",
+      "retrieved_at_utc": "2026-10-02T08:33:36.392Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    },
+    {
+      "evidence_id": "section-001-02",
+      "level": "fulltext_excerpt",
+      "text": "B. The workflow of DF registry\n\nThere are four arrows in Figure 1, ①All agents must register with DF, no matter. ②Agent sends query service request to DF. ③DF responds listing the details of the appropriate OAs registered. ④Agents. communicate with each other with the help of Ontology. The dotted line in Figure 1 describes the main function of OAs, which is maintaining shared ontology.\n\nFigure 1. Process of DF registry\n\nShow All\n\nAs part of this registration process a number of constant values are introduced which universally identify the ontology services. The service-description object registered with the DF must include the following parameters (see Table II).\n\nTABLE II. Parameters of the service-description object registered with the DF\nParameter\tDescription\ntype\tmust be declared as a fipa-oa service\nontology\tmust include the constant FLPA-Ontol-Service-Ontology, which identifies the set of actions that can be requested to be performed by an OA\nproperties\tmust include the set of supported ontologies: Ontology property(:name supported-ontologies: value(set Ontology-description))\n\nIn addition to the set of supported ontologies, the OA may also register its translation capabilities between different ontologies (if it has any). Notice that the specification does not prevent non-OA agents to also have translation capabilities. The translation capabilities may include ontology translation, language translation or both. The following constant values must be used to register translation services (see Table III).\n\nTABLE III. Constant parameters that must be used to register translation services\nParameter\tDescription\ntype\tmust be declared as a translation-service\nontology\tmust include the constant FIPA-Meta-Ontology, which identifies the set of actions that can be requested to be performed by an OA, regarding translation services\nproperties\tmust include the set of available ontology translations: property(:name Ontology-translation-types translation-types: value(set translation-description)). and/or the list of available language translation types: property(:name language-translation-types translation-types: value(s et translation-description)) description))\n\nThe following example describes the DF registration mechanism using ACL (Agent Communication Language) [6] message. The structure of ACL message is shown in Figure 2.\n\nFigure 2. Structure of ACL message\n\nShow All\n\nFor example, the following example describes the case where an agent (the a-agent in the example) queries a DF to establish what OAs can support the FIPA-Pet-Provisioning ontology (the ontology provide the knowledge about pet):\n\nTherefore there are similarities and different points between DF and UDDI. They both have function as yellow page. DF manages the information of agent, while UDDI accumulate the information of concrete web service. DF can respond listing the details of the appropriate OAs, which make ordinary agents interaction more effectively. More suitable services may be found.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0925",
+        "identifier_key": "doi:10.1109/wicom.2008.2627",
+        "title": "Web Service Discovery Based on the Cooperation of UDDI and DF",
+        "official_url": "https://ieeexplore.ieee.org/document/4680816",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I9480C5E5CE68465E/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does the proposed UDDI/DF mechanism specify inter-agent message and role interactions beyond invoking agent technology for discovery?",
+      "retrieved_at_utc": "2026-10-02T08:33:36.392Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    },
+    {
+      "evidence_id": "section-001-03",
+      "level": "fulltext_excerpt",
+      "text": "SECTION IV.\nCooperation of UDDI and DF\n\nWeb service discovery mechanism presented by this paper is composed by two partitions (Fig. 3): DF and UDDI. It is not fixed that service discovery must execute these two parts each time. There are two conditions according to the difference of the scenario:\n\nFigure 3. Model of web service discovery mechanism\n\nShow All\n\nThe first condition (arrow ① in Fig. 3) is applicable to the clear and definite service target. For example, Tom aimed to purchase book online, and he had known the name of the bookstore. Therefore, to the clear and definite service retrieval agent cannot be used, while UDDI can be used directly. Thus the wanted service can be found, and network resource may be saved simultaneously.\n\nThe second condition (arrow ② in Fig. 3) is applicable to the unclear service target. The example of purchasing book online is still used. The little dog of Tom was ill, so Tom wanted a book about treatment for dog. But Tom did not know the name of the book and some information of web site supporting the service. In this condition, agent can complete this work more effectively. If the keyword of retrieval is ‘treatment for dog’, and agent can abstract two keywords: treatment and dog. We suppose no book can be found according to these two words. This time agent queries DF to get appropriate OAs list, and refer to the corresponding ontology. For example agent gets to know dog is a kind of pet according to some ontology. Now agent will start a new discovery with the new keyword pet. Thus some appropriate books may be found.\n\nBut then all conditions cannot be partitioned these two mechanisms. Sometimes the target is clear, but wanted service is not found, so DF is useful.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0925",
+        "identifier_key": "doi:10.1109/wicom.2008.2627",
+        "title": "Web Service Discovery Based on the Cooperation of UDDI and DF",
+        "official_url": "https://ieeexplore.ieee.org/document/4680816",
+        "saved_capture": "taxonomy/02-source-evidence/IEEE/resume/targeted-evidence-D1-remainder-A/sources/I9480C5E5CE68465E/scoped-evidence-001.json",
+        "identity_check": "Saved official title and DOI match assigned record; section files bound by same source-specific capture."
+      },
+      "question": "Does the proposed UDDI/DF mechanism specify inter-agent message and role interactions beyond invoking agent technology for discovery?",
+      "retrieved_at_utc": "2026-10-02T08:33:36.392Z",
+      "access_status": "saved_official_html_section_read",
+      "read_at_utc": "2026-10-19T22:00:45Z"
+    }
+  ],
+  "C10/R0940": [
+    {
+      "evidence_id": "sequence",
+      "level": "fulltext_excerpt",
+      "text": "to the next-nearest truck and continues the process.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0940",
+        "identifier_key": "doi:10.1109/wsc52266.2021.9715312",
+        "title": "On-Demand Logistics Service for Packages: Package Bidding Mechanism vs. Platform Pricing",
+        "official_proceedings": "2021 Winter Simulation Conference",
+        "authors": [
+          "Manish Tripathy",
+          "Ramin Ahmed",
+          "Michael Kay"
+        ],
+        "identity_check": "Official proceedings PDF title and abstract match assigned article exactly apart from typographic layout."
+      },
+      "question": "Do the compared logistics mechanisms specify actual payment obligations and sequential interaction rules, rather than only name auction formats?",
+      "retrieved_at_utc": "2026-10-19T22:00:45Z",
+      "access_status": "official_proceedings_pdf_read",
+      "read_scope": "Sections 3.3-3.5, 4.3 and 5.1 targeted paragraphs returned by PDF text search; short exact excerpts retained."
+    },
+    {
+      "evidence_id": "payment",
+      "level": "fulltext_excerpt",
+      "text": "packages have to pay the market-clearing price.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R0940",
+        "identifier_key": "doi:10.1109/wsc52266.2021.9715312",
+        "title": "On-Demand Logistics Service for Packages: Package Bidding Mechanism vs. Platform Pricing",
+        "official_proceedings": "2021 Winter Simulation Conference",
+        "authors": [
+          "Manish Tripathy",
+          "Ramin Ahmed",
+          "Michael Kay"
+        ],
+        "identity_check": "Official proceedings PDF title and abstract match assigned article exactly apart from typographic layout."
+      },
+      "question": "Do the compared logistics mechanisms specify actual payment obligations and sequential interaction rules, rather than only name auction formats?",
+      "retrieved_at_utc": "2026-10-19T22:00:45Z",
+      "access_status": "official_proceedings_pdf_read",
+      "read_scope": "Sections 3.3-3.5, 4.3 and 5.1 targeted paragraphs returned by PDF text search; short exact excerpts retained."
+    }
+  ],
+  "C12/R1120": [
+    {
+      "evidence_id": "saved_0",
+      "level": "fulltext_excerpt",
+      "text": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence (IJCAI-19)\n\nAiD-EM: Adaptive Decision Support for Electricity Markets Negotiations\nTiago Pinto and Zita Vale\nPolytechnic of Porto, Porto, Portugal\n{tcp, zav}@isep.ipp.pt\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1120",
+        "identifier_key": "doi:10.24963/ijcai.2019/957",
+        "title": "AiD-EM: Adaptive Decision Support for Electricity Markets Negotiations",
+        "official_url": "https://www.ijcai.org/proceedings/2019/957",
+        "section": "identity"
+      },
+      "question": "Does AiD-EM substantively coordinate agents or expose user decision input, beyond unspecified decision support?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_1",
+      "level": "fulltext_excerpt",
+      "text": "2\n\nProposed Approach\n\nFigure 1 shows the global structure of the AiD-EM multiagent decision support system, including the representation\nof its main components.\nThe AiD-EM system includes the AiD-EM Manager\nagent, as illustrated in Figure 1, which acts as the central\nentity of the system, providing the connection with the\nMASCEM electricity market simulator [Santos et al. 2016].\nThe AiD-EM Manager agent executes a Portfolio Optimization, which defines the amount of power that the supported\nplayer should buy or sell in each available market opportunity at each time and according to each context. The expected prices in each market are obtained from several forecasting methods [Pang et al., 2018]. The AiD-EM Manager\nagent also optimizes the performance of the system by distributing the AiD-EM agents by the available machines, and\nby executing the Efficiency/Effectiveness (2E) balance\nmanagement mechanism, which defines the amount of time\nthat each of the integrated decision support systems is allowed to use in its execution, depending on the purpose of\neach simulation and on the user’s requirements regarding\nthe expected balance between the achieved quality of results\nand the execution time of the simulation.\nConsidering the defined amount of power to be transacted\nin each market, specific decision support systems are used\nto provide action suggestions for the supported player to\nperform in each distinct market type. ALBidS [Pinto et al.,\n2014] is directed to the decision support for negotiations in\nauction based markets and includes several different methodologies to provide alternative action suggestions. The\nused approaches range from game theory [Chan and Ortiz,\n2018] to the combination of different algorithms using the\nmetalearning concept [Grau-Moya et al., 2018] among\nmany others. The approach chosen as the players’ actual\naction is selected by the employment of Reinforcement\nLearning Algorithms (RLA), which for each different situation, simulation circumstances and context, decide which\nproposed action is the one with higher possibility of achieving the most success. ALBidS is equipped with its own 2E\nbalance management mechanism, which defines which\nstrategies should be executed at each time, considering the\nrequirements of the AiD-EM 2E management, the execution\ntime of each strategy and the quality of’ results.\nThe decision support for bilateral contract negotiations is\nassured by DECON, which considers two main components:\n(i) decision support for the pre-negotiation stage, and (ii)\ndecision support for the actual negotiation process. The prenegotiation step aims at identifying the ideal competitor(s)\nthat should be approached so that the undertaken negotiations can provide as much benefit as possible for the supported player. The expected limits and target prices of each\nenvisaged competitor are also predicted with the purpose of\nenhancing the decision support for the negotiations. The\nactual negotiations are supported by a set of different tactics\nthat follow different strategies. Different combinations of\ntactics are supported, allowing the supported player to\nchange its tactic strategically in response to the behaviour of\nthe opponent(s) and to the current context. The initial choice\n\nand dynamic change of the most appropriate strategies and\ntactics to use against each opponent is based on a learning\napproach, considering the analysis and definition of competitor players’ profiles.\nThe context awareness of the system is provided by a\ncontext analysis mechanism [Pinto et al., 2015]. The context\nanalysis considers several relevant factors that influence\nplayers’ negotiating environment, thus allowing market participation strategies to be adapted and used accordingly to\neach different negotiation context.\nThe significance of the introduced decision support\nmethodologies can only be assessed by means of realistic\nelectricity market simulations. The connection with MASCEM plays an essential role in this context. Using the Realistic Scenario Generator (RealScen) [Silva et al., 2016],\nwhich uses real electricity market data, extracted in real\ntime from the websites of several market operators, it is\npossible to recreate the electricity markets’ reality in a controlled simulation environment in MASCEM. Realistic simulation scenarios of several European electricity markets are\nused to test and validate the proposed methodologies.\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1120",
+        "identifier_key": "doi:10.24963/ijcai.2019/957",
+        "title": "AiD-EM: Adaptive Decision Support for Electricity Markets Negotiations",
+        "official_url": "https://www.ijcai.org/proceedings/2019/957",
+        "section": "2 Proposed Approach, PDF page 2"
+      },
+      "question": "Does AiD-EM substantively coordinate agents or expose user decision input, beyond unspecified decision support?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_2",
+      "level": "fulltext_excerpt",
+      "text": "3\n\nConclusions\n\nThis paper presents and demonstrates AiD-EM, a multiagent decision support system that helps electricity market\nplayers in their negotiations.\nThe demonstration of this system includes the execution\nof its several components, namely the portfolio optimization, DECON and ALBidS systems and their validation in\nrealistic simulations using MASCEM.\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1120",
+        "identifier_key": "doi:10.24963/ijcai.2019/957",
+        "title": "AiD-EM: Adaptive Decision Support for Electricity Markets Negotiations",
+        "official_url": "https://www.ijcai.org/proceedings/2019/957",
+        "section": "3 Conclusions, PDF page 2"
+      },
+      "question": "Does AiD-EM substantively coordinate agents or expose user decision input, beyond unspecified decision support?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    }
+  ],
+  "C12/R1166": [
+    {
+      "evidence_id": "official_timeline",
+      "level": "fulltext_excerpt",
+      "text": "When a package has to be sent between an OD pair, the sender\ngoes to the nearest DC, observes the waiting time for service, number of packages vying for the same\nservice, and pays a certain amount, p, while requesting transportation. We use two mechanisms to derive\np: (i) Two-Sided Platform Pricing, which can be considered as status quo, and (ii) Package Bid Pricing,\nwhich is our proposed mechanism. Both are described later in this section. The DC offers a fraction, δ,\nof this price, p, to trucks as wages for offering transportation as a service. Trucks who find this wage,\nw = δ p, sufficient, accept the request. The DC’s revenue stream, per package, stems from the fraction of\nthe price paid by the packages in lieu of facilitating the matching of packages and trucks, π = p(1−δ).",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1166",
+        "identifier_key": "doi:10.5555/3522802.3522899",
+        "title": "On-demand logistics service for packages: package bidding mechanism vs. platform pricing",
+        "authors": [
+          "Manish Tripathy",
+          "Ramin Ahmed",
+          "Michael Kay"
+        ],
+        "source_binding": "ACM original citation key 3522802.3522899 identifies WSC 21 article 126, 12 pages, same title/authors/abstract as official proceedings PDF 126."
+      },
+      "question": "Which bid/offer coordination and payment obligations are actually implemented for packages, trucks and distribution centres?",
+      "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+      "access_status": "success_official_proceedings_web_extraction"
+    },
+    {
+      "evidence_id": "official_trucks",
+      "level": "fulltext_excerpt",
+      "text": "The trucks select the load bid (i.e., the set of packages\nthey choose to carry) by selecting the packages in decreasing order of their bids based on their capacity.\nWe define the capacity of a truck by the number of packages it can hold. Once the truck accepts a load\nbid, it goes away from the system for the service duration and again becomes active or online following\nsuccessful completion of the delivery.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1166",
+        "identifier_key": "doi:10.5555/3522802.3522899",
+        "title": "On-demand logistics service for packages: package bidding mechanism vs. platform pricing",
+        "authors": [
+          "Manish Tripathy",
+          "Ramin Ahmed",
+          "Michael Kay"
+        ],
+        "source_binding": "ACM original citation key 3522802.3522899 identifies WSC 21 article 126, 12 pages, same title/authors/abstract as official proceedings PDF 126."
+      },
+      "question": "Which bid/offer coordination and payment obligations are actually implemented for packages, trucks and distribution centres?",
+      "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+      "access_status": "success_official_proceedings_web_extraction"
+    },
+    {
+      "evidence_id": "official_dc",
+      "level": "fulltext_excerpt",
+      "text": "The DC facilitates the matching between the trucks and the packages and its revenue stream is a fraction\nof the amount paid by the packages who participate. The DC offers the price that a participating customer\nis willing to pay to the nearest active truck and continues to offer the quote to trucks in increasing order\nof distance until it is accepted. The profit function of the DC is given by, ΠDC = λ(p−w)MD.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1166",
+        "identifier_key": "doi:10.5555/3522802.3522899",
+        "title": "On-demand logistics service for packages: package bidding mechanism vs. platform pricing",
+        "authors": [
+          "Manish Tripathy",
+          "Ramin Ahmed",
+          "Michael Kay"
+        ],
+        "source_binding": "ACM original citation key 3522802.3522899 identifies WSC 21 article 126, 12 pages, same title/authors/abstract as official proceedings PDF 126."
+      },
+      "question": "Which bid/offer coordination and payment obligations are actually implemented for packages, trucks and distribution centres?",
+      "retrieved_at_utc": "2026-10-19T22:13:30.143860+00:00",
+      "access_status": "success_official_proceedings_web_extraction"
+    }
+  ],
+  "C12/R1178": [
+    {
+      "evidence_id": "saved_intro",
+      "level": "fulltext_excerpt",
+      "text": "Extended Abstracts                                                                                                AAMAS 2026, May 25–29, 2026, Paphos, Cyprus\n\n\n\n                IntentGuard: Securing MCP-Enabled LLM Agents via\n                      Post-Decision Semantic Plan Verification\n                                                                         Extended Abstract\n                  Haoran Cheng                                                 Yunhao Yao                                           Jinke Song\n    University of Science and Technology                       University of Science and Technology                   The Hong kong University of Science\n                   of China                                                   of China                                         and Technology\n                Hefei, China                                               Hefei, China                                       Hongkong, China\n      chenghaoran@mail.ustc.edu.cn                                yaoyunhao@mail.ustc.edu.cn                                 jikesog@gmail.com\n\n                                               Zhiqiang Wang                                                Lan Zhang\n                                 University of Science and Technology                       University of Science and Technology\n                                                of China                                                   of China\n                                             Hefei, China                                               Hefei, China\n                                    sa21221041@mail.ustc.edu.cn                                    zhanglan@ustc.edu.cn\n\nABSTRACT                                                                                        accelerates this trend by allowing agents to discover and invoke\nThe Model Context Protocol (MCP) enables LLM agents to discover                                 external tools dynamically, without tightly coupling the agent to\nand invoke tools dynamically, but it also introduces a new threat:                              specific tool implementations [2, 4–6].\nTool Metadata Poisoning, where adversarial tool descriptions in-                                   New security threat. MCP’s open ecosystem exposes an new\nduce semantically incorrect yet syntactically valid invocations. We                             attack surface: agents rely on untrusted natural-language tool meta-\npropose the Intention-Plan Consistency Paradigm, which protects                                 data from external servers. If such metadata is maliciously manipu-\nagents via post-decision semantic plan verification rather than rely-                           lated, the agent may produce a semantically incorrect plan while\ning on potentially compromised agent reasoning. Building on this                                each individual tool call remains syntactically valid and permission-\nparadigm, we introduce VISTA, combining information isolation                                   compliant. We refer to this threat as Tool Metadata Poisoning.\nto construct a minimal trusted context and hierarchical semantic                                   Limitations of existing defenses. Recent LLM-agent security\nassessment to validate tool choice and parameter provenance. We                                 techniques mainly address malicious user inputs or overtly unsafe\nalso present MCPIntentEval, a benchmark for intent-alignment                                    outputs [12, 16]. They are less effective when the attack is hidden in\nverification in MCP-enabled agents. Experiments show that VISTA                                 an apparently benign chain of legitimate tool calls. This challenge\nconsistently improves over strong baselines and robustly detects                                is amplified in MCP settings because tools are provisioned dynami-\ninconsistent tool-invocation plans.                                                             cally and metadata is inherently untrusted, which can undermine\n                                                                                                context-based reasoning [7] and static tool-profile verification [10].\nKEYWORDS                                                                                           Our insight. We propose the Intent–Plan Consistency Paradigm:\n                                                                                                instead of hardening potentially poisoned reasoning, we validate\nLLM Agents, Model Context Protocol (MCP), Tool Metadata Poi-\n                                                                                                whether a generated execution plan is semantically aligned with the\nsoning, Semantic Verification\n                                                                                                user request. Compared with open-ended plan generation, intent–\nACM Reference Format:                                                                           plan checking is a constrained, discriminative judgment over a\nHaoran Cheng, Yunhao Yao, Jinke Song, Zhiqiang Wang, and Lan Zhang.                             given plan, and it complements sanitization and filtering defenses\n2026. IntentGuard: Securing MCP-Enabled LLM Agents via Post-Decision                            [7, 8, 10, 11]. Building on this paradigm, we introduce VISTA, a post-\nSemantic Plan Verification: Extended Abstract. In Proc. of the 25th Inter-\n                                                                                                decision semantic verification framework that intercepts an agent\nnational Conference on Autonomous Agents and Multiagent Systems (AA-\nMAS 2026), Paphos, Cyprus, May 25 – 29, 2026, IFAAMAS, 3 pages. https:\n                                                                                                plan before execution. VISTA combines (i) information isolation to\n//doi.org/10.65109/PJGH6650                                                                     construct an Isolated Verification Context (IVC) containing only\n                                                                                                the user request and candidate plan, and (ii) hierarchical semantic\n1     INTRODUCTION                                                                              assessment to validate both tool selection and parameter provenance.\n                                                                                                Our main contributions are as follows:\nLarge Language Models (LLMs) have rapidly evolved into powerful\ncoordinators in intelligent systems, enabling agents to integrate di-                               • We introduce the Intent–Plan Consistency Paradigm for se-\nverse data sources, services, and devices through natural-language                                    curing MCP-enabled agents via post-decision semantic plan\nreasoning [1, 3, 9, 15]. The Model Context Protocol (MCP) further                                     verification.\n                                                                                                    • We design VISTA, which combines information isolation and\n                 This work is licensed under a Creative Commons Attribution Inter-                    hierarchical semantic assessment to detect both malicious\n                 national 4.0 License.                                                                intent deviations and benign anomalies.\nProc. of the 25th International Conference on Autonomous Agents and Multiagent Systems              • We present MCPIntentEval and evaluate VISTA on seven\n(AAMAS 2026), C. Amato, L. Dennis, V. Mascardi, J. Thangarajah (eds.), May 25 – 29,                   datasets, achieving up to 13.13% higher accuracy and 9.48%\n2026, Paphos, Cyprus. © 2026 International Foundation for Autonomous Agents and                       higher F1, with up to 90% fewer false positives.\nMultiagent Systems (www.ifaamas.org). https://doi.org/10.65109/PJGH6650\n\n\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1178",
+        "identifier_key": "doi:10.65109/pjgh6650",
+        "title": "IntentGuard: Securing MCP-Enabled LLM Agents via Post-Decision Semantic Plan Verification",
+        "official_url": "https://ifaamas.org/Proceedings/aamas2026/pdfs/PJGH6650.pdf",
+        "section": "Introduction, p.3164, DOI printed in source"
+      },
+      "question": "Does the semantic verifier check explicit user-granted permissions or mandate limits, beyond semantic correctness?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_method",
+      "level": "fulltext_excerpt",
+      "text": "\n\n          40       MCP-Guard                              40         MCP-Guard                               Parameter Provenance Validation. We then verify that all argu-\n                   MCIP                                              MCIP\n                   LLM-D                                             LLM-D                                   ments passed to 𝜏𝑠𝑖 are trustworthy. Each parameter 𝑝 𝑖𝑗 is assigned\n          30                                              30\nFPR (%)                                         FPR (%)\n                   LLM-D+                                            LLM-D+                                  one of three provenance labels: User_Query (explicitly stated in\n          20       VISTA (Ours)                           20         VISTA (Ours)\n                                                                                                             𝑞), Tool_Default (specified as a default in the schema of 𝜏𝑠𝑖 ), or Il-\n          10        Ideal Performance                     10           Ideal Performance\n                                                                                                             legitimate (derived from any other source such as hallucinated or\n           0                                               0                                                 injected content). For parameters labeled User_Query, the Judge also\n               0   20 40 60 80 100                              0    20 40 60 80 100                         checks that their semantic meaning is preserved without distortion.\n                        TPR (%)                                             TPR (%)                             For each step 𝑎𝑖 , VISTA constructs an IVC, runs both checks, and\nFigure 1: TPR and FPR of VISTA and baselines (left: D𝑄8† ;                                                   accepts the plan only if all steps satisfy them, i.e., 𝑉 (𝑞,𝑇call ) = 1.\nright: D𝑄14∗ ).\n                                                                                                              3                    EVALUATION\n2         METHODOLOGY                                                                                        Dataset. We evaluate on MCPIntentEval, derived from MCPTox:\n                                                                                                             7,967 tool-call responses from seven agent models over 45 MCP\nWe implement the Intent–Plan Consistency Paradigm with VISTA\n                                                                                                             servers and 353 tools. We relabel each plan as intent-aligned or\n(Verification via Isolated SemanTic Assessment), a post-decision\n                                                                                                             intent-misaligned (including both maliciously induced and benign\nverification framework that checks whether a complete MCP plan is\n                                                                                                             errors) and deduplicate samples for evaluation.\nsemantically aligned with the user query 𝑞. VISTA operates only on\n                                                                                                             Baselines and metrics. We compare against MCP-Guard [13],\nthe finalized plan and is therefore independent of the (potentially\n                                                                                                             MCIP [7], LLM-D and LLM-D+ [17], and report Accuracy, F1, Pre-\npoisoned) planning context.\n                                                                                                             cision, Recall (TPR), and FPR.\n                                                                                                             Implementation. We use Qwen3-8B [14] as the Judge Model and\n2.1            Step-level Verification\n                                                                                                             run all experiments on a single NVIDIA A100 GPU (3 runs).\nGiven a plan                                                                                                 Overall performance. Table 1 summarizes the main results on\n                 𝑇call = ⟨𝑎 1, . . . , 𝑎𝑛 ⟩, 𝑎𝑖 = (𝜏𝑠𝑖 , 𝑝 𝑖 ),                                              MCPIntentEval. VISTA consistently outperforms all baselines\nwhere 𝜏𝑠 is the selected tool and 𝑝 𝑖 its parameters, VISTA applies\n       𝑖                                                                                                     across seven datasets, achieving F1-scores above 94.9% and strong\nstep-level verification and aggregates the results:                                                          accuracy. On D𝑄14∗ , VISTA reaches 97.9% F1, outperforming the\n                                                                                                             best baseline (89.3%) by a relative improvement of about 9.6%.\n                      𝑉 (𝑞,𝑇call ) = 1 ⇐⇒ ∀𝑖, 𝑉step (𝑞, 𝑎𝑖 ) = 1.                                            TPR/FPR trade-off. Figure 1 reports the detection trade-off on two\n                                                                                                             representative datasets (left: D𝑄8† ; right: D𝑄14∗ ). VISTA maintains\n2.2            Isolated Verification Context                                                                 high TPR while keeping FPR low, yielding a favorable balance\nFor each action 𝑎𝑖 , VISTA constructs an Isolated Verification Context                                       between detection sensitivity and false alarms.\n(IVC) that contains only the trusted information needed for assess-\nment: (1) user query 𝑞; (2) server name; (3) selected tool 𝜏𝑠𝑖 ; (4) the                                                   12 10.53                                                  6k                           5162\n\n\n\n\n                                                                                                          Inference Time (s)\n                                                                                                                                           9.57                                                           4838\n\n\n\n                                                                                                                                                                           Token Count\ntool’s description; and (5) the generated parameters 𝑝 𝑖 . All other                                                                                                                                                     3956\n                                                                                                                               8                           6.66     7.29             4k\ntool metadata are discarded, so the Judge LLM cannot be influenced                                                                                  6.28                                           3031\n                                                                                                                                                                                            2307\nby poisoned descriptions of unrelated tools.                                                                                   4                                                     2k\n\n2.3            Dual-Dimension Semantic Validation                                                                              0MCP-GuardMCIP LLM-D LLM-D+ VISTA                         0MCP-GuardMCIP LLM-D LLM-D+ VISTA\nWithin the IVC, a Judge LLM evaluates each action 𝑎𝑖 along two\n                                                                                                              Figure 2: Overhead of LLM reasoning (left: time cost; right:\nsemantic dimensions, and a step is accepted only if both pass.\n                                                                                                              token cost).\nTool Intent Validation. We first check whether the selected tool\n𝜏𝑠𝑖 is the appropriate tool to fulfill the user request 𝑞. The Judge (i)                                      ACKNOWLEDGMENTS\nextracts the core intent from 𝑞, (ii) summarizes the behavior of 𝜏𝑠𝑖                                         Lan Zhang is the corresponding author. This research was sup-\nfrom its metadata and parameters, and (iii) decides whether the                                              ported by the National Natural Science Foundation of China\ntool behavior matches the user intent. This detects both malicious                                           (No. 62441228) Science and Technology Tackling Program of Anhui\ncross-tool hijacking and non-adversarial tool selection errors.                                              Province (No. 202423k09020016).\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1178",
+        "identifier_key": "doi:10.65109/pjgh6650",
+        "title": "IntentGuard: Securing MCP-Enabled LLM Agents via Post-Decision Semantic Plan Verification",
+        "official_url": "https://ifaamas.org/Proceedings/aamas2026/pdfs/PJGH6650.pdf",
+        "section": "Section 2 Methodology, p.3165"
+      },
+      "question": "Does the semantic verifier check explicit user-granted permissions or mandate limits, beyond semantic correctness?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    }
+  ],
+  "C12/R1189": [
+    {
+      "evidence_id": "saved_extent_0",
+      "level": "fulltext_excerpt",
+      "text": "In this paper, we propose a framework of agent-oriented automated negotiation model on the basis of IGA. The model can be used in a bilateral multi-issue negotiation and can also be extended to multilateral multi-issue negotiations. Fig. 2 illustrates the details of the idea [4], [26], [27].\n\n\nShow All",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1189",
+        "identifier_key": "platform:IEEE:5573980",
+        "title": "The research of decision-make based on IGA in agent-oriented multi-issue automated negotiation",
+        "official_url": "https://ieeexplore.ieee.org/document/5573980",
+        "section": "Section3.3 automated negotiation model, complete paragraphs1–2",
+        "original_capture_utc": "2026-10-02T19:37:29.314Z"
+      },
+      "question": "Is decision advice presented to human negotiators and is a concrete offer-exchange protocol specified?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_extent_1",
+      "level": "fulltext_excerpt",
+      "text": "In this paper, our experiments propose a model of a bilateral negotiation which includes a buyer and a seller regarding that a company wishes to buy 1000 laser printers as the background. In order to find the satisfactory reciprocity results, commodity prices (CP), delivery time (DT), payment method (PM), after-sales service (ASS) [30], loading and unloading (LV), delivery method (DM), tax (T) and gift of each print (G) problems were negotiated, so the issues of negotiation can be formalized as <CP,DT,PM,ASS,LU,DM,T,G><{\\rm CP, DT, PM, ASS, LU, DM, T, G}>. The most fundamental differences of the seller and the buyer are in the best interests of the parties to obtain the goal. Our model is established by maximizing the joint profit which is the summation of the profits of both a buyer and a seller, because a bilateral negotiation is to be carried out under the conditions of agreement for reciprocity, and because the value of the profit of a participant is a nonnegative real number. Note that other operators like the multiplication of both profits may not return proper values for evaluating an agreement. This kind of problem can be instantiated and described as following: MaxG(x)=G(F(seller),F(buyer))=F(seller)+F(buyer),s.t.CP∈{CP1,…,CPa};DT∈{DT1,…,DTb};PM∈{PM1,…,PMc};ASS∈{ASS1,…,ASSd};LU∈{LU1,…,LUe};DM∈{DM1,…,DMf};T∈{T1,…,Tm};G∈{G1,…,Gn};(3)\\eqalignno{\n& MaxG(x)=G(F(seller),F(buyer))\\cr\n& =F(seller)+F ({buyer}),\\cr\n& s.t. {\\rm CP} \\in\\{{\\rm CP}_{1},\\ldots,{\\rm CP}_{{\\rm a}}\\};\\cr\n&\\quad{\\rm DT} \\in\\{{\\rm DT}_{1},\\ldots,{\\rm DT}_{{\\rm b}}\\};\\cr\n&\\quad{\\rm PM} \\in\\{ {\\rm PM}_{1},\\ldots,{\\rm PM}_{{\\rm c}}\\};\\cr\n&\\quad{\\rm ASS} \\in\\{ {\\rm ASS}_{1},\\ldots, {\\rm ASS}_{{\\rm d}}\\};\\cr\n&\\quad{\\rm LU} \\in\\{ {\\rm LU}_{1},\\ldots, {\\rm LU}_{{\\rm e}}\\};\\cr\n&\\quad{\\rm DM} \\in\\{ {\\rm DM}_{1},\\ldots, {\\rm DM}_{{\\rm f}}\\};\\cr\n&\\quad{\\rm T}\\in\\{{\\rm T}_{1},\\ldots, {\\rm T}_{{\\rm m}}\\};\\cr\n&\\quad{\\rm G}\\in\\{{\\rm G}_{1},\\ldots, {\\rm G}_{{\\rm\nn}}\\}; &{\\hbox{(3)}}}View Source\\eqalignno{\n& MaxG(x)=G(F(seller),F(buyer))\\cr\n& =F(seller)+F ({buyer}),\\cr\n& s.t. {\\rm CP} \\in\\{{\\rm CP}_{1},\\ldots,{\\rm CP}_{{\\rm a}}\\};\\cr\n&\\quad{\\rm DT} \\in\\{{\\rm DT}_{1},\\ldots,{\\rm DT}_{{\\rm b}}\\};\\cr\n&\\quad{\\rm PM} \\in\\{ {\\rm PM}_{1},\\ldots,{\\rm PM}_{{\\rm c}}\\};\\cr\n&\\quad{\\rm ASS} \\in\\{ {\\rm ASS}_{1},\\ldots, {\\rm ASS}_{{\\rm d}}\\};\\cr\n&\\quad{\\rm LU} \\in\\{ {\\rm LU}_{1},\\ldots, {\\rm LU}_{{\\rm e}}\\};\\cr\n&\\quad{\\rm DM} \\in\\{ {\\rm DM}_{1},\\ldots, {\\rm DM}_{{\\rm f}}\\};\\cr\n&\\quad{\\rm T}\\in\\{{\\rm T}_{1},\\ldots, {\\rm T}_{{\\rm m}}\\};\\cr\n&\\quad{\\rm G}\\in\\{{\\rm G}_{1},\\ldots, {\\rm G}_{{\\rm\nn}}\\}; &{\\hbox{(3)}}} the fitness function F(seller/buyer) of kthk^{th} Agent can be instantiated and expressed as follows: F(seller/buyer)=∑i=1Nωseller/buyerifseller/buyer(xi),∑i=1kωi=1(4)\\eqalignno{\n& F(seller/buyer)=\\sum_{i=1}^{N}\\omega_{i}^{seller/buyer}f_{seller/buyer}(x_{i}),\\cr\n&\\sum_{i=1}^{k}\\omega_{i}=1 &{\\hbox{(4)}}}View Source\\eqalignno{\n& F(seller/buyer)=\\sum_{i=1}^{N}\\omega_{i}^{seller/buyer}f_{seller/buyer}(x_{i}),\\cr\n&\\sum_{i=1}^{k}\\omega_{i}=1 &{\\hbox{(4)}}} where ωseller/buyeri\\omega_{i}^{seller/buyer} is the weight of ithi^{th} issue of the seller/buyer, xix_{i} is the specific term of ithi^{th} issue of the product, F(seller/buyer) is the utility function of the seller/buyer, fseller/buyer(xi)f_{seller/buyer}(x_{i}) is the seller's/buyer's preference value of xix_{i}.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1189",
+        "identifier_key": "platform:IEEE:5573980",
+        "title": "The research of decision-make based on IGA in agent-oriented multi-issue automated negotiation",
+        "official_url": "https://ieeexplore.ieee.org/document/5573980",
+        "section": "Section4.1 negotiated model definition, complete paragraph1",
+        "original_capture_utc": "2026-10-02T19:37:29.314Z"
+      },
+      "question": "Is decision advice presented to human negotiators and is a concrete offer-exchange protocol specified?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_extent_2",
+      "level": "fulltext_excerpt",
+      "text": "In our experiments, we get the optimal solution of our negotiation after 10000 times iteration. The encoding string of it is 1101011101001110101101. The largest profit value is 1.2227000000000001, which the seller's and the buyer's profit value are 0.6118 and 0.6109 respective. The difference between the profits of the buyer and the seller is 0.0009 which is not greater than 1%o. The optimal trading scheme is shown in Tab. 11:\n",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1189",
+        "identifier_key": "platform:IEEE:5573980",
+        "title": "The research of decision-make based on IGA in agent-oriented multi-issue automated negotiation",
+        "official_url": "https://ieeexplore.ieee.org/document/5573980",
+        "section": "Section4.4 empirical implementation result, complete paragraph1",
+        "original_capture_utc": "2026-10-02T19:37:29.314Z"
+      },
+      "question": "Is decision advice presented to human negotiators and is a concrete offer-exchange protocol specified?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    },
+    {
+      "evidence_id": "saved_extent_3",
+      "level": "fulltext_excerpt",
+      "text": "\n\nThe profits of the Agentsare quantified with numerical values in order to measure the degree of satisfaction of the Agents. In this paper, the multi-attribute utility theory (MAUT) [28] is applied to evaluate the profits of the Agents, considering multiple issues of the merchandise. Each issue of the merchandise has a weight indicating a relative preference to each of other issues. The utility function in MAUT is expressed in terms of the weights of the issues and the value of the preference at the offer values of the issues, in which the offer value of an issue is defined as the value that an Agent offers for the issue in a contract. Therefore, a contract of Agents that consists of the offer values of all the issues can be regarded as a ‘proposal’ in the real-world negotiations. The value of the utility function can be regarded as the profit of either buyers or sellers [29].",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "R1189",
+        "identifier_key": "platform:IEEE:5573980",
+        "title": "The research of decision-make based on IGA in agent-oriented multi-issue automated negotiation",
+        "official_url": "https://ieeexplore.ieee.org/document/5573980",
+        "section": "Section3.3 agent negotiation actions, complete paragraphs3–4",
+        "original_capture_utc": "2026-10-02T19:37:29.314Z"
+      },
+      "question": "Is decision advice presented to human negotiators and is a concrete offer-exchange protocol specified?",
+      "retrieved_at_utc": "2026-10-19T22:11:46.877127+00:00",
+      "access_status": "success_saved_primary_body"
+    }
+  ],
+  "C14/P064": [
+    {
+      "evidence_id": "official_body_coordination",
+      "level": "fulltext_excerpt",
+      "text": "this CVPP will first aggregate all their reports and\nproductions based on the formulas presented in Section 2,",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "P064",
+        "identifier_key": "doi:10.1609/aaai.v26i1.8172",
+        "title": "Cooperative Virtual Power Plant Formation Using Scoring Rules",
+        "publisher_landing_page": "https://ojs.aaai.org/index.php/AAAI/article/view/8172",
+        "version": "Official AAAI proceedings PDF linked by the DOI-bearing publisher page"
+      },
+      "question": "Does the mechanism specify coordination or representation across DERs, the CVPP and the Grid, beyond a payment incentive and a general claim that agents cooperate?",
+      "retrieved_at_utc": "2026-10-22T00:04:02.354419+00:00",
+      "access_status": "success",
+      "read_scope": "Section 3.3, printed p. 373 (PDF p. 4); contextual reading: Sections 2 and 3, printed pp. 371-373",
+      "extraction": "Exact excerpt from web PDF text extraction; line breaks and U+0002 discretionary-hyphen extraction characters retained where present."
+    }
+  ],
+  "C14/P067": [
+    {
+      "evidence_id": "official_body_capability",
+      "level": "fulltext_excerpt",
+      "text": "it processes the entire poisoned de\u0002scription as a ground-truth representation of the tool’s capa\u0002bilities.",
+      "normalization": "raw",
+      "identity_binding": {
+        "record_id": "P067",
+        "identifier_key": "doi:10.1609/aaai.v40i42.40895",
+        "title": "MCPTox: A Benchmark for Tool Poisoning on Real-World MCP Servers",
+        "publisher_landing_page": "https://ojs.aaai.org/index.php/AAAI/article/view/40895",
+        "version": "Official AAAI proceedings PDF linked by the DOI-bearing publisher page"
+      },
+      "question": "Is the poisoned registration metadata a capability description used to choose or plan tool use, and is that descriptive function substantively examined by the benchmark?",
+      "retrieved_at_utc": "2026-10-22T00:04:02.354419+00:00",
+      "access_status": "success",
+      "read_scope": "Section 2.2, printed p. 35813 (PDF p. 3); contextual reading: Sections 2.2 and 3.1-3.4, printed pp. 35813-35815",
+      "extraction": "Exact excerpt from web PDF text extraction; line breaks and U+0002 discretionary-hyphen extraction characters retained where present."
+    }
+  ]
+}

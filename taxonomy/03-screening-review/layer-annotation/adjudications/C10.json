@@ -1,0 +1,432 @@
+{
+  "job_id": "C10",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0903",
+      "identifier_key": "doi:10.1109/wi-iat.2012.152",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "mechanism": "Priority-based subtask allocation with endogenous division of task payments",
+      "rationale": "The protocol assigns interdependent subtasks and sets the division of task remuneration.",
+      "adjudication_reason": "The abstract alone does not specify transfers, as B notes. Saved section II explicitly makes payment partition part of allocation, resolving L5 in favor of A; section IV.A supplies the coordination procedure. Known capabilities are model inputs rather than a studied discovery mechanism, and agent willingness is an economic participation choice rather than principal authorization.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "section-001-02",
+          "quote": "In principle, according to this protocol, the central manager asks agents to report their costs for each of the subtasks.",
+          "rationale": "A specified manager-agent report and assignment protocol coordinates subtask work."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "section-001-01",
+          "quote": "However, the partitioning of the task payment among its subtasks is not predetermined, but will be set as part of the task allocation process.",
+          "rationale": "The studied mechanism determines subtask remuneration, satisfying theoretical payment-rule scope."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "section-001-01",
+        "section-001-02"
+      ]
+    },
+    {
+      "record_id": "R0912",
+      "identifier_key": "doi:10.1109/wi-iatw.2006.74",
+      "classification": [
+        "L3"
+      ],
+      "mechanism": "Formal negotiation arguments, counterarguments and priority-based defeat rules",
+      "rationale": "The saved body specifies interactions between arguments submitted by different agents. Information quality is a fitness measure over logical predicates.",
+      "adjudication_reason": "B treats information quality as trust certification, but section III measures logical-knowledge fitness without source or counterparty trust. A is right to reject L1 from that evidence. Section II additionally defines agent argument attacks and victory/defeat, establishing L3 independently of both initial sets. Contract-annulment questions motivate the logic but the read text does not establish lifecycle or dispute-remedy procedures.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "section-001-01",
+          "quote": "Taking into account the two forms of argument attack (conclusion denial and premise denial), a conflict amongst two agents (e.g. against/favour a specific proposal) can be formally specified in the form:",
+          "rationale": "Formal attack and subsequent defeat rules structure negotiation exchanges between agents."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "section-001-01",
+        "section-001-02"
+      ]
+    },
+    {
+      "record_id": "R0925",
+      "identifier_key": "doi:10.1109/wicom.2008.2627",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "mechanism": "UDDI/DF service discovery with ontology-agent registry and query workflow",
+      "rationale": "The design supplies discovery representations and a concrete registry/query protocol among agent roles.",
+      "adjudication_reason": "Both coders identify discovery. The abstract workflow claim could be generic, but saved section III.B specifies agent registration, query, DF response and ontology-assisted communication. This resolves the L3 disagreement in favor of A without equating all registry use with coordination.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "The paper presents two discovery mechanisms based on the cooperation of UDDI and DF based on the standard of FIPA and gives the system composition and DF registry work flow to show how to realize web discovery.",
+          "rationale": "Discovery mechanisms and registry descriptions are the research object."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "section-001-02",
+          "quote": "②Agent sends query service request to DF. ③DF responds listing the details of the appropriate OAs registered.",
+          "rationale": "The designed multi-role message sequence coordinates requests and responses to identify ontology agents."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "section-001-01",
+        "section-001-02",
+        "section-001-03"
+      ]
+    },
+    {
+      "record_id": "R0928",
+      "identifier_key": "doi:10.1109/wiiat.2008.315",
+      "classification": [
+        "L2"
+      ],
+      "mechanism": "Translation of semantic service representations between OWL and FIPA SL",
+      "rationale": "The middleware implements interoperability of service descriptions.",
+      "adjudication_reason": "L2 includes substantive capability/resource description, not only search. Here the designed and compared middleware translates the semantic languages explicitly used to represent web, grid and agent services. B is supported on that description branch; A narrows L2 excessively to discovery. Translation alone does not show L3 interaction rules.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "OWL is W3C standard for description of services on web and grid while FIPA SL is used as semantic language in agents. Both semantic languages differ in terms, syntax and semantics. We proposed software agent driven system architecture i.e.middleware ontology service (MOS) which provide translation of ontologies between these two languages.",
+          "rationale": "The implemented translator operates on service-description semantics, a substantive capability representation function."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0930",
+      "identifier_key": "doi:10.1109/words.2005.14",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "mechanism": "Formal service-capability and provider-requester behavior specification",
+      "rationale": "The formal modeling method describes both service functionality and the behavioral requirements for interacting requesters.",
+      "adjudication_reason": "B correctly includes the capability-description branch of L2: provider functionality is an explicit output of the formal specification method. Both coders support L3 through mutually constrained provider-requester behavior. Restrictions on interaction behavior do not by themselves establish role permissions under L4.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "models and formal specifications enable software engineers to specify not only the service provider's functionality and behaviour, but also the requirements and restrictions on service requesters' behaviour.",
+          "rationale": "The method explicitly represents provider functionality and requester requirements."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "models and formal specifications enable software engineers to specify not only the service provider's functionality and behaviour, but also the requirements and restrictions on service requesters' behaviour.",
+          "rationale": "Provider behavior and requester behavioral obligations are specified together for dynamic service integration."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0940",
+      "identifier_key": "doi:10.1109/wsc52266.2021.9715312",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "mechanism": "Sequential logistics offers with compared auction payment rules",
+      "rationale": "Official proceedings specify sequential DC-to-truck offers and the payment owed by served packages.",
+      "adjudication_reason": "The abstract names auction formats and does not itself establish L5, which motivates A’s caution. The official body states a market-clearing payment obligation, confirming B’s L5, and section 4.3 additionally defines repeated offers after rejection, supporting L3. Delivery duration is a simulation parameter rather than a studied order-management procedure; no L6 is added.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "sequence",
+          "quote": "to the next-nearest truck and continues the process.",
+          "rationale": "Section 4.3 specifies that the DC repeats its offer to the next-nearest truck after rejection, coordinating dependent decisions."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "payment",
+          "quote": "packages have to pay the market-clearing price.",
+          "rationale": "Section 5.1 explicitly imposes the package payment and defines its auction-determined amount."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sequence",
+        "payment"
+      ]
+    },
+    {
+      "record_id": "R0944",
+      "identifier_key": "doi:10.1145/1031114.1031118",
+      "classification": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "mechanism": "Delegated supplier relevance evaluation and consumer-banner allocation",
+      "rationale": "The recommendation architecture delegates evaluation to shop agents, selects relevant supplier displays and allocates a consumer-facing presentation surface.",
+      "adjudication_reason": "The disputed L3 is supported by explicit delegation of the recommendation task across shops, with each agent evaluating consumer data and bidding for that consumer. This is a distributed task architecture, rather than merely a bidder optimizing its own price in an otherwise given market. L7 concerns the designed recommendation banners; no claim of a human-subject experiment is made.",
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "This allows shops to rapidly adapt their bidding strategy to focus on consumers interested in their offerings.",
+          "rationale": "Supplier recommendations are selected on relevance to consumer interests."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "the task is delegated to the individual shops, each of which evaluates the information that is available about the consumer and his or her interests",
+          "rationale": "The proposed recommendation architecture explicitly delegates relevance evaluation to individual shop agents."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "a competitive distributed recommendation mechanism based on adaptive software agents for efficiently allocating the \"consumer attention space,\" or banners.",
+          "rationale": "Consumer-facing recommendation presentation is the mechanism’s direct design object, even though evaluation uses simulated consumers."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0948",
+      "identifier_key": "doi:10.1145/1082473.1082717",
+      "classification": [
+        "L1",
+        "L2"
+      ],
+      "mechanism": "Reputation-guided selection of seller network connections",
+      "rationale": "Reputation estimates inform which seller links buyers retain.",
+      "adjudication_reason": "B’s set is supported. A’s additional L3 rests on agents communicating, but the read abstract describes the purpose of reputation exchange without its message rules, delegation or dependent action coordination. This is insufficient to turn the trust mechanism automatically into an orchestration contribution.",
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "Buyer-agents use a decentralized reputation-based trust mechanism",
+          "rationale": "The simulation studies reputation-based counterparty trust."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "to determine which connections to maintain to sellers of the good (producers and intermediaries)",
+          "rationale": "The trust mechanism explicitly guides selection and retention of seller relationships."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0951",
+      "identifier_key": "doi:10.1145/1102613.1102644",
+      "classification": [
+        "L3",
+        "L6"
+      ],
+      "mechanism": "Mobile inter-agent negotiation and faster advertisement-contract formation",
+      "rationale": "The mobile application implements negotiation and evaluates contract-formation latency.",
+      "adjudication_reason": "B’s L3/L6 set captures the studied functionality. A’s L7 quote describes advertisements as the contracted good displayed on a device. The abstract does not study presentation design, preference input, supervision or actual human interaction; display as the transaction setting alone does not satisfy substantive L7.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "an agent executed on a handheld device negotiates and establishes contracts with commercial agents in its neighborhood.",
+          "rationale": "The implemented application mediates negotiations between local mobile and commercial agents."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "modifications to the system in order to enable the creation of contracts in a shorter time.",
+          "rationale": "Contract creation is directly implemented and evaluated as the optimization target."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0960",
+      "identifier_key": "doi:10.1145/1282100.1282109",
+      "classification": [
+        "L3"
+      ],
+      "mechanism": "Symbolic verification of institutional auction interaction rules",
+      "rationale": "The framework verifies the norms of an auction interaction protocol.",
+      "adjudication_reason": "Both coders support L3. A’s L4 evidence appears in the review of previous institutional approaches and names powers without showing role/action permission rules in the studied model. A targeted official-body request failed with HTTP 403; L4 is therefore not evidenced by material actually read.",
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "we model and verify the Dutch Auction institution, a widely used interaction protocol",
+          "rationale": "Institutional interaction rules are the direct model-checking object."
+        }
+      ],
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "supplement_attempts": [
+        {
+          "question": "Do the verified institutional rules specify which roles may perform which actions, supporting L4 rather than only constitutive institutional powers?",
+          "local_check": "No source-specific body found under source-evidence or screening-review by source record identifier; available assigned source is abstract.",
+          "url": "https://dl.acm.org/doi/10.1145/1282100.1282109",
+          "retrieved_at_utc": "2026-10-19T22:00:45Z",
+          "access_status": "failed_http_403",
+          "detail": "Official ACM page returned 403 Forbidden; no body read."
+        }
+      ]
+    },
+    {
+      "record_id": "R0966",
+      "identifier_key": "doi:10.1145/1570256.1570270",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "apply a Genetic Algorithm to evolve an efficient trade execution strategy.",
+          "rationale": "The research mechanism is strategy optimization; its operational relationship to order-state management is unspecified in the read evidence."
+        }
+      ],
+      "rationale": "The abstract specifies optimization of trade execution but no order-state or commitment-management rule.",
+      "mechanism": "Genetic optimization of trading execution strategy",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "A infers L6 from the term trade execution. Under the fixed boundary this does not show order acceptance, fills, modifications, cancellations or other lifecycle management as the studied mechanism. B’s evidence-limited classification is retained. The targeted official-body request to resolve that exact gap returned HTTP 403.",
+      "supplement_attempts": [
+        {
+          "question": "Does the evolved strategy explicitly manage order submission, acceptance, fills, modifications or cancellation, or only choose trading actions and quantities?",
+          "local_check": "No source-specific body found under source-evidence or screening-review by source record identifier; available source is abstract.",
+          "url": "https://dl.acm.org/doi/10.1145/1570256.1570270",
+          "retrieved_at_utc": "2026-10-19T22:00:45Z",
+          "access_status": "failed_http_403",
+          "detail": "Official ACM page returned 403 Forbidden; no body read."
+        }
+      ]
+    },
+    {
+      "record_id": "R0988",
+      "identifier_key": "doi:10.1145/3345838.3356005",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We introduce an auction-related priority such that it serves two purposes: (1) provides fairness by restraining bidders opt out, and (2) reduces traffic that arises as a result of increased utilization of parking space with AVs' ability to move by themselves.",
+          "rationale": "The introduced priority rule coordinates auction participation and dependent vehicle relocation."
+        }
+      ],
+      "rationale": "The proposed priority mechanism regulates recurrent participation and vehicle movement.",
+      "mechanism": "Priority-controlled recurrent parking auctions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B’s L3 is directly supported by the designed priority rule. A’s added L2 and L6 rely on a list of parking lookup and reservation capabilities without explaining the selection or commitment rules as substantive research objects. The official-body request for those concrete mechanisms failed with HTTP 403. Naming VCG and budget balance also does not independently establish L5.",
+      "supplement_attempts": [
+        {
+          "question": "What lookup/provider-selection and reservation-commitment mechanisms are implemented or evaluated beyond the capability list; are VCG transfer obligations explicitly designed?",
+          "local_check": "No source-specific body found under source-evidence or screening-review by source record identifier; available source is abstract.",
+          "url": "https://dl.acm.org/doi/10.1145/3345838.3356005",
+          "retrieved_at_utc": "2026-10-19T22:00:45Z",
+          "access_status": "failed_http_403",
+          "detail": "Official ACM page returned 403 Forbidden; no body read."
+        }
+      ]
+    },
+    {
+      "record_id": "R0992",
+      "identifier_key": "doi:10.1145/3411764.3445129",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "We evaluated our system by comparing it with a rule-based CA with regards to customer response and perceptions in a real-world context where our systems took 144,795 phone calls in total in which 83,019 (57.3%) natural breakdowns happened.",
+          "rationale": "Actual customer-agent conversations and their behavioral outcomes are directly evaluated."
+        }
+      ],
+      "rationale": "The field evaluation studies warning dialogue, conversational repair and customers’ decisions to stop risky transactions.",
+      "mechanism": "Empathetic voice dialogue for customer fraud alerts and intervention",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B’s L7 captures the study object. A’s L1 quote describes collecting information for fraud scrutiny, with no identity, credential, reputation or provenance-based trust mechanism; generic fraud detection is explicitly insufficient. Persuading customers to stop is the evaluated human intervention, not an order-cancellation or lifecycle-management procedure establishing L6."
+    },
+    {
+      "record_id": "R0995",
+      "identifier_key": "doi:10.1145/3465456.3467607",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we study the problem of characterizing optimal mechanisms for selling an item to one of multiple agents with return on spend constraints when either the values or target ratios are private.",
+          "rationale": "The described object is optimal-mechanism and revenue analysis; explicit payment obligations are not available in the read abstract."
+        }
+      ],
+      "rationale": "The abstract gives mechanism-existence and revenue results without identifying a payment rule.",
+      "mechanism": "Revenue-optimal auction analysis for return-on-spend-constrained buyers",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B infers L5 from revenue-maximizing mechanism characterization. The fixed payment boundary requires evidence of the studied payment obligation or transfer rule, which the abstract does not specify. A’s classification is retained after a targeted request for those rules failed with HTTP 403. Advertiser goal setting is motivation, and return-on-spend is an economic constraint rather than L4 authorization.",
+      "supplement_attempts": [
+        {
+          "question": "What payment/transfer rules define the characterized revenue-optimal mechanisms, beyond the abstract’s revenue conclusions?",
+          "local_check": "No source-specific body found under source-evidence or screening-review by source record identifier; available source is abstract.",
+          "url": "https://dl.acm.org/doi/10.1145/3465456.3467607",
+          "retrieved_at_utc": "2026-10-19T22:00:45Z",
+          "access_status": "failed_http_403",
+          "detail": "Official ACM page returned 403 Forbidden; no body read."
+        }
+      ]
+    }
+  ]
+}

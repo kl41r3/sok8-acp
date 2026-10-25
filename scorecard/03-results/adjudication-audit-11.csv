@@ -1,0 +1,12 @@
+cell_id,protocol,dimension,gate,model_median,locked_score,changed
+1,x402,A,spread,2.0,2.0,False
+2,UCP,EM,spread,1.0,1.0,False
+3,ERC-8004,A,spread,1.0,0.5,True
+4,MCP,EM,spread,1.0,1.5,True
+5,A2A,EM,spread,1.0,1.0,False
+6,AG-UI,I,spread,0.5,0.5,False
+7,AG-UI,A,spread,0.0,0.5,True
+8,AG-UI,EM,spread,1.0,1.0,False
+9,Kleros,I,spread,0.5,0.5,False
+10,Kleros,EM,object,1.0,1.0,False
+11,Kleros,C,object,1.0,1.0,False

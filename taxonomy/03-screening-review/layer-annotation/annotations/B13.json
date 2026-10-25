@@ -1,0 +1,1153 @@
+{
+  "job_id": "B13",
+  "role": "independent",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "P001",
+      "identifier_key": "doi:10.1109/tsmc.2015.2468197",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "This paper proposes a method of solving the DUCP with a Walrasian auction. The main feature of the proposed method is that not only a generation-level pattern but also an up/down pattern can be determined.",
+          "rationale": "The auction coordinates distributed generators in selecting interdependent generation and commitment schedules."
+        }
+      ],
+      "rationale": "The proposed auction supplies a distributed coordination procedure for generating units.",
+      "mechanism": "Walrasian auction for distributed unit commitment and dispatch",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P002",
+      "identifier_key": "doi:10.1109/wi-iat.2009.121",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The agents participating in the market evolve by means of an evolutionary algorithm: they undergo selection based on their NAV, replication with random mutations, and recombination.",
+          "rationale": "Evolutionary trader behavior is the developed mechanism; the brief trust mention does not explain a trust assessment mechanism."
+        }
+      ],
+      "rationale": "The abstract develops evolutionary financial agents but does not substantiate its mentioned source-trust function or another qualifying function.",
+      "mechanism": "Evolutionary BDI trading agents with fuzzy beliefs and NAV-based selection",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "How is trust in information sources represented, estimated, and used beyond the brief statement that it is taken into account?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P003",
+      "identifier_key": "doi:10.1109/dexa.2001.953134",
+      "classification": [
+        "L3",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The paper presents a novel approach to using a high-level script language to automate the dialog with Web-based service agents.",
+          "rationale": "The scripting language specifies and automates interaction with service agents."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "We demonstrate the applicability of our approach with examples in automating online ordering in e-commerce environments and also for processing distributed information over the Web.",
+          "rationale": "Online ordering is a demonstrated application of the proposed automated dialog mechanism."
+        }
+      ],
+      "rationale": "The language automates service-agent dialogs and is demonstrated on order placement.",
+      "mechanism": "High-level scripts compiled into Internet agents that automate Web dialogs and ordering",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P004",
+      "identifier_key": "doi:10.1145/3733802.3764057",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "(mathsf {MSA}) functions by embedding a “parasitic parameter” in an MCP’s API, masquerading as a technical requirement, to force the agent to include its session context in the parameter value during MCP invocation.",
+          "rationale": "The contribution is a privacy-exfiltration attack; no authentication, permission enforcement, or inter-agent task-coordination mechanism is established."
+        }
+      ],
+      "rationale": "The analyzed attack extracts session memory through an API parameter, outside the specified functional mechanisms.",
+      "mechanism": "Cross-MCP memory exfiltration through a parasitic API parameter",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P005",
+      "identifier_key": "doi:10.1109/wicom.2007.889",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Multi-attribute decision method, which calculates the commodity optimality to evaluate the commodities;",
+          "rationale": "The proposed decision component evaluates candidate commodities by multiple suitability attributes."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Ontology, which is used to support sharable information format and representation for the agents to communicate with one another.",
+          "rationale": "The framework designs a shared semantic representation for communication among agents."
+        }
+      ],
+      "rationale": "The framework combines suitability evaluation of commodities with ontology-mediated agent communication.",
+      "mechanism": "Multi-attribute commodity evaluation and ontology-based inter-agent representation",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P006",
+      "identifier_key": "doi:10.1109/icsssm.2013.6602584",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "A market-control agent directs the trading between the buyer and seller agents and enables a market mechanism with dynamic auction.",
+          "rationale": "A specified controller role coordinates buyer and seller interactions through a dynamic auction."
+        }
+      ],
+      "rationale": "The simulated market implements an explicit agent role directing interactions among trading agents.",
+      "mechanism": "Market-control agent coordinating a dynamic carbon-allowance auction",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P007",
+      "identifier_key": "doi:10.1109/skg.2008.67",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "An objective of this paper is to study how agents in citation auctions behave in terms of their strategies as well as how their perceptions of the Internal Private Values IPVs) impacts those strategies.",
+          "rationale": "Bidder strategies and private valuations are studied without an explicit payment rule, coordination procedure, or suitability-based counterparty selection."
+        }
+      ],
+      "rationale": "The abstract compares bidder behavior across auction settings; auction names and market-choice returns do not establish a layer function.",
+      "mechanism": "Simulation of citation-auction strategies under different private values and populations",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P008",
+      "identifier_key": "doi:10.1145/1052220.1052234",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "For the case of virtually unlimited supply (such as information goods), we present a number of one-to-many bargaining strategies for the seller agent, which take into account the fairness constraint, and consider multiple attributes simultaneously.",
+          "rationale": "The developed seller strategies organize bilateral bargaining interactions with multiple buyers under a cross-buyer fairness rule."
+        }
+      ],
+      "rationale": "The study designs and compares multi-attribute bargaining interaction strategies across multiple buyers.",
+      "mechanism": "Fairness-constrained one-to-many bilateral bargaining",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P009",
+      "identifier_key": "doi:10.1145/779928.779936",
+      "classification": [
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The algorithms will withdraw from one set of possible auctions and move to another set if this will produce a better-expected outcome, but will effectively manage the risk of accidentally winning outstanding bids/offers during the withdrawal process.",
+          "rationale": "The withdrawal procedure manages outstanding buy and sell offers and their risk of becoming unwanted transaction commitments."
+        }
+      ],
+      "rationale": "The algorithm substantively manages transaction commitment risk when withdrawing outstanding offers across component purchases and composite sales.",
+      "mechanism": "Risk-aware withdrawal of outstanding purchase bids and service-sale offers",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P010",
+      "identifier_key": "doi:10.1109/icacte.2008.75",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "a credit model (host credibility assessing the credit relation) is proposed in the paper to resolve the security issue of the e-commerce system based on the Mobile Agent technology.",
+          "rationale": "The proposed model assesses host credibility to support trust in hosts executing mobile agents."
+        }
+      ],
+      "rationale": "Host credibility assessment is the proposed protection mechanism.",
+      "mechanism": "Credit-relation model assessing mobile-agent host credibility",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P011",
+      "identifier_key": "doi:10.1109/aina.2004.1283962",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "By using a proxy server, a user can generate a mobile auction agent by giving the bidding information, including the maximum bidding price.",
+          "rationale": "The designed proxy service accepts a user's bidding preferences to configure an auction agent."
+        }
+      ],
+      "rationale": "The system includes explicit human preference input for configuring proxy bidding; the price analysis itself establishes no additional function.",
+      "mechanism": "User-configured mobile proxy bidder and analytical winning-price model",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P012",
+      "identifier_key": "doi:10.24963/ijcai.2024/18",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "We seek to understand how bank nodes may strategically mitigate fraud risk in RTPs, through investment in fraud detection and restricting payments eligible for real-time processing.",
+          "rationale": "The study analyzes rules determining which payments receive immediate rather than standard settlement."
+        }
+      ],
+      "rationale": "The payment-network model studies selective real-time processing rules and their strategic effects on fund settlement.",
+      "mechanism": "Bank strategies controlling real-time payment eligibility and fraud detection",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P013",
+      "identifier_key": "doi:10.24963/ijcai.2024/325",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "In this work, we propose Markov perfect Nash equilibrium (MPNE) policies for a setup where multiple prosumers with knowledge of the composite supply curve compete to procure commodities.",
+          "rationale": "The policies optimize an individual prosumer's bidding across rounds, rather than establishing a new coordinating or payment procedure."
+        }
+      ],
+      "rationale": "Equilibrium bidding and supply-curve reconstruction optimize procurement cost within an existing auction.",
+      "mechanism": "MPNE-based bidding using reconstructed supply curves",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P014",
+      "identifier_key": "doi:10.1609/aaai.v24i1.7614",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "It compared the performance between automatic negotiators that interacted with PDAs to automatic negotiators that interacted with actual people in different domains.",
+          "rationale": "Actual human-agent negotiation outcomes are directly evaluated against agent-based substitutes."
+        }
+      ],
+      "rationale": "The experiments assess automated negotiators through interactions with actual human subjects.",
+      "mechanism": "Comparison of human-agent negotiation with peer-designed-agent evaluation",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P015",
+      "identifier_key": "platform:IJCAI-PDF:/proceedings/99-1/papers/076.pdf",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We develop a dynamic programming model for agents to compute bidding policies based on estimated distributions over prices.",
+          "rationale": "Dynamic programming and price learning determine an individual bidder's policy, not a specified inter-agent coordination or payment rule."
+        }
+      ],
+      "rationale": "The substantive mechanism is sequential bid optimization under price uncertainty and resource complementarity.",
+      "mechanism": "Dynamic-programming sequential-auction bidding with learned price distributions",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P016",
+      "identifier_key": "doi:10.1145/1609170.1609174",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We show how to setup a multiplayer multi-issue negotiation process where preferences are learned, and we investigate how the results of this process relate to the theoretical result of holding an auction in the case of complete knowledge about the preferences of the buyer.",
+          "rationale": "A specified multiplayer negotiation process coordinates bargaining while learning counterpart preferences."
+        }
+      ],
+      "rationale": "The contribution designs and evaluates a negotiation procedure replacing an auction's complete-information assumption.",
+      "mechanism": "Multi-issue multiplayer negotiation with learned opponent preferences",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P017",
+      "identifier_key": "doi:10.1609/aaai.v27i1.8607",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "The paper presents two methods for choosing the subset of prices to be presented to a fully-rational buyer, attempting to overcome the computational complexity associated with evaluating all possible subsets.",
+          "rationale": "The methods explicitly control buyer-facing price presentation and are subsequently evaluated with human buyers."
+        }
+      ],
+      "rationale": "Selective disclosure is designed and evaluated as a human-facing interaction affecting further shopping search.",
+      "mechanism": "Selective price presentation by comparison shopping agents",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P018",
+      "identifier_key": "platform:IJCAI:abstract/07/249",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We compute, for the first time, Bayes-Nash equilibria for first-price single-unit auctions and mth-price multi-unit auctions, when the auction has a set of possible closing times, one of which is chosen randomly for the auction to end at.",
+          "rationale": "Equilibrium calculation for bidder strategy under uncertain closing times does not itself specify or study a qualifying functional mechanism."
+        }
+      ],
+      "rationale": "The contribution derives trading strategies from auction equilibria; auction price names alone do not establish payment-rule research.",
+      "mechanism": "Bayes-Nash strategy generation under randomly selected auction closing times",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P019",
+      "identifier_key": "doi:10.1109/wiiat.2008.303",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The overall assessment is used to determine a price range based on current bid, which finally selects the best one as the new bid.",
+          "rationale": "Fuzzy attribute and attitude assessment is used to choose a bid amount, rather than select suitable providers or coordinate agents."
+        }
+      ],
+      "rationale": "The mechanism optimizes a bidder's price using fuzzy assessments of goods and eagerness.",
+      "mechanism": "Fuzzy attitude and commodity-attribute assessment for automated bid adjustment",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P020",
+      "identifier_key": "doi:10.1145/544741.544776",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We compare agents trading using peer-to-peer communications with agents using the same trading strategy in an auction that makes use of a centralized auctioneer to disseminate information.",
+          "rationale": "The study compares decentralized agent communication against centralized dissemination and evaluates coordination message costs."
+        }
+      ],
+      "rationale": "Peer-to-peer interaction architecture is substantively evaluated for auction convergence and communication scalability.",
+      "mechanism": "Peer-to-peer communication for continuous double-auction coordination",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P021",
+      "identifier_key": "doi:10.5555/510378.510637",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "We describe simulations of a typical online auction, where the duration is fixed, and the second-highest price is continuously posted and determines the winner's payment.",
+          "rationale": "The modeled settlement rule explicitly sets the winning bidder's payment to the posted second-highest price and is analyzed through winning-price outcomes."
+        }
+      ],
+      "rationale": "The simulation explicitly analyzes auction outcomes under a defined winner-payment rule.",
+      "mechanism": "Early-bidder and sniper simulation under a posted second-highest-price payment rule",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P022",
+      "identifier_key": "doi:10.1145/3485447.3512055",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "Using both theoretical analysis and simulations, we show that, surprisingly, in second-price auctions the players have incentives to misreport their true valuations to their own learning agents, while in first-price auctions it is a dominant strategy for all players to truthfully report their valuations to their agents.",
+          "rationale": "The study analyzes user preference reporting to delegated agents and how the auction setting changes incentives at that input interface."
+        }
+      ],
+      "rationale": "The substantive interaction is the user's valuation report to their learning agent, studied theoretically and through simulations.",
+      "mechanism": "Incentive analysis of valuation input to regret-minimizing bidding agents",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P023",
+      "identifier_key": "doi:10.1609/aaai.v28i1.9089",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "It temporarily inflates the reputation of thevictim seller with a certain value for a period of time. This allows the seller to recover hisutility loss due to lost opportunities caused by the misreported ratings.",
+          "rationale": "The proposed mechanism repairs a seller's reputation after erroneous counterparty ratings and evaluates the resulting utility recovery."
+        }
+      ],
+      "rationale": "Temporary reputation adjustment is a designed and evaluated trust-repair mechanism.",
+      "mechanism": "Time-limited seller reputation inflation to compensate misreported ratings",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the mechanism include a procedure for judging a disputed rating, or does it assume that the rating is already known to be incorrect?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P024",
+      "identifier_key": "doi:10.1109/ssci.2018.8628638",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Here, we explore and extend Wah and Wellman's model, and demonstrate that results are sensitive to the bid-shading parameter used for zero-intelligence (ZIC) trading agents.",
+          "rationale": "The research evaluates how trader-model assumptions change market-efficiency conclusions rather than describing a qualifying functional mechanism."
+        }
+      ],
+      "rationale": "The abstract establishes market-efficiency analysis of latency arbitrage and trader algorithms; named auction settings alone do not establish coordination design.",
+      "mechanism": "Agent-based sensitivity analysis of latency arbitrage using ZIC and ZIP traders",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P025",
+      "identifier_key": "doi:10.24963/ijcai.2023/283",
+      "classification": [
+        "L3",
+        "L5",
+        "L8"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We study a scenario where an adjudication task (e.g., the resolution of a binary dispute) is outsourced to a set of agents who are appointed as jurors.",
+          "rationale": "The study assigns an adjudication task to agent jurors and analyzes the majority-voting mechanism coordinating their judgments."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "a payment function to reward the agents with the majority vote and possibly punish the ones in the minority.",
+          "rationale": "Payment functions define juror rewards and penalties and are analyzed for incentive effects."
+        },
+        {
+          "layer": "L8",
+          "evidence_id": "abstract",
+          "quote": "We consider simple adjudication mechanisms that use (1) majority voting to decide the final verdict",
+          "rationale": "A majority-vote adjudication rule determines the verdict of the outsourced dispute."
+        }
+      ],
+      "rationale": "The work studies delegated juror coordination, incentive payments, and dispute verdict formation.",
+      "mechanism": "Strategic juror effort and majority-vote adjudication with reward and penalty functions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P026",
+      "identifier_key": "doi:10.1109/icih67754.2025.11608523",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "The system is implemented into an AI-augmented web application that supplies business users with an easy and interactive experience of tracking and controlling dynamic pricing in real-time.",
+          "rationale": "The implemented interface enables business users to monitor and control the automated pricing system."
+        }
+      ],
+      "rationale": "The system includes human-facing supervision and intervention in dynamic pricing.",
+      "mechanism": "XGBoost and TD3 pricing with an interactive business-user control interface",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P027",
+      "identifier_key": "doi:10.24963/ijcai.2022/23",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "introduce surcharges on customers to reduce energy usage during peak demand times.",
+          "rationale": "The tariff design establishes additional customer payment obligations as a peak-demand incentive."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "the VV21–RM designs tariff contracts that a) maintain a balanced portfolio of different types of customers; b) sustain an appropriate level of market share, and c) introduce surcharges on customers to reduce energy usage during peak demand times.",
+          "rationale": "Tariff contracts and their customer obligations are explicitly designed and evaluated as the broker's retail mechanism."
+        }
+      ],
+      "rationale": "The retail module designs tariff contracts with surcharge obligations; wholesale bid optimization establishes no additional label.",
+      "mechanism": "Energy-broker tariff contract design with peak-demand customer surcharges",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P028",
+      "identifier_key": "platform:IJCAI-PDF:/proceedings/99-1/papers/077.pdf",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "contracts where each party can decommit by paying a predetermined penalty",
+          "rationale": "The contract defines a payment obligation triggered by a party's decommitment and the study optimizes those penalties."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "Algorithms are presented for computing the Nash equilibrium decommitting thresholds and decommitting probabilities given the contract price and the penalties.",
+          "rationale": "The algorithms explicitly govern release from contractual commitments and optimize contract terms."
+        }
+      ],
+      "rationale": "Leveled commitments are studied through contractual decommitment decisions and the associated penalty payments.",
+      "mechanism": "Equilibrium decommitment algorithms and optimization of contract prices and penalties",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P029",
+      "identifier_key": "doi:10.1109/icicic.2007.122",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "AISMA includes the architecture of the auction platform, the smart agent's bidding strategy, as well as the privacy and security protecting scheme.",
+          "rationale": "The listed components provide no functional details establishing identity, permissions, coordination, or another layer mechanism."
+        }
+      ],
+      "rationale": "The abstract lists an auction architecture, bidding strategy, and security scheme without describing a qualifying mechanism.",
+      "mechanism": "Agent-based mobile-auction platform with an unspecified bidding and security scheme",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What concrete interaction protocol or identity, permission, and transaction-management mechanisms does AISMA implement?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P030",
+      "identifier_key": "doi:10.24963/ijcai.2025/1210",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We propose an auction format that operates on a token-by-token basis, and allows LLM agents to influence content creation through single dimensional bids.",
+          "rationale": "The proposed token-level bidding procedure coordinates multiple agents' contributions to content generation."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "This equivalence enables a second-price rule design, even absent explicit agent valuation functions.",
+          "rationale": "The study derives a payment rule from incentive and aggregation properties, beyond merely naming an auction setting."
+        }
+      ],
+      "rationale": "The auction coordinates token generation and derives an incentive-compatible second-price rule.",
+      "mechanism": "Token-by-token LLM auction with monotone aggregation and a derived second-price rule",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P031",
+      "identifier_key": "doi:10.1109/is.2018.8710454",
+      "classification": [
+        "L5",
+        "L6",
+        "L8"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "a validation procedure that detects incorrect liability executions in order to suspend payment transactions to questionable service providers.",
+          "rationale": "Payment release is conditioned on verified execution, with suspension for incorrect performance."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The paper presents the validation methodology of a liability execution for agent-based service providers in a decentralized trading market, using the Model Checking method based on the mathematical model of finite state automata and Temporal Logic properties of interest.",
+          "rationale": "The methodology verifies fulfillment of service liabilities as a contractual acceptance step."
+        },
+        {
+          "layer": "L8",
+          "evidence_id": "abstract",
+          "quote": "a validation procedure that detects incorrect liability executions in order to suspend payment transactions to questionable service providers.",
+          "rationale": "A formal judgment of incorrect obligation execution triggers an enforcement response withholding payment."
+        }
+      ],
+      "rationale": "Formal liability-execution validation supports fulfillment checking and payment suspension for detected nonperformance.",
+      "mechanism": "Model-checking service obligations with payment suspension for incorrect execution",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P032",
+      "identifier_key": "platform:IJCAI:abstract/07/222",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "To predict, we simulate simultaneous ascending auctions. To optimize, we apply the sample average approximation method.",
+          "rationale": "Both steps operate inside one agent to predict prices and optimize bids, without establishing inter-agent coordination or other layer mechanisms."
+        }
+      ],
+      "rationale": "The travel agent combines price prediction and bid optimization, which fall outside the layer functions.",
+      "mechanism": "Auction-based price prediction and sample-average bid optimization",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P033",
+      "identifier_key": "doi:10.1109/tkde.2003.1245277",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "These algorithms employ heuristic fuzzy rules and fuzzy reasoning mechanisms in order to determine the best bid to make given the state of the marketplace.",
+          "rationale": "Fuzzy reasoning chooses the agent's bid within an existing market, rather than specifying a coordination, settlement, or lifecycle mechanism."
+        }
+      ],
+      "rationale": "The contribution is adaptive individual bidding; the mention of earlier human comparisons does not establish human interaction in this study.",
+      "mechanism": "Fuzzy-rule adaptive bidding in continuous double auctions",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P034",
+      "identifier_key": "platform:IJCAI-PDF:/proceedings/99-1/papers/079.pdf",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "It sets up a virtual multi-round auction in which a virtual agent represents each original bid bundle and places bids, according to a fixed strategy, for each good in that bundle.",
+          "rationale": "The heuristic explicitly coordinates bundle-representing agents through repeated bidding rounds to solve an interdependent allocation problem."
+        }
+      ],
+      "rationale": "The virtual-auction heuristic implements an agent interaction procedure; the separate depth-first search alone would not establish a layer.",
+      "mechanism": "Virtual bundle agents coordinating allocation through multi-round auctions",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P035",
+      "identifier_key": "doi:10.1145/3774904.3792400",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "By masking the root cause of the anomaly, the LLM is prompted to re-infer, facilitating efficient and low-cost anomaly resolution.",
+          "rationale": "Checkpointing and attention-mask correction repair one model's execution without establishing identity, permissions, or inter-agent coordination."
+        }
+      ],
+      "rationale": "The contribution detects and corrects tool-induced reasoning anomalies, outside the specified layer mechanisms.",
+      "mechanism": "Attention-based anomaly detection and checkpoint rollback for tool poisoning",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P036",
+      "identifier_key": "doi:10.1609/aaai.v40i21.38822",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Third, we formulate a bilevel optimization to jointly recover private valuations and risk preference parameters.",
+          "rationale": "Offline inference of latent valuations does not establish a human-facing preference-input mechanism or actual human-agent interaction."
+        }
+      ],
+      "rationale": "The study recovers human valuations from recorded market data using simulated-agent optimization, without a qualifying interaction function.",
+      "mechanism": "Generative market simulation and risk-sensitive inverse valuation learning",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P037",
+      "identifier_key": "doi:10.1109/tsmcb.2009.2034731",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "our method focuses on searching for strategies that are likely to be adopted by participating agents, which is formalized as the size of a strategy's basins of attraction under the replicator dynamics.",
+          "rationale": "The algorithm searches for evolutionarily attractive strategies rather than designing a functional interaction or transaction mechanism."
+        }
+      ],
+      "rationale": "Strategy acquisition under replicator dynamics is the research contribution, with the auction serving as a benchmark.",
+      "mechanism": "Strategy search based on replicator-dynamics basins of attraction",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P038",
+      "identifier_key": "doi:10.1109/icsssm.2006.320567",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The basis of our model is a representation of a supply chain as a network in which every edge represents a marketplace and every node a set of companies. The companies in every node buy in the same market, and sell in another market.",
+          "rationale": "The model explicitly structures the interacting purchase and sale roles of agent groups across connected markets."
+        }
+      ],
+      "rationale": "The implemented network model organizes interdependent trading-agent interactions along a supply chain.",
+      "mechanism": "Network-of-markets architecture connecting company-agent purchase and sale roles",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P039",
+      "identifier_key": "doi:10.24963/ijcai.2024/912",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We propose a unique multi-tiered taxonomy that organises existing IA-AFL works according to 1) the stakeholders served, 2) the auction mechanism adopted, and 3) the goals of the agents, to provide readers with a multi-perspective view into this field.",
+          "rationale": "The survey dimensions do not describe specific selection, coordination, or payment mechanisms sufficiently to establish a layer."
+        }
+      ],
+      "rationale": "The abstract establishes a survey of agent-based auction incentives but leaves the concrete functional mechanisms unspecified.",
+      "mechanism": "Stakeholder-, auction-, and goal-based taxonomy of intelligent agents for federated learning",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which reviewed mechanisms explicitly select suitable data owners, coordinate training tasks, or define payments?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P040",
+      "identifier_key": "doi:10.1109/ccece47787.2020.9255804",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This environment will be used to add computational intelligence methods to the strategies of the agents (hydroelectric, thermoelectric, distributors) in the auction environment",
+          "rationale": "The proposed simulation environment does not specify a qualifying coordination, resource-selection, or payment procedure."
+        }
+      ],
+      "rationale": "The abstract describes an environment for future strategy and market-behavior comparisons without substantive functional detail.",
+      "mechanism": "Computational environment comparing centralized and auction-based hydrothermal planning",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which concrete agent interaction or settlement rules does the implemented environment design or compare?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P041",
+      "identifier_key": "doi:10.1109/icis.2010.106",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "All travel agencies are actually software agents programmed by learners.",
+          "rationale": "Humans participate as agent programmers in a teaching competition, which does not establish a commercial human-agent interaction function."
+        }
+      ],
+      "rationale": "The contribution is a pedagogical programming competition, with no specified qualifying commercial mechanism.",
+      "mechanism": "Web-based active learning through auction-agent programming competitions",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P042",
+      "identifier_key": "platform:IJCAI-PDF:/proceedings/95-1/papers/091.pdf",
+      "classification": [
+        "L3",
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "This is achieved by splitting the exchanged goods into partial exchanges so that at each step, both agents benefit more from the future of the exchange than from vanishing with the goods or payment.",
+          "rationale": "The exchange procedure coordinates reciprocal actions through a sequence of incentive-compatible partial steps."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "the maximum deliveries and payments—for any point in the exchange—are solved for.",
+          "rationale": "The analysis explicitly determines allowable payments at successive exchange stages."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "The paper presents a fast algorithm that will find a sequence of independent partial deliveries in a way that enables unenforced exchange if such a sequence exists.",
+          "rationale": "The algorithm schedules partial fulfillment of contractual exchanges to sustain performance."
+        }
+      ],
+      "rationale": "The work coordinates staged contractual fulfillment and determines payments that support continued performance.",
+      "mechanism": "Self-enforcing sequences of partial deliveries and payments",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P043",
+      "identifier_key": "doi:10.1109/hicss.2009.306",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Incentive compatibility constraint is imposed to encourage real weight-setting by bidders. Bargain model and evolutionary learning game are adopted to explain the convergence of the multi-round auction.",
+          "rationale": "The proposed auction sets rules for truthful bidder weight reports and organizes bargaining over multiple rounds."
+        }
+      ],
+      "rationale": "The mechanism substantively specifies and analyzes the bidder reporting and multi-round bargaining process.",
+      "mechanism": "Incentive-compatible multi-attribute reverse-auction interaction mechanism",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P044",
+      "identifier_key": "doi:10.1145/1409540.1409559",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "In this paper we focus on the multi-agent system layer and concentrate on considerations for designing and implementing the auctioning and trading components of \"itchy feet\".",
+          "rationale": "The abstract identifies trading components but does not describe their interaction rules or substantive human-facing functionality."
+        }
+      ],
+      "rationale": "A mixed human-agent virtual environment is described, but its studied auction and trading mechanisms are not detailed enough to establish a function.",
+      "mechanism": "Auction and trading components of a multi-agent 3D tourism environment",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which interaction rules or human-facing trading controls are designed and evaluated in the auctioning components?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P045",
+      "identifier_key": "doi:10.1109/cifer52523.2022.9776070",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This paper presents an agent-based simulation model of the continuous double auction market to replicate and analyze the market dynamics under spoofing conditions.",
+          "rationale": "The simulation studies market manipulation outcomes without a trust assessment, authorization, dispute procedure, or other qualifying functional mechanism."
+        }
+      ],
+      "rationale": "The study analyzes volatility and trader profits under spoofing, rather than a mechanism belonging to the eight functions.",
+      "mechanism": "Agent-based market simulation of spoofing-induced price dynamics",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P046",
+      "identifier_key": "doi:10.1109/iat.2006.32",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We introduce pricing functions to let seller agents interpret the buyer agent request and associate a price to their bids in order to make them acceptable to the buyer as well as to their own commercial constraints.",
+          "rationale": "The mechanism defines how seller agents respond to buyer requests with mutually acceptable multi-criteria bids."
+        }
+      ],
+      "rationale": "The designed buyer-request and seller-response mechanism establishes negotiation interaction rules.",
+      "mechanism": "Multi-criteria reverse-auction agent request interpretation and bid response",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P047",
+      "identifier_key": "doi:10.5555/2884435.2884535",
+      "classification": [
+        "L3",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The optimum mechanism involves a protocol whereby the seller elicits the buyer's current valuation, and based on the bid makes two take-it-or-leave-it offers, one for now and one for the future.",
+          "rationale": "The protocol specifies valuation elicitation and a contingent sequence of seller offers."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "Finally, for the same problem in an environment in which contracts cannot be enforced, and thus perfection of equilibrium is necessary, we show that the optimum randomized mechanism requires multiple rounds of cheap talk-like interactions.",
+          "rationale": "The analysis directly examines how enforceability of the present-and-future sale commitments changes the feasible contracting mechanism."
+        }
+      ],
+      "rationale": "The work studies a dynamic sale-offer protocol and the effect of unenforceable future contracts on its implementation.",
+      "mechanism": "Dynamic current and future sale offers with enforceability-dependent interaction design",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P048",
+      "identifier_key": "doi:10.1109/uic-atc-scalcom-cbdcom-iop-smartworld.2016.0097",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We show how this approach scales when distributing the allocation task over multiple agents, propose different methods to improve scalability.",
+          "rationale": "The study distributes a shared allocation task among agents and evaluates methods for organizing that distribution."
+        }
+      ],
+      "rationale": "Delegation of allocation computation across agents is a substantive design and scalability contribution.",
+      "mechanism": "Distributed multi-agent execution of two-sided combinatorial allocation algorithms",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P049",
+      "identifier_key": "doi:10.1145/1329125.1329186",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "Our bidding agent is able to build probabilistic models of both the behaviour of users who view the adverts, and the auctions that it participates within. It then uses these models to maximise the exposure that its adverts receive.",
+          "rationale": "The algorithm selects human-facing advertising presentation using audience-behavior models and evaluates viewer exposure."
+        }
+      ],
+      "rationale": "The bidding mechanism controls advertising shown to public-display viewers and is evaluated for presentation exposure.",
+      "mechanism": "Audience-aware bidding for advertisement presentation on public displays",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "P050",
+      "identifier_key": "doi:10.1145/948005.948007",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "this paper reports on the development of a heuristic decision making framework that an autonomous agent can exploit to tackle the problem of bidding across multiple heterogeneous auctions.",
+          "rationale": "The framework selects one agent's bidding tactics across existing auctions, without establishing inter-agent coordination or other functional mechanisms."
+        }
+      ],
+      "rationale": "Heuristic bid optimization across auctions is the contribution; satisfying user objectives alone does not establish preference input or authorization.",
+      "mechanism": "Heuristic bidding tactics across heterogeneous auctions",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    }
+  ]
+}

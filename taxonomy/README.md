@@ -1,27 +1,31 @@
-# Taxonomy corpus: local release candidate
+# Literature Taxonomy
 
-This package organizes the current corpus/query/final-selection evidence used by the taxonomy Method and Appendix. It is a **local preparation**, with no assigned release version, DOI, dataset URL, public repository or publication. Dataset redistribution rights and the license for newly staged code remain unresolved. The existing upstream software notice is retained as evidence in [licensing](docs/licensing-and-release-readiness.md).
+## Included literature: 1,301 identifiers
 
-The frozen frame contains 5,241 source rows and 5,208 typed identifiers. The academic selection track has 5,217 source rows: 1,312 included, 3,668 original rule/evidence exclusions and 237 user-directed non-inclusions of unresolved records. Scientific pending states remain unchanged. The 1,301 included typed identifiers are not independent works. Three IEEE standards and 21 AAMAS relation-only cases are separate. Work/version quantities remain Unknown, and scientific/coverage/work-version acceptance remains Partial.
+**[Open the complete literature and layer-classification table](included-literature-classifications-1301.csv).** Each row contains an included identifier, title, publication year, source, publication link, L1–L8 labels, and the classification rationale. The table covers all 1,301 included identifiers: 771 have at least one layer label and 530 have `not_evidenced`.
 
-## Code and data
+This CSV is at the same directory level as `01-method/` through `05-code/`. The [other result tables](04-final-selection/README.md) provide screening decisions, evidence quotations, independent-rating comparisons, subsets, and summary statistics. Their names describe the contents and end with a count; the results guide explains each count's unit.
 
-- Offline entrypoint: [code/reproduce.py](code/reproduce.py).
-- Frozen identifier/decision projection: [data/records.csv](data/records.csv); administrative overlay: [data/selection-overlay.csv](data/selection-overlay.csv).
-- Exact query and field/count table: [data/query-counts.csv](data/query-counts.csv); scoped gates: [data/gate-matrix.csv](data/gate-matrix.csv).
-- Expected final selections, source counts and typed-key views: [expected/](expected/); claim mapping: [docs/claim-to-artifact.csv](docs/claim-to-artifact.csv).
-- Analytical function definitions: [docs/analytical-codebook.md](docs/analytical-codebook.md); no corpus function labels are distributed.
-- Schemas and exclusions: [docs/data-dictionary.md](docs/data-dictionary.md); frozen policies and limitations: [docs/method-boundaries.md](docs/method-boundaries.md).
+## Workflow and reproduction
 
-## Reproduce offline
+The five directories form a complete saved-input-to-result workflow:
 
-Python 3.9 or later; standard library only. No package install, model, credentials, network, GPU or source service is required. Allow approximately 100 MB free RAM and 10 MB for generated outputs. Run from this directory:
+| Directory | Purpose |
+|---|---|
+| [01-method](01-method/README.md) | Eligibility, source-specific retrieval, final selection, and functional classification criteria |
+| [02-source-evidence](02-source-evidence/README.md) | Source records, complete abstracts read by layer coders, public dates, query observations, and supplementary passages |
+| [03-screening-review](03-screening-review/README.md) | Selection decisions and reasons, original scientific-review context, paired layer ratings, and third-rater adjudications |
+| [04-final-selection](04-final-selection/README.md) | Deterministic selection tables, identifier unions, final classifications, exact evidence, and period comparisons |
+| [05-code](05-code/README.md) | Self-contained reconstruction and the layer-coding prompts and schema |
+
+Run from the package root:
 
 ```sh
-python3 -B code/reproduce.py --check-only
-python3 -B code/reproduce.py --output outputs/run
+uv run --locked python -B taxonomy/05-code/reproduce.py --output /tmp/sokacp-taxonomy --taxonomy-only
 ```
 
-The first command checks all package hashes and CSV schemas, applies the frozen overlay, and compares five regenerated files byte-for-byte to `expected/` using temporary output. The second saves those five files in a new or empty directory. Existing outputs are never overwritten. Expected terminal status: `Verified offline mechanical reproduction`; included source rows 1312, included typed identifiers 1301, all typed identifiers 5208, and preserved scientific pending selection rows 237. [Detailed instructions](docs/reproduction.md) state the exact scope and checks.
+The command reconstructs the top-level literature table and every table in `04-final-selection/` from `02-source-evidence/` and `03-screening-review/`, checks exact agreement with the distributed tables, and writes the reconstructed annotation packets to the output directory. Reconstructed results retain the distributed names and directory layout under the output's `taxonomy/` directory. It reads no original checkout, archived file, local path registry, or external service.
 
-The query table and processing receipts are frozen saved observations. This workflow does not requery native engines, rerun AI screening or retrieve licensed evidence. It preserves the saved typed keys and does not reconstruct independently accepted work/version entities or create new taxonomy labels. See [verification](docs/verification.md).
+The reading order for one publication is its source entry in `02-source-evidence/records.json`, its source-record decision in `03-screening-review/records.json`, then its identifier-level classification in [the complete literature table](included-literature-classifications-1301.csv). Final classifications link to the relevant A/B ratings and, where needed, the C adjudication. [The evidence quotations](04-final-selection/classification-evidence-quotes-1709.csv) link quotations to the exact distributed abstract or supplementary passage, with Unicode character offsets.
+
+The full source frame has 5,241 records and 5,208 exact identifiers. The academic-selection frame has 5,217 records and 5,184 exact identifiers. Inclusion is the union of source inclusions: 1,312 included source records yield 1,301 included typed identifiers. Source priority for assigning one analysis-source label is ACM, IEEE, AAAI, then IJCAI. This assignment does not discard other source memberships.

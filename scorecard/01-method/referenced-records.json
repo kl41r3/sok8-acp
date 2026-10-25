@@ -1,0 +1,2789 @@
+{
+  "scope": "Referenced metadata and original author synthesis from the historical 304-record scoring context. This is not the current literature taxonomy.",
+  "records": [
+    {
+      "annotated_at": "2026-08-02T20:41:33.304922+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Illia Polosukhin",
+        "Alex Skidanov"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Service-level agreements specifying guaranteed uptime, with payments for severed edges and proof-based enforcement.",
+      "content_hash": "sha256:25b57bf3d5fad2aff0e88c40a7c999ef013d323f1bdeb78625c47401389c024f",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2",
+          "page:3",
+          "page:4"
+        ],
+        "info_problem": [
+          "page:3",
+          "page:4",
+          "page:7",
+          "page:8"
+        ],
+        "layer": [
+          "page:3",
+          "page:4",
+          "page:7",
+          "page:8"
+        ],
+        "lifecycle_phase": [
+          "page:3",
+          "page:4",
+          "page:7",
+          "page:8"
+        ],
+        "origin": [
+          "page:1",
+          "page:4"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:3"
+        ],
+        "trust_model": [
+          "page:2",
+          "page:3",
+          "page:4"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "moral_hazard_effort",
+        "moral_hazard_payment",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L3",
+        "L5",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "interim",
+        "ex_post"
+      ],
+      "origin": "hybrid",
+      "record_id": "arxiv-2502.10637v1",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "The paper introduces Proof of Response, a mechanism for a decentralized network of nodes to request and forward data while compensating responses. Nodes agree to latency commitments and settle payments periodically; late or missing responses trigger payment obligations. If an intermediary deviates, a proof that a network edge no longer exists lets the requester stop resending and adjust payments. The design uses incentives to encourage nodes to declare realistic latencies and relies on proofs rather than a central authority.",
+      "title": "Proof of Response",
+      "trust_model": "Rational agents with economic incentives; trust is enforced via latency declarations, financial penalties for broken edges, and proofs of response.",
+      "url": "https://arxiv.org/pdf/2502.10637v1",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:42:01.280481+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Yedidel Louck",
+        "Ariel Stulman",
+        "Amit Dvir"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Granular permissions, short-lived credentials, scoped authorization, and explicit user consent gates such as USER CONSENT REQUIRED state.",
+      "content_hash": "sha256:e11cbdec78a93fff88c2410faa03b14c73f999d12d7f8f00ab4d57302b1fe455",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:4",
+          "page:7",
+          "page:8"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "origin": [
+          "page:1"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:3",
+          "page:4",
+          "page:8"
+        ],
+        "trust_model": [
+          "page:2",
+          "page:3"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness",
+        "information_revelation"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "arxiv-2505.12490v3",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper analyzes Google's A2A multi-agent protocol and identifies privacy and security gaps, including overprivilege, long-lived tokens, weak customer authentication, and missing user consent. It proposes safeguards such as granular permissions, short-lived credentials, explicit consent states, and granular authorization scopes to protect sensitive payment and identity data. The threat model is a semi-trusted multi-agent environment where prompt injection can elicit protected information during delegated workflows. Recommendations are validated through booking workflow examples that pause sensitive actions until explicit user approval.",
+      "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
+      "trust_model": "Semi-trusted multi-agent environment with TLS 1.3 transport security and implicit trust mechanisms.",
+      "url": "https://arxiv.org/pdf/2505.12490v3",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:42:36.989833+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Awid Vaziry",
+        "Sandro Rodriguez Garzon",
+        "Axel Küpper"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "x402/L402 micropayments: client signs a payment transaction, server verifies and settles via facilitator/blockchain, using macaroon credentials and the Lightning Network.",
+      "content_hash": "sha256:0fc98c4d1fefa81cc355372f2fff0d5a3fa733dbe29cba712937c7a5d3797519",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:4",
+          "page:5"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "origin": [
+          "page:2",
+          "page:4",
+          "page:5"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:5"
+        ],
+        "trust_model": [
+          "page:1",
+          "page:2"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "hybrid",
+      "record_id": "arxiv-2507.19550v1",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "The paper proposes an architecture for multi-agent economies by enhancing the Agent2Agent (A2A) protocol with ledger-anchored identities and x402 micropayments. It combines DLT-based identity and blockchain settlement with A2A's standard for discovering agent capabilities. The design supports delegation of subtasks to specialized agents, authorization through L402 macaroon credentials, and payment/settlement via the Lightning Network and blockchain facilitators. This yields a hybrid trust model spanning web2-style agent discovery and web3-style identity and value transfer.",
+      "title": "Towards Multi-Agent Economies: Enhancing the A2A Protocol with Ledger-Anchored Identities and x402 Micropayments for AI Agents",
+      "trust_model": "DLT-anchored identity",
+      "url": "https://arxiv.org/pdf/2507.19550v1",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:41:53.464960+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "David Shi",
+        "Kevin Joo"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "x402 prepayment in cryptocurrency for service access, with the payment recorded onchain.",
+      "content_hash": "sha256:900170fbad555d2614814be330bdad5629adc903eb4636e82e828817a53b2452",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:4"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:4"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:4"
+        ],
+        "origin": [
+          "page:2",
+          "page:5"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "trust_model": [
+          "page:4",
+          "page:5"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design"
+      ],
+      "layer": [
+        "L1",
+        "L2"
+      ],
+      "lifecycle_phase": [
+        "ex_ante"
+      ],
+      "origin": "web3",
+      "record_id": "arxiv-2510.27554v1",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper proposes TraceRank, a Sybil-resistant service discovery mechanism for agent economies. It uses value- and time-weighted payment flows from seeded reputable addresses as endorsements to rank services. Unlike simple payment counting or volume ranking, TraceRank resists Sybil attacks and infrastructure bias. The work is based on x402, an HTTP payment-gating standard for machine-native payments, and shows how payments can signal quality for autonomous agents.",
+      "title": "Sybil-Resistant Service Discovery for Agent Economies",
+      "trust_model": "Reputation propagation from seeded reputable payers via value- and time-weighted payment flows.",
+      "url": "https://arxiv.org/pdf/2510.27554v1",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:41:28.575096+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Botao 'Amber' Hu",
+        "Helena Rong"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Signed receipts, append-only logs, stake",
+      "content_hash": "sha256:a7fa53669bff9c9b87f9e9e8943dcd1cbc05da39e0617d7a5349989c0a32f2aa",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2",
+          "page:7",
+          "page:8"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7",
+          "page:8"
+        ],
+        "origin": [
+          "page:1"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:2",
+          "page:8"
+        ],
+        "trust_model": [
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:6"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "information_revelation",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L7",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "web2",
+      "record_id": "arxiv-2511.03434v1",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This survey compares inter-agent trust models—Brief, Claim, Proof, Stake, Reputation, and Constraint—for agentic web protocol design, including A2A, AP2, and ERC-8004. It addresses risks such as LLM agents hallucinating competence or being tricked by deceptive peers, tying trust to capability discovery and verification. The study highlights mechanisms like signed receipts, append-only audit logs, and repeated-game reputation to support accountable commerce lifecycle interactions. It spans ex-ante trust bootstrapping, interim orchestration and presentation, and ex-post dispute resolution.",
+      "title": "Inter-Agent Trust Models: A Comparative Study of Brief, Claim, Proof, Stake, Reputation and Constraint in Agentic Web Protocol Design-A2A, AP2, ERC-8004, and Beyond",
+      "trust_model": "Brief, Claim, Proof, Stake, Reputation, Constraint",
+      "url": "https://arxiv.org/pdf/2511.03434v1",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:41:39.822642+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Guanquan Shi",
+        "Haohua Du",
+        "Zhiqiang Wang",
+        "Xiaoyu Liang",
+        "Weiwenpei Liu",
+        "Song Bian",
+        "Zhenyu Guan"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Safety Margin Ratio (SMR) and permission grants",
+      "content_hash": "sha256:f401aa367e38df0813f047d61abd61eef946b587c8040004ca7fcfb52e52fc1f",
+      "doc_type": "SoK",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2",
+          "page:4"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4"
+        ],
+        "origin": [
+          "page:4"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:2"
+        ],
+        "trust_model": [
+          "page:2"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "arxiv-2512.06914v2",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "The paper systematizes the mismatch between static authorization permissions and fluctuating agent trustworthiness in LLM agent interactions. It introduces the Belief-Intention-Permission (B-I-P) framework to model the agentic lifecycle and proposes the Safety Margin Ratio to quantify trust-permission decoupling. The SoK maps attacks and defenses across standardized protocols such as MCP and A2A, covering capability discovery, invocation, and execution. It argues that neither static nor context-aware permission grants suffice for autonomous agent workflows.",
+      "title": "SoK: Trust-Authorization Mismatch in LLM Agent Interactions",
+      "trust_model": "Belief-Intention-Permission (B-I-P) framework",
+      "url": "https://arxiv.org/pdf/2512.06914v2",
+      "venue": "arXiv",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:46:21.434181+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "IETF"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "verifiable conversation records",
+      "content_hash": "sha256:fa3cd3d9a15aecaeaedabb4369328ea4a9c95a57f69a63f1cbf69821fa4f8006",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:105"
+        ],
+        "info_problem": [
+          "paragraph:105",
+          "paragraph:69"
+        ],
+        "layer": [
+          "paragraph:105",
+          "paragraph:69"
+        ],
+        "lifecycle_phase": [
+          "paragraph:105",
+          "paragraph:69"
+        ],
+        "origin": [
+          "paragraph:105"
+        ],
+        "synopsis": [
+          "paragraph:105",
+          "paragraph:69"
+        ],
+        "trust_model": [
+          "paragraph:105"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_commitment",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L4",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "web2",
+      "record_id": "ietf-draft-birkholz-verifiable-agent-conversations",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "This Internet-Draft specifies Verifiable Agent Conversation Records, a format for recording interactions between autonomous agents in a tamper-evident way. It addresses identity, authorization, and delegation concerns by linking credentials and capabilities. The records support dispute resolution through verifiable evidence. The draft covers the full transaction lifecycle from ex ante trust establishment to ex post arbitration.",
+      "title": "Verifiable Agent Conversation Records",
+      "trust_model": "verifiable credentials",
+      "url": "https://datatracker.ietf.org/doc/draft-birkholz-verifiable-agent-conversations/",
+      "venue": "IETF Datatracker",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:46:43.035613+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "IETF"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "payment evidence frame binding checkout, order, and orchestration events to lifecycle receipts",
+      "content_hash": "sha256:c6d8d1b8abf8801ebfb9333af9c25f008cbc5f4bc0b359d9ea66617f2974e38a",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:103"
+        ],
+        "info_problem": [
+          "paragraph:103"
+        ],
+        "layer": [
+          "paragraph:103"
+        ],
+        "lifecycle_phase": [
+          "paragraph:103"
+        ],
+        "origin": [
+          "paragraph:103"
+        ],
+        "synopsis": [
+          "paragraph:103"
+        ],
+        "trust_model": [
+          "paragraph:103"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness"
+      ],
+      "layer": [
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "ietf-draft-hopley-x402-payment-evidence-frame",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "This Internet-Draft introduces a payment evidence frame for agentic-payment lifecycle receipts. The frame captures identity, mandate, orchestration, checkout, order, and payment data to support trust and commitment in automated transactions. It is positioned as an informational specification for lifecycle evidence.",
+      "title": "Payment Evidence Frame for Agentic-Payment Lifecycle Receipts",
+      "trust_model": "agent identity and mandate-based trust across the payment lifecycle",
+      "url": "https://datatracker.ietf.org/doc/draft-hopley-x402-payment-evidence-frame/",
+      "venue": "IETF Datatracker",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:46:25.608808+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "IETF"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "structured dispute filing and resolution process",
+      "content_hash": "sha256:8da20499108afbc891aa01c8c8bfd7de37b834d0c5e5e043cb07f900b34ff627",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:105"
+        ],
+        "info_problem": [
+          "paragraph:105"
+        ],
+        "layer": [
+          "paragraph:105"
+        ],
+        "lifecycle_phase": [
+          "paragraph:105"
+        ],
+        "origin": [
+          "paragraph:105"
+        ],
+        "synopsis": [
+          "paragraph:105",
+          "paragraph:69"
+        ],
+        "trust_model": [
+          "paragraph:105"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_post"
+      ],
+      "origin": "web2",
+      "record_id": "ietf-draft-kotecha-agentic-dispute-protocol",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "The Agentic Dispute Protocol provides a standardized framework for autonomous agents to file, process, and resolve disputes. It enables discoverability of dispute mechanisms and enforces resolution outcomes. The protocol operates in the ex-post phase, addressing contract enforcement after a transaction has been initiated or completed.",
+      "title": "Agentic Dispute Protocol",
+      "trust_model": "standardized dispute resolution framework for autonomous agents",
+      "url": "https://datatracker.ietf.org/doc/draft-kotecha-agentic-dispute-protocol/",
+      "venue": "IETF Datatracker",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:48:53.317310+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "agenticplug.ai"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Card-rail payment extensions and multi-chain/fiat settlement standards bind agents to payment commitments.",
+      "content_hash": "sha256:03e7794eb6283076fbc34f3bdba6743c334290d12019bd3499ba9548caf27c52",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:59",
+          "paragraph:68"
+        ],
+        "info_problem": [
+          "paragraph:23",
+          "paragraph:41",
+          "paragraph:59",
+          "paragraph:68"
+        ],
+        "layer": [
+          "paragraph:23",
+          "paragraph:41",
+          "paragraph:59",
+          "paragraph:68"
+        ],
+        "lifecycle_phase": [
+          "paragraph:23",
+          "paragraph:41",
+          "paragraph:59",
+          "paragraph:68"
+        ],
+        "origin": [
+          "paragraph:59",
+          "paragraph:68"
+        ],
+        "synopsis": [
+          "paragraph:9",
+          "paragraph:23",
+          "paragraph:41",
+          "paragraph:68"
+        ],
+        "trust_model": [
+          "paragraph:68",
+          "paragraph:59"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_payment",
+        "contract_incompleteness"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L5",
+        "L6"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "ind-agenticplug-tracker",
+      "retrieved_date": "2026-08-02",
+      "stratum": "industry_survey",
+      "synopsis": "This industry survey tracks agentic commerce protocols, AI platform support, and market data, with all data sourced from primary references. It distinguishes commerce protocols that handle transactions from agent infrastructure protocols that enable agents to act. The tracker profiles Universal Commerce Protocol features such as cart, catalog, and identity linking, and payment protocols including Agent Payments Protocol, Machine Payments Protocol, and x402, highlighting wallet-based identity, automatic discovery, and payment-rail expansions.",
+      "title": "State of Agentic Commerce: Protocol Tracker",
+      "trust_model": "cryptographic identity and multi-chain settlement",
+      "url": "https://agenticplug.ai/current-state-of-agentic-commerce",
+      "venue": "agenticplug.ai (living document)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:48:53.318057+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Crossmint"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Tamper-proof cryptographically signed mandates and pre-authorized spending-limit sessions.",
+      "content_hash": "sha256:fd5895735605100e08695537b28422031b91f189d9f1ea9a3fd00a4065bb7beb",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:6",
+          "paragraph:18"
+        ],
+        "info_problem": [
+          "paragraph:14",
+          "paragraph:15",
+          "paragraph:18",
+          "paragraph:3",
+          "paragraph:4",
+          "paragraph:5",
+          "paragraph:6",
+          "paragraph:9"
+        ],
+        "layer": [
+          "paragraph:14",
+          "paragraph:15",
+          "paragraph:18",
+          "paragraph:3",
+          "paragraph:4",
+          "paragraph:5",
+          "paragraph:6",
+          "paragraph:9"
+        ],
+        "lifecycle_phase": [
+          "paragraph:14",
+          "paragraph:15",
+          "paragraph:18",
+          "paragraph:3",
+          "paragraph:4",
+          "paragraph:5",
+          "paragraph:6",
+          "paragraph:9"
+        ],
+        "origin": [
+          "paragraph:5",
+          "paragraph:17"
+        ],
+        "synopsis": [
+          "paragraph:1",
+          "paragraph:3",
+          "paragraph:4",
+          "paragraph:5",
+          "paragraph:6"
+        ],
+        "trust_model": [
+          "paragraph:18",
+          "paragraph:4",
+          "paragraph:5"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness"
+      ],
+      "layer": [
+        "L1",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "ind-crossmint-compare",
+      "retrieved_date": "2026-08-02",
+      "stratum": "industry_survey",
+      "synopsis": "This comparison examines agentic payment protocols ACP, AP2, x402, and MPP for AI agent transactions. ACP, from OpenAI and Stripe, standardizes checkout flows between agents and merchants, while AP2 from Google defines a trust and authorization layer using cryptographically signed mandates. x402 enables instant stablecoin payments over HTTP, and MPP's sessions model lets agents pre-authorize spending limits. The guide contrasts architecture, use cases, and production readiness, noting ACP is designed for human-present commerce.",
+      "title": "ACP vs AP2 vs x402 vs MPP: Agentic Payments Protocols Compared",
+      "trust_model": "cryptographic trust through signed mandates and stablecoin settlement",
+      "url": "https://www.crossmint.com/learn/agentic-payments-protocols-compared",
+      "venue": "Crossmint learn",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:48:49.961079+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Digital Applied"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "signed mandates (Intent, Cart, Payment)",
+      "content_hash": "sha256:c4562018e9eb7a2d3cea2ca211c512689cd3571af7637f38eb62f260446e1c1b",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:12",
+          "paragraph:25"
+        ],
+        "info_problem": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:19",
+          "paragraph:22",
+          "paragraph:25",
+          "paragraph:7"
+        ],
+        "layer": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:19",
+          "paragraph:22",
+          "paragraph:25",
+          "paragraph:7"
+        ],
+        "lifecycle_phase": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:19",
+          "paragraph:22",
+          "paragraph:25",
+          "paragraph:7"
+        ],
+        "origin": [
+          "paragraph:7"
+        ],
+        "synopsis": [
+          "paragraph:7",
+          "paragraph:12",
+          "paragraph:19",
+          "paragraph:22",
+          "paragraph:23",
+          "paragraph:24",
+          "paragraph:25"
+        ],
+        "trust_model": [
+          "paragraph:5",
+          "paragraph:25"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "ind-digitalapplied-standards",
+      "retrieved_date": "2026-08-02",
+      "stratum": "industry_survey",
+      "synopsis": "Three rival open standards — UCP, ACP, and AP2 — govern how AI agents shop and pay, with each owning a distinct layer. UCP covers discovery and cart, ACP handles in-chat checkout execution, and AP2 creates signed payment mandates. AP2 mandates are W3C Verifiable Credentials forming a tamper-proof chain of authorization. The report covers ACP’s Instant Checkout failure and UCP’s self-serve launch.",
+      "title": "Agentic Commerce Standards: UCP vs ACP vs AP2 in 2026",
+      "trust_model": "W3C Verifiable Credentials",
+      "url": "https://www.digitalapplied.com/blog/agentic-commerce-standards-ucp-acp-ap2-2026-merchant-guide",
+      "venue": "Digital Applied blog",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:03.850390+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Eco"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Programmatic settlement via x402-style protocols and stablecoin rails",
+      "content_hash": "sha256:ef648f08a5de346e7d3383a01e4fb7e53a30cde624770c21be354b08a0bfe8e0",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:10",
+          "paragraph:15",
+          "paragraph:16"
+        ],
+        "info_problem": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:13",
+          "paragraph:16",
+          "paragraph:17",
+          "paragraph:18",
+          "paragraph:21",
+          "paragraph:6",
+          "paragraph:7"
+        ],
+        "layer": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:13",
+          "paragraph:16",
+          "paragraph:17",
+          "paragraph:18",
+          "paragraph:21",
+          "paragraph:6",
+          "paragraph:7"
+        ],
+        "lifecycle_phase": [
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:13",
+          "paragraph:16",
+          "paragraph:17",
+          "paragraph:18",
+          "paragraph:21",
+          "paragraph:6",
+          "paragraph:7"
+        ],
+        "origin": [
+          "paragraph:15",
+          "paragraph:16"
+        ],
+        "synopsis": [
+          "paragraph:6",
+          "paragraph:7",
+          "paragraph:13"
+        ],
+        "trust_model": [
+          "paragraph:6",
+          "paragraph:15",
+          "paragraph:18"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_payment",
+        "contract_incompleteness",
+        "information_revelation"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "ind-eco-7layers",
+      "retrieved_date": "2026-08-02",
+      "stratum": "industry_survey",
+      "synopsis": "The agentic commerce stack is a seven-layer reference taxonomy mapping every vendor between an AI agent's intent and a completed merchant transaction. The framework covers identity and trust, discovery and capability, orchestration and delegation, authorization, payment and settlement, commerce lifecycle, and presentation and interaction. It is composable rather than monolithic, with typical purchases moving top-to-bottom while skipping layers depending on the merchant. Payments and identity receive significant funding, and Layer 2 protocols such as x402 and stablecoin settlement sublayers handle machine-to-machine payments. Layer 1 hosts AI platforms and agent surfaces, while Rye exemplifies checkout execution at Layer 5.",
+      "title": "The Agentic Commerce Stack: 7 Layers",
+      "trust_model": "layered hybrid trust between platforms, protocols, and settlement rails",
+      "url": "https://eco.com/support/en/articles/14845487-the-agentic-commerce-stack-7-layers",
+      "venue": "Eco knowledge base",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:03.851158+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Galaxy Research"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "x402 payment standard and stablecoin settlement on-chain",
+      "content_hash": "sha256:de7ff5ace9cd92dcc942c2e5d568ceb210d1fcfe9752a90f5aa9bef3b64bbbbb",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:89",
+          "paragraph:91",
+          "paragraph:104",
+          "paragraph:105"
+        ],
+        "info_problem": [
+          "paragraph:102",
+          "paragraph:103",
+          "paragraph:104",
+          "paragraph:44",
+          "paragraph:72",
+          "paragraph:89",
+          "paragraph:91",
+          "paragraph:94",
+          "paragraph:95"
+        ],
+        "layer": [
+          "paragraph:102",
+          "paragraph:103",
+          "paragraph:104",
+          "paragraph:44",
+          "paragraph:72",
+          "paragraph:89",
+          "paragraph:91",
+          "paragraph:94",
+          "paragraph:95"
+        ],
+        "lifecycle_phase": [
+          "paragraph:102",
+          "paragraph:103",
+          "paragraph:104",
+          "paragraph:44",
+          "paragraph:72",
+          "paragraph:89",
+          "paragraph:91",
+          "paragraph:94",
+          "paragraph:95"
+        ],
+        "origin": [
+          "paragraph:76",
+          "paragraph:104",
+          "paragraph:105"
+        ],
+        "synopsis": [
+          "paragraph:76",
+          "paragraph:91",
+          "paragraph:94",
+          "paragraph:107"
+        ],
+        "trust_model": [
+          "paragraph:44",
+          "paragraph:76"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "ind-galaxy-x402",
+      "retrieved_date": "2026-08-02",
+      "stratum": "industry_survey",
+      "synopsis": "This paper examines x402 as one of the leading emerging onchain agentic payment standards, situating it within the broader agentic payment stack. It argues that AI agents are becoming full-fledged economic actors through blockchain-based payments and stablecoin rails, enabled by primitives like MCP and A2A protocols. Trust and transparency are central, with blockchains quietly powering applications that may not self-identify as crypto. The paper also discusses e-commerce applications, Stripe's agentic commerce push, and the impact of regulatory clarity on stablecoin adoption. Regulatory clarity has accelerated the integration of crypto payment rails, opening the door for mass adoption of AI agents.",
+      "title": "Agentic Payments: x402 and AI Agents in the AI Economy",
+      "trust_model": "Transparency-and-blockchain-based trust",
+      "url": "https://www.galaxy.com/insights/research/x402-ai-agents-crypto-payments",
+      "venue": "Galaxy Research",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:03.566121+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Google Cloud"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "tamper-proof cryptographically signed digital mandates",
+      "content_hash": "sha256:6a6e424821cff6edc9a6ad7feb09557a99b271e83f33e1deeefdc0bef5f06cf2",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:53",
+          "paragraph:57"
+        ],
+        "info_problem": [
+          "paragraph:12",
+          "paragraph:44",
+          "paragraph:47",
+          "paragraph:48",
+          "paragraph:49",
+          "paragraph:51",
+          "paragraph:52",
+          "paragraph:53",
+          "paragraph:55",
+          "paragraph:56",
+          "paragraph:57"
+        ],
+        "layer": [
+          "paragraph:12",
+          "paragraph:44",
+          "paragraph:47",
+          "paragraph:48",
+          "paragraph:49",
+          "paragraph:51",
+          "paragraph:52",
+          "paragraph:53",
+          "paragraph:55",
+          "paragraph:56",
+          "paragraph:57"
+        ],
+        "lifecycle_phase": [
+          "paragraph:12",
+          "paragraph:44",
+          "paragraph:47",
+          "paragraph:48",
+          "paragraph:49",
+          "paragraph:51",
+          "paragraph:52",
+          "paragraph:53",
+          "paragraph:55",
+          "paragraph:56",
+          "paragraph:57"
+        ],
+        "origin": [
+          "paragraph:44"
+        ],
+        "synopsis": [
+          "paragraph:40",
+          "paragraph:44",
+          "paragraph:51",
+          "paragraph:52",
+          "paragraph:53",
+          "paragraph:55",
+          "paragraph:56",
+          "paragraph:57"
+        ],
+        "trust_model": [
+          "paragraph:52",
+          "paragraph:53"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L1",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "ind-google-ap2-blog",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "Google's AP2 is an open protocol for agent-led payments, establishing trust via cryptographically signed mandates and verifiable credentials. It addresses two shopping scenarios: real-time purchases and delegated tasks, where users authorize agents through Intent Mandates. The protocol focuses on authentication, authorization, and authenticity, ensuring that agents have explicit authority to transact. AP2 aims to provide a common language for secure, compliant transactions between agents and merchants.",
+      "title": "Announcing Agent Payments Protocol (AP2)",
+      "trust_model": "cryptographic trust via mandates and verifiable credentials",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
+      "venue": "Google Cloud blog",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:18.171509+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Marwan Zeggari",
+        "Aydin Abadi",
+        "Renaud Lambiotte",
+        "Mohamad Kassab"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "smart contract escrow",
+      "content_hash": "sha256:8441e1149e12f87b304ed5b448dc8da2e6bd2524a4553390147ab55c9879606b",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:6"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5",
+          "page:6",
+          "page:7"
+        ],
+        "origin": [
+          "page:6"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:6"
+        ],
+        "trust_model": [
+          "page:1",
+          "page:6"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_payment",
+        "contract_incompleteness",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L5",
+        "L6",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "web3",
+      "record_id": "oa-w4380137221",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "The paper addresses the physical sneaker resale market, which suffers from counterfeiting, payment scams, poor customer service, ineffective cancellation policies, hidden fees, and delivery delays. It proposes Lyzis Marketplace, a blockchain-based middleware that leverages NFTs, smart contracts, escrow, and the Kleros decentralized dispute resolution protocol. The platform is designed to reduce trust concerns and transaction risks by combining blockchain governance with decentralized arbitration. The authors aim to provide a more secure and legitimate secondary sneaker marketplace.",
+      "title": "Safeguarding Physical Sneaker Sale Through a Decentralized Medium",
+      "trust_model": "trustless with decentralized dispute resolution",
+      "url": "https://arxiv.org/pdf/2306.05359",
+      "venue": "arXiv (Cornell University)",
+      "year": 2023
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:18.014582+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Stefan Jovanović"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Enforcement of blockchain arbitral awards through the New York Convention",
+      "content_hash": "sha256:cf4aa46a8e8ae92748a0dae495a444eaec598113bbe4cf453f77ed776066a07d",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:25",
+          "paragraph:28"
+        ],
+        "info_problem": [
+          "paragraph:25",
+          "paragraph:40"
+        ],
+        "layer": [
+          "paragraph:25",
+          "paragraph:40"
+        ],
+        "lifecycle_phase": [
+          "paragraph:25",
+          "paragraph:40"
+        ],
+        "origin": [
+          "paragraph:25",
+          "paragraph:28"
+        ],
+        "synopsis": [
+          "paragraph:25",
+          "paragraph:28",
+          "paragraph:40"
+        ],
+        "trust_model": [
+          "paragraph:28",
+          "paragraph:34"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_post"
+      ],
+      "origin": "hybrid",
+      "record_id": "oa-w4412976487",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This research examines the recognition and enforcement of blockchain arbitral awards under the New York Convention. It surveys international arbitration frameworks and decentralized justice systems such as Kleros. The work discusses smart contract litigation, blockchain arbitration, and the use of blockchain evidence in international arbitration. It also considers soft law, human rights, and fair dispute resolution concerns. The central function is ex post contract enforcement through binding arbitral decisions.",
+      "title": "Recognition and enforcement of the blockchain arbitral awards under the New York Convention",
+      "trust_model": "hybrid legal-decentralized trust: blockchain arbitral decisions recognized and enforced through state courts under the New York Convention.",
+      "url": "https://scindeks.ceon.rs/Article.aspx?artid=2217-28152501059J",
+      "venue": "Pravni zapisi",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:49:48.782168+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Hechuan Guo",
+        "Hao, Yongle",
+        "Yue Zhang",
+        "Minghui Xu",
+        "Penghao Lv",
+        "Jiezhi Chen",
+        "Xiuzhen Cheng"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Open protocol standard for describing, discovering, and invoking external capabilities, with market and server listings acting as coordination mechanisms.",
+      "content_hash": "sha256:cd9236500f6edf6217e662701cedef9f19dfb6bf27bd9f224dd3e865607c6434",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2"
+        ],
+        "info_problem": [
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:7",
+          "page:8"
+        ],
+        "layer": [
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:7",
+          "page:8"
+        ],
+        "lifecycle_phase": [
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:7",
+          "page:8"
+        ],
+        "origin": [
+          "page:2"
+        ],
+        "synopsis": [
+          "page:3",
+          "page:8"
+        ],
+        "trust_model": [
+          "page:8"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "information_design",
+        "moral_hazard_effort",
+        "information_revelation"
+      ],
+      "layer": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "oa-w4415947096",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper presents a large-scale empirical measurement study of the Model Context Protocol ecosystem, covering six major markets and 8,060 servers. The authors developed MCPCrawler, a modular pipeline that uses multi-feature matching and composite quality signals to profile clients and interactions. They identify gaps in documentation, interaction uncertainty, and evaluation across MCP clients. The study systematically characterizes MCP markets, servers, and clients to understand tool integration for LLM-powered applications.",
+      "title": "A Measurement Study of Model Context Protocol Ecosystem",
+      "trust_model": "Composite quality signals aggregated from multiple MCP markets and client interaction profiling, used to filter low-confidence entities and assess reliability.",
+      "url": "https://arxiv.org/pdf/2509.25292",
+      "venue": "arXiv (Cornell University)",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:52:19.961052+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "GISKARD"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "cryptographic identity, micropayments via Lightning and Arbitrum, and decentralized dispute resolution via Kleros",
+      "content_hash": "sha256:2f9e9cad6e088021280aa9ec3da615c7262dc63e1670fccb2ca9f1548e19a1e0",
+      "doc_type": "whitepaper",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:7",
+          "paragraph:10",
+          "paragraph:11"
+        ],
+        "info_problem": [
+          "paragraph:1",
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:14",
+          "paragraph:5",
+          "paragraph:7"
+        ],
+        "layer": [
+          "paragraph:1",
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:14",
+          "paragraph:5",
+          "paragraph:7"
+        ],
+        "lifecycle_phase": [
+          "paragraph:1",
+          "paragraph:10",
+          "paragraph:11",
+          "paragraph:12",
+          "paragraph:14",
+          "paragraph:5",
+          "paragraph:7"
+        ],
+        "origin": [
+          "paragraph:10",
+          "paragraph:11"
+        ],
+        "synopsis": [
+          "paragraph:6",
+          "paragraph:14"
+        ],
+        "trust_model": [
+          "paragraph:14"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_payment",
+        "information_revelation",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L5",
+        "L7",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "web3",
+      "record_id": "oa-w7147115802",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "This whitepaper extends the Mycelium stack to physical agents such as autonomous vehicles and humanoid robots. It introduces Giskard Marks for cryptographic identity independent of manufacturers, machine-to-machine micropayments via Lightning and Arbitrum, Kleros for decentralized dispute resolution, and Soma for natural language interaction. The framework provides a substrate-independent trust layer where identity, reputation, memory, payments, and disputes converge, allowing machines to build trust action by action.",
+      "title": "\"Mycelium for Physical Agents — Trust Infrastructure for Autonomous Vehicles, Humanoid Robots, and the Machines That Must Earn Their Place\"",
+      "trust_model": "substrate-independent trust layer where identity, reputation, memory, payments, and disputes converge",
+      "url": "https://zenodo.org/records/19369196",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:55:29.599440+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Zelin Li",
+        "Qin Wang",
+        "Zhipeng Wang"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "payment proof (PP/PR) and grant claims",
+      "content_hash": "sha256:9e4ad304aa426e82c84d4783dd4f505a1e008c0b10dd0f7b4c9d9b81bda8f6ed",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:3",
+          "page:5"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:10",
+          "page:4",
+          "page:5",
+          "page:8"
+        ],
+        "layer": [
+          "page:1",
+          "page:10",
+          "page:4",
+          "page:5",
+          "page:8"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:10",
+          "page:4",
+          "page:5",
+          "page:8"
+        ],
+        "origin": [
+          "page:10",
+          "page:2"
+        ],
+        "synopsis": [
+          "page:1"
+        ],
+        "trust_model": [
+          "page:3"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "moral_hazard_commitment",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L4",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "oa-w7161203592",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper presents five attacks on the x402 agentic payment protocol, formally analyzing its design and empirical implementations. The attacks exploit settlement-path inconsistencies, HTTP header corruption, replay, and web-layer handling issues to achieve unpaid service and duplicate grants. The authors show that x402 is vulnerable in both design and implementation, and they propose mitigations such as canonical encoding and atomic claiming of payment and resource identifiers.",
+      "title": "Five Attacks on x402 Agentic Payment Protocol",
+      "trust_model": "facilitator-mediated verification",
+      "url": "https://arxiv.org/pdf/2605.11781",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:54:43.950447+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Shengchen Ling",
+        "Yihang Huang",
+        "Yuefeng Du",
+        "Yuan Chen",
+        "Yajin Zhou",
+        "Lei Wu",
+        "Ce Wang"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "cryptographic authorization",
+      "content_hash": "sha256:54dda7e4ec6b0ac33deb5daf9eb3c650ee79592062c816dac20dda20eae514cc",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:4"
+        ],
+        "info_problem": [
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:7"
+        ],
+        "layer": [
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:7"
+        ],
+        "lifecycle_phase": [
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:7"
+        ],
+        "origin": [
+          "page:5"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:7"
+        ],
+        "trust_model": [
+          "page:7"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "moral_hazard_commitment",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L4",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "interim"
+      ],
+      "origin": "hybrid",
+      "record_id": "oa-w7163286756",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper presents a systematic security analysis of x402, a payment protocol for the agentic web. It identifies three classes of flaws across protocol, SDK, and deployment layers, including cross-resource substitution, duplicate-settlement races, and allowance overdrafts. The authors formalize invariants and show through an empirical study that one facilitator relays settlement for a majority of merchants, creating a systemic risk. The work also situates prior payment-security research by trust model and analysis layer.",
+      "title": "Free-Riding the Agentic Web: A Systematic Security Analysis of x402 Payments",
+      "trust_model": "facilitator-mediated trust",
+      "url": "https://arxiv.org/pdf/2605.30998",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:56:34.326157+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Rischan Mafrur",
+        "Priagung Khusumanegara"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "on-chain registration",
+      "content_hash": "sha256:b023352aec21a6e38dfdcbe82eb4f763c290f8282e767795927cebe28a8ef567",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2",
+          "page:8"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:5"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:5"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:5"
+        ],
+        "origin": [
+          "page:1",
+          "page:4"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:6",
+          "page:9"
+        ],
+        "trust_model": [
+          "page:2"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design"
+      ],
+      "layer": [
+        "L1",
+        "L2"
+      ],
+      "lifecycle_phase": [
+        "ex_ante"
+      ],
+      "origin": "web3",
+      "record_id": "oa-w7164615253",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This research paper examines whether blockchain-registered AI agents demonstrate operational readiness beyond identity registration. It analyzes a dataset of ERC-8004 agents on Ethereum and constructs a layered operational readiness framework. The framework links identity, metadata, services, feedback, reputation, and cross-chain registration. The results reveal a substantial gap between the conceptual promise of ERC-8004 and its current empirical implementation.",
+      "title": "From Agent Identity to Agent Economy: Measuring the Operational Readiness of ERC-8004 AI Agents",
+      "trust_model": "trustless",
+      "url": "https://arxiv.org/pdf/2606.12128",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:58:11.145144+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Xihan Xiong",
+        "Zelin Li",
+        "Wei Wei",
+        "Qin Wang",
+        "William Knottenbelt",
+        "Zhipeng Wang"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "On-chain commitment anchors (URIs and hashes) and stake/re-execution for validation",
+      "content_hash": "sha256:2328ee51d1b5f4a6d55e3e2d3c628dccfb196813fe4aabd53b63ef5552eebe3b",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:4"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:3",
+          "page:4"
+        ],
+        "layer": [
+          "page:1",
+          "page:3",
+          "page:4"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:3",
+          "page:4"
+        ],
+        "origin": [
+          "page:3"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:3",
+          "page:4"
+        ],
+        "trust_model": [
+          "page:3",
+          "page:4"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_payment",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L5",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "hybrid",
+      "record_id": "oa-w7166252676",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This empirical study analyzes the ERC-8004 decentralized AI agent ecosystem, which uses three on-chain singleton registries for identity, reputation, and validation. The protocol anchors only pointers and commitments on-chain while storing content-heavy data off-chain, enabling trustless agent interactions. The study evaluates the registries across Ethereum, BNB Smart Chain, and other EVM-compatible chains, addressing the trust gap in autonomous AI agents. The findings explore whether decentralized reputation and validation systems can provide sufficient trust for economic agents.",
+      "title": "Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem",
+      "trust_model": "Decentralized trust based on on-chain Identity, Reputation, and Validation registries",
+      "url": "https://arxiv.org/pdf/2606.26028",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:58:11.359825+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Richard Kang",
+        "Yudho Diponegoro"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Stake-secured re-execution, reputation registries, and capability-based membership",
+      "content_hash": "sha256:5c1565c2c4c8511f9992459aabcdfe7f90de458a09493711715e2743a2bcd6ec",
+      "doc_type": "research",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:2",
+          "page:4"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:6"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:6"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:4",
+          "page:5",
+          "page:6"
+        ],
+        "origin": [
+          "page:1"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:4",
+          "page:5",
+          "page:6"
+        ],
+        "trust_model": [
+          "page:2",
+          "page:4"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "information_revelation",
+        "contract_enforcement"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L7",
+        "L8"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim",
+        "ex_post"
+      ],
+      "origin": "web2",
+      "record_id": "oa-w7167155035",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This paper analyzes governance gaps in agent interoperability protocols (MCP, A2A, ACP, ANP, ERC-8004), mapping them to agent-to-tool, agent-to-agent, trust, and community-governance layers. It introduces a G1-G6 governance taxonomy showing that membership, deliberation, dissent, human escalation, and audit are absent or partial in current protocols. The analysis highlights ERC-8004's identity, reputation, and validation mechanisms while finding that no protocol encodes the persistent community state required for collective compliance decisions. These are governance gaps, not protocol-specific limitations, reflecting a design philosophy that treats agents as task workers.",
+      "title": "Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express",
+      "trust_model": "Reputation- and identity-centric trust with cryptographic verification and stake-secured execution",
+      "url": "https://arxiv.org/pdf/2606.31498",
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T20:59:59.246201+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Model Context Protocol"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "standardized tool access",
+      "content_hash": "sha256:6b9aacee169b9a69503bd04e62a3ed49b52bd759eca97976429f589eac4babd1",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:40"
+        ],
+        "info_problem": [
+          "paragraph:16",
+          "paragraph:3",
+          "paragraph:34",
+          "paragraph:40",
+          "paragraph:41"
+        ],
+        "layer": [
+          "paragraph:16",
+          "paragraph:3",
+          "paragraph:34",
+          "paragraph:40",
+          "paragraph:41"
+        ],
+        "lifecycle_phase": [
+          "paragraph:16",
+          "paragraph:3",
+          "paragraph:34",
+          "paragraph:40",
+          "paragraph:41"
+        ],
+        "origin": [
+          "paragraph:34"
+        ],
+        "synopsis": [
+          "paragraph:40",
+          "paragraph:41",
+          "paragraph:34",
+          "paragraph:3",
+          "paragraph:16"
+        ],
+        "trust_model": [
+          "paragraph:41"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment"
+      ],
+      "layer": [
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "protocol-root-model-context-protocol",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "The Model Context Protocol defines how AI applications and agents discover and access data sources, tools, and apps. It gives end-users agents that can access their calendars and other services and take actions on their behalf. Developers can integrate agents with reduced complexity, and the protocol includes agent skills. The protocol supports capability discovery, agent orchestration, and delegated authorization in an agentic stack.",
+      "title": "Model Context Protocol",
+      "trust_model": "user-mediated delegated access",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+      "venue": "Official protocol repository",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T21:00:39.884066+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Universal Commerce Protocol"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "payment mandates, verifiable credentials, and OAuth-authorized agent relationships",
+      "content_hash": "sha256:ffb3720cce90963a601ffccae0e1c9af8708920a0c3c6e03c2493e2b3c3f249c",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:30",
+          "paragraph:37",
+          "paragraph:39"
+        ],
+        "info_problem": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:20",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:26",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "layer": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:20",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:26",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "lifecycle_phase": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:20",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:26",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "origin": [
+          "paragraph:22",
+          "paragraph:30"
+        ],
+        "synopsis": [
+          "paragraph:14"
+        ],
+        "trust_model": [
+          "paragraph:26",
+          "paragraph:30",
+          "paragraph:39"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness",
+        "information_revelation"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "protocol-root-universal-commerce-protocol",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "Universal Commerce Protocol (UCP) provides common building blocks for agentic commerce across industries, covering discovery, checkout, payment, and post-purchase support. It leverages industry standards such as OAuth 2.0, AP2, A2A, and MCP to ensure interoperability. The protocol supports multiple modalities including chat, visual, and voice, while preserving business control.",
+      "title": "Universal Commerce Protocol",
+      "trust_model": "OAuth and verifiable-credential based trust with Merchant of Record accountability",
+      "url": "https://ucp.dev",
+      "venue": "Official protocol repository",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T21:00:37.610852+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "OpenAI",
+        "Stripe"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "tokenized payment credentials and agent-ready checkout authorization",
+      "content_hash": "sha256:77762f617e89ecb1a220a553fc773eedee0aa77df5f5abb15d4e001277f7f1e6",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:25",
+          "paragraph:32"
+        ],
+        "info_problem": [
+          "paragraph:21",
+          "paragraph:23",
+          "paragraph:25",
+          "paragraph:32",
+          "paragraph:5",
+          "paragraph:7",
+          "paragraph:8",
+          "paragraph:9"
+        ],
+        "layer": [
+          "paragraph:21",
+          "paragraph:23",
+          "paragraph:25",
+          "paragraph:32",
+          "paragraph:5",
+          "paragraph:7",
+          "paragraph:8",
+          "paragraph:9"
+        ],
+        "lifecycle_phase": [
+          "paragraph:21",
+          "paragraph:23",
+          "paragraph:25",
+          "paragraph:32",
+          "paragraph:5",
+          "paragraph:7",
+          "paragraph:8",
+          "paragraph:9"
+        ],
+        "origin": [
+          "paragraph:21"
+        ],
+        "synopsis": [
+          "paragraph:1",
+          "paragraph:3"
+        ],
+        "trust_model": [
+          "paragraph:5",
+          "paragraph:25"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "information_design",
+        "moral_hazard_effort",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness",
+        "information_revelation"
+      ],
+      "layer": [
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "spec-acp",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "ACP is an open standard for programmatic commerce flows between buyers, AI agents, and businesses. Businesses remain merchant of record while publishing agent-ready checkout configurations and passing secure payment credentials to agents without exposing them. The protocol supports flexible commerce types and integrates through traditional APIs or MCP. It enables product discovery, embedding commerce into applications, and processing agentic transactions with secure payment tokens.",
+      "title": "Agentic Commerce Protocol (ACP) Specification",
+      "trust_model": "merchant-of-record trust with secure buyer credential delegation",
+      "url": "https://www.agenticcommerce.dev/",
+      "venue": "ACP specification",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T21:00:37.611406+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Google"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "human-present card payment authorization",
+      "content_hash": "sha256:c8bea56ae8931015e1ba8ff85bb91cca4b7e022c29903588efcd5905d3bd3e9a",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:200"
+        ],
+        "info_problem": [
+          "paragraph:148",
+          "paragraph:200",
+          "paragraph:203",
+          "paragraph:208",
+          "paragraph:45"
+        ],
+        "layer": [
+          "paragraph:148",
+          "paragraph:200",
+          "paragraph:203",
+          "paragraph:208",
+          "paragraph:45"
+        ],
+        "lifecycle_phase": [
+          "paragraph:148",
+          "paragraph:200",
+          "paragraph:203",
+          "paragraph:208",
+          "paragraph:45"
+        ],
+        "origin": [
+          "paragraph:206"
+        ],
+        "synopsis": [
+          "paragraph:148",
+          "paragraph:149"
+        ],
+        "trust_model": [
+          "paragraph:45",
+          "paragraph:208"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "moral_hazard_commitment",
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L1",
+        "L4",
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "spec-ap2",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "AP2 is a specification and repository of code samples demonstrating the Agent Payments Protocol. It includes scenarios with various agents, servers, and human-present card payments. Credentials are configured through environment variables or service account keys. The protocol aims to build a secure and interoperable future for AI-driven payments.",
+      "title": "Agent Payments Protocol (AP2)",
+      "trust_model": "Trust-center-based security for AI-driven payments",
+      "url": "https://github.com/google-agentic-commerce/AP2",
+      "venue": "AP2 specification repository",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T21:01:16.774223+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Ethereum Improvement Proposals"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Independent validation checks by stakers, zkML verifiers, TEE oracles, or trusted judges, recorded on-chain.",
+      "content_hash": "sha256:8f293d534475249fab246624438a2650ce19e2d56b7706ae7977180463f70e17",
+      "doc_type": "standard",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:28"
+        ],
+        "info_problem": [
+          "paragraph:14",
+          "paragraph:2",
+          "paragraph:21",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:25",
+          "paragraph:26",
+          "paragraph:27",
+          "paragraph:28"
+        ],
+        "layer": [
+          "paragraph:14",
+          "paragraph:2",
+          "paragraph:21",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:25",
+          "paragraph:26",
+          "paragraph:27",
+          "paragraph:28"
+        ],
+        "lifecycle_phase": [
+          "paragraph:14",
+          "paragraph:2",
+          "paragraph:21",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:25",
+          "paragraph:26",
+          "paragraph:27",
+          "paragraph:28"
+        ],
+        "origin": [
+          "paragraph:21"
+        ],
+        "synopsis": [
+          "paragraph:2",
+          "paragraph:25",
+          "paragraph:29"
+        ],
+        "trust_model": [
+          "paragraph:22",
+          "paragraph:27"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design"
+      ],
+      "layer": [
+        "L1",
+        "L2"
+      ],
+      "lifecycle_phase": [
+        "ex_ante"
+      ],
+      "origin": "hybrid",
+      "record_id": "spec-erc8004",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "ERC-8004 proposes trustless agents via an ERC-721 identity registry, a reputation registry, and a validation registry. It makes agents browsable and transferable as NFTs while supporting discovery, trust, and independent verification. The protocol explicitly keeps payments orthogonal, though it suggests x402 payments can enrich feedback signals. The goal is to enable open, cross-organizational agent economies without pre-existing trust.",
+      "title": "ERC-8004: Trustless Agents",
+      "trust_model": "Pluggable, tiered trust via reputation signals and independent validation, proportional to value at risk.",
+      "url": "https://eips.ethereum.org/EIPS/eip-8004",
+      "venue": "EIP (Standards Track, Draft)",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T20:59:51.217650+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Google",
+        "Shopify",
+        "UCP coalition"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Payment mandates and verifiable credentials, combined with standardized checkout sessions and payment objects, commit agents and businesses to authorized transactions and merchant-of-record obligations.",
+      "content_hash": "sha256:ffb3720cce90963a601ffccae0e1c9af8708920a0c3c6e03c2493e2b3c3f249c",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:30",
+          "paragraph:37",
+          "paragraph:36"
+        ],
+        "info_problem": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:35",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "layer": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:35",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "lifecycle_phase": [
+          "paragraph:13",
+          "paragraph:14",
+          "paragraph:22",
+          "paragraph:24",
+          "paragraph:30",
+          "paragraph:31",
+          "paragraph:32",
+          "paragraph:34",
+          "paragraph:35",
+          "paragraph:36",
+          "paragraph:37",
+          "paragraph:38",
+          "paragraph:39"
+        ],
+        "origin": [
+          "paragraph:22"
+        ],
+        "synopsis": [
+          "paragraph:14",
+          "paragraph:34",
+          "paragraph:24",
+          "paragraph:22",
+          "paragraph:30",
+          "paragraph:32"
+        ],
+        "trust_model": [
+          "paragraph:39",
+          "paragraph:30",
+          "paragraph:38"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "adverse_selection",
+        "information_design",
+        "moral_hazard_commitment",
+        "moral_hazard_payment",
+        "contract_incompleteness"
+      ],
+      "layer": [
+        "L1",
+        "L2",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "spec-ucp",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "UCP is a Universal Commerce Protocol that aims to be the common language for platforms, agents, and businesses, providing building blocks for agentic commerce from discovery to checkout and beyond. It covers the entire commerce lifecycle, including dynamic pricing, tax calculations, and post-purchase support, and is designed to work across chat, visual commerce, and voice. The protocol builds on industry standards such as OAuth 2.0, AP2, A2A, REST, and JSON-RPC, using payment mandates and verifiable credentials to secure agent relationships. It promotes an open wallet ecosystem for interoperable payments while ensuring that businesses retain control as merchant of record.",
+      "title": "Universal Commerce Protocol (UCP) Specification",
+      "trust_model": "Industry-standard identity linking (OAuth 2.0) and verifiable credentials enable agents and businesses to maintain secure, authorized relationships without sharing credentials, establishing trusted agent identities and payment capabilities.",
+      "url": "https://ucp.dev",
+      "venue": "UCP specification",
+      "year": 2026
+    },
+    {
+      "annotated_at": "2026-08-02T21:00:24.218437+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "x402 Foundation",
+        "Coinbase"
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": false,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "Pay-per-request via HTTP 402 with no prepaid commitment; each request must be paid immediately.",
+      "content_hash": "sha256:36eb9ddc6c6b38b5d80ef6e99aba831421a932d0e9686432fb89e2956a72004e",
+      "doc_type": "spec",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "paragraph:24",
+          "paragraph:52"
+        ],
+        "info_problem": [
+          "paragraph:16",
+          "paragraph:54",
+          "paragraph:55"
+        ],
+        "layer": [
+          "paragraph:16",
+          "paragraph:54",
+          "paragraph:55"
+        ],
+        "lifecycle_phase": [
+          "paragraph:16",
+          "paragraph:54",
+          "paragraph:55"
+        ],
+        "origin": [
+          "paragraph:67"
+        ],
+        "synopsis": [
+          "paragraph:61"
+        ],
+        "trust_model": [
+          "paragraph:55",
+          "paragraph:16"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "moral_hazard_payment"
+      ],
+      "layer": [
+        "L5"
+      ],
+      "lifecycle_phase": [
+        "interim"
+      ],
+      "origin": "web3",
+      "record_id": "spec-x402",
+      "retrieved_date": "2026-08-02",
+      "stratum": "protocol_spec",
+      "synopsis": "x402 is an open payment protocol that enables instant, low-cost payments for digital services, designed for agentic commerce and API monetization. It uses HTTP 402 responses to require payment for requests, and agents can pay securely via stablecoins. The protocol is blockchain-agnostic, supporting EVM chains and Solana, and aims to make payments as native to the internet as HTTP. x402 removes the need for accounts, KYC, and prepaid commitments, enabling seamless agent-to-server transactions.",
+      "title": "x402: An Open Payment Protocol for the Agentic Web",
+      "trust_model": "Minimal-trust: no account signups or approvals; payment is authenticated cryptographically through the HTTP request carrying a stablecoin payment.",
+      "url": "https://x402.org/",
+      "venue": "x402 specification",
+      "year": 2025
+    },
+    {
+      "annotated_at": "2026-08-02T21:01:02.177331+00:00",
+      "annotation_model": "deepseek-v4-flash",
+      "annotation_pass": "a",
+      "authors": [
+        "Ehtesham, Abul",
+        "Singh, Aditi",
+        "Gupta, Gaurav Kumar",
+        "et al."
+      ],
+      "calibrated_synthesis": {
+        "codebook_version": "2.0.0",
+        "human_calibration_example": true,
+        "method": "two blind pre-calibration proposals plus owner-calibrated local synthesis"
+      },
+      "commitment_mechanism": "open standards",
+      "content_hash": "sha256:9a2c1ea8b12de4ec4c391ca4adf64c9a3db01cfb7ac980c332761cea060e31b4",
+      "doc_type": "survey",
+      "evidence_locators": {
+        "commitment_mechanism": [
+          "page:1"
+        ],
+        "info_problem": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "layer": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "lifecycle_phase": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4",
+          "page:5"
+        ],
+        "origin": [
+          "page:4"
+        ],
+        "synopsis": [
+          "page:1",
+          "page:2",
+          "page:3",
+          "page:4"
+        ],
+        "trust_model": [
+          "page:2",
+          "page:3"
+        ]
+      },
+      "finalized_date": "2026-08-05",
+      "info_problem": [
+        "information_design",
+        "moral_hazard_effort",
+        "information_revelation"
+      ],
+      "layer": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "lifecycle_phase": [
+        "ex_ante",
+        "interim"
+      ],
+      "origin": "web2",
+      "record_id": "sur-ehtesham2025-agent-interop",
+      "retrieved_date": "2026-08-02",
+      "stratum": "academic",
+      "synopsis": "This survey analyzes agent interoperability protocols—MCP, ACP, A2A, and ANP—from the perspective of LLM-powered autonomous agents. It identifies challenges in integrating tools, sharing contextual data, and coordinating tasks across heterogeneous systems, and maps the evolution from early symbolic agent languages and SOA to modern LLM agents. The paper notes the absence of unified agent collaboration standards and argues for protocol-aligned solutions that enable asynchronous-first interactions, offline discovery, and vendor-neutral execution. It serves as a broad survey rather than a proposal of new mechanisms.",
+      "title": "A survey of agent interoperability protocols: MCP, ACP, A2A, and ANP",
+      "trust_model": "Trust is placed in standardized interoperability protocols that allow heterogeneous LLM agents to communicate, integrate tools, and coordinate tasks; fragmented practices threaten secure and scalable interaction (page:2, page:3).",
+      "url": "https://arxiv.org/pdf/2505.02279",
+      "venue": "arXiv",
+      "year": 2025
+    }
+  ],
+  "aliases_and_supplementary_locators": [
+    {
+      "locator": "eip-8004",
+      "record_id": "spec-erc8004",
+      "url": "https://eips.ethereum.org/EIPS/eip-8004",
+      "basis": "Same ERC number in the preserved packet."
+    },
+    {
+      "locator": "spec-a2a",
+      "record_id": null,
+      "url": "https://a2a-protocol.org/latest/specification/",
+      "basis": "The A2A packet explicitly states that this source is outside the historical 304 records."
+    },
+    {
+      "locator": "spec-kleros-whitepaper",
+      "record_id": null,
+      "url": "https://kleros.io/static/whitepaper.pdf",
+      "basis": "Canonical URL in the Kleros packet."
+    },
+    {
+      "locator": "spec-erc792",
+      "record_id": null,
+      "url": "https://docs.kleros.io/",
+      "basis": "ERC-792 named in the Kleros packet; section pointer was not retained."
+    },
+    {
+      "locator": "spec-erc1497",
+      "record_id": null,
+      "url": "https://docs.kleros.io/",
+      "basis": "ERC-1497 named in the Kleros packet; section pointer was not retained."
+    },
+    {
+      "locator": "ietf-draft-hopley-x402",
+      "record_id": "ietf-draft-hopley-x402-payment-evidence-frame",
+      "url": "https://datatracker.ietf.org/doc/draft-hopley-x402-payment-evidence-frame/",
+      "basis": "Shortened family reference in saved judgments; the x402 packet names the full draft."
+    }
+  ]
+}

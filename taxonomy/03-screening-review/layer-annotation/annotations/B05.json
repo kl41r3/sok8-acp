@@ -1,0 +1,2256 @@
+{
+  "job_id": "B05",
+  "role": "independent",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0401",
+      "identifier_key": "doi:10.1109/icebe.2013.8",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "adding social network based support in the selection of potential negotiation partners",
+          "rationale": "Uses emergent relationships to select suitable negotiation partners."
+        }
+      ],
+      "rationale": "Uses emergent relationships to select suitable negotiation partners.",
+      "mechanism": "Social-network-assisted partner selection and proposal evaluation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0402",
+      "identifier_key": "doi:10.1109/icebeg.2011.5881340",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Our model quantifies the price convergent process",
+          "rationale": "Explains price convergence under experimental settings, without establishing any specified layer function."
+        }
+      ],
+      "rationale": "Explains price convergence under experimental settings, without establishing any specified layer function.",
+      "mechanism": "Probability model of zero-intelligence auction price convergence.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0403",
+      "identifier_key": "doi:10.1109/icecer65523.2025.11401133",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a P2P module utilizing a multi-agent soft actor-critic (MASAC) to coordinate between multiple microgrids and identify trading opportunities",
+          "rationale": "Specifies a multi-agent coordination module governing interdependent microgrid trading actions."
+        }
+      ],
+      "rationale": "Specifies a multi-agent coordination module governing interdependent microgrid trading actions.",
+      "mechanism": "Hierarchical meta-learning and MASAC coordination of microgrids.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0404",
+      "identifier_key": "doi:10.1109/icecet65726.2026.11632299",
+      "classification": [
+        "L4",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "risk-based policy mechanisms including approval gating and capability boundaries",
+          "rationale": "Constrains tool execution through explicit approval and capability policies."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "human oversight through risk-based policy mechanisms including approval gating and capability boundaries",
+          "rationale": "Designs human approval and oversight of agent tool actions."
+        }
+      ],
+      "rationale": "Constrains tool execution through explicit approval and capability policies. Designs human approval and oversight of agent tool actions.",
+      "mechanism": "Governance gateway with action evidence, approval gates and capability boundaries.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0405",
+      "identifier_key": "doi:10.1109/icecet65726.2026.11633116",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "knowledge elements-documents, embeddings, or intermediate representations-are stored and exchanged in coded form",
+          "rationale": "Studies resilient distributed retrieval through coding; no agent interaction or resource-provider selection function is established."
+        }
+      ],
+      "rationale": "Studies resilient distributed retrieval through coding; no agent interaction or resource-provider selection function is established.",
+      "mechanism": "Network-coded distributed retrieval and context reconstruction.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0406",
+      "identifier_key": "doi:10.1109/icect.2004.1319737",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We further propose two amendments to Cheng-Wei scheme to avoid such an attack.",
+          "rationale": "Prevents computation-result truncation; the abstract establishes neither authentication nor permission or dispute mechanisms."
+        }
+      ],
+      "rationale": "Prevents computation-result truncation; the abstract establishes neither authentication nor permission or dispute mechanisms.",
+      "mechanism": "Detection and prevention of malicious result truncation in mobile agents.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0407",
+      "identifier_key": "doi:10.1109/icect.2004.1319738",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "analyze the payment protocol using the NuSMV model checker",
+          "rationale": "Formally evaluates and extends the credit-card payment protocol under agent failure."
+        }
+      ],
+      "rationale": "Formally evaluates and extends the credit-card payment protocol under agent failure.",
+      "mechanism": "Statechart/model-checking analysis and timeout recovery of agent-assisted payments.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0408",
+      "identifier_key": "doi:10.1109/icect.2004.1319740",
+      "classification": [
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "make the payment on behalf of the cardholder",
+          "rationale": "Designs an agent-assisted payment mechanism using cryptographic shares and a trusted third party."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "autonomously sign contracts",
+          "rationale": "The protocol explicitly enables autonomous contract formation through signing."
+        }
+      ],
+      "rationale": "Designs an agent-assisted payment mechanism using cryptographic shares and a trusted third party. The protocol explicitly enables autonomous contract formation through signing.",
+      "mechanism": "Cryptographic-share protocol for agent contract signing and credit-card payment.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the full protocol impose verifiable limits on signing authority or authenticate counterparties?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0409",
+      "identifier_key": "doi:10.1109/icect.2005.15",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "determining optimal policies for the negotiation problem without explicit knowledge of the dynamics of the system",
+          "rationale": "The abstract establishes adaptive negotiation strategy optimization but does not specify offer/counteroffer interaction rules or commitment management."
+        }
+      ],
+      "rationale": "The abstract establishes adaptive negotiation strategy optimization but does not specify offer/counteroffer interaction rules or commitment management.",
+      "mechanism": "Markov-decision-process learning of adaptive bilateral negotiation strategies.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does the model specify substantive inter-agent offer and response rules beyond optimizing a negotiator strategy?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0410",
+      "identifier_key": "doi:10.1109/icect.2005.96",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "construction of generic low payment mechanisms for task allocation",
+          "rationale": "The research designs and evaluates payment mechanisms for procuring agent-owned paths."
+        }
+      ],
+      "rationale": "The research designs and evaluates payment mechanisms for procuring agent-owned paths.",
+      "mechanism": "Repeated procurement payment mechanisms evaluated with adaptive agent strategies.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0411",
+      "identifier_key": "doi:10.1109/icect.2009.78",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "give the model of consultation for single-to-many projects",
+          "rationale": "The abstract names a consultation model but does not describe interaction rules or what agents coordinate."
+        }
+      ],
+      "rationale": "The abstract names a consultation model but does not describe interaction rules or what agents coordinate.",
+      "mechanism": "Single-to-many consultation model on JADE.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What messages, roles and response rules define the consultation mechanism?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0412",
+      "identifier_key": "doi:10.1109/icee.2010.104",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "session key generation which could authenticate bye each other but no third party involved",
+          "rationale": "Proposes session-key generation supporting mutual authentication without a third party."
+        }
+      ],
+      "rationale": "Proposes session-key generation supporting mutual authentication without a third party.",
+      "mechanism": "Mobile-agent session-key and mutual-authentication transaction model.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0413",
+      "identifier_key": "doi:10.1109/icee.2010.529",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "through the framework of multi-agent communication mechanism and intelligent decision-making mechanism for better coordination",
+          "rationale": "Agent roles and coordination are asserted, but no communication or coordination procedure is described."
+        }
+      ],
+      "rationale": "Agent roles and coordination are asserted, but no communication or coordination procedure is described.",
+      "mechanism": "Distributed-agent e-commerce platform architecture.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "How does the framework coordinate the listed agent roles through specific messages or actions?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0414",
+      "identifier_key": "doi:10.1109/icee.2010.640",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "propose a credit model (host credibility assessing the credit relation)",
+          "rationale": "Explicitly models host credibility and trust relations to protect mobile-agent transactions."
+        }
+      ],
+      "rationale": "Explicitly models host credibility and trust relations to protect mobile-agent transactions.",
+      "mechanism": "Host-credibility credit model for mobile-agent security.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0415",
+      "identifier_key": "doi:10.1109/icee52715.2021.9544467",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "the corresponding power balance mechanism via price adjustment can be viewed as a Walrasian tatonnement process",
+          "rationale": "A specified distributed price-adjustment process coordinates interdependent energy exchanges."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "a distributed adaptive algorithm that determines strategies as well as payment and assignment rules",
+          "rationale": "Explicitly designs payment rules in the energy trading mechanism."
+        }
+      ],
+      "rationale": "A specified distributed price-adjustment process coordinates interdependent energy exchanges. Explicitly designs payment rules in the energy trading mechanism.",
+      "mechanism": "Dual decomposition and adaptive market coordination with payment rules.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0416",
+      "identifier_key": "doi:10.1109/icee59167.2023.10334752",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "determine the optimal bidding prices as control signals",
+          "rationale": "Optimizes one advertiser bidding and budget pacing; budget constraints and bid prices do not establish mandate or payment mechanisms."
+        }
+      ],
+      "rationale": "Optimizes one advertiser bidding and budget pacing; budget constraints and bid prices do not establish mandate or payment mechanisms.",
+      "mechanism": "Reinforcement-learning bidding with smooth budget delivery.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0417",
+      "identifier_key": "doi:10.1109/iceei.2009.5254723",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "an e-negotiation feature that incorporates the use of the short messaging system service",
+          "rationale": "Designs an SMS interaction channel for participants negotiating through the marketplace."
+        }
+      ],
+      "rationale": "Designs an SMS interaction channel for participants negotiating through the marketplace.",
+      "mechanism": "Integrated marketplace with mobile auctions and SMS negotiation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0418",
+      "identifier_key": "doi:10.1109/iceei.2011.6021624",
+      "classification": [
+        "L1",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "eight characteristics that do not comply with Syariah principles, which are identification verification",
+          "rationale": "Substantively assesses identity verification as a compliance characteristic and designs a framework addressing it."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "payment method, bidding fee, closing period, starting price, auction fee and payment by third party",
+          "rationale": "Analyzes payment methods and transaction fee obligations as explicit compliance subjects."
+        }
+      ],
+      "rationale": "Substantively assesses identity verification as a compliance characteristic and designs a framework addressing it. Analyzes payment methods and transaction fee obligations as explicit compliance subjects.",
+      "mechanism": "Expert-validated auction framework addressing identity and payment compliance.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0419",
+      "identifier_key": "doi:10.1109/icesic67389.2026.11496512",
+      "classification": [
+        "L2",
+        "L4",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Through a dynamic discovery mechanism, the system allows users to locate and install required MCP tools",
+          "rationale": "Designs dynamic tool discovery and evaluates appropriate tool selection."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "install required MCP tools only after providing explicit approval",
+          "rationale": "Requires user consent before tool installation."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "interpret natural language instructions and determine the appropriate sequence of steps required to complete a task",
+          "rationale": "Supports human task specification through natural-language instructions, with explicit approvals."
+        }
+      ],
+      "rationale": "Designs dynamic tool discovery and evaluates appropriate tool selection. Requires user consent before tool installation. Supports human task specification through natural-language instructions, with explicit approvals.",
+      "mechanism": "Local task agent with dynamic tool discovery and user-gated installation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0420",
+      "identifier_key": "doi:10.1109/icetc.2010.5529293",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "assists users to monitor bidding status",
+          "rationale": "Provides human-facing supervision of agent bidding across auction sites."
+        }
+      ],
+      "rationale": "Provides human-facing supervision of agent bidding across auction sites.",
+      "mechanism": "Handheld mobile-auction architecture with user bid monitoring.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0421",
+      "identifier_key": "doi:10.1109/icetets.2016.7603011",
+      "classification": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "finds the best service providers who satisfy the consumer's constraints",
+          "rationale": "Selects providers according to consumer requirements."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "communicate using Contract Net Protocol, which is a task-sharing protocol in multi-agent system",
+          "rationale": "Explicitly specifies task-sharing communication between consumer and provider agents."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "The consumer agent gets the input from the user",
+          "rationale": "The framework incorporates human requirement input into service composition."
+        }
+      ],
+      "rationale": "Selects providers according to consumer requirements. Explicitly specifies task-sharing communication between consumer and provider agents. The framework incorporates human requirement input into service composition.",
+      "mechanism": "User-constrained service discovery and contract-net negotiation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0422",
+      "identifier_key": "doi:10.1109/icetics69505.2026.11651315",
+      "classification": [
+        "L1",
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "checks for trustworthiness of the content by engaging in retrieval ranking based on trust",
+          "rationale": "Evaluates retrieved-source trustworthiness through dynamic trust scoring and ranking."
+        },
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "adaptive privilege isolation",
+          "rationale": "Designs execution privilege isolation as part of the proposed protection framework."
+        }
+      ],
+      "rationale": "Evaluates retrieved-source trustworthiness through dynamic trust scoring and ranking. Designs execution privilege isolation as part of the proposed protection framework.",
+      "mechanism": "Trust-scored retrieval and adaptive privilege isolation against injection.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0423",
+      "identifier_key": "doi:10.1109/icfcc.2010.5497365",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "discusses the e-commerce system design based on Agent",
+          "rationale": "No specific layer functionality is described beyond a generic agent commerce system."
+        }
+      ],
+      "rationale": "No specific layer functionality is described beyond a generic agent commerce system.",
+      "mechanism": "Agent-based B2C system design.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which concrete discovery, interaction, transaction or authorization mechanisms are implemented?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0424",
+      "identifier_key": "doi:10.1109/icgec.2010.111",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The quoted price strategy can decrease the round number effectively",
+          "rationale": "The stated mechanism improves bid pricing and allocation efficiency without specifying message rules, payment obligations or commitment formation."
+        }
+      ],
+      "rationale": "The stated mechanism improves bid pricing and allocation efficiency without specifying message rules, payment obligations or commitment formation.",
+      "mechanism": "Grid-auction quoted-price strategy reducing auction rounds.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0425",
+      "identifier_key": "doi:10.1109/ichora65333.2025.11017052",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "transparent operation of the system under human intervention",
+          "rationale": "The semi-autonomous infrastructure makes human intervention part of its decision-support design."
+        }
+      ],
+      "rationale": "The semi-autonomous infrastructure makes human intervention part of its decision-support design.",
+      "mechanism": "Sensor-based purchasing decision support with human intervention.",
+      "not_evidenced_reason": null,
+      "followup_question": "What operational mechanisms implement payment and human intervention in the proposed infrastructure?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0426",
+      "identifier_key": "doi:10.1109/icic68258.2025.11413209",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "strong automated Inter-Agent synchronization, query decay, task allocation, dynamic direction-finding",
+          "rationale": "Evaluates protocol-mediated synchronization and task allocation among agents."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "natural language communication without previous technical background knowledge and multimodal response to queries",
+          "rationale": "Designs and evaluates a unified human conversational interface for accessing agent services."
+        }
+      ],
+      "rationale": "Evaluates protocol-mediated synchronization and task allocation among agents. Designs and evaluates a unified human conversational interface for accessing agent services.",
+      "mechanism": "MCP/A2A emergency assistant with task coordination and conversational interface.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0427",
+      "identifier_key": "doi:10.1109/icicds70526.2026.11604962",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "A2A communication frameworks define standard mechanisms enabling agents to exchange information, coordinate tasks, deliberate on decisions",
+          "rationale": "Substantively compares agent communication and task-coordination protocol functionality."
+        }
+      ],
+      "rationale": "Substantively compares agent communication and task-coordination protocol functionality.",
+      "mechanism": "Comparative architectural review of MCP and A2A protocols.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0428",
+      "identifier_key": "doi:10.1109/icicip.2012.6391559",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "user agents and cloud node agents determine their bid values and request values respectively",
+          "rationale": "The contribution concerns bid/ask pricing and auction allocation, without explicit payment, suitability selection or commitment mechanisms."
+        }
+      ],
+      "rationale": "The contribution concerns bid/ask pricing and auction allocation, without explicit payment, suitability selection or commitment mechanisms.",
+      "mechanism": "Multi-unit cloud-auction bid and request pricing.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0429",
+      "identifier_key": "doi:10.1109/icicisys.2009.5358035",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The agent communication language consists of a standardized set of messages.",
+          "rationale": "Defines agent message rules and their denotational semantics."
+        }
+      ],
+      "rationale": "Defines agent message rules and their denotational semantics.",
+      "mechanism": "Formal semantics of shared-environment and message-based agent communication.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0430",
+      "identifier_key": "doi:10.1109/icicta.2009.713",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "A cooperation studying and forecasting method was proposed based on BP neural network.",
+          "rationale": "Cooperation prediction is described without establishing what is estimated or how it governs trust, partner choice or coordinated actions."
+        }
+      ],
+      "rationale": "Cooperation prediction is described without establishing what is estimated or how it governs trust, partner choice or coordinated actions.",
+      "mechanism": "Neural forecasting of agent cooperation and recommendation dissemination.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does cooperation prediction estimate counterparty trustworthiness, select partners, or control an explicit coordination protocol?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0431",
+      "identifier_key": "doi:10.1109/icicta.2014.125",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "the information are communicated between the negotiation case database and users through the negotiation agent",
+          "rationale": "The model explicitly mediates negotiation information to human users."
+        }
+      ],
+      "rationale": "The model explicitly mediates negotiation information to human users.",
+      "mechanism": "Agent-mediated case information and multiobjective negotiation optimization.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does the seven-element model define inter-agent offer and response rules?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0432",
+      "identifier_key": "doi:10.1109/icieem.2009.5344275",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a novel bidding strategy of double auction based on the favor degree",
+          "rationale": "Favor-based bid optimization targets long-term interests without establishing trustworthiness estimation or a new interaction protocol."
+        }
+      ],
+      "rationale": "Favor-based bid optimization targets long-term interests without establishing trustworthiness estimation or a new interaction protocol.",
+      "mechanism": "Favor-degree-based long-term bidding strategy.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0433",
+      "identifier_key": "doi:10.1109/iciev.2016.7760170",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a scheduling agent (SA) releases the tasks in bundles, and a set of service provider agents (SPAs) bid on the bundles to achieve them",
+          "rationale": "Defines scheduling and provider roles in a task-bundling and bidding coordination procedure."
+        }
+      ],
+      "rationale": "Defines scheduling and provider roles in a task-bundling and bidding coordination procedure.",
+      "mechanism": "Combinatorial task release and provider bid forecasting for well scheduling.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0434",
+      "identifier_key": "doi:10.1109/icife.2010.5609456",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a hybrid genetic algorithm (HGA) is presented and applied in the negotiation",
+          "rationale": "Optimization performance is reported without specifying the interactions or coordination controlled by the algorithm."
+        }
+      ],
+      "rationale": "Optimization performance is reported without specifying the interactions or coordination controlled by the algorithm.",
+      "mechanism": "Hybrid genetic optimization for multilateral negotiation.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does HGA govern a defined multi-agent exchange protocol or only search negotiation outcomes?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0435",
+      "identifier_key": "doi:10.1109/icii.2001.982997",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "an application framework in collecting the residual value from electronic accounts over the Internet",
+          "rationale": "Designs consolidation of monetary balances across electronic accounts through mobile agents."
+        }
+      ],
+      "rationale": "Designs consolidation of monetary balances across electronic accounts through mobile agents.",
+      "mechanism": "Mobile-agent collection of residual electronic-account funds.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0436",
+      "identifier_key": "doi:10.1109/icii.2001.983062",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "an application framework of collecting the residual value from electronic accounts over the Internet",
+          "rationale": "Designs consolidation of monetary balances across electronic accounts through mobile agents."
+        }
+      ],
+      "rationale": "Designs consolidation of monetary balances across electronic accounts through mobile agents.",
+      "mechanism": "Mobile-agent collection of residual electronic-account funds.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0437",
+      "identifier_key": "doi:10.1109/icii.2001.983520",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "QoS implementation through CORBA events and flexible choices of different security protocols through the interfaces of atomic operations",
+          "rationale": "QoS and generic security interfaces do not identify authentication, authorization or agent-coordination functions."
+        }
+      ],
+      "rationale": "QoS and generic security interfaces do not identify authentication, authorization or agent-coordination functions.",
+      "mechanism": "CORBA/mobile-agent architecture with configurable security and QoS.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which concrete identity or authorization functions do the security protocols provide?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0438",
+      "identifier_key": "doi:10.1109/icii.2001.983524",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a new model for an agent-based mediation system over only the prices",
+          "rationale": "Price mediation is named without specific interaction rules, partner suitability criteria or dispute procedures."
+        }
+      ],
+      "rationale": "Price mediation is named without specific interaction rules, partner suitability criteria or dispute procedures.",
+      "mechanism": "Price mediation model for electronic shopping malls.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What exchange rules and participant-selection mechanisms does the mediation model define?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0439",
+      "identifier_key": "doi:10.1109/iciice69672.2026.11565502",
+      "classification": [
+        "L3",
+        "L5",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "AI agents organize extracting, validating, matching, resolving exceptions, and posting to the ERP",
+          "rationale": "Defines a coordinated agent workflow across dependent invoice-processing tasks."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "increase the performance of three-way matching, decrease the risk of duplicate payments",
+          "rationale": "Evaluates verification of payable invoices and prevention of repeated payment obligations."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "governance through human-in-the-loop control",
+          "rationale": "Builds human oversight into invoice exception and decision processing."
+        }
+      ],
+      "rationale": "Defines a coordinated agent workflow across dependent invoice-processing tasks. Evaluates verification of payable invoices and prevention of repeated payment obligations. Builds human oversight into invoice exception and decision processing.",
+      "mechanism": "Agent invoice workflow with payable verification and human oversight.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0440",
+      "identifier_key": "doi:10.1109/iciics63763.2024.10859369",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "improve information retrieval speed",
+          "rationale": "The abstract reports generic retrieval and return-count outcomes without describing a discovery or returns-management mechanism."
+        }
+      ],
+      "rationale": "The abstract reports generic retrieval and return-count outcomes without describing a discovery or returns-management mechanism.",
+      "mechanism": "Mobile-agent marketing system assessed through retrieval and customer-return outcomes.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What functions retrieve suitable offerings or manage customer returns beyond measuring return counts?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0441",
+      "identifier_key": "doi:10.1109/iciii.2011.122",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "the security issues of a mobile agent encountered in the system was detailed analysis when it migrated, registration, licensing and information exchange",
+          "rationale": "Security lifecycle stages are named but no identity verification or permission constraint mechanism is described."
+        }
+      ],
+      "rationale": "Security lifecycle stages are named but no identity verification or permission constraint mechanism is described.",
+      "mechanism": "Mobile-agent security framework for shopping.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What authentication or action-authorization mechanisms implement registration and licensing?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0442",
+      "identifier_key": "doi:10.1109/icime.2009.77",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "receives it back with correct result within time limit in spite of hardware and software faults",
+          "rationale": "The analyzed mechanism is fault tolerance, not trust evaluation or a specified shopping discovery function."
+        }
+      ],
+      "rationale": "The analyzed mechanism is fault tolerance, not trust evaluation or a specified shopping discovery function.",
+      "mechanism": "Hierarchical fault tolerance for returning mobile shopping agents.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0443",
+      "identifier_key": "doi:10.1109/icime.2010.5477873",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "develop an algorithm to distil useful information from bias ratings instead of totally excluding them",
+          "rationale": "Designs reputation estimation robust to biased counterparty ratings."
+        }
+      ],
+      "rationale": "Designs reputation estimation robust to biased counterparty ratings.",
+      "mechanism": "Localized trust and reputation aggregation under entry, exit and biased ratings.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0444",
+      "identifier_key": "doi:10.1109/icin69025.2026.11481801",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "combines DQN-based device bidding with a DDPG-driven system agent capable of dynamically adjusting pricing and fairness rules",
+          "rationale": "The actual mechanism specifies bidding and fairness optimization; trust is a stated aim without a described estimation rule, and pricing does not establish payment obligations."
+        }
+      ],
+      "rationale": "The actual mechanism specifies bidding and fairness optimization; trust is a stated aim without a described estimation rule, and pricing does not establish payment obligations.",
+      "mechanism": "Hybrid reinforcement learning for adaptive auction pricing and fairness.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does the system learn a concrete trust estimate or determine payments owed rather than bid/pricing parameters?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0445",
+      "identifier_key": "doi:10.1109/icis-comsar.2006.84",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "It aims to reduce the cases of unsuccessful negotiations and maximize the client's utility.",
+          "rationale": "Learns profitable negotiation strategies without specifying inter-agent interaction or commitment rules."
+        }
+      ],
+      "rationale": "Learns profitable negotiation strategies without specifying inter-agent interaction or commitment rules.",
+      "mechanism": "Lightweight neural learning of negotiation strategy.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0446",
+      "identifier_key": "doi:10.1109/icis.2011.32",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The proportion of different agents is evolved by genetic algorithm in an artificial double auction market.",
+          "rationale": "Calibrates agent populations to reproduce market dynamics, without researching any layer function."
+        }
+      ],
+      "rationale": "Calibrates agent populations to reproduce market dynamics, without researching any layer function.",
+      "mechanism": "Evolutionary artificial-market calibration to historical prices.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0447",
+      "identifier_key": "doi:10.1109/icisa.2011.5772356",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we study market dynamism with regard to wireless cellular services that are in competition for a greater market share and profit",
+          "rationale": "Agent-based market prediction is the research mechanism; specific discovery, communication or transaction functions are not studied."
+        }
+      ],
+      "rationale": "Agent-based market prediction is the research mechanism; specific discovery, communication or transaction functions are not studied.",
+      "mechanism": "Calibrated agent model of wireless-market dynamics and disruptive product entry.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0448",
+      "identifier_key": "doi:10.1109/icise.2009.437",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The functional correctness of the system, such as the reachability and the coverability, is formally verified",
+          "rationale": "The abstract describes a generic formal modeling technique without detailing taxation payments or agent interaction rules."
+        }
+      ],
+      "rationale": "The abstract describes a generic formal modeling technique without detailing taxation payments or agent interaction rules.",
+      "mechanism": "Petri-net verification of mobile-agent taxation business processes.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which tax payment obligations or inter-agent coordination rules are explicitly modeled?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0449",
+      "identifier_key": "doi:10.1109/icise.2009.525",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a group of buyers agent with the mutual cooperation, the sellers agent and the trading hall agent system",
+          "rationale": "Lists cooperating roles but does not describe how the third party coordinates their negotiation actions."
+        }
+      ],
+      "rationale": "Lists cooperating roles but does not describe how the third party coordinates their negotiation actions.",
+      "mechanism": "Third-party-mediated mobile-agent negotiation architecture.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What specific negotiation messages and coordination rules does the trading hall enforce?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0450",
+      "identifier_key": "doi:10.1109/icit.2007.11",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a multi-agent system architecture for mobile traders",
+          "rationale": "Architecture benefits and mobility are asserted without concrete layer mechanisms."
+        }
+      ],
+      "rationale": "Architecture benefits and mobility are asserted without concrete layer mechanisms.",
+      "mechanism": "Distributed mobile-trader architecture.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which specific agent interaction, discovery or transaction-management mechanisms does the architecture define?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0451",
+      "identifier_key": "doi:10.1109/icitbs.2018.00105",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a negotiation strategy based on GA is proposed which introduces GA to study the opponent's preference and utility function",
+          "rationale": "Opponent preference learning and strategy optimization do not establish trust estimation or specified exchange rules."
+        }
+      ],
+      "rationale": "Opponent preference learning and strategy optimization do not establish trust estimation or specified exchange rules.",
+      "mechanism": "Genetic learning of opponent preferences for negotiation.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0452",
+      "identifier_key": "doi:10.1109/icitcs.2014.7021731",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "an improved competition model named NightMare Agent for Trading Agent Competition Ad Auction",
+          "rationale": "Performance is reported without describing a functional mechanism assignable to a layer."
+        }
+      ],
+      "rationale": "Performance is reported without describing a functional mechanism assignable to a layer.",
+      "mechanism": "Advertising-auction competition agent.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What specific functions beyond bidding optimization are implemented by NightMare Agent?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0453",
+      "identifier_key": "doi:10.1109/icmas.1998.699024",
+      "classification": [
+        "L3",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "interaction protocols have to be designed so that each agent really is motivated to follow the strategies that the protocol designer wants it to follow",
+          "rationale": "Reviews incentive-aware coordination protocols, coalition formation and distributed search."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "Leveled commitment contracts",
+          "rationale": "Substantively reviews contractual commitment mechanisms and unenforced contract execution."
+        }
+      ],
+      "rationale": "Reviews incentive-aware coordination protocols, coalition formation and distributed search. Substantively reviews contractual commitment mechanisms and unenforced contract execution.",
+      "mechanism": "Survey of strategic interaction, coalition formation and contractual commitment technologies.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0454",
+      "identifier_key": "doi:10.1109/icmas.1998.699042",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "the resulting bidding strategy balances the agent's short-term benefits",
+          "rationale": "Studies individual bid decisions under uncertainty rather than a layer-level interaction, payment or authorization mechanism."
+        }
+      ],
+      "rationale": "Studies individual bid decisions under uncertainty rather than a layer-level interaction, payment or authorization mechanism.",
+      "mechanism": "Probabilistic and possibilistic decision theory for bidding.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0455",
+      "identifier_key": "doi:10.1109/icmas.1998.699054",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a strategy (called p-strategy) that uses a stochastic model of the market to find the best offer price",
+          "rationale": "Examines offer-price optimization and aggregate efficiency, not coordination or payment rules."
+        }
+      ],
+      "rationale": "Examines offer-price optimization and aggregate efficiency, not coordination or payment rules.",
+      "mechanism": "Stochastic offer-price strategies and emergent market efficiency.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0456",
+      "identifier_key": "doi:10.1109/icmas.1998.699077",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a decentralized market protocol for allocating tasks among agents that contend for scarce resources",
+          "rationale": "Defines a distributed coordination protocol and bidding policies with task-solution convergence properties."
+        }
+      ],
+      "rationale": "Defines a distributed coordination protocol and bidding policies with task-solution convergence properties.",
+      "mechanism": "Decentralized auction protocol coordinating task and resource allocation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0457",
+      "identifier_key": "doi:10.1109/icmas.1998.699247",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "an auction-based competition of agents managed by a meta-agent",
+          "rationale": "Specifies a meta-agent auction-management mechanism coordinating planning and scheduling tasks."
+        }
+      ],
+      "rationale": "Specifies a meta-agent auction-management mechanism coordinating planning and scheduling tasks.",
+      "mechanism": "Knowledge-based meta-agent management of constrained task allocation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0458",
+      "identifier_key": "doi:10.1109/icmas.2000.858494",
+      "classification": [
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "supports users in attending, monitoring, and bidding in multiple auctions",
+          "rationale": "Provides human-facing participation and monitoring across auctions."
+        }
+      ],
+      "rationale": "Provides human-facing participation and monitoring across auctions.",
+      "mechanism": "Multi-auction human assistance with price monitoring and cooperative bidding.",
+      "not_evidenced_reason": null,
+      "followup_question": "What concrete coordination rule implements the cooperative bidding mechanism?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0459",
+      "identifier_key": "doi:10.1109/icmas.2000.858520",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Agents create models of their opponents during negotiation, which help them predict better the opponent actions.",
+          "rationale": "Predicts opponent actions to improve deals; preference models and a student use case do not establish human input or inter-agent protocol rules."
+        }
+      ],
+      "rationale": "Predicts opponent actions to improve deals; preference models and a student use case do not establish human input or inter-agent protocol rules.",
+      "mechanism": "Influence-diagram opponent modeling for bilateral negotiation.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0460",
+      "identifier_key": "doi:10.1109/icmcsi67283.2026.11412741",
+      "classification": [
+        "L2",
+        "L3",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "selection of a supplier among procurement strategies",
+          "rationale": "The architecture substantively performs supplier selection within procurement decisions."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "multi-agent reinforcement learning (MARL) system",
+          "rationale": "MARL coordinates the stated interdependent procurement, supplier and organizational decisions, evaluated through collaborative outcomes."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "purchasing requisitions processing",
+          "rationale": "Explicitly automates purchase requisition processing in the procurement lifecycle."
+        }
+      ],
+      "rationale": "The architecture substantively performs supplier selection within procurement decisions. MARL coordinates the stated interdependent procurement, supplier and organizational decisions, evaluated through collaborative outcomes. Explicitly automates purchase requisition processing in the procurement lifecycle.",
+      "mechanism": "Coordinated multi-agent procurement with supplier selection and requisition processing.",
+      "not_evidenced_reason": null,
+      "followup_question": "Does payment optimization define payment obligations, timing or transfers?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0461",
+      "identifier_key": "doi:10.1109/icmecg.2008.18",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "point out some relevant legal regulations of E-agent in those of the UN, America and Canada; analyze three representative views of scholars",
+          "rationale": "Legal status and legislative recommendations are described without identifying mandate, contract-formation or dispute rules."
+        }
+      ],
+      "rationale": "Legal status and legislative recommendations are described without identifying mandate, contract-formation or dispute rules.",
+      "mechanism": "Comparative legal analysis of electronic-agent status.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does the analysis establish rules of principal authorization, electronic contract formation or remedies?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0462",
+      "identifier_key": "doi:10.1109/icmecg.2008.70",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "communication, business, cooperation and coordination",
+          "rationale": "The architecture names functional layers without describing a communication or coordination mechanism."
+        }
+      ],
+      "rationale": "The architecture names functional layers without describing a communication or coordination mechanism.",
+      "mechanism": "Modular P2P agent-commerce architecture.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What explicit message or coordination rules implement the named layers?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0463",
+      "identifier_key": "doi:10.1109/icmecg.2009.95",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "realized the asynchronous transfer of information and platform-independent",
+          "rationale": "Transport and platform benefits do not establish substantive agent interaction rules or task coordination."
+        }
+      ],
+      "rationale": "Transport and platform benefits do not establish substantive agent interaction rules or task coordination.",
+      "mechanism": "Distributed FIPA-based asynchronous B2B agent platform.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which inter-agent message rules or coordinated business tasks are defined beyond asynchronous transport?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0464",
+      "identifier_key": "doi:10.1109/icmecg.2010.15",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This paper focuses on agent’s independent decision-making process",
+          "rationale": "Designs internal agent reasoning and reactive decision-making rather than inter-agent orchestration."
+        }
+      ],
+      "rationale": "Designs internal agent reasoning and reactive decision-making rather than inter-agent orchestration.",
+      "mechanism": "Goal-directed and reactive negotiation-agent reasoning architecture.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0465",
+      "identifier_key": "doi:10.1109/icmit.2008.4654443",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "Interaction Protocol (IP) to express the static structure and dynamic behaviour of multi agents in e-negotiation",
+          "rationale": "Formally models and verifies multi-agent negotiation interaction protocols."
+        }
+      ],
+      "rationale": "Formally models and verifies multi-agent negotiation interaction protocols.",
+      "mechanism": "EER/interaction-protocol negotiation model mapped into Petri-net simulation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0466",
+      "identifier_key": "doi:10.1109/icmla.2006.34",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "the probability that buyers rather than sellers are able to quote on a given time step",
+          "rationale": "Designs and adapts the rule controlling which market side may issue quotes at each interaction step."
+        }
+      ],
+      "rationale": "Designs and adapts the rule controlling which market side may issue quotes at each interaction step.",
+      "mechanism": "Evolutionary auction interaction design with heterogeneous traders.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0467",
+      "identifier_key": "doi:10.1109/icmlc.2003.1259801",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Some properties and impacts of agents' parameters are shown through simulating experience",
+          "rationale": "Studies resource-allocation outcomes and generic auction parameters without specifying interaction or payment rules."
+        }
+      ],
+      "rationale": "Studies resource-allocation outcomes and generic auction parameters without specifying interaction or payment rules.",
+      "mechanism": "Simulation of multi-item auction allocation and agent-parameter effects.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which specific auction interaction or payment rules are substantively varied and analyzed?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0468",
+      "identifier_key": "doi:10.1109/icmlc.2003.1264525",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a scenario description language for describing interaction among agents and users",
+          "rationale": "Defines a language for specifying agent interaction scenarios."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "abstract",
+          "quote": "Application designers, such as non-computer professionals, cannot directly describe interaction by agent communication languages",
+          "rationale": "Creates a human-accessible scenario specification interface addressing nontechnical application designers."
+        }
+      ],
+      "rationale": "Defines a language for specifying agent interaction scenarios. Creates a human-accessible scenario specification interface addressing nontechnical application designers.",
+      "mechanism": "Q scenario language for agent and user interaction design.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0469",
+      "identifier_key": "doi:10.1109/icmlc.2004.1380617",
+      "classification": [
+        "L2"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "locating the auction hall",
+          "rationale": "Explicitly studies auction venue discovery as a key autonomous-agent system function."
+        }
+      ],
+      "rationale": "Explicitly studies auction venue discovery as a key autonomous-agent system function.",
+      "mechanism": "Mobile-agent auction model with venue location and bidding strategies.",
+      "not_evidenced_reason": null,
+      "followup_question": "What concrete protocol implements cooperation between trade partners?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0470",
+      "identifier_key": "doi:10.1109/icmlc.2004.1380646",
+      "classification": [
+        "L2",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "Mobile agents wander in grid to discover, call and interact with all kinds of grid services automatically",
+          "rationale": "Defines mobile service discovery as part of the grid-service paradigm."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "communication process with GS or between GMS are presented",
+          "rationale": "Specifies communication processes between mobile grid-service agents and services."
+        }
+      ],
+      "rationale": "Defines mobile service discovery as part of the grid-service paradigm. Specifies communication processes between mobile grid-service agents and services.",
+      "mechanism": "Mobile grid service discovery and inter-service communication architecture.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0471",
+      "identifier_key": "doi:10.1109/icmlc.2004.1380683",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a framework for integrated negotiation support system, which integrates software agents into negotiation support system",
+          "rationale": "Support and value-added services are asserted without describing human inputs, displays or agent interaction rules."
+        }
+      ],
+      "rationale": "Support and value-added services are asserted without describing human inputs, displays or agent interaction rules.",
+      "mechanism": "Integrated agent negotiation-support framework.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What human-facing assistance or inter-agent protocol is concretely designed?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0472",
+      "identifier_key": "doi:10.1109/icmlc.2004.1382075",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "two different bidding strategies that guide agent's buying and selling behavior in a double auction",
+          "rationale": "Compares bidding strategy profits without studying coordination or payment rules."
+        }
+      ],
+      "rationale": "Compares bidding strategy profits without studying coordination or payment rules.",
+      "mechanism": "Fuzzy-logic versus evolutionary auction bidding.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0473",
+      "identifier_key": "doi:10.1109/icmlc.2005.1526935",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "multi-process paralleling negotiation course based on the two models is presented",
+          "rationale": "Designs concurrent one-to-many negotiation processes coordinated through speculative computation and belief revision."
+        }
+      ],
+      "rationale": "Designs concurrent one-to-many negotiation processes coordinated through speculative computation and belief revision.",
+      "mechanism": "Speculative-computation coordination of parallel negotiation processes.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0474",
+      "identifier_key": "doi:10.1109/icmlc.2005.1526940",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Time and belief factors are considered in the model.",
+          "rationale": "Deceit-tolerant strategy is described without a concrete evidence-based trust estimate or specified inter-agent exchange rules."
+        }
+      ],
+      "rationale": "Deceit-tolerant strategy is described without a concrete evidence-based trust estimate or specified inter-agent exchange rules.",
+      "mechanism": "Risk-tolerant negotiation under possible counterparty deception.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "How are beliefs about deception formed, and do they constitute explicit trust judgments or only strategy parameters?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0475",
+      "identifier_key": "doi:10.1109/icmlc.2005.1526950",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "This paper gives a protocol (VAMA) and strategy for multi-attribute auction.",
+          "rationale": "Protocol existence and strategy-proofness alone do not reveal interaction steps, suitability selection or payment obligations."
+        }
+      ],
+      "rationale": "Protocol existence and strategy-proofness alone do not reveal interaction steps, suitability selection or payment obligations.",
+      "mechanism": "Strategy-proof multiattribute auction protocol and participant strategies.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What are VAMA message rules, seller-selection criteria and payment obligations?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0476",
+      "identifier_key": "doi:10.1109/icmlc.2005.1526954",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "propose policy-driven method to autonomic control the agent in agent social",
+          "rationale": "Specifies policy-driven control of agent federations executing inter-enterprise business processes."
+        }
+      ],
+      "rationale": "Specifies policy-driven control of agent federations executing inter-enterprise business processes.",
+      "mechanism": "Policy-driven agent-federation orchestration of ebXML business processes.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0477",
+      "identifier_key": "doi:10.1109/icmlc.2007.4370271",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "a risk-based evolutionary (RBE) bidding strategy for agents participating in multiple auctions",
+          "rationale": "Optimizes adaptive bidding parameters, without coordination or payment-rule design."
+        }
+      ],
+      "rationale": "Optimizes adaptive bidding parameters, without coordination or payment-rule design.",
+      "mechanism": "Risk-based genetic optimization of multi-auction bidding.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0478",
+      "identifier_key": "doi:10.1109/icmlc.2007.4370699",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a bargain protocol for E-Commerce oriented automated negotiation is presented",
+          "rationale": "Defines formal agent bargaining actions and semantics extending FIPA interaction specifications."
+        }
+      ],
+      "rationale": "Defines formal agent bargaining actions and semantics extending FIPA interaction specifications.",
+      "mechanism": "Formal FIPA-derived bargaining interaction protocol.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0479",
+      "identifier_key": "doi:10.1109/icmlc.2008.4620531",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Buyer agents were able to choose several time-related bidding tactics.",
+          "rationale": "Studies time-dependent individual bid tactics and resulting utilities, not a specified layer function."
+        }
+      ],
+      "rationale": "Studies time-dependent individual bid tactics and resulting utilities, not a specified layer function.",
+      "mechanism": "Time-parameterized bidding tactics and utility simulation.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0480",
+      "identifier_key": "doi:10.1109/icmlc.2009.5212303",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "multi-agent bilateral multi-project negotiation model which is based on multi-agent blackboard model",
+          "rationale": "Uses a shared blackboard coordination model to organize bilateral multi-issue negotiation."
+        }
+      ],
+      "rationale": "Uses a shared blackboard coordination model to organize bilateral multi-issue negotiation.",
+      "mechanism": "Blackboard-based multi-issue agent negotiation with genetic optimization.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0481",
+      "identifier_key": "doi:10.1109/icmlc.2009.5212335",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "presenting negotiation protocol and analyzing negotiation flow based on multi-attribute utility theory",
+          "rationale": "Defines and analyzes agent negotiation interaction flow, then augments it with Q-learning."
+        }
+      ],
+      "rationale": "Defines and analyzes agent negotiation interaction flow, then augments it with Q-learning.",
+      "mechanism": "Protocol-based multiattribute negotiation with reinforcement learning.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0482",
+      "identifier_key": "doi:10.1109/icmse.2006.313852",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "use Bayesian networks to find the potential rules through examples of all transactions",
+          "rationale": "Transaction-pattern mining and delegated personalization are mentioned without a concrete discovery, mandate or human-interaction mechanism."
+        }
+      ],
+      "rationale": "Transaction-pattern mining and delegated personalization are mentioned without a concrete discovery, mandate or human-interaction mechanism.",
+      "mechanism": "Personalized autonomous commerce architecture and Bayesian behavior mining.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What concrete personalization or authorized delegation mechanism does the system implement?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0483",
+      "identifier_key": "doi:10.1109/icmse.2006.313895",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "running for several rounds to matching bids as more as possible and permitting agents applying online learning algorithms to adjust bidding strategy adaptively",
+          "rationale": "Designs a multiround exchange procedure allowing iterative revised bids."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "Agents trade identical bundles of goods with discriminatory prices",
+          "rationale": "Specifies differential transaction payment amounts for otherwise identical bundles within the mechanism."
+        }
+      ],
+      "rationale": "Designs a multiround exchange procedure allowing iterative revised bids. Specifies differential transaction payment amounts for otherwise identical bundles within the mechanism.",
+      "mechanism": "Multiround combinatorial double auction with adaptive bids and discriminatory transaction prices.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0484",
+      "identifier_key": "doi:10.1109/icmse.2007.4421842",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "give agents ability to change their strategies dynamically during a bargain",
+          "rationale": "Studies strategy adaptation and payoffs without describing a new exchange protocol or contract commitment."
+        }
+      ],
+      "rationale": "Studies strategy adaptation and payoffs without describing a new exchange protocol or contract commitment.",
+      "mechanism": "Dynamic negotiation strategies under deadlines and incomplete information.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0485",
+      "identifier_key": "doi:10.1109/icmse.2009.5318015",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "an agent-based model of a futures market to analyze the characters of wheat futures markets price stylized facts",
+          "rationale": "Explains price dynamics using simulated belief learning; auction clearing is an environment rather than a studied layer function."
+        }
+      ],
+      "rationale": "Explains price dynamics using simulated belief learning; auction clearing is an environment rather than a studied layer function.",
+      "mechanism": "Stochastic-belief simulation of wheat futures volatility.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0486",
+      "identifier_key": "doi:10.1109/icmse.2010.5719945",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "clustered volatility depends on speculator agents' imitations which are caused by social learning process",
+          "rationale": "Models emergent futures-price volatility rather than functional agent coordination or transaction mechanisms."
+        }
+      ],
+      "rationale": "Models emergent futures-price volatility rather than functional agent coordination or transaction mechanisms.",
+      "mechanism": "Social-belief learning model of commodity futures price dynamics.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0487",
+      "identifier_key": "doi:10.1109/icmss.2009.5303304",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "the negotiation agent can send the information of its issue range and the issue weight to the third party agent",
+          "rationale": "Defines message content and a third-party optimization role, with finite-state protocol specification."
+        }
+      ],
+      "rationale": "Defines message content and a third-party optimization role, with finite-state protocol specification.",
+      "mechanism": "Third-party-mediated multi-issue negotiation with adaptive genetic optimization.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0488",
+      "identifier_key": "doi:10.1109/icmss.2009.5305567",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "two competitive agents, such as the buyer and seller, have firm deadlines and incomplete information about each other",
+          "rationale": "Negotiation assumptions are supplied but the interaction or commitment mechanisms remain unspecified."
+        }
+      ],
+      "rationale": "Negotiation assumptions are supplied but the interaction or commitment mechanisms remain unspecified.",
+      "mechanism": "Multidimensional negotiation model under deadlines and incomplete information.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "What concrete offer, response or commitment rules distinguish the proposed negotiation model?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0489",
+      "identifier_key": "doi:10.1109/icnnb.2005.1614592",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "Some attributes and impacts for the agents about parameters are showed through simulating experience",
+          "rationale": "Simulates auction allocation and parameter effects without specifying substantive interaction or payment rules."
+        }
+      ],
+      "rationale": "Simulates auction allocation and parameter effects without specifying substantive interaction or payment rules.",
+      "mechanism": "Agent-based multi-item auction parameter simulation.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Which specific auction interaction or payment rules are substantively varied and analyzed?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0490",
+      "identifier_key": "doi:10.1109/icnsc.2004.1297447",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "distribution of the algorithm on different hosts and making use of that the transactions has shared secrets by using the (k, n) secret-sharing threshold scheme",
+          "rationale": "Protects remote computation through secret sharing; this does not establish authentication, authorization or inter-agent task coordination."
+        }
+      ],
+      "rationale": "Protects remote computation through secret sharing; this does not establish authentication, authorization or inter-agent task coordination.",
+      "mechanism": "Threshold-secret-sharing protection of distributed mobile computation.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0491",
+      "identifier_key": "doi:10.1109/icnsc.2017.8000098",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "it offers the surplus of energy or requests the deficit of energy to other neighbour smart grids",
+          "rationale": "Defines the manager-agent offer/request procedure coordinating local energy balance across grids."
+        }
+      ],
+      "rationale": "Defines the manager-agent offer/request procedure coordinating local energy balance across grids.",
+      "mechanism": "Local manager-agent energy exchanges coordinated through auctions.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0492",
+      "identifier_key": "doi:10.1109/icoa66896.2025.11236877",
+      "classification": [
+        "L1"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "weaknesses in current authentication mechanisms",
+          "rationale": "Authentication mechanisms are a substantive security-analysis target with corresponding mitigations."
+        }
+      ],
+      "rationale": "Authentication mechanisms are a substantive security-analysis target with corresponding mitigations.",
+      "mechanism": "MCP security analysis and reference architecture including authentication mitigation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0493",
+      "identifier_key": "doi:10.1109/icoait67446.2025.11308830",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "evaluating the performance of five transformer-based models",
+          "rationale": "Detects command-injection content through classifiers; no identity, trust or permission-checking mechanism is established."
+        }
+      ],
+      "rationale": "Detects command-injection content through classifiers; no identity, trust or permission-checking mechanism is established.",
+      "mechanism": "Transformer classifiers for MCP command-injection detection.",
+      "not_evidenced_reason": "outside_layer_functions",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0494",
+      "identifier_key": "doi:10.1109/icoco67189.2025.11334130",
+      "classification": [
+        "L4"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "key challenges, such as decentralized access control, audit complexity, and the risks of shadow AI, can be effectively mitigated",
+          "rationale": "Implements and evaluates access-control governance against unapproved agent deployments."
+        }
+      ],
+      "rationale": "Implements and evaluates access-control governance against unapproved agent deployments.",
+      "mechanism": "Protocol-compatible agent routing service with access-control governance.",
+      "not_evidenced_reason": null,
+      "followup_question": "What exact task-routing or interaction rules does the service implement beyond protocol compatibility?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0495",
+      "identifier_key": "doi:10.1109/icoict.2014.6914084",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "three-phase of interaction mechanism",
+          "rationale": "Defines a staged agent/service interaction mechanism and extends FIPA ACL message content."
+        }
+      ],
+      "rationale": "Defines a staged agent/service interaction mechanism and extends FIPA ACL message content.",
+      "mechanism": "Three-phase pragmatic Web interaction protocol with extended FIPA messages.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0496",
+      "identifier_key": "doi:10.1109/icoin.1998.648393",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "grip the progressive process of a negotiation via BB (Black Board)",
+          "rationale": "Uses a blackboard to organize and track the progression of multiattribute agent negotiations."
+        }
+      ],
+      "rationale": "Uses a blackboard to organize and track the progression of multiattribute agent negotiations.",
+      "mechanism": "Shared-ontology and blackboard-based adaptive negotiation model.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0497",
+      "identifier_key": "doi:10.1109/icoin.1998.648406",
+      "classification": [
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "usage based mini payment method, vicarious billing management instead of each CPs (Content Provider)",
+          "rationale": "Implements usage-based micropayment and delegated billing obligations for content providers."
+        }
+      ],
+      "rationale": "Implements usage-based micropayment and delegated billing obligations for content providers.",
+      "mechanism": "Browser-compatible delegated usage billing and micropayments.",
+      "not_evidenced_reason": null,
+      "followup_question": "What identity or credential checks are performed by vicarious certification?",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0498",
+      "identifier_key": "doi:10.1109/icoin.2014.6799688",
+      "classification": [
+        "L2",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "the users will make decisions on what to pay and who to pay for the best service they require",
+          "rationale": "Studies selection among access providers based on service requirements and usage."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "based on ad-hoc usage (policy-dependent), short-term agreements and spot-pricing (and payment)",
+          "rationale": "Proposes usage-dependent short-term payment arrangements and explicitly considers the payee and amount."
+        }
+      ],
+      "rationale": "Studies selection among access providers based on service requirements and usage. Proposes usage-dependent short-term payment arrangements and explicitly considers the payee and amount.",
+      "mechanism": "Usage-dependent service-provider choice and short-term payment approach.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0499",
+      "identifier_key": "doi:10.1109/icon.2012.6506598",
+      "classification": [
+        "L2",
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "the best appropriate node can be selected as the final placement destination",
+          "rationale": "Selects replica-hosting nodes by evaluated utility and reported service quality."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "compute our mechanism with a distributed algorithm that is a straightforward extension to P2P allocation method",
+          "rationale": "Coordinates decentralized placement computation through an existing P2P protocol."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "computes node utility for all possible replica destination and payments for those destination nodes",
+          "rationale": "Defines payments to candidate storage destinations in the incentive mechanism."
+        }
+      ],
+      "rationale": "Selects replica-hosting nodes by evaluated utility and reported service quality. Coordinates decentralized placement computation through an existing P2P protocol. Defines payments to candidate storage destinations in the incentive mechanism.",
+      "mechanism": "Distributed incentive-compatible replica placement with quality-based selection and payments.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ]
+    },
+    {
+      "record_id": "R0500",
+      "identifier_key": "doi:10.1109/icpads.1997.652560",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "distributed transactions processing based on the OMG Object Transaction Service",
+          "rationale": "Uses distributed computing transactions for security and fault tolerance; money transfers are a prospective application with no payment rule or financial settlement mechanism described."
+        }
+      ],
+      "rationale": "Uses distributed computing transactions for security and fault tolerance; money transfers are a prospective application with no payment rule or financial settlement mechanism described.",
+      "mechanism": "Encrypted mobile-agent architecture with distributed transaction fault tolerance.",
+      "not_evidenced_reason": "insufficient_evidence",
+      "followup_question": "Does the system specify actual monetary transfer or settlement behavior beyond enabling secure mobile execution?",
+      "evidence_read": [
+        "abstract"
+      ]
+    }
+  ]
+}

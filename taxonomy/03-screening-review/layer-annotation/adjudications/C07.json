@@ -1,0 +1,673 @@
+{
+  "job_id": "C07",
+  "role": "adjudication",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "method_version": "2.0.0",
+  "records": [
+    {
+      "record_id": "R0621",
+      "identifier_key": "doi:10.1109/isgt.2017.8086092",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "This paper introduces a smart contract that implements a transactive energy auction that operates without the need for a trusted entitys oversight.",
+          "rationale": "The designed executable contract organizes the decentralized auction among transactive agents; coordination is the proposed artifact rather than one bidder optimizing a bid."
+        }
+      ],
+      "rationale": "The demonstrated contract supplies decentralized auction coordination.",
+      "mechanism": "Ethereum smart-contract auction coordinating campus transactive agents.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "B is supported for L3: an implemented auction coordination contract is a substantive design object. The Vickrey name alone does not establish L5; blockchain alone does not establish identity or counterparty trust assessment. Additional payment/interaction detail could not be retrieved.",
+      "supplement_attempts": [
+        {
+          "question": "What interaction and payment obligations does the implemented smart contract enforce?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "What interaction and payment obligations does the implemented smart contract enforce?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page returned JavaScript-disabled robot-verification page; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0624",
+      "identifier_key": "doi:10.1109/isip.2008.111",
+      "classification": [
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "sec3c",
+          "quote": "consultations Agent uses utility function to evaluate the suggestion proposed by the other side and uses it self's negotiation strategy to decide to accept, reject or offer a counter-proposal. It repeats until both sides accept or one side abandons and leaves",
+          "rationale": "The saved design specifies a repeated offer/accept/reject/counterproposal protocol."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "sec3c",
+          "quote": "establish the interaction mechanism between consultation Agent and the user, so that we will be able to more accurately and effectively extract user's preference for consultation objects and other binding",
+          "rationale": "User preference elicitation is an explicit part of the designed interface."
+        }
+      ],
+      "rationale": "The model defines both negotiation interaction and preference elicitation.",
+      "mechanism": "User preference extraction and iterative bilateral response within one-to-many consultation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "sec3a",
+        "sec3c",
+        "sec3d"
+      ],
+      "adjudication_reason": "The abstract alone leaves A’s concern open; saved Section 3.3 resolves it with explicit response and termination rules, supporting B’s L3. It also directly establishes L7. Agreement termination alone does not establish separately managed contractual obligations."
+    },
+    {
+      "record_id": "R0627",
+      "identifier_key": "doi:10.1109/ispdc.2006.32",
+      "classification": [
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "a simple way in which time information can be successfully managed to support the proposed product reservation approach will be discussed",
+          "rationale": "Managing reservation timing addresses the holding/expiry of a proposed purchase reservation."
+        }
+      ],
+      "rationale": "The studied contribution is timed product reservation management.",
+      "mechanism": "Information and time management for product reservations.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. Ontological product representation is explicitly an assumption in the abstract; no substantive capability/resource description or provider-search design is established for B’s additional L2."
+    },
+    {
+      "record_id": "R0640",
+      "identifier_key": "doi:10.1109/itng.2008.22",
+      "classification": [
+        "L1",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "the analysis agent and the security agent can analyze state-based information and history information of a bidder",
+          "rationale": "The designed trust-management roles assess a bidder from current and historical behavior."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "We illustrate the communication protocol among various agents",
+          "rationale": "Inter-role communication is an explicit framework contribution."
+        }
+      ],
+      "rationale": "Bidder trust assessment and the communication protocol are evidenced.",
+      "mechanism": "Monitoring, analysis, and security agents for auction trust.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. Auction cancellation is stated as what a trustworthy system requires, while the described framework contribution explicitly establishes bidder analysis and communication. The saved abstract does not show a designed cancellation/state-transition mechanism; attempted body retrieval did not resolve that distinction.",
+      "supplement_attempts": [
+        {
+          "question": "Does the ATM framework actually specify auction cancellation/transaction-state management, or state it only as a system requirement?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "Does the ATM framework actually specify auction cancellation/transaction-state management, or state it only as a system requirement?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE article URL was not accessible via the web tool; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0646",
+      "identifier_key": "doi:10.1109/ivs.2000.898381",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "we propose an auction scheme to prioritize services in the information network. In the scheme, messages that pay higher prices get higher priorities.",
+          "rationale": "The proposed scheme coordinates competing communication requests across authorities by specifying their ordering."
+        }
+      ],
+      "rationale": "The auction provides a concrete coordination priority rule.",
+      "mechanism": "Auction-based communication ordering across independent authorities.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. Higher price implies higher message priority, which establishes coordination but does not specify the charged amount, payer/payee, or transfer obligation needed for A’s L5. The body could not be retrieved.",
+      "supplement_attempts": [
+        {
+          "question": "Does the scheme define a charge/payment obligation or use prices only as priority weights?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "Does the scheme define a charge/payment obligation or use prices only as priority weights?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page returned JavaScript-disabled robot-verification page; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0648",
+      "identifier_key": "doi:10.1109/iwies.2013.6698573",
+      "classification": [
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "The application maintains two double auction compliant trading process to make the power trading possible among the microgrids.",
+          "rationale": "The application coordinates interdependent microgrid exchanges through two maintained double-auction trading processes."
+        }
+      ],
+      "rationale": "The evaluated application maintains the trading processes that coordinate microgrid exchanges.",
+      "mechanism": "Agent-based double-auction microgrid trading and participation-priority monitoring.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B for L3: the specific trading processes are part of the application design and coordinate multiple microgrids, beyond merely using agents or optimizing one bid. Priority incentives do not establish a monetary payment rule or human interface; bounded retrieval yielded no further evidence.",
+      "supplement_attempts": [
+        {
+          "question": "What interaction rules link the two trading processes, and are the participation incentives monetary obligations?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "What interaction rules link the two trading processes, and are the participation incentives monetary obligations?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE article URL was not accessible via the web tool; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0651",
+      "identifier_key": "doi:10.1109/jcsse.2012.6261928",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "an intermediary acting as an agent to collect and process payment requests made by clients.",
+          "rationale": "The payment protocol explicitly delegates client request collection and processing to an intermediary role."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "a new secure lightweight mobile bill payment protocol with assistance of an intermediary acting as an agent to collect and process payment requests made by clients.",
+          "rationale": "The protocol substantively designs bill-payment processing rather than referring to payment as background."
+        }
+      ],
+      "rationale": "Client payment processing is explicitly delegated to an intermediary.",
+      "mechanism": "Intermediary-assisted bulk bill-payment protocol.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. L3 follows from the explicit delegation of collection/processing to the intermediary, not from the presence of agent technology alone. Generic transaction security does not establish L1 without a described authentication or trust mechanism."
+    },
+    {
+      "record_id": "R0654",
+      "identifier_key": "doi:10.1109/jiot.2023.3277553",
+      "classification": [
+        "L3",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L3",
+          "evidence_id": "payoff1",
+          "quote": "the cloud platform of the SP initializes and publishes the learning tasks. Edge IoT devices set the payment that the SP should pay to them, based on their local data size, data distribution, and capacity in terms of computation and communication. Then, edge IoT devices broadcast their payment to the cloud platform, which selects the set of IoT devices to participate in FL and determines the payment for participated edge IoT devices.",
+          "rationale": "The payoff design specifies task publication, participant responses, and central task/participant coordination."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "payoff1",
+          "quote": "Edge IoT devices set the payment that the SP should pay to them",
+          "rationale": "The model specifies the SP-to-device payment obligation, jointly optimized in the paper."
+        }
+      ],
+      "rationale": "The saved payoff model establishes explicit service-provider/device interaction and compensation.",
+      "mechanism": "Task publication, device compensation bids, participant selection and SP payment determination.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "payoff1",
+        "payoff2"
+      ],
+      "adjudication_reason": "Saved Section III.B resolves A’s missing-counterparty concern: devices request payments from the SP and the cloud determines compensation and participants. This supports L5 in addition to L3. The secure aggregation and assumed trustworthy devices do not establish L1; resource optimization alone does not establish L2."
+    },
+    {
+      "record_id": "R0659",
+      "identifier_key": "doi:10.1109/jiot.2026.3695126",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "derive a penalty threshold that guarantees truthful bidding under bounded sensing errors.",
+          "rationale": "The available text analyzes incentive compatibility under a penalty without specifying a monetary transfer obligation or a claim-and-remedy procedure."
+        }
+      ],
+      "rationale": "The abstract does not establish a layer-specific payment, trust-assessment, coordination, or dispute mechanism.",
+      "mechanism": "Approximate VCG incentive-gap analysis with immediate one-shot penalties.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A after bounded retrieval failed. B infers a payment obligation from an economic penalty; the abstract does not say how the penalty is charged or transferred. Truthful bidding is not by itself identity/trust estimation, and a generic penalty is not dispute adjudication.",
+      "supplement_attempts": [
+        {
+          "question": "Is the immediate penalty a monetary payment obligation, and what event triggers the charge?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "Is the immediate penalty a monetary payment obligation, and what event triggers the charge?",
+          "retrieved_at_utc": "2026-10-19T21:48:07.137871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page returned JavaScript-disabled robot-verification page; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0669",
+      "identifier_key": "doi:10.1109/kimas.2005.1427117",
+      "classification": [
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "evidence": [
+        {
+          "layer": "L4",
+          "evidence_id": "abstract",
+          "quote": "The terms and conditions of the contract are monitored by a digital rights management service.",
+          "rationale": "The licensing design monitors contractual service-use rights and conditions."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "A compensation service handles payment. An electronic receipt service handles compensation bookkeeping.",
+          "rationale": "Dedicated components handle payments and payment records."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "abstract",
+          "quote": "A negotiation service results in a contract between two parties. The terms and conditions of the contract are monitored",
+          "rationale": "The composite service creates and monitors licensing contracts."
+        }
+      ],
+      "rationale": "The composite licensing design establishes rights, payments, and contract management.",
+      "mechanism": "Agent-service licensing through contract, rights-management, compensation and receipt subservices.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. WSDL is used for compatibility and discovery is explicitly assumed as a traditional service; neither establishes B’s additional substantive capability/discovery contribution. Contract creation, rights monitoring, and compensation are explicitly designed subservices."
+    },
+    {
+      "record_id": "R0674",
+      "identifier_key": "doi:10.1109/mapr72750.2026.11685704",
+      "classification": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "abstract",
+          "quote": "a hybrid identity model binding an immutable soulbound (ERC-5192) reputation badge to a transferable ERC-721 endpoint.",
+          "rationale": "The identity design binds reputation independently of the transferable endpoint to prevent laundering."
+        },
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "a deterministic, lightweight hierarchical skill-matching algorithm.",
+          "rationale": "The designed taxonomy-based matching algorithm selects reviewer expertise suitable for submissions."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "a council formation protocol grounded in the Boland dependent-jurors theorem mathematically bounds reliability under correlated LLM errors.",
+          "rationale": "The designed protocol forms a collective reviewer council and accounts for dependencies among agents through correlated errors."
+        }
+      ],
+      "rationale": "The framework specifies identity-bound reputation, skill matching, and a multi-reviewer council formation protocol.",
+      "mechanism": "Soulbound reputation, taxonomic qualification and dependence-aware reviewer council formation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt B. The council formation protocol is a distinct designed role-organization mechanism for interdependent reviewers, not simply use of multiple agents. It supports L3 alongside the independently supported identity and capability functions; juror terminology alone does not establish dispute arbitration."
+    },
+    {
+      "record_id": "R0678",
+      "identifier_key": "doi:10.1109/melcon.2004.1347005",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "The model considers both the contract and decision issues based on the real market conditions and has been empirically evaluated.",
+          "rationale": "This states the broad scope of a negotiation model without identifying offer/response rules or contractual commitment management."
+        }
+      ],
+      "rationale": "The available abstract does not establish the specific interaction or commitment functions needed for a positive layer.",
+      "mechanism": "Dynamic multilateral utility-oriented negotiation model.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A after the targeted body attempt failed. B derives interaction governance from the multilateral-negotiation label, but the abstract does not describe a rule governing message exchange or joint action. Naming contract issues also does not establish L6. No final layer can be evidenced from the material read.",
+      "supplement_attempts": [
+        {
+          "question": "What offer/response or commitment-formation rules does the dynamic multilateral negotiation model define?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "What offer/response or commitment-formation rules does the dynamic multilateral negotiation model define?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE article URL was not accessible via the web tool; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0680",
+      "identifier_key": "doi:10.1109/miot.2025.3615709",
+      "classification": [
+        "L2",
+        "L3",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "heterogeneous IoRT nodes expose their capabilities through MCP-compliant interfaces",
+          "rationale": "The proposed framework publishes callable device capabilities."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "abstract",
+          "quote": "MCP allows large language models (LLMs) to orchestrate complex workflows through natural language prompts.",
+          "rationale": "The framework composes device/resource operations into coordinated workflows."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "section3",
+          "quote": "the focus was to validate end-to-end task composition between user operations and edge devices via MCP.",
+          "rationale": "The implementation explicitly connects user operations to device actions."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "section4",
+          "quote": "(c) dialog interface of the environment adjustment workflow, with detailed context shown in other subfigures;",
+          "rationale": "The implementation demonstrates a user dialog interface for workflow control, resolving who interacts with it."
+        }
+      ],
+      "rationale": "Capability exposure, composed workflows and an implemented user interaction path are all explicit.",
+      "mechanism": "MCP device interfaces, workflow composition and user-side dialog control.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "section1",
+        "section2",
+        "section3",
+        "section4",
+        "section5",
+        "section6",
+        "section7",
+        "section8",
+        "section10"
+      ],
+      "adjudication_reason": "Adopt A, supported by saved body evidence rather than assuming prompts are human-facing. Section III.B explicitly describes user operations and a dialog interface; this resolves B’s L7 concern. L2 and L3 are also direct framework contributions."
+    },
+    {
+      "record_id": "R0685",
+      "identifier_key": "doi:10.1109/mmse.2000.897242",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "We propose a negotiation model in agent-mediated electronic commerce to negotiate over prices, product features, warranties, and service policies based on utility theory and simple heuristics.",
+          "rationale": "The text identifies negotiation attributes and decision techniques but no offer-exchange rule, task coordination or provider selection mechanism."
+        }
+      ],
+      "rationale": "The available abstract establishes a negotiation decision model, but not a specific layer function.",
+      "mechanism": "Utility-theoretic and heuristic multiattribute negotiation in Pmart.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A after the official body attempt failed. Multiattribute utility and heuristics do not by themselves describe agent interaction rules required for B’s L3. Comparing merchant offerings is described as prior shopping-agent behavior, not the contribution’s capability-selection design.",
+      "supplement_attempts": [
+        {
+          "question": "Does the model design offer/counteroffer interaction rules, or only an individual utility-based negotiation strategy?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "Does the model design offer/counteroffer interaction rules, or only an individual utility-based negotiation strategy?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page returned JavaScript-disabled robot-verification page; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0687",
+      "identifier_key": "doi:10.1109/ncis.2011.103",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "three main approaches for automated negotiation: the decision theory, the game theory and the negotiation analysis.",
+          "rationale": "These are broad analysis approaches; the abstract does not identify an interaction protocol being substantively compared."
+        }
+      ],
+      "rationale": "No specific layer function is established in the available survey description.",
+      "mechanism": "Survey of decision-theoretic, game-theoretic and negotiation-analysis models.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. The survey scope names theoretical approaches and lists communication protocol as a difficulty; it does not show substantive comparison of any particular inter-agent interaction mechanism. Targeted body retrieval failed, so B’s L3 inference cannot be confirmed.",
+      "supplement_attempts": [
+        {
+          "question": "Which communication or offer-exchange protocols are substantively analyzed or compared in this survey?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "Which communication or offer-exchange protocols are substantively analyzed or compared in this survey?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page returned JavaScript-disabled robot-verification page; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0690",
+      "identifier_key": "doi:10.1109/nfc.2010.9",
+      "classification": [
+        "L1",
+        "L3",
+        "L5",
+        "L6",
+        "L7"
+      ],
+      "evidence": [
+        {
+          "layer": "L1",
+          "evidence_id": "postal3",
+          "quote": "It verifies whether the received mobile identity is equal to the mobile identity of the User “R”.",
+          "rationale": "The receipt workflow explicitly authenticates the recipient by comparing mobile identities."
+        },
+        {
+          "layer": "L3",
+          "evidence_id": "postal1",
+          "quote": "By consolidating the detailed contact information it receives from the UPS and other communication properties like required delivery time, the weight of the parcel, the current location of the parcel, extra media, etc. it receives from the mobile handheld, the SPAS is able to calculate the tariff of the current parcel and transfer transaction related information to the PS for execution.",
+          "rationale": "The postal agent coordinates information lookup, tariff calculation and delegated payment execution across service roles."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "postal2",
+          "quote": "The payment could be deducted from pre-paid account or charged to a mobile or bank account directly.",
+          "rationale": "The payment-service design specifies how postal charges are collected."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "postal3",
+          "quote": "During delivery of the parcel, the smart postal system updates the parcel's location and arrival time",
+          "rationale": "The designed system manages delivery state as part of the transaction lifecycle."
+        },
+        {
+          "layer": "L6",
+          "evidence_id": "postal1",
+          "quote": "The mobile handheld will send a message to the SPAS to confirm that the parcel arrives at its destination. The SPAS then based on request, sends a “parcel has been received” notification back to the sender.",
+          "rationale": "The agent records receipt confirmation and communicates completion."
+        },
+        {
+          "layer": "L7",
+          "evidence_id": "postal2",
+          "quote": "An GUI was provided for reviewing the summary of the payment.",
+          "rationale": "The prototype includes a human-facing payment-summary interface."
+        }
+      ],
+      "rationale": "The saved design details establish receipt authentication, service coordination, charging, delivery/receipt management and user interaction.",
+      "mechanism": "NFC postal workflow with identity checks, tariff and payment services, delivery tracking and receipt confirmation.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract",
+        "postal1",
+        "postal2",
+        "postal3"
+      ],
+      "adjudication_reason": "The saved scenario resolves the original L6 dispute in B’s favor: delivery and receipt states are explicitly managed, not merely an efficiency objective. The same bounded workflow evidence additionally establishes L1, L3 and L5, while a payment-summary GUI corroborates L7. These additional labels use actual design passages rather than the abstract’s service names."
+    },
+    {
+      "record_id": "R0692",
+      "identifier_key": "doi:10.1109/noms.2012.6212034",
+      "classification": "not_evidenced",
+      "evidence": [
+        {
+          "layer": null,
+          "evidence_id": "abstract",
+          "quote": "we are working towards a bundled service provider agent architecture, which can negotiate on the open service market.",
+          "rationale": "The abstract states a negotiation architecture objective without specifying an interaction rule, delegation mechanism or managed commercial commitment."
+        }
+      ],
+      "rationale": "The available description of CARMA does not establish a particular layer function.",
+      "mechanism": "Bundled telecommunications/cloud service management architecture targeting risk and resilience.",
+      "not_evidenced_reason": "evidence_unavailable",
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A after the targeted official-body attempt failed. B’s L3 relies on the ability to negotiate without a stated interaction mechanism. Provisioning and operation are management objectives, with no described order, contract or fulfillment-state process to establish L6. The definite result is bounded by the available abstract.",
+      "supplement_attempts": [
+        {
+          "question": "What inter-provider coordination/delegation and contractual provisioning or fulfillment-state rules does CARMA specify?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "no_saved_body_found",
+          "detail": "Searched source-specific filenames and saved text/JSON by record ID and article number; only metadata/occurrence records found."
+        },
+        {
+          "question": "What inter-provider coordination/delegation and contractual provisioning or fulfillment-state rules does CARMA specify?",
+          "retrieved_at_utc": "2026-10-19T21:49:09.012871+00:00",
+          "access_status": "failed",
+          "detail": "Official IEEE page retrieval failed with Cache miss; no body obtained."
+        }
+      ]
+    },
+    {
+      "record_id": "R0694",
+      "identifier_key": "doi:10.1109/noms69089.2026.11668275",
+      "classification": [
+        "L2",
+        "L5"
+      ],
+      "evidence": [
+        {
+          "layer": "L2",
+          "evidence_id": "abstract",
+          "quote": "estimates each vehicular agent's expected contribution quality via Thompson sampling from validation-feedback",
+          "rationale": "The algorithm estimates the task-specific suitability of participants before selecting them using quality, cost and availability."
+        },
+        {
+          "layer": "L5",
+          "evidence_id": "abstract",
+          "quote": "compensates selected agents using a second-price-style marginal payment rule.",
+          "rationale": "The framework explicitly determines compensation to selected contributors."
+        }
+      ],
+      "rationale": "The framework selects task-suitable contributors and defines their compensation.",
+      "mechanism": "Validation-feedback Thompson sampling, quality-to-bid participant selection and marginal payment.",
+      "not_evidenced_reason": null,
+      "followup_question": "",
+      "evidence_read": [
+        "abstract"
+      ],
+      "adjudication_reason": "Adopt A. The disputed score estimates contribution utility and update availability for scheduling; the abstract does not describe an identity, reputation, or counterparty trust judgment. Using observations to predict task-specific contribution quality establishes L2 but does not automatically add B’s L1. L5 follows from the explicit compensation rule."
+    }
+  ]
+}
