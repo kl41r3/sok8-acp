@@ -152,6 +152,13 @@ def main():
     run([ROOT/'modeling/case-b/plot.py','--data',out/'case-b/data/theory.json','--output',out/'case-b/figures'],env)
     require(sha(out/'case-b/figures/plotted-values.csv')==sha(ROOT/'modeling/case-b/figures/plotted-values.csv'),'Case B plotted data')
     summary['figures_generated']=['case-a-threshold-regions.pdf/svg/png','case-b-policy-comparison.pdf/svg/png']
+    run([ROOT/'modeling/extensions/reproduce.py','--output',out/'model-extensions'],env)
+    summary['model_extensions']=read(out/'model-extensions/verification.json')
+    summary['figures_generated'] += ['case-a-cancellation-fallback.pdf/svg/png',
+        'case-a-cost-sensitivity.pdf/svg/png','case-b-evidence-availability.pdf/svg/png',
+        'case-b-effort-sensitivity.pdf/svg/png','case-a-review-fallback.pdf/svg/png',
+        'case-b-evidence-loss.pdf/svg/png','app-case-a-review-costs.pdf/svg/png',
+        'app-case-b-effort-sensitivity.pdf/svg/png']
     if args.drawio:
         subprocess.run([str(args.drawio),'--export','--format','pdf','--crop','--output',str(out/'framework.pdf'),str(ROOT/'figures/Taxonomy_Editable.drawio')],check=True)
         require((out/'framework.pdf').stat().st_size>0,'Framework export');summary['framework_export']='passed'

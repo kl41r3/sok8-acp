@@ -1,6 +1,6 @@
 {
   "scope": "Current-paper artifacts and retained historical evidence",
-  "package_revision": 7,
+  "package_revision": 8,
   "self_excluded": [
     "MANIFEST.json",
     "SHA256SUMS"
@@ -18,23 +18,23 @@
     },
     {
       "path": "PROVENANCE.json",
-      "bytes": 7137,
-      "sha256": "1b358bba179764710d63feea4384e8810dc481ff77837963a146c32caba19848"
+      "bytes": 8002,
+      "sha256": "eb20a00363c989248384d0e198e083b5e8dca5b449a43d2cf0ece97596615df9"
     },
     {
       "path": "README.md",
-      "bytes": 4712,
-      "sha256": "8392abf38865bb2e7e4817b1d872c81e95450e503f07add8c0b4291698e95006"
+      "bytes": 6674,
+      "sha256": "f55f7005b64a09b685073db0378ee27346885d8f92b24734333f6d1fb4ab32a9"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 2634,
-      "sha256": "0d2159ffc199eaa67053fde3e2bd00190d2c900d00e9548d6ca42545e349623c"
+      "bytes": 3809,
+      "sha256": "8c3b50c84fc551d152a236cbb7dcdf830857876f298c68fe90b7c0cfd34073c0"
     },
     {
       "path": "claim-to-artifact.csv",
-      "bytes": 1816,
-      "sha256": "39e201e4198cbc254d287256afe852e70528869d0d5c0bce243e2ea3819f25c1",
+      "bytes": 2892,
+      "sha256": "b593c6fcc6b20d69d1ff936afef933fe201c71682cc84fc68f3aa788ca74795a",
       "csv": {
         "columns": [
           "artifact",
@@ -44,7 +44,7 @@
           "outputs",
           "check"
         ],
-        "rows": 8
+        "rows": 12
       }
     },
     {
@@ -56,6 +56,71 @@
       "path": "figures/Taxonomy_Revised.pdf",
       "bytes": 54948,
       "sha256": "0c77c71cc1e317f86983946511bc50703a4e0fa67c8804ce37690379721cccfe"
+    },
+    {
+      "path": "figures/modeling/app-case-a-review-costs.pdf",
+      "bytes": 29531,
+      "sha256": "f0703e28980fa5ff64e0605b0f847a5233f0d8e13aa06144d43349b827b2b11a"
+    },
+    {
+      "path": "figures/modeling/app-case-b-effort-sensitivity.pdf",
+      "bytes": 31693,
+      "sha256": "ce8a12da2fa6773667ec73f7b7238c145aaa1918ac903e4ab2dfdf807df714f5"
+    },
+    {
+      "path": "figures/modeling/case-a-review-fallback.pdf",
+      "bytes": 32514,
+      "sha256": "3687736246a69d9d86821055288743083b23b8967bb1c725204865f12a84426d"
+    },
+    {
+      "path": "figures/modeling/case-b-evidence-loss.pdf",
+      "bytes": 28973,
+      "sha256": "cbd15f72af22b7d40850cd712f1fdf67c74d8c0e3e86c21038f9f6fa8c065906"
+    },
+    {
+      "path": "figures/modeling/previews/app-case-a-review-costs.png",
+      "bytes": 30441,
+      "sha256": "002b8b123abe144f8e9f2cbd05ce467d10823059f21a50e6ffc1d2eafb753e11"
+    },
+    {
+      "path": "figures/modeling/previews/app-case-a-review-costs.svg",
+      "bytes": 21870,
+      "sha256": "62960c869506c4830b6ae8a0e8908fe7b94bc19e8335a266523b79d0e2dc810e"
+    },
+    {
+      "path": "figures/modeling/previews/app-case-b-effort-sensitivity.png",
+      "bytes": 60883,
+      "sha256": "615d2600801cc448865eb278679d6d52d494aa9c090f307b45eac7134d5b1729"
+    },
+    {
+      "path": "figures/modeling/previews/app-case-b-effort-sensitivity.svg",
+      "bytes": 33871,
+      "sha256": "485868cb142902eaf284e6ec703f6657d210f9ccf6e603ec7dbadcc3eacd5fd4"
+    },
+    {
+      "path": "figures/modeling/previews/case-a-review-fallback.png",
+      "bytes": 76480,
+      "sha256": "86a6fdd123830b4477a465985e4525282738a188e3050492ee97d530bbfb7cb5"
+    },
+    {
+      "path": "figures/modeling/previews/case-a-review-fallback.svg",
+      "bytes": 25623,
+      "sha256": "355b047b62869f62a8c01d7336aad24db6ab091549a26a4616ea383aca720241"
+    },
+    {
+      "path": "figures/modeling/previews/case-b-evidence-loss.png",
+      "bytes": 45660,
+      "sha256": "d225cfdb492da043df6754119e2982491a38bf886f06344ca3f5950da0767b36"
+    },
+    {
+      "path": "figures/modeling/previews/case-b-evidence-loss.svg",
+      "bytes": 23247,
+      "sha256": "b43d911cb12cd2532fc6e661077585a249c2ba70114d10af613fce26e7cf9b5b"
+    },
+    {
+      "path": "figures/modeling/verification.json",
+      "bytes": 1930,
+      "sha256": "6b5140ab134b0926d5d4e912035b125b5f197cb7e22ecdb9a46c8280690ede1a"
     },
     {
       "path": "method/README.md",
@@ -79,8 +144,8 @@
     },
     {
       "path": "modeling/README.md",
-      "bytes": 1054,
-      "sha256": "ce605041ddac7ff0e3e3d292d98ff81d8eaa26a5b68535024b1f2312f912e54b"
+      "bytes": 1334,
+      "sha256": "1fca7b233cd9650f83af9a44a1cc6c8682c5f63c0a1048018f3f6ab1058c810b"
     },
     {
       "path": "modeling/api-settings.json",
@@ -151,6 +216,100 @@
       "path": "modeling/case-a/data/verification.json",
       "bytes": 6250,
       "sha256": "9b0a8c5c1611a087a3d946e3303d5e90d9ecf9c01bbadf9c1df22c494a384462"
+    },
+    {
+      "path": "modeling/case-a/fallback/README.md",
+      "bytes": 5004,
+      "sha256": "4110f4a739e0fd95952a074bd71c6fe5f72563d1b90bd8d5f52e58bb350d90be"
+    },
+    {
+      "path": "modeling/case-a/fallback/analyze.py",
+      "bytes": 16359,
+      "sha256": "5dba8af26d2577deaab8c56532a594da3afe96a9b5cc348c6a3057bd91291cc6"
+    },
+    {
+      "path": "modeling/case-a/fallback/design.json",
+      "bytes": 1472,
+      "sha256": "96402b872c7af8e7d12c8ce5095107083ece36562c83a561b06f2c8cc5bfbae9"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cancellation-fallback.pdf",
+      "bytes": 32933,
+      "sha256": "b3fc39a6b3602dbba37adc6f25ecce4fa598fb8d56b0a9919c1c43eba724729e"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cancellation-fallback.png",
+      "bytes": 188673,
+      "sha256": "73c3d4aa495437fe0bcac7f0a19c708bfd28f9bc1dd32d6447f4dfa0778e4298"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cancellation-fallback.svg",
+      "bytes": 41909,
+      "sha256": "11bfeea0873acfb2082eb3cc92e1eb1d327787e52c5d701da215d93af5563633"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cost-sensitivity.pdf",
+      "bytes": 42210,
+      "sha256": "f0ba848121f20d0ab5f42ba99b38f28e2d5dceb3be039cfe2cfd290c5c4f6e6f"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cost-sensitivity.png",
+      "bytes": 139225,
+      "sha256": "282c46ba07db65ef4939d18d6edc47159c17a903ef5e1cc9d0284f79dffd2d57"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/case-a-cost-sensitivity.svg",
+      "bytes": 61299,
+      "sha256": "b98bef3c51cae2e9be7fc70cc4ee911eb66f7c07115646cd3cabe94dc5db2476"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/cost-sensitivity.csv",
+      "bytes": 1474111,
+      "sha256": "8fd3377ed620d4143eb043082075c1171c5c5a25a94b9fd2ab043e80437b5b38",
+      "csv": {
+        "columns": [
+          "policy",
+          "user_cost",
+          "agent_cost",
+          "agent_threshold",
+          "user_threshold",
+          "harmful_interval_width",
+          "beneficial_review_declined_width"
+        ],
+        "rows": 20402
+      }
+    },
+    {
+      "path": "modeling/case-a/fallback/results/decision-grid.csv",
+      "bytes": 14178216,
+      "sha256": "a25c4af5a7c31e039fc94d2898c5edfd129b85f991e0ebe0ec9c554a8c0b06d1",
+      "csv": {
+        "columns": [
+          "policy",
+          "cap_ratio",
+          "q",
+          "autonomous_action",
+          "late_review_action",
+          "agent_review_gain",
+          "user_review_gain",
+          "review_requested",
+          "region",
+          "user_autonomy_loss",
+          "user_review_loss",
+          "selected_user_loss"
+        ],
+        "rows": 96882
+      }
+    },
+    {
+      "path": "modeling/case-a/fallback/results/summary.json",
+      "bytes": 2899,
+      "sha256": "5bc754a131f2e045781fd0d0a1e29b3374042adc64faee14d98d661c51a1b846"
+    },
+    {
+      "path": "modeling/case-a/fallback/results/validation.json",
+      "bytes": 1082,
+      "sha256": "1bee2abbe850c7a7939387cceb5c20f636f365fff74f81d5c2c04adb09e279c4"
     },
     {
       "path": "modeling/case-a/figures/fixed-d-curves.pdf",
@@ -469,6 +628,215 @@
       "sha256": "ac774d603163e153ea15a6ff5209326b238b43edd20c199663287f060a096715"
     },
     {
+      "path": "modeling/case-b/evidence-loss/README.md",
+      "bytes": 7238,
+      "sha256": "a84d8108dcb7104f936e7ac0d792a97c92416c79d8be61ae1bfa69ad37111af3"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/analyze.py",
+      "bytes": 13947,
+      "sha256": "1deaf907b70e0fc0cb509c2bc028bdbc9f74d4b5ce5bf05bc67fd3386a645037"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/design.json",
+      "bytes": 2601,
+      "sha256": "ca604195f954e1eb4a4f07666f8a18098d98fc51dbb901bfd190676a27e35954"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/model.py",
+      "bytes": 9391,
+      "sha256": "a7fa4b17e9bc8fa0b66ca4c64270fcea69ea0d5b075a27bb99993242f66f181f"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/oracle.py",
+      "bytes": 5026,
+      "sha256": "6d9f59322ac54198f53ec1cb40ba5ad2a53d72459ea8eb45cccdb2607ac2323a"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/plot.py",
+      "bytes": 5330,
+      "sha256": "ed577e97193c38a4f8c2602510078d6165488ff4dd6337e064132c0e4b022885"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-effort-sensitivity.pdf",
+      "bytes": 29954,
+      "sha256": "cd161cdcaef8a09063356bc24fb94d75005543d689e026fc107e119109c3edee"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-effort-sensitivity.png",
+      "bytes": 179995,
+      "sha256": "e5cf13119827bee2688f89a6ff0f570d7f08bdf64d9c5cc6d484b31c480dd105"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-effort-sensitivity.svg",
+      "bytes": 44638,
+      "sha256": "0d167398cb64ef3641e90ac5dc814ccaf59d7bb109eb22ed644f5a9b42befa99"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-evidence-availability.pdf",
+      "bytes": 29554,
+      "sha256": "a7af645d9dd2a5ff90d26ba7fce79e7073b6e935dc5150d78559cee2cc8742c7"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-evidence-availability.png",
+      "bytes": 152739,
+      "sha256": "171ee93f86aae425361dbce4b304eff46c45e9ecc01024da3b0a5ba078abdbf4"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/case-b-evidence-availability.svg",
+      "bytes": 40941,
+      "sha256": "803950335fe8f29378352adf822718a24c46143ff3b043d70c46d939c9d428cc"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/control-cells.csv",
+      "bytes": 2124134,
+      "sha256": "cdac33ccaa93723f686132d496b16e284e9e879a1c0d12925c30bab6bc1fb535",
+      "csv": {
+        "columns": [
+          "run_id",
+          "policy",
+          "rho",
+          "epsilon",
+          "horizon",
+          "high_cost",
+          "discount",
+          "revenue_g",
+          "revenue_b",
+          "p_high",
+          "p_low",
+          "remaining",
+          "state",
+          "value",
+          "effort",
+          "success_report",
+          "failure_report",
+          "effort_gain_exact",
+          "value_exact"
+        ],
+        "rows": 16736
+      }
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/cost-horizon-sensitivity.csv",
+      "bytes": 63299,
+      "sha256": "5afe20c21c88fb6ac207e084484111dc00356f89611f116acbd899a95d2b145f",
+      "csv": {
+        "columns": [
+          "run_id",
+          "policy",
+          "rho",
+          "epsilon",
+          "horizon",
+          "high_cost",
+          "discount",
+          "revenue_g",
+          "revenue_b",
+          "p_high",
+          "p_low",
+          "initial",
+          "high_effort",
+          "success",
+          "submitted_evidence",
+          "received_evidence",
+          "monitored_tasks",
+          "selected_received_evidence",
+          "selected_missing_evidence",
+          "selected_strategic_missing",
+          "selected_accidental_missing",
+          "missing_bad_updates",
+          "successful_task_bad_update_due_to_loss",
+          "successful_G_to_B_due_to_loss",
+          "complaints",
+          "G_at_start",
+          "final_G_probability",
+          "discounted_seller_payoff"
+        ],
+        "rows": 384
+      }
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/main-grid.csv",
+      "bytes": 330559,
+      "sha256": "8c16a11c926b780c75e11b63716bdcb6e2e382817024c2f64907b1318013079c",
+      "csv": {
+        "columns": [
+          "run_id",
+          "policy",
+          "rho",
+          "epsilon",
+          "horizon",
+          "high_cost",
+          "discount",
+          "revenue_g",
+          "revenue_b",
+          "p_high",
+          "p_low",
+          "initial",
+          "high_effort",
+          "success",
+          "submitted_evidence",
+          "received_evidence",
+          "monitored_tasks",
+          "selected_received_evidence",
+          "selected_missing_evidence",
+          "selected_strategic_missing",
+          "selected_accidental_missing",
+          "missing_bad_updates",
+          "successful_task_bad_update_due_to_loss",
+          "successful_G_to_B_due_to_loss",
+          "complaints",
+          "G_at_start",
+          "final_G_probability",
+          "discounted_seller_payoff"
+        ],
+        "rows": 1764
+      }
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/representative-solutions.json",
+      "bytes": 368217,
+      "sha256": "efd87e50c795b3fc861e2058ab61e9c595177f9cea00f1eb21f56a3d73ff458b"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/round-paths.csv",
+      "bytes": 1796042,
+      "sha256": "b4d9ab535fcd5db38fb158f8e88f517cf76b62e9ca41068a61456a2196a7c060",
+      "csv": {
+        "columns": [
+          "run_id",
+          "initial",
+          "round",
+          "remaining",
+          "G_at_end",
+          "high_effort",
+          "success",
+          "submitted_evidence",
+          "received_evidence",
+          "monitored_tasks",
+          "selected_received_evidence",
+          "selected_missing_evidence",
+          "selected_strategic_missing",
+          "selected_accidental_missing",
+          "missing_bad_updates",
+          "successful_task_bad_update_due_to_loss",
+          "successful_G_to_B_due_to_loss",
+          "complaints",
+          "G_at_start"
+        ],
+        "rows": 16736
+      }
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/summary.json",
+      "bytes": 10432,
+      "sha256": "3259903b02e198482662f162cfb88c7d68cad7b761232afa01024c548b8918cb"
+    },
+    {
+      "path": "modeling/case-b/evidence-loss/results/validation.json",
+      "bytes": 1510,
+      "sha256": "7f61f6f11da17d8216adac8acbdea95ff61ff2ddd498fcb068199185f308c621"
+    },
+    {
       "path": "modeling/case-b/excluded-initial/design.json",
       "bytes": 2400,
       "sha256": "ff0dab117e5626c05f9f8c16687f458d195f21944e062a0fddbf4b35b1568950"
@@ -575,6 +943,41 @@
       }
     },
     {
+      "path": "modeling/extensions/README.md",
+      "bytes": 2731,
+      "sha256": "916d00836f27c048f87eb714966402d1706728feb89edf4afcf20ca4b3d4e5ba"
+    },
+    {
+      "path": "modeling/extensions/RESPONSE_MATRIX.md",
+      "bytes": 2025,
+      "sha256": "9af68fbc5f82985b61b9ff87f0124885a74c06c8de494f0f53072076cc8131be"
+    },
+    {
+      "path": "modeling/extensions/baseline-files.json",
+      "bytes": 14197,
+      "sha256": "0be2aeba5c270bc2dd13fe70b7a31e05d31dbe9c39c6688fcd54d969bba5c003"
+    },
+    {
+      "path": "modeling/extensions/plot_style.py",
+      "bytes": 2254,
+      "sha256": "2a8b2f107dc7c791d4dc089609ff72977e7c87a1f2b8622197f2cd9c7c5d902a"
+    },
+    {
+      "path": "modeling/extensions/reproduce.py",
+      "bytes": 5041,
+      "sha256": "e59def053f81e558760cc073972dc2f3452d472ebe76557308eda5bc0ab51af0"
+    },
+    {
+      "path": "modeling/figures/README.md",
+      "bytes": 2206,
+      "sha256": "1dd249cab2e876395a4a70a9f999dabaa74b7840e943b9ea6ae187eb5c6980b4"
+    },
+    {
+      "path": "modeling/figures/build.py",
+      "bytes": 10458,
+      "sha256": "e216151bb9417c42cc61173a7ff86cf32946618dfe18bfb63637e39c7e45cd84"
+    },
+    {
       "path": "modeling/replay.py",
       "bytes": 6536,
       "sha256": "b0d0dd474fe34a4b7cb982232066465c77e989d4ee0d2bff6e34114793b8bccf"
@@ -601,8 +1004,8 @@
     },
     {
       "path": "reproduce.py",
-      "bytes": 10400,
-      "sha256": "d60939082b6ec2da6e20eed30e3fcb19f6b1d344a19360d1c92f3e4cf4d8d24d"
+      "bytes": 10960,
+      "sha256": "c9a6c05a80ae17257f9d20f37d4cf02de3e8b8523495bee850489e6393c83ad2"
     },
     {
       "path": "requirements.txt",

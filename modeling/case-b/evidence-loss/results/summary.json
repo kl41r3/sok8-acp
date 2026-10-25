@@ -1,0 +1,316 @@
+{
+  "design": {
+    "model": "Case B: seller control with unavailable submitted evidence",
+    "scope": "Finite-horizon control with fixed upfront revenue, not a market equilibrium or welfare ranking.",
+    "revenue": {
+      "G": 1.0,
+      "B": 0.4
+    },
+    "success_probability": {
+      "H": 0.9,
+      "L": 0.3
+    },
+    "effort_cost": {
+      "H": 0.15,
+      "L": 0.0
+    },
+    "discount": 0.95,
+    "horizon": 8,
+    "timing": [
+      "Task obligation registered; seller knows policy, rho, epsilon and remaining horizon.",
+      "Seller receives current reputation-dependent revenue and chooses effort.",
+      "Seller privately observes actual task success or failure and chooses report or withhold.",
+      "A submitted truthful certificate is independently lost with probability epsilon.",
+      "The independent monitoring draw is revealed only after effort and reporting; reputation is updated."
+    ],
+    "information": "The seller cannot condition effort or reporting on the realized monitoring or delivery-loss draws.",
+    "certificate_accuracy": "Every received certificate is truthful. There are no false certificates; epsilon changes availability only.",
+    "rules": {
+      "STRICT": "If monitored, received success sets G; received failure or missing evidence sets B. If unmonitored, state holds.",
+      "HOLD": "If monitored, received success sets G and received failure sets B; missing evidence holds the prior state. If unmonitored, state holds."
+    },
+    "tie_rules": {
+      "effort": "L",
+      "success_report": "REPORT",
+      "failure_report": "WITHHOLD"
+    },
+    "arithmetic": "Exact rational arithmetic for both production backward recursion and the independent exhaustive oracle.",
+    "main_grid": {
+      "rho_points": 21,
+      "rho_min": 0.0,
+      "rho_max": 1.0,
+      "epsilon_points": 21,
+      "epsilon_min": 0.0,
+      "epsilon_max": 1.0
+    },
+    "supporting_sensitivity": {
+      "horizons": [
+        1,
+        4,
+        8,
+        16
+      ],
+      "high_effort_costs": [
+        0.05,
+        0.15,
+        0.3
+      ],
+      "rho": [
+        0.25,
+        1.0
+      ],
+      "epsilon": [
+        0.0,
+        0.1,
+        0.3,
+        0.6
+      ]
+    },
+    "initial_states": [
+      "G",
+      "B"
+    ],
+    "limitations": [
+      "Evidence loss is exogenous, independent and identically distributed; no outcome-dependent outages or strategic delivery sabotage.",
+      "Audit and evidence-production costs, buyer participation, price adjustment, seller exit and identity reset are not modeled.",
+      "An adverse update after successful submitted evidence is lost is measured separately from an actual G-to-B downgrade.",
+      "Certificate and reporting counts use the stated tie convention; effort and success do not establish market welfare.",
+      "A finite horizon with upfront revenue provides no terminal effort incentive.",
+      "The hypothetical rules are not attributed to any deployed protocol."
+    ]
+  },
+  "baseline": {
+    "original_control_cells_recovered": 64,
+    "original_forward_paths_recovered": 8,
+    "original_rates": [
+      {
+        "policy": "VOLUNTARY",
+        "high_effort_share": 0.0,
+        "task_success": 0.3
+      },
+      {
+        "policy": "OBLIGATED_025",
+        "high_effort_share": 0.625,
+        "task_success": 0.675
+      },
+      {
+        "policy": "OBLIGATED_1",
+        "high_effort_share": 0.875,
+        "task_success": 0.825
+      },
+      {
+        "policy": "COMPLAINT_025",
+        "high_effort_share": 0.12351270932006836,
+        "task_success": 0.374107625592041
+      }
+    ]
+  },
+  "selected_examples": [
+    {
+      "run_id": "B0106",
+      "policy": "STRICT",
+      "rho": 0.25,
+      "epsilon": 0.0,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.625,
+      "success": 0.675,
+      "submitted_evidence": 0.675,
+      "received_evidence": 0.675,
+      "monitored_tasks": 0.25,
+      "selected_received_evidence": 0.16875,
+      "selected_missing_evidence": 0.08125,
+      "selected_strategic_missing": 0.08125,
+      "selected_accidental_missing": 0.0,
+      "missing_bad_updates": 0.08125,
+      "successful_task_bad_update_due_to_loss": 0.0,
+      "successful_G_to_B_due_to_loss": 0.0,
+      "complaints": 0.0,
+      "G_at_start": 0.8934318542480468,
+      "final_G_probability": 0.5631362915039062,
+      "discounted_seller_payoff": 5.667727032769847
+    },
+    {
+      "run_id": "B0108",
+      "policy": "STRICT",
+      "rho": 0.25,
+      "epsilon": 0.1,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.625,
+      "success": 0.675,
+      "submitted_evidence": 0.675,
+      "received_evidence": 0.6075,
+      "monitored_tasks": 0.25,
+      "selected_received_evidence": 0.151875,
+      "selected_missing_evidence": 0.098125,
+      "selected_strategic_missing": 0.08125,
+      "selected_accidental_missing": 0.016875,
+      "missing_bad_updates": 0.098125,
+      "successful_task_bad_update_due_to_loss": 0.016875,
+      "successful_G_to_B_due_to_loss": 0.015048713493347169,
+      "complaints": 0.0,
+      "G_at_start": 0.849083023071289,
+      "final_G_probability": 0.5168339538574219,
+      "discounted_seller_payoff": 5.49718698850685
+    },
+    {
+      "run_id": "B0423",
+      "policy": "STRICT",
+      "rho": 1.0,
+      "epsilon": 0.1,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.875,
+      "success": 0.825,
+      "submitted_evidence": 0.825,
+      "received_evidence": 0.7425,
+      "monitored_tasks": 1.0,
+      "selected_received_evidence": 0.7425,
+      "selected_missing_evidence": 0.2575,
+      "selected_strategic_missing": 0.175,
+      "selected_accidental_missing": 0.0825,
+      "missing_bad_updates": 0.2575,
+      "successful_task_bad_update_due_to_loss": 0.0825,
+      "successful_G_to_B_due_to_loss": 0.0689625,
+      "complaints": 0.0,
+      "G_at_start": 0.83375,
+      "final_G_probability": 0.27,
+      "discounted_seller_payoff": 5.1732018458390625
+    },
+    {
+      "run_id": "B0431",
+      "policy": "STRICT",
+      "rho": 1.0,
+      "epsilon": 0.5,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.875,
+      "success": 0.825,
+      "submitted_evidence": 0.825,
+      "received_evidence": 0.4125,
+      "monitored_tasks": 1.0,
+      "selected_received_evidence": 0.4125,
+      "selected_missing_evidence": 0.5875,
+      "selected_strategic_missing": 0.175,
+      "selected_accidental_missing": 0.4125,
+      "missing_bad_updates": 0.5875,
+      "successful_task_bad_update_due_to_loss": 0.4125,
+      "successful_G_to_B_due_to_loss": 0.2165625,
+      "complaints": 0.0,
+      "G_at_start": 0.51875,
+      "final_G_probability": 0.15,
+      "discounted_seller_payoff": 3.9351781090078126
+    },
+    {
+      "run_id": "B0433",
+      "policy": "STRICT",
+      "rho": 1.0,
+      "epsilon": 0.6,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.0,
+      "success": 0.3,
+      "submitted_evidence": 0.3,
+      "received_evidence": 0.12,
+      "monitored_tasks": 1.0,
+      "selected_received_evidence": 0.12,
+      "selected_missing_evidence": 0.88,
+      "selected_strategic_missing": 0.7,
+      "selected_accidental_missing": 0.18,
+      "missing_bad_updates": 0.88,
+      "successful_task_bad_update_due_to_loss": 0.18,
+      "successful_G_to_B_due_to_loss": 0.0414,
+      "complaints": 0.0,
+      "G_at_start": 0.23,
+      "final_G_probability": 0.12,
+      "discounted_seller_payoff": 3.70531112863125
+    },
+    {
+      "run_id": "B0864",
+      "policy": "HOLD",
+      "rho": 1.0,
+      "epsilon": 0.1,
+      "horizon": 8,
+      "high_cost": 0.15,
+      "discount": 0.95,
+      "revenue_g": 1.0,
+      "revenue_b": 0.4,
+      "p_high": 0.9,
+      "p_low": 0.3,
+      "initial": "G",
+      "high_effort": 0.0,
+      "success": 0.3,
+      "submitted_evidence": 0.3,
+      "received_evidence": 0.27,
+      "monitored_tasks": 1.0,
+      "selected_received_evidence": 0.27,
+      "selected_missing_evidence": 0.73,
+      "selected_strategic_missing": 0.7,
+      "selected_accidental_missing": 0.03,
+      "missing_bad_updates": 0.0,
+      "successful_task_bad_update_due_to_loss": 0.0,
+      "successful_G_to_B_due_to_loss": 0.0,
+      "complaints": 0.0,
+      "G_at_start": 1.0,
+      "final_G_probability": 1.0,
+      "discounted_seller_payoff": 6.73159137421875
+    }
+  ],
+  "availability_example": {
+    "condition": "Fixed high effort, full monitoring, epsilon=0.1; not an optimized one-round policy",
+    "true_success": 0.9,
+    "true_failure": 0.1,
+    "received_success": 0.81,
+    "successful_evidence_lost": 0.09,
+    "strict_bad_updates": 0.19
+  },
+  "strict_full_monitoring_threshold": {
+    "epsilon_exact": "32/57",
+    "epsilon": 0.5614035087719298,
+    "condition": "For the stated default payoffs and every remaining horizon >=2, high effort iff epsilon<32/57; equality selects L. Final-round effort is always L."
+  },
+  "strict_closed_form": {
+    "value_gap": "Delta V_n = (R_G-R_B) * sum_{j=0}^{n-1} [delta*(1-rho)]^j",
+    "effort_gain": "-c + delta*rho*(1-epsilon)*(p_H-p_L)*Delta V_(n-1)",
+    "scope": "STRICT only, fixed state revenues, costless truthful certification, independent hidden draws and current timing."
+  },
+  "state_preserving_rule": {
+    "condition": "From G, optimal withholding keeps the maximum-revenue state absorbing; L is optimal at every horizon. Initial B is separately solved.",
+    "scope": "Does not include direct performance-contingent payments, external complaints or other penalties."
+  },
+  "main_grid_rows": 1764,
+  "supporting_rows": 384,
+  "unique_configurations": 1064,
+  "claim_limits": "Success, effort, and erroneous updates are separate outcomes. No market-welfare or globally optimal missing-evidence rule is estimated."
+}

@@ -1,0 +1,35 @@
+{
+  "model": "Case B: seller control with unavailable submitted evidence",
+  "scope": "Finite-horizon control with fixed upfront revenue, not a market equilibrium or welfare ranking.",
+  "revenue": {"G": 1.0, "B": 0.4},
+  "success_probability": {"H": 0.9, "L": 0.3},
+  "effort_cost": {"H": 0.15, "L": 0.0},
+  "discount": 0.95,
+  "horizon": 8,
+  "timing": [
+    "Task obligation registered; seller knows policy, rho, epsilon and remaining horizon.",
+    "Seller receives current reputation-dependent revenue and chooses effort.",
+    "Seller privately observes actual task success or failure and chooses report or withhold.",
+    "A submitted truthful certificate is independently lost with probability epsilon.",
+    "The independent monitoring draw is revealed only after effort and reporting; reputation is updated."
+  ],
+  "information": "The seller cannot condition effort or reporting on the realized monitoring or delivery-loss draws.",
+  "certificate_accuracy": "Every received certificate is truthful. There are no false certificates; epsilon changes availability only.",
+  "rules": {
+    "STRICT": "If monitored, received success sets G; received failure or missing evidence sets B. If unmonitored, state holds.",
+    "HOLD": "If monitored, received success sets G and received failure sets B; missing evidence holds the prior state. If unmonitored, state holds."
+  },
+  "tie_rules": {"effort": "L", "success_report": "REPORT", "failure_report": "WITHHOLD"},
+  "arithmetic": "Exact rational arithmetic for both production backward recursion and the independent exhaustive oracle.",
+  "main_grid": {"rho_points": 21, "rho_min": 0.0, "rho_max": 1.0, "epsilon_points": 21, "epsilon_min": 0.0, "epsilon_max": 1.0},
+  "supporting_sensitivity": {"horizons": [1, 4, 8, 16], "high_effort_costs": [0.05, 0.15, 0.3], "rho": [0.25, 1.0], "epsilon": [0.0, 0.1, 0.3, 0.6]},
+  "initial_states": ["G", "B"],
+  "limitations": [
+    "Evidence loss is exogenous, independent and identically distributed; no outcome-dependent outages or strategic delivery sabotage.",
+    "Audit and evidence-production costs, buyer participation, price adjustment, seller exit and identity reset are not modeled.",
+    "An adverse update after successful submitted evidence is lost is measured separately from an actual G-to-B downgrade.",
+    "Certificate and reporting counts use the stated tie convention; effort and success do not establish market welfare.",
+    "A finite horizon with upfront revenue provides no terminal effort incentive.",
+    "The hypothetical rules are not attributed to any deployed protocol."
+  ]
+}

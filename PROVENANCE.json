@@ -6,7 +6,7 @@
     "visibility": "public",
     "branch": "main"
   },
-  "package_revision": 7,
+  "package_revision": 8,
   "user_scope_change": {
     "exclude_manuscript": true,
     "directory_name": "taxonomy",
@@ -137,7 +137,7 @@
     "scientific_boundary": "Conditional numerical examples and small one-step model-specific pilot; not general scientific readiness or deployed-protocol effectiveness"
   },
   "publication_batch": 3,
-  "parent_commit": "551177e6417b774fffa4d496afa3976aeabc3534",
+  "parent_commit": "3e63e7368dfae73edf3cb7fea598897a9de78a5a",
   "publication_authorized": true,
   "modeling_publication_source": {
     "local_package_revision": 5,
@@ -162,5 +162,20 @@
     "tables": 5,
     "framework_source": "figures/Taxonomy_Editable.drawio",
     "manuscript_included": false
+  },
+  "modeling_extensions": {
+    "prepared_date": "2026-10-22",
+    "public_upstream_commit": "3e63e7368dfae73edf3cb7fea598897a9de78a5a",
+    "case_a": "Matched costly fallback and cancellation within the existing fixed mandate",
+    "case_b": "Independent post-submission evidence loss and reoptimized missing-evidence rules",
+    "baseline_inventory": "modeling/extensions/baseline-files.json",
+    "original_model_code_data_and_figures_unchanged": true,
+    "taxonomy_method_synthesis_and_framework_unchanged": true,
+    "manuscript_figure_code": "modeling/figures/build.py",
+    "manuscript_figure_exports": "figures/modeling",
+    "native_figure_width_inches": 3.3,
+    "new_runtime_dependencies": [],
+    "new_live_model_calls": 0,
+    "scientific_scope": "Conditional models and sensitivity; no universal welfare ranking or empirical protocol validation"
   }
 }
